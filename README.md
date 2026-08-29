@@ -33,6 +33,12 @@ V nastavení repozitáře je potřeba vytvořit dva GitHub Actions Secrets:
 
 Token ani chat ID nejsou ve frontendu. Notifikaci odesílá pouze GitHub Actions při nalezení nového vozu nebo poklesu ceny. Ruční spuštění workflow umožňuje poslat testovací zprávu.
 
+Pro bezpečné jednorázové nastavení lze použít pomocný skript. Token se při zadávání nezobrazuje, neukládá do souborů ani do historie shellu:
+
+```bash
+python3 scraper/setup_telegram.py
+```
+
 ## Automatizace
 
 Workflow `.github/workflows/update-and-deploy.yml`:
