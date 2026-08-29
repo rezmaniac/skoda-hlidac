@@ -1,6 +1,6 @@
 # Hlídač vozů
 
-Statický frontend pro GitHub Pages s denním načtením veřejných nabídek Škoda Plus z Ivančic a Brna.
+Statický frontend pro GitHub Pages s hodinovým načítáním veřejných nabídek Škoda Plus z Ivančic a Brna během dne.
 
 ## Lokální spuštění
 
@@ -18,7 +18,7 @@ Skript `scraper/update.py` načte veřejné GraphQL rozhraní Škoda Plus, porov
 python3 scraper/update.py
 ```
 
-Pobočky a budoucí filtr notifikací jsou v `config/filters.json`.
+Pobočky a filtr Telegram notifikací jsou v `config/filters.json`. Web zobrazuje všechny stažené nabídky; notifikační filtr rozhoduje pouze o odeslání zprávy.
 
 ## GitHub Pages
 
@@ -43,7 +43,7 @@ python3 scraper/setup_telegram.py
 
 Workflow `.github/workflows/update-and-deploy.yml`:
 
-1. každý den v 06:17 Europe/Prague stáhne data,
+1. každou hodinu od 07:17 do 22:17 Europe/Prague stáhne data,
 2. porovná změny a případně odešle Telegram,
 3. uloží nový snapshot do repozitáře,
 4. publikuje web přes GitHub Pages.

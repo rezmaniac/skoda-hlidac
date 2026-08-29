@@ -182,8 +182,12 @@ def normalize(node: dict, dealer_cities: dict[str, str], previous: dict[str, dic
 
 def matches_notification_filter(offer: dict, filters: dict) -> bool:
     models = filters.get("models") or []
+    excluded_models = filters.get("excludeModels") or []
+    fuels = filters.get("fuels") or []
     return (
         (not models or offer["model"] in models)
+        and offer["model"] not in excluded_models
+        and (not fuels or offer["fuel"] in fuels)
         and (filters.get("maxPrice") is None or offer["price"] <= filters["maxPrice"])
         and (filters.get("maxMileage") is None or offer["mileage"] <= filters["maxMileage"])
         and (filters.get("minYear") is None or offer["year"] >= filters["minYear"])

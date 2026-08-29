@@ -9,7 +9,9 @@
   ],
   "notifications": {
     "models": [],
-    "maxPrice": null,
+    "excludeModels": ["Fabia"],
+    "fuels": ["Benzín"],
+    "maxPrice": 400000,
     "maxMileage": null,
     "minYear": null
   }
