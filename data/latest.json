@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-29T10:55:44+02:00",
+  "generatedAt": "2026-08-29T15:06:46+00:00",
   "demo": false,
   "source": "https://www.skodaplus.cz/graphql",
   "summary": {
@@ -29,7 +29,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619749/6f0ce336-fd8a-48be-8972-64cea8c82fa8__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619749/6f0ce336-fd8a-48be-8972-64cea8c82fa8__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10619749/audi-a3-sportback-1.6-tdi-77kw-dsg"
     },
     {
@@ -51,7 +51,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10594201/9f204b3a-2b04-4b7c-9f3a-346fa868ac60__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10594201/9f204b3a-2b04-4b7c-9f3a-346fa868ac60__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10594201/volkswagen-arteon-r-line-2-0-tdi-140kw-7dsg"
     },
     {
@@ -73,7 +73,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10608144/39a3c0d5-4679-47dd-8bae-32bce214c98a__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10608144/39a3c0d5-4679-47dd-8bae-32bce214c98a__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10608144/citroen-berlingo-1.6hdi-88kw-multispace"
     },
     {
@@ -95,7 +95,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10608443/7163ab09-60d6-414b-82d7-a3075889ca8e__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10608443/7163ab09-60d6-414b-82d7-a3075889ca8e__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10608443/citroen-berlingo-1.5hdi-75kw-klima-3-mista"
     },
     {
@@ -117,7 +117,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10599715/1a354cd8-a947-4fa2-b12d-dbaf1fd2a4eb__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10599715/1a354cd8-a947-4fa2-b12d-dbaf1fd2a4eb__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10599715/citroen-c-elysee-1-2-puretech-60kw-feel"
     },
     {
@@ -139,7 +139,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10617059/ed2f4481-6f0b-4ead-b964-b4bfffeb5824__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10617059/ed2f4481-6f0b-4ead-b964-b4bfffeb5824__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10617059/renault-captur-1.2tce-87kw-automat"
     },
     {
@@ -161,7 +161,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10595470/25106c9b-f8d2-4438-b942-f1c26230f81a__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10595470/25106c9b-f8d2-4438-b942-f1c26230f81a__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10595470/opel-crossland-1.2i-61kw"
     },
     {
@@ -183,7 +183,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615988/476cad19-9e72-4c76-9203-85f09e008162__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615988/476cad19-9e72-4c76-9203-85f09e008162__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10615988/dacia-duster-1.0tce-74kw-lpg"
     },
     {
@@ -205,7 +205,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10602022/951914db-3871-4301-afdb-de873402f1b3__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10602022/951914db-3871-4301-afdb-de873402f1b3__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10602022/skoda-fabia-1.0tsi-70kw-active"
     },
     {
@@ -227,7 +227,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10608463/ce2e0b66-f5c0-4cf9-8691-82ef4c7a739d__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10608463/ce2e0b66-f5c0-4cf9-8691-82ef4c7a739d__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10608463/skoda-fabia-top-selection-1.0-tsi-85kw-dsg"
     },
     {
@@ -249,7 +249,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619880/9a5bfa72-6243-4d70-b1c1-bc8731bbf5d8__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619880/9a5bfa72-6243-4d70-b1c1-bc8731bbf5d8__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10619880/cupra-formentor-2.0-tsi-190k-dsg-4drive"
     },
     {
@@ -271,7 +271,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10587846/70483878-51c0-43a1-a09a-d423d3f042cc__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10587846/70483878-51c0-43a1-a09a-d423d3f042cc__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10587846/fiat-fullback-2.4jtd-133kw-at-tazne-zar.-4x4"
     },
     {
@@ -293,7 +293,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619891/756741f7-6fcf-4a80-a25c-243bcea15980__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619891/756741f7-6fcf-4a80-a25c-243bcea15980__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10619891/volkswagen-golf-gti-2-0-tsi-gti-180kw-dsg-dph"
     },
     {
@@ -315,7 +315,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10434693/5eb331a2-495e-4f22-a19a-1309fc569974__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10434693/5eb331a2-495e-4f22-a19a-1309fc569974__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10434693/volkswagen-golf-variant-golf-variant-highline-1-5-tgi-7dsg"
     },
     {
@@ -337,7 +337,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10589107/f8977f3b-04b9-4d00-be08-bfa7fcce7dab__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10589107/f8977f3b-04b9-4d00-be08-bfa7fcce7dab__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10589107/renault-grand-scenic-1.2-tce-97kw-intense"
     },
     {
@@ -359,7 +359,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10612318/67bf9659-34be-4405-a74a-ab02146401a4__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10612318/67bf9659-34be-4405-a74a-ab02146401a4__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10612318/honda-jazz-1.3i-vtec-75kw"
     },
     {
@@ -381,7 +381,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615673/fa7343b2-8a54-4759-9afa-22b38ddefb30__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615673/fa7343b2-8a54-4759-9afa-22b38ddefb30__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10615673/skoda-kamiq-1.0tsi-85kw-monte-carlo"
     },
     {
@@ -403,7 +403,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619884/5fb92c53-fee7-49fb-a8cc-be6a537bb2a5__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619884/5fb92c53-fee7-49fb-a8cc-be6a537bb2a5__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10619884/skoda-karoq-1.5tsi-110kw-dsg-sportline"
     },
     {
@@ -425,7 +425,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10593455/9a567371-748f-4f57-b85e-43a3bbca1ac5__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10593455/9a567371-748f-4f57-b85e-43a3bbca1ac5__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10593455/skoda-kodiaq-2.0-tdi-dsg-110kw-virtual"
     },
     {
@@ -447,7 +447,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10489297/bd55275b-317b-45a7-9c8f-4a39f98165d1__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10489297/bd55275b-317b-45a7-9c8f-4a39f98165d1__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10489297/skoda-kodiaq-2.0-tdi-110kw-dsg-ambition"
     },
     {
@@ -469,7 +469,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10605941/eb502cae-1cfa-4a00-bc4e-efc9e93335b7__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10605941/eb502cae-1cfa-4a00-bc4e-efc9e93335b7__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10605941/skoda-kodiaq-sportline-4x4-tdi-142kw-dsg"
     },
     {
@@ -491,7 +491,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10606726/147b1a7d-f7f3-41fc-a693-41651e862b4a__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10606726/147b1a7d-f7f3-41fc-a693-41651e862b4a__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10606726/ford-kuga-1.5-ecoboost-110kw-titanium"
     },
     {
@@ -513,7 +513,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10594846/2a77abd6-5f7d-4a1b-988b-2aec9b6e4804__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10594846/2a77abd6-5f7d-4a1b-988b-2aec9b6e4804__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10594846/seat-leon-2.0tdi-110kw-dsg-style"
     },
     {
@@ -535,7 +535,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10607656/9c3813a5-10f7-4911-b93e-8e7e3f335378__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10607656/9c3813a5-10f7-4911-b93e-8e7e3f335378__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10607656/elnagh-magnum-magnum-582"
     },
     {
@@ -557,7 +557,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10594229/2fcca936-5f02-4b34-bd6e-554cef39366e__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10594229/2fcca936-5f02-4b34-bd6e-554cef39366e__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10594229/skoda-octavia-2.0tdi-135kw-rs"
     },
     {
@@ -579,7 +579,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10595175/e0a9225e-fe5a-4a30-940f-94faab3f3203__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10595175/e0a9225e-fe5a-4a30-940f-94faab3f3203__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10595175/skoda-octavia-1-5tsi-110kw-ambition"
     },
     {
@@ -601,7 +601,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619904/f127bc43-8a5b-415b-b067-2076050b25ff__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619904/f127bc43-8a5b-415b-b067-2076050b25ff__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10619904/skoda-octavia-2.0-tdi-110-kw-4x4-style-dsg-"
     },
     {
@@ -623,7 +623,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10594073/f514f09e-3327-4864-bc8f-208035d0b3e4__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10594073/f514f09e-3327-4864-bc8f-208035d0b3e4__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10594073/skoda-octavia-1.5tsi-m-hev-110kw-dsg-selection"
     },
     {
@@ -645,7 +645,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619165/0f59308f-515f-4934-9818-33e333166f64__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619165/0f59308f-515f-4934-9818-33e333166f64__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10619165/skoda-octavia-2-0-tdi-110-kw-dsg-sportline-"
     },
     {
@@ -667,7 +667,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10491083/5b63d35d-d058-48d1-9e13-5665f9ced5b1__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10491083/5b63d35d-d058-48d1-9e13-5665f9ced5b1__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10491083/toyota-proace-long-2-0d-130kw-automat"
     },
     {
@@ -689,7 +689,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10393554/8c25d221-297f-4801-b770-aa85767725e2__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10393554/8c25d221-297f-4801-b770-aa85767725e2__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10393554/audi-q7-3.0-tdi-210kw-7mist-s-line"
     },
     {
@@ -711,7 +711,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10622149/791e7bf8-26fd-4bc3-845e-b54cf8f8dd0f__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10622149/791e7bf8-26fd-4bc3-845e-b54cf8f8dd0f__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10622149/fiat-sedici-1.6-16v-88kw-4x4"
     },
     {
@@ -733,7 +733,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10604810/f767039c-3c21-4c2a-a511-3515b5de4cea__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10604810/f767039c-3c21-4c2a-a511-3515b5de4cea__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10604810/skoda-superb-2.0tdi-110kw-7-dsg-tazne-panorama"
     },
     {
@@ -755,7 +755,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10604736/da14db3d-6657-4efa-8866-740518cf1302__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10604736/da14db3d-6657-4efa-8866-740518cf1302__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10604736/skoda-superb-style-2.0tdi-110kw-7dsg-"
     },
     {
@@ -777,7 +777,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10594408/441e54bc-7e37-4ec7-96ea-e34ad8b98317__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10594408/441e54bc-7e37-4ec7-96ea-e34ad8b98317__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10594408/volkswagen-taigo-1.0-tsi-70kw-life"
     },
     {
@@ -799,7 +799,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10489092/a7aa734a-f3e2-4bac-9a54-363b5956115f__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10489092/a7aa734a-f3e2-4bac-9a54-363b5956115f__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10489092/volkswagen-tiguan-1.5-tsi-110kw-life"
     },
     {
@@ -821,7 +821,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10591375/100c3b2e-c9d6-41eb-922b-2742f74c5876__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10591375/100c3b2e-c9d6-41eb-922b-2742f74c5876__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10591375/fiat-tipo-1.5-mhev-96kw"
     },
     {
@@ -843,7 +843,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10576267/da4e21e3-bb84-4d02-9b4d-4edae2ae02a5__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10576267/da4e21e3-bb84-4d02-9b4d-4edae2ae02a5__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10576267/volkswagen-touareg-v6-3.0-tdi-4mot"
     },
     {
@@ -865,7 +865,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10608446/eb9ed914-7499-46f1-b0e9-f4f7be0d3948__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10608446/eb9ed914-7499-46f1-b0e9-f4f7be0d3948__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10608446/renault-trafic-107kw-l2h1-1200kg-navigace"
     },
     {
@@ -887,7 +887,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10602855/f34bc18f-05a2-4042-a539-0d948301037e__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10602855/f34bc18f-05a2-4042-a539-0d948301037e__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10602855/hyundai-tucson-1-6-t--gdi-130kw"
     },
     {
@@ -909,7 +909,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10599561/b8cf0108-ced5-4073-b61f-769b44c2f752__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10599561/b8cf0108-ced5-4073-b61f-769b44c2f752__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10599561/hyundai-tucson-1.6-t-gdi-110kw-start-4x2"
     },
     {
@@ -931,7 +931,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10500404/9736e95e-a435-40bc-bc15-9f82d620e7fa__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10500404/9736e95e-a435-40bc-bc15-9f82d620e7fa__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10500404/dongfeng-u-tour-exclusive-1-5t-130kw"
     },
     {
@@ -953,7 +953,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10605867/52763fb2-2c64-432c-9a3d-c6ef433e2df2__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10605867/52763fb2-2c64-432c-9a3d-c6ef433e2df2__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10605867/hyundai-i30-1.5-t-gdi-117kw-smart"
     },
     {
@@ -975,7 +975,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10621034/4ba289a1-4453-4754-8724-090a83ad39a5__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10621034/4ba289a1-4453-4754-8724-090a83ad39a5__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10621034/hyundai-i30-1-5-t-gdi-mhev-smart-117-kw"
     },
     {
@@ -997,7 +997,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10622969/c927903d-5b1e-48b9-add4-9796ebf6b646__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10622969/c927903d-5b1e-48b9-add4-9796ebf6b646__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10622969/bmw-rada-3-320i-135kw-xdrive-gran-turismo"
     },
     {
@@ -1019,7 +1019,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10597522/47421221-9e27-4417-94d6-796cbff3a57d__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10597522/47421221-9e27-4417-94d6-796cbff3a57d__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10597522/skoda-fabia-1-0tsi-70kw-top-selection"
     },
     {
@@ -1041,7 +1041,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615122/26c74062-8f60-45a5-9aec-ea862dc8e2db__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615122/26c74062-8f60-45a5-9aec-ea862dc8e2db__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10615122/skoda-fabia-1-0tsi-85kw-dsg-monte-carlo"
     },
     {
@@ -1063,7 +1063,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10579991/59c1a325-efaf-43d7-9d04-83bdd5f37a94__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10579991/59c1a325-efaf-43d7-9d04-83bdd5f37a94__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10579991/skoda-kamiq-1-0tsi-85kw-monte-carlo"
     },
     {
@@ -1085,7 +1085,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619641/a4749f49-b9af-4da6-b417-4c7d3af49d2f__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619641/a4749f49-b9af-4da6-b417-4c7d3af49d2f__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10619641/skoda-kamiq-1-5tsi-110kw-dsg-monte-carlo"
     },
     {
@@ -1107,7 +1107,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10565730/9cca2bb0-91a0-476a-97e4-8ed43b3d4a80__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10565730/9cca2bb0-91a0-476a-97e4-8ed43b3d4a80__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10565730/skoda-karoq-2-0tsi-140kw-dsg-4x4-sportline"
     },
     {
@@ -1129,7 +1129,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10604172/bd552620-d300-4218-968e-d58f18dfa307__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10604172/bd552620-d300-4218-968e-d58f18dfa307__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10604172/skoda-karoq-2-0tsi-140kw-dsg-4x4-sportline"
     },
     {
@@ -1151,7 +1151,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10605208/e4567175-e096-47b8-8606-2166bcfb3b1c__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10605208/e4567175-e096-47b8-8606-2166bcfb3b1c__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10605208/skoda-kodiaq-2-0tdi-142kw-dsg-4x4-exclusive-selection"
     },
     {
@@ -1173,7 +1173,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10620221/a027b8f1-11d4-457c-9ec7-5de283eba299__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10620221/a027b8f1-11d4-457c-9ec7-5de283eba299__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10620221/skoda-kodiaq-2-0tdi-142kw-4x4-dsg-exclusive-selection"
     },
     {
@@ -1195,7 +1195,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10616548/e5ae61e5-7011-43a0-980c-58750433f62e__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10616548/e5ae61e5-7011-43a0-980c-58750433f62e__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10616548/skoda-octavia-combi-2-0tdi-110kw-4x4-l-k"
     },
     {
@@ -1217,7 +1217,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10611717/9775bf45-6918-472f-afd7-898adcbdec6f__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10611717/9775bf45-6918-472f-afd7-898adcbdec6f__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10611717/skoda-octavia-combi-1-5tsi-85kw-selection"
     },
     {
@@ -1239,7 +1239,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10617760/340752c1-7263-496d-ad86-9c133144dd63__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10617760/340752c1-7263-496d-ad86-9c133144dd63__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10617760/skoda-octavia-1-5tsi-110kw-top-selection"
     },
     {
@@ -1261,7 +1261,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10579937/05378214-4578-4b78-91a3-e6cc4c677480__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10579937/05378214-4578-4b78-91a3-e6cc4c677480__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10579937/skoda-octavia-2-0tdi-110kw-dsg-style-plus"
     },
     {
@@ -1283,7 +1283,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10551235/383a7d8d-28c5-445a-b35f-960aa99e2efd__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10551235/383a7d8d-28c5-445a-b35f-960aa99e2efd__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10551235/skoda-octavia-1-5tsi-110kw-selection"
     },
     {
@@ -1305,7 +1305,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10491441/4135dc55-b101-40ee-8030-b124a0acf216__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10491441/4135dc55-b101-40ee-8030-b124a0acf216__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10491441/skoda-octavia-combi-2-0tdi-85kw-ambition"
     },
     {
@@ -1327,7 +1327,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10584322/12998885-14bb-4a49-9e22-79c1afe7f469__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10584322/12998885-14bb-4a49-9e22-79c1afe7f469__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10584322/skoda-octavia-1-5tsi-110kw-top-selection"
     },
     {
@@ -1349,7 +1349,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10547724/38ae7d26-a833-45e8-870b-fe3de39ef94b__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10547724/38ae7d26-a833-45e8-870b-fe3de39ef94b__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10547724/skoda-octavia-combi-1-5tsi-110kw-top-selection"
     },
     {
@@ -1371,7 +1371,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10570721/bcacaec5-1ea8-4832-8e46-24e60cd0b06a__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10570721/bcacaec5-1ea8-4832-8e46-24e60cd0b06a__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10570721/skoda-octavia-1-5m-hev-110kw-dsg-top-selection"
     },
     {
@@ -1393,7 +1393,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10554628/0eda10a6-b9bc-491d-b31d-ea86ca47f706__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10554628/0eda10a6-b9bc-491d-b31d-ea86ca47f706__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10554628/skoda-octavia-2-0tdi-110kw-dsg-top-selection"
     },
     {
@@ -1415,7 +1415,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10618829/b4ad520c-aec3-482d-b0b7-a8a370403044__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10618829/b4ad520c-aec3-482d-b0b7-a8a370403044__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10618829/skoda-octavia-combi-2-0tdi-110kw-dsg-top-selection"
     },
     {
@@ -1437,7 +1437,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10498172/17ddbc6f-c480-45f8-942d-b86b6822655e__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10498172/17ddbc6f-c480-45f8-942d-b86b6822655e__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10498172/skoda-octavia-combi-2-0tdi-110kw-dsg-top-selection"
     },
     {
@@ -1459,7 +1459,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10608843/47aa18fc-e3a5-4bd5-a91b-6275068f7caa__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10608843/47aa18fc-e3a5-4bd5-a91b-6275068f7caa__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10608843/skoda-octavia-2-0tsi-150kw-dsg-4x4-sportline"
     },
     {
@@ -1481,7 +1481,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619324/b7afe1f4-f0ed-4c9a-8feb-fecd0f766ce4__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619324/b7afe1f4-f0ed-4c9a-8feb-fecd0f766ce4__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10619324/skoda-scala-1-0tsi-85kw-selection"
     },
     {
@@ -1503,7 +1503,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10616871/9a42629a-eaee-412b-8501-d4d4aefae40d__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10616871/9a42629a-eaee-412b-8501-d4d4aefae40d__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10616871/skoda-scala-1-0tsi-85kw-top-selection"
     },
     {
@@ -1525,7 +1525,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10570955/dba8b5d9-7a40-4e62-96d4-80b0231da1ef__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10570955/dba8b5d9-7a40-4e62-96d4-80b0231da1ef__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10570955/skoda-scala-1-0tsi-85kw-top-selection"
     },
     {
@@ -1547,7 +1547,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10612757/c7f8d1d2-0d1d-4f93-981b-47616a197450__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10612757/c7f8d1d2-0d1d-4f93-981b-47616a197450__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10612757/skoda-scala-1-0tsi-85kw-dsg-monte-carlo"
     },
     {
@@ -1569,7 +1569,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10584329/6dd91818-3252-4527-851a-58f2e48894c6__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10584329/6dd91818-3252-4527-851a-58f2e48894c6__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10584329/skoda-scala-1-5tsi-110kw-dsg-top-selection"
     },
     {
@@ -1591,7 +1591,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10385455/d013ef7e-cd4b-4e7a-b403-33368e2cc752__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10385455/d013ef7e-cd4b-4e7a-b403-33368e2cc752__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10385455/skoda-superb-2-0tdi-110kw-dsg-style-plus"
     },
     {
@@ -1613,7 +1613,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10599141/22bce2f8-a961-41ec-936a-cdcff96c5af2__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10599141/22bce2f8-a961-41ec-936a-cdcff96c5af2__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10599141/skoda-superb-2-0tdi-110kw-dsg-l-k"
     },
     {
@@ -1635,7 +1635,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10566818/76d9d7f4-580f-442f-b237-28e24477cf2e__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10566818/76d9d7f4-580f-442f-b237-28e24477cf2e__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10566818/skoda-superb-2-0tdi-110kw-dsg-l-k"
     },
     {
@@ -1657,7 +1657,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10589097/7c91273e-f4cd-4b9d-bd8e-c178b93136e5__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10589097/7c91273e-f4cd-4b9d-bd8e-c178b93136e5__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10589097/seat-arona-1.0-tsi-70kw-"
     },
     {
@@ -1679,7 +1679,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10597602/1abf219e-84db-41be-a578-1a24b87d961d__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10597602/1abf219e-84db-41be-a578-1a24b87d961d__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10597602/seat-arona-1.0-tsi-85kw-fr"
     },
     {
@@ -1701,7 +1701,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10608439/3b0efbdc-dfea-4378-aaf4-2b5c9ea7dab0__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10608439/3b0efbdc-dfea-4378-aaf4-2b5c9ea7dab0__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10608439/volkswagen-arteon-2.0-tdi-110kw-dsg-r-line"
     },
     {
@@ -1723,7 +1723,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10605857/bb4b9fd1-06a5-4c87-9d8b-f0deed5b379d__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10605857/bb4b9fd1-06a5-4c87-9d8b-f0deed5b379d__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10605857/seat-ateca-seat-ateca-1.4-tsi-110kw-style"
     },
     {
@@ -1745,7 +1745,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10597211/dd35cca5-e3a8-4fb4-8491-a2871a1c4042__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10597211/dd35cca5-e3a8-4fb4-8491-a2871a1c4042__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10597211/seat-ateca-1.5-tsi-110kw"
     },
     {
@@ -1767,7 +1767,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10585732/51b2bd3a-ca63-4273-978c-a904771ee785__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10585732/51b2bd3a-ca63-4273-978c-a904771ee785__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10585732/seat-ateca-2.0-tsi-140kw-fr-4drive-dsg"
     },
     {
@@ -1789,7 +1789,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10555487/24863887-06ff-4a38-856a-3e0b1e305759__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10555487/24863887-06ff-4a38-856a-3e0b1e305759__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10555487/seat-ateca-1.5-tsi-110kw-fr"
     },
     {
@@ -1811,7 +1811,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10608962/d0a448ff-e192-4963-89bc-0a34e12e700a__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10608962/d0a448ff-e192-4963-89bc-0a34e12e700a__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10608962/volkswagen-caddy-1.5-tsi-84kw-dsg-style"
     },
     {
@@ -1833,7 +1833,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10595530/55ec7c7e-72be-48dc-97ed-dcb3e768a2b6__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10595530/55ec7c7e-72be-48dc-97ed-dcb3e768a2b6__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10595530/volkswagen-caddy-1.5-tsi-"
     },
     {
@@ -1855,7 +1855,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10482018/a5c339a2-c826-48de-99e9-ced4c3ce2152__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10482018/a5c339a2-c826-48de-99e9-ced4c3ce2152__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10482018/volkswagen-crafter-2.0-tdi-120kw-odtahovy-vuz"
     },
     {
@@ -1877,7 +1877,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10622033/f03603d3-2c70-473b-a48a-029dba8fbc8d__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10622033/f03603d3-2c70-473b-a48a-029dba8fbc8d__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10622033/skoda-elroq-85-210-82-e1h-sportline-"
     },
     {
@@ -1899,7 +1899,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10598376/84f86f5e-3741-4ae5-837f-f013424ebc89__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10598376/84f86f5e-3741-4ae5-837f-f013424ebc89__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10598376/skoda-elroq-iv-210kw-sportline"
     },
     {
@@ -1921,7 +1921,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10607203/3cdb0407-583f-41d4-a317-096866260fab__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10607203/3cdb0407-583f-41d4-a317-096866260fab__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10607203/skoda-enyaq-85-210-82-sportline-"
     },
     {
@@ -1943,7 +1943,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10603250/17d514c8-8ae1-4ab2-a800-89d326165995__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10603250/17d514c8-8ae1-4ab2-a800-89d326165995__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10603250/skoda-enyaq-coupe-85-210kw"
     },
     {
@@ -1965,7 +1965,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10563927/5f2ef2b2-47ae-41bf-8ce8-13918f0a927a__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10563927/5f2ef2b2-47ae-41bf-8ce8-13918f0a927a__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10563927/skoda-fabia-1.0-tsi-70kw-soleil"
     },
     {
@@ -1987,7 +1987,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10602878/5a19a957-cac1-4119-85a4-836aa53ada16__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10602878/5a19a957-cac1-4119-85a4-836aa53ada16__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10602878/skoda-fabia-combi-1.0-tsi-70kw-active"
     },
     {
@@ -2009,7 +2009,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10608657/6f5b9364-3eaa-41de-9f6e-4ed6f6d1ddbe__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10608657/6f5b9364-3eaa-41de-9f6e-4ed6f6d1ddbe__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10608657/skoda-fabia-1.0-tsi-81kw-dsg-style-plus"
     },
     {
@@ -2031,7 +2031,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10617536/5cee6ca1-f8cf-4ddc-abfb-27c86df6e628__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10617536/5cee6ca1-f8cf-4ddc-abfb-27c86df6e628__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10617536/skoda-fabia-1.0-tsi-70kw-selection"
     },
     {
@@ -2053,7 +2053,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10607200/a24fcc37-43e3-4de0-88d8-3b8b3b8964ef__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10607200/a24fcc37-43e3-4de0-88d8-3b8b3b8964ef__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10607200/skoda-fabia-1.5-tsi-110kw-dsg-monte-carlo"
     },
     {
@@ -2075,7 +2075,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10596833/a183c068-1aef-47db-a9a0-0b237eaf69e2__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10596833/a183c068-1aef-47db-a9a0-0b237eaf69e2__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10596833/cupra-formentor-1.5-tsi-110kw"
     },
     {
@@ -2097,7 +2097,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10614944/c0d88dec-360d-4c12-adc1-4717aa66b5df__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10614944/c0d88dec-360d-4c12-adc1-4717aa66b5df__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10614944/cupra-formentor-1.5-tsi-110kw"
     },
     {
@@ -2119,7 +2119,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10610284/a63e6fe0-14b0-4adc-9dd4-f6653d362571__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10610284/a63e6fe0-14b0-4adc-9dd4-f6653d362571__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10610284/cupra-formentor-1.5-tsi-110kw"
     },
     {
@@ -2141,7 +2141,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10607965/6abc902b-c144-4e50-a80e-1f636bf14244__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10607965/6abc902b-c144-4e50-a80e-1f636bf14244__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10607965/volkswagen-golf-1.4-tsi-110kw-dsg-highline"
     },
     {
@@ -2163,7 +2163,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10596974/9b00fc0c-1b83-4e03-aadb-77bef92d8aec__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10596974/9b00fc0c-1b83-4e03-aadb-77bef92d8aec__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10596974/volkswagen-golf-1.0-tsi-81kw-life"
     },
     {
@@ -2185,7 +2185,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10547101/3697a2e0-4d76-472b-b308-97c4695f0519__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10547101/3697a2e0-4d76-472b-b308-97c4695f0519__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10547101/volkswagen-golf-variant-1.5-tsi-110kw-style"
     },
     {
@@ -2207,7 +2207,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10617870/08555c6a-d2ef-4ada-9f0a-ffbd12bd529f__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10617870/08555c6a-d2ef-4ada-9f0a-ffbd12bd529f__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10617870/volkswagen-golf-1.5-tsi-110kw"
     },
     {
@@ -2229,7 +2229,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10607981/c09fc528-a71b-4ce9-bfae-c044773c0216__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10607981/c09fc528-a71b-4ce9-bfae-c044773c0216__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10607981/volkswagen-golf-plus-1.4-tsi-90kw-match"
     },
     {
@@ -2251,7 +2251,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10605855/56f8e356-c6a4-42ed-a1a8-f74aa294026d__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10605855/56f8e356-c6a4-42ed-a1a8-f74aa294026d__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10605855/volkswagen-golf-sportsvan-1.2-tsi-81kw-comfortline"
     },
     {
@@ -2273,7 +2273,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10611190/53f9acca-c2a7-4953-8333-51441821ed24__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10611190/53f9acca-c2a7-4953-8333-51441821ed24__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10611190/volkswagen-golf-variant-1.5-tsi-110kw-dsg-highline"
     },
     {
@@ -2295,7 +2295,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10609700/741226b9-37b7-44a0-8158-1ddd28080cd9__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10609700/741226b9-37b7-44a0-8158-1ddd28080cd9__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10609700/skoda-kamiq-1.0-tsi-85kw-selection"
     },
     {
@@ -2317,7 +2317,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10618197/2a636b69-bbb9-48ca-811f-779276d3319f__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10618197/2a636b69-bbb9-48ca-811f-779276d3319f__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10618197/skoda-kamiq-1.0-tsi-85kw-selection"
     },
     {
@@ -2339,7 +2339,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10604610/7c34bb2f-a62d-4a29-af5d-97db0625fc57__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10604610/7c34bb2f-a62d-4a29-af5d-97db0625fc57__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10604610/skoda-kamiq-1.0-tsi-81kw-style-plus"
     },
     {
@@ -2361,7 +2361,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10604613/43cdb5be-45fa-42a0-a3cd-c6d212cb1351__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10604613/43cdb5be-45fa-42a0-a3cd-c6d212cb1351__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10604613/skoda-kamiq-1.0-tsi-85kw-selection"
     },
     {
@@ -2383,7 +2383,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10568741/0c3282ac-d63a-461e-8666-7ecece946b3a__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10568741/0c3282ac-d63a-461e-8666-7ecece946b3a__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10568741/skoda-kamiq-1.0-tsi-85kw-montecarlo"
     },
     {
@@ -2405,7 +2405,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10607689/63ff529b-a138-450c-9245-3d3efd3ca534__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10607689/63ff529b-a138-450c-9245-3d3efd3ca534__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10607689/skoda-kamiq-1.0-tsi-85kw-top-selection"
     },
     {
@@ -2427,7 +2427,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10612197/d1afae7b-3c05-4dd7-a0a3-cb8703c6113d__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10612197/d1afae7b-3c05-4dd7-a0a3-cb8703c6113d__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10612197/skoda-kamiq-1.0-tsi-81kw-monte-carlo"
     },
     {
@@ -2449,7 +2449,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10606206/58abad41-215a-4314-aa8b-55b6fd648db0__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10606206/58abad41-215a-4314-aa8b-55b6fd648db0__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10606206/skoda-kamiq-1.5-tsi-110kw-dsg-monte-carlo"
     },
     {
@@ -2471,7 +2471,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10571541/1bb3d0c3-f231-45d1-bbb9-9eae0e1c3b90__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10571541/1bb3d0c3-f231-45d1-bbb9-9eae0e1c3b90__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10571541/skoda-karoq-1.0-tsi-81kw-style"
     },
     {
@@ -2493,7 +2493,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10569329/d2ca0f0e-cd22-4b0f-80e1-1a892b4429a9__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10569329/d2ca0f0e-cd22-4b0f-80e1-1a892b4429a9__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10569329/skoda-karoq-1.5-tsi-110kw-style"
     },
     {
@@ -2515,7 +2515,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10598670/90438cb9-0e56-4690-b052-99d881e12c48__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10598670/90438cb9-0e56-4690-b052-99d881e12c48__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10598670/skoda-karoq-2.0-tdi-85kw-style"
     },
     {
@@ -2537,7 +2537,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615182/710a85ff-2b0f-450c-98d6-4e1ae124aef3__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615182/710a85ff-2b0f-450c-98d6-4e1ae124aef3__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10615182/skoda-karoq-1.5-tsi-110kw-style-plus"
     },
     {
@@ -2559,7 +2559,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10550599/54ae3a64-a79d-4c12-a32d-3a90fb527a08__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10550599/54ae3a64-a79d-4c12-a32d-3a90fb527a08__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10550599/skoda-karoq-2.0-tdi-140kw-scout"
     },
     {
@@ -2581,7 +2581,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10563031/4322854b-136a-4a37-8137-6c1af4dd1dda__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10563031/4322854b-136a-4a37-8137-6c1af4dd1dda__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10563031/skoda-karoq-1.5-tsi-110kw-style-plus"
     },
     {
@@ -2603,7 +2603,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10577943/bc48e024-f7fb-4ea9-84f1-155b42b6f61b__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10577943/bc48e024-f7fb-4ea9-84f1-155b42b6f61b__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10577943/skoda-karoq-1.5-tsi-110kw-ambition"
     },
     {
@@ -2625,7 +2625,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10536587/e15f81d7-abb0-477a-8262-841436d1c101__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10536587/e15f81d7-abb0-477a-8262-841436d1c101__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10536587/skoda-karoq-1.5-tsi-110kw-style"
     },
     {
@@ -2647,7 +2647,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10583507/9a07355a-b47b-4b3f-bc00-d589744cfe60__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10583507/9a07355a-b47b-4b3f-bc00-d589744cfe60__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10583507/skoda-karoq-1.5-tsi-110kw-selection"
     },
     {
@@ -2669,7 +2669,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615439/a074d278-f142-418e-b24e-c53abfc321fa__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615439/a074d278-f142-418e-b24e-c53abfc321fa__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10615439/skoda-karoq-1.5-tsi-110kw-dsg-drive"
     },
     {
@@ -2691,7 +2691,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10609026/5af7caea-5a48-4e47-8f9e-086b0349cabd__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10609026/5af7caea-5a48-4e47-8f9e-086b0349cabd__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10609026/skoda-karoq-1.5-tsi-110kw-drive"
     },
     {
@@ -2713,7 +2713,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10609495/a9c1029c-f01d-46de-ade8-c456b6dcd2d8__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10609495/a9c1029c-f01d-46de-ade8-c456b6dcd2d8__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10609495/skoda-karoq-1.5-tsi-110kw-sportline"
     },
     {
@@ -2735,7 +2735,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10593656/f21546b1-ced3-471a-b9ae-d3e2fc8d6820__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10593656/f21546b1-ced3-471a-b9ae-d3e2fc8d6820__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10593656/skoda-karoq-1.5-tsi-110kw-sportline"
     },
     {
@@ -2757,7 +2757,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615028/0554e338-7938-4a44-8638-36d0af90999f__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615028/0554e338-7938-4a44-8638-36d0af90999f__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10615028/skoda-karoq-1.5-tsi-110kw-sportline"
     },
     {
@@ -2779,7 +2779,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615629/eb5d3084-4b9c-44a7-a077-07a79a6948c9__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615629/eb5d3084-4b9c-44a7-a077-07a79a6948c9__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10615629/skoda-karoq-1.5-tsi-110kw-sportline-"
     },
     {
@@ -2801,7 +2801,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615381/b1f7c033-9b24-4fff-94a9-03496c3e7a08__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615381/b1f7c033-9b24-4fff-94a9-03496c3e7a08__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10615381/skoda-karoq-1.5-tsi-110kw-dsg-sportline-"
     },
     {
@@ -2823,7 +2823,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10607023/491f7508-ffb2-41db-8276-3c47dcad0954__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10607023/491f7508-ffb2-41db-8276-3c47dcad0954__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10607023/skoda-karoq-2.0-tsi-140kw-dsg-4x4-sportline"
     },
     {
@@ -2845,7 +2845,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10591458/299d1974-9c23-4199-85dc-34dc99fd0fa2__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10591458/299d1974-9c23-4199-85dc-34dc99fd0fa2__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10591458/skoda-kodiaq-2.0-tsi-132kw-style"
     },
     {
@@ -2867,7 +2867,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10606647/5f2275e6-a435-443b-af3d-7cd9957f720a__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10606647/5f2275e6-a435-443b-af3d-7cd9957f720a__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10606647/skoda-kodiaq-2.0-tdi-110kw-dsg-4x4-style"
     },
     {
@@ -2889,7 +2889,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10577539/c66a731f-9601-40ec-9100-3f700655b906__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10577539/c66a731f-9601-40ec-9100-3f700655b906__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10577539/skoda-kodiaq-2.0-tsi-180kw-rs-4x4-"
     },
     {
@@ -2911,7 +2911,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10608405/9b88a7a6-e5cd-413a-9fba-cad851a413d7__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10608405/9b88a7a6-e5cd-413a-9fba-cad851a413d7__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10608405/skoda-kodiaq-2.0-tdi-147kw-dsg-4x4-style-plus"
     },
     {
@@ -2933,7 +2933,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10613979/d02d6066-b597-4150-8852-216efb14923a__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10613979/d02d6066-b597-4150-8852-216efb14923a__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10613979/skoda-kodiaq-2.0-tdi-147kw-style-plus-4x4"
     },
     {
@@ -2955,7 +2955,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10616095/90c1a536-4d90-459f-97a4-3a166792b83f__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10616095/90c1a536-4d90-459f-97a4-3a166792b83f__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10616095/skoda-kodiaq-2.0-tdi-110kw-selection"
     },
     {
@@ -2977,7 +2977,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10622936/cd3d5843-dd9d-4736-9ced-c0823b8f0f92__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10622936/cd3d5843-dd9d-4736-9ced-c0823b8f0f92__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10622936/skoda-kodiaq-2.0-tdi-142kw-dsg-4x4-exclusive-selection"
     },
     {
@@ -2999,7 +2999,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10599270/940eefcd-b7b4-4d9b-af8f-0975c0daa28e__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10599270/940eefcd-b7b4-4d9b-af8f-0975c0daa28e__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10599270/skoda-kodiaq-2.0-tdi-142kw-dsg-4x4-exclusive-selection"
     },
     {
@@ -3021,7 +3021,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10605157/9e9e7ba1-a175-418d-8b0b-dac00c11be68__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10605157/9e9e7ba1-a175-418d-8b0b-dac00c11be68__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10605157/skoda-kodiaq-iv-1.5-tsi-110kw-selection"
     },
     {
@@ -3043,7 +3043,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10616997/73644c2c-ff0b-4260-871e-92397928c1bf__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10616997/73644c2c-ff0b-4260-871e-92397928c1bf__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10616997/skoda-kodiaq-1.5-tsi-150kw-iv-exclusive-selection"
     },
     {
@@ -3065,7 +3065,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10609133/2b6869b5-72b9-4ba9-86a5-a1dd4ef97b2f__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10609133/2b6869b5-72b9-4ba9-86a5-a1dd4ef97b2f__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10609133/skoda-kodiaq-2.0-tdi-142kw-sportline"
     },
     {
@@ -3087,7 +3087,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10587898/c1234a76-b359-4673-9ddd-44ca87104c82__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10587898/c1234a76-b359-4673-9ddd-44ca87104c82__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10587898/skoda-kodiaq-2.0-tdi-142kw-exclusive-selection"
     },
     {
@@ -3109,7 +3109,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10618381/d604e324-3d8a-4044-b840-4a0eed699b56__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10618381/d604e324-3d8a-4044-b840-4a0eed699b56__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10618381/skoda-kodiaq-1.5-tsi-110kw-iv-sportline"
     },
     {
@@ -3131,7 +3131,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10595427/62356567-cf60-4836-b500-72710d378682__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10595427/62356567-cf60-4836-b500-72710d378682__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10595427/skoda-kodiaq-2.0-tdi-142kw-exclusive-selection"
     },
     {
@@ -3153,7 +3153,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10584395/9da3656f-4cb1-4978-b583-e0f42065a530__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10584395/9da3656f-4cb1-4978-b583-e0f42065a530__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10584395/skoda-kodiaq-2.0-tdi-142kw-dsg-4x4-exclusive-selection"
     },
     {
@@ -3175,7 +3175,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10618909/97cc9cda-6011-4268-a080-36e978ce0ff5__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10618909/97cc9cda-6011-4268-a080-36e978ce0ff5__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10618909/skoda-kodiaq-2.0-tdi-142kw-sportline"
     },
     {
@@ -3197,7 +3197,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10600098/43c7e73d-260b-4eeb-bf8d-fd510d803d1f__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10600098/43c7e73d-260b-4eeb-bf8d-fd510d803d1f__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10600098/skoda-kodiaq-2.0-tdi-142kw-dsg-4x4-sportline"
     },
     {
@@ -3219,7 +3219,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615695/2f8c4792-2987-4083-b2a3-b868b870cc4c__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615695/2f8c4792-2987-4083-b2a3-b868b870cc4c__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10615695/seat-leon-1.4-tsi-110kw-dsg"
     },
     {
@@ -3241,7 +3241,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10592148/ad82245f-f695-442b-8d0e-8731354e8083__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10592148/ad82245f-f695-442b-8d0e-8731354e8083__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10592148/seat-leon-1.4-tsi-110kw"
     },
     {
@@ -3263,7 +3263,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10554951/4ae73295-6566-48e6-82f5-79eeb61264bd__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10554951/4ae73295-6566-48e6-82f5-79eeb61264bd__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10554951/seat-leon-combi-1.5-tsi-110kw-fr"
     },
     {
@@ -3285,7 +3285,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615699/f826e734-6f97-443d-9b8c-6a509b36dea8__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615699/f826e734-6f97-443d-9b8c-6a509b36dea8__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10615699/cupra-leon-1.5-tsi-110kw-st"
     },
     {
@@ -3307,7 +3307,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615646/994898da-22ad-4f83-8746-53925d2d8433__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615646/994898da-22ad-4f83-8746-53925d2d8433__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10615646/cupra-leon-1.5-tsi-110kw"
     },
     {
@@ -3329,7 +3329,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10613474/8cbb819b-b1e2-4073-9461-7eada88dabf6__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10613474/8cbb819b-b1e2-4073-9461-7eada88dabf6__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10613474/cupra-leon-2.0-tsi-140kw-"
     },
     {
@@ -3351,7 +3351,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10611646/80a3907b-628f-4972-ae0b-bebb541ea801__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10611646/80a3907b-628f-4972-ae0b-bebb541ea801__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10611646/cupra-leon-st-st-1.5-tsi-110kw-dsg"
     },
     {
@@ -3373,7 +3373,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10610443/0e9a8d53-ce24-492f-b5a8-a4f08a0f95b5__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10610443/0e9a8d53-ce24-492f-b5a8-a4f08a0f95b5__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10610443/volkswagen-multivan-6.1-2.0-tdi-150kw-highline-4motion"
     },
     {
@@ -3395,7 +3395,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10620808/96590749-e6f4-475d-a114-66861aaf6633__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10620808/96590749-e6f4-475d-a114-66861aaf6633__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10620808/skoda-octavia-2.0-tdi-110kw-style-"
     },
     {
@@ -3417,7 +3417,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10600084/4dc58840-f5ff-40bb-89e1-9c33d7f11506__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10600084/4dc58840-f5ff-40bb-89e1-9c33d7f11506__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10600084/skoda-octavia-combi-1.8-tsi-132kw-edition"
     },
     {
@@ -3439,7 +3439,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10598896/ad130f53-8b00-4a80-a9be-eda5bcfa5ebf__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10598896/ad130f53-8b00-4a80-a9be-eda5bcfa5ebf__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10598896/skoda-octavia-combi-1.0-tsi-85kw-soleil"
     },
     {
@@ -3461,7 +3461,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10585447/01b3c91c-2f71-498d-ab6d-70ff43b09835__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10585447/01b3c91c-2f71-498d-ab6d-70ff43b09835__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10585447/skoda-octavia-combi-1.8-tsi-132kw-style"
     },
     {
@@ -3483,7 +3483,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615408/96ee2cf9-2efa-42fb-8d3b-7b1a3fa9c672__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615408/96ee2cf9-2efa-42fb-8d3b-7b1a3fa9c672__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10615408/skoda-octavia-combi-2.0-tdi-110kw-dsg-style-plus"
     },
     {
@@ -3505,7 +3505,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10597361/d9209cec-605f-4c57-9b75-db1ee10ca60f__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10597361/d9209cec-605f-4c57-9b75-db1ee10ca60f__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10597361/skoda-octavia-combi-2.0-tdi-110kw-style-plus"
     },
     {
@@ -3527,7 +3527,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10598172/c4a9bfa9-e0ea-4e49-94e9-24a492baa7d6__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10598172/c4a9bfa9-e0ea-4e49-94e9-24a492baa7d6__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10598172/skoda-octavia-combi-1.0-tsi-85kw-dsg"
     },
     {
@@ -3549,7 +3549,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10616607/3c664a4f-af9b-4b1b-a08e-3eebe88bc841__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10616607/3c664a4f-af9b-4b1b-a08e-3eebe88bc841__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10616607/skoda-octavia-combi-1.8-tsi-132kw-style"
     },
     {
@@ -3571,7 +3571,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10607593/50cd2baf-9bdd-453b-8e9c-7bcfac39e6c5__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10607593/50cd2baf-9bdd-453b-8e9c-7bcfac39e6c5__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10607593/skoda-octavia-combi-2.0-tdi-85kw-style"
     },
     {
@@ -3593,7 +3593,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10574175/e93ac963-a690-4902-9f34-db017b6ad4f5__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10574175/e93ac963-a690-4902-9f34-db017b6ad4f5__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10574175/skoda-octavia-combi-2.0-tdi-110kw-style"
     },
     {
@@ -3615,7 +3615,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10590675/e8b5d6b6-1cac-43da-8504-450bf6ffaa71__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10590675/e8b5d6b6-1cac-43da-8504-450bf6ffaa71__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10590675/skoda-octavia-2.0-tdi-85kw-style"
     },
     {
@@ -3637,7 +3637,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10597084/01d8ed30-b73d-45ed-913a-c1d6fb4e13b5__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10597084/01d8ed30-b73d-45ed-913a-c1d6fb4e13b5__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10597084/skoda-octavia-combi-1.5-tsi-110kw-style"
     },
     {
@@ -3659,7 +3659,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10583233/a542eba3-0053-4fbf-a55e-e8fb2f9dcbfa__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10583233/a542eba3-0053-4fbf-a55e-e8fb2f9dcbfa__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10583233/skoda-octavia-1.5-tsi-110kw-style-plus"
     },
     {
@@ -3681,7 +3681,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10608041/f4395041-5c0c-4096-9114-579a65213fa6__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10608041/f4395041-5c0c-4096-9114-579a65213fa6__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10608041/skoda-octavia-combi-2.0-tdi-85kw-style"
     },
     {
@@ -3703,7 +3703,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10610743/228ab86b-ec14-42ca-ba40-fe47124fbcb7__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10610743/228ab86b-ec14-42ca-ba40-fe47124fbcb7__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10610743/skoda-octavia-2.0-tdi-85kw-style-plus"
     },
     {
@@ -3725,7 +3725,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10616611/52ada9c7-7f41-4bcc-a565-78b886efa1cd__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10616611/52ada9c7-7f41-4bcc-a565-78b886efa1cd__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10616611/skoda-octavia-1.5-tsi-110kw-dsg-ambition-plus"
     },
     {
@@ -3747,7 +3747,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615017/c779128c-9989-4362-8600-5d750082884c__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615017/c779128c-9989-4362-8600-5d750082884c__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10615017/skoda-octavia-1.0-tsi-81kw-active-plus-dsg"
     },
     {
@@ -3769,7 +3769,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10623230/fb4e97ee-50e9-4b9f-998b-f46dc62381d6__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10623230/fb4e97ee-50e9-4b9f-998b-f46dc62381d6__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10623230/skoda-octavia-1.5-tsi-110kw-dsg-style"
     },
     {
@@ -3791,7 +3791,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10554137/c12cfc46-8ddb-4450-bbee-ed4996815b7e__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10554137/c12cfc46-8ddb-4450-bbee-ed4996815b7e__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10554137/skoda-octavia-combi-1.5-tsi-110kw-style"
     },
     {
@@ -3813,7 +3813,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10622333/74a41a86-264a-4cb9-a1ed-a5ca5cb8b33c__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10622333/74a41a86-264a-4cb9-a1ed-a5ca5cb8b33c__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10622333/skoda-octavia-combi-2.0-tdi-147kw-dsg-4x4-scout"
     },
     {
@@ -3835,7 +3835,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10622328/0e8736a3-746d-4e8f-a6c4-5fd9b0cc32c9__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10622328/0e8736a3-746d-4e8f-a6c4-5fd9b0cc32c9__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10622328/skoda-octavia-combi-2.0-tdi-85kw-dsg-style"
     },
     {
@@ -3857,7 +3857,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10623099/38e60f4f-7784-4f9a-975e-de9dcb722719__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10623099/38e60f4f-7784-4f9a-975e-de9dcb722719__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10623099/skoda-octavia-combi-1.5-tsi-110kw-ambition"
     },
     {
@@ -3879,7 +3879,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10561947/15b1c68a-1983-4559-a1d0-4c6bc46957e3__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10561947/15b1c68a-1983-4559-a1d0-4c6bc46957e3__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10561947/skoda-octavia-combi-1.4-tsi-150kw-iv-style-plus"
     },
     {
@@ -3901,7 +3901,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615467/b0e2ff96-3aee-49b5-8216-73343d3dfeea__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615467/b0e2ff96-3aee-49b5-8216-73343d3dfeea__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10615467/skoda-octavia-2.0-tdi-110kw-style-plus"
     },
     {
@@ -3923,7 +3923,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10612674/eace053f-757e-4afa-a392-cde9af8faa31__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10612674/eace053f-757e-4afa-a392-cde9af8faa31__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10612674/skoda-octavia-combi-1.5-tsi-110kw-style"
     },
     {
@@ -3945,7 +3945,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10586371/7b5eb88c-4228-4296-9164-e0069d89c382__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10586371/7b5eb88c-4228-4296-9164-e0069d89c382__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10586371/skoda-octavia-combi-1.5-tsi-110kw-style-plus"
     },
     {
@@ -3967,7 +3967,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10617878/b2b74964-216d-43cb-b5c0-283c710cc1bd__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10617878/b2b74964-216d-43cb-b5c0-283c710cc1bd__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10617878/skoda-octavia-combi-1.5-tsi-110kw-style"
     },
     {
@@ -3989,7 +3989,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10617335/540fc3cd-22f5-45ee-9383-72390c247418__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10617335/540fc3cd-22f5-45ee-9383-72390c247418__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10617335/skoda-octavia-combi-2.0-tdi-147kw-rs"
     },
     {
@@ -4011,7 +4011,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10571030/ae947866-03f0-4cda-b8dd-378fa81eb2ca__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10571030/ae947866-03f0-4cda-b8dd-378fa81eb2ca__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10571030/skoda-octavia-combi-1.5-tsi-110kw-dsg-style-plus-sport"
     },
     {
@@ -4033,7 +4033,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10604033/edcca78a-f39b-451b-beb1-f011cd255561__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10604033/edcca78a-f39b-451b-beb1-f011cd255561__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10604033/skoda-octavia-1.5-tsi-110kw-style-plus"
     },
     {
@@ -4055,7 +4055,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10604612/f6dda1a4-9827-49c9-a830-f471bf9cd6b1__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10604612/f6dda1a4-9827-49c9-a830-f471bf9cd6b1__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10604612/skoda-octavia-1.5-tsi-110kw-style-plus"
     },
     {
@@ -4077,7 +4077,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10597359/79d8186b-d722-4e55-8ff0-365fe61fe55f__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10597359/79d8186b-d722-4e55-8ff0-365fe61fe55f__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10597359/skoda-octavia-combi-1.5-tsi-110kw-style-plus"
     },
     {
@@ -4099,7 +4099,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10609262/13641558-6012-4b34-b9a5-b7798aaa8be6__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10609262/13641558-6012-4b34-b9a5-b7798aaa8be6__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10609262/skoda-octavia-combi-1.5-tsi-85kw-selection"
     },
     {
@@ -4121,7 +4121,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10609493/efb97757-cd21-43e5-848e-1b0abd58ca64__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10609493/efb97757-cd21-43e5-848e-1b0abd58ca64__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10609493/skoda-octavia-1.5-tsi-110kw-top-selection"
     },
     {
@@ -4143,7 +4143,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10584528/c7f137aa-6b18-48ac-85a0-77f1c7906618__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10584528/c7f137aa-6b18-48ac-85a0-77f1c7906618__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10584528/skoda-octavia-2.0-tdi-110kw-top-selection"
     },
     {
@@ -4165,7 +4165,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10610742/e0a89545-15ee-4fb6-a5e1-970692de2824__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10610742/e0a89545-15ee-4fb6-a5e1-970692de2824__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10610742/skoda-octavia-combi-1.4-tsi-150kw-iv-style-plus"
     },
     {
@@ -4187,7 +4187,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10572577/33aebe76-0934-49db-8e3e-0bc9a675ddfa__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10572577/33aebe76-0934-49db-8e3e-0bc9a675ddfa__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10572577/skoda-octavia-combi-1.5-tsi-85kw-top-selection"
     },
     {
@@ -4209,7 +4209,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10612202/a07f9d0e-cf2b-45c8-a343-68218f592492__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10612202/a07f9d0e-cf2b-45c8-a343-68218f592492__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10612202/skoda-octavia-1.5-tsi-110kw-top-selection"
     },
     {
@@ -4231,7 +4231,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10604037/e056593d-2561-47cc-a1d7-c91ca7c3c102__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10604037/e056593d-2561-47cc-a1d7-c91ca7c3c102__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10604037/skoda-octavia-2.0-tdi-110kw-top-selection"
     },
     {
@@ -4253,7 +4253,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10623458/efa4eb04-d6b9-4f99-b4d1-15e16f320691__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10623458/efa4eb04-d6b9-4f99-b4d1-15e16f320691__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10623458/skoda-octavia-1.5-tsi-110kw-top-selection"
     },
     {
@@ -4275,7 +4275,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10610678/b3cd98e0-beaa-4a81-89c8-dfcaa7284bcf__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10610678/b3cd98e0-beaa-4a81-89c8-dfcaa7284bcf__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10610678/skoda-octavia-combi-1.5-tsi-110kw-top-selection"
     },
     {
@@ -4297,7 +4297,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10617880/0f725570-87f1-4fa6-b88e-e71c155f3aaf__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10617880/0f725570-87f1-4fa6-b88e-e71c155f3aaf__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10617880/skoda-octavia-combi-1.5-tsi-110kw-top-selection"
     },
     {
@@ -4319,7 +4319,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10622940/ca190082-e2db-48c2-9912-bbe81f457aa9__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10622940/ca190082-e2db-48c2-9912-bbe81f457aa9__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10622940/skoda-octavia-combi-1.5-tsi-110kw-dsg-top-selection"
     },
     {
@@ -4341,7 +4341,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10605477/3d5e870c-0139-4de1-8eeb-487b76f18a14__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10605477/3d5e870c-0139-4de1-8eeb-487b76f18a14__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10605477/skoda-octavia-combi-1.5-tsi-110kw-top-selection"
     },
     {
@@ -4363,7 +4363,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10603758/8fad08ca-4ce2-4ba4-bcd1-9dfca86f6dec__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10603758/8fad08ca-4ce2-4ba4-bcd1-9dfca86f6dec__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10603758/skoda-octavia-combi-1.5-tsi-110kw-top-selection"
     },
     {
@@ -4385,7 +4385,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10611008/aabba2ef-bb04-4d47-82e6-c558b2fb421c__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10611008/aabba2ef-bb04-4d47-82e6-c558b2fb421c__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10611008/skoda-octavia-combi-1.5-tsi-110kw-exclusive-selection"
     },
     {
@@ -4407,7 +4407,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10622199/460f2733-c1b7-48d5-928b-26d013ab431a__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10622199/460f2733-c1b7-48d5-928b-26d013ab431a__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10622199/skoda-octavia-combi-2.0-tdi-110kw-ultra-edition"
     },
     {
@@ -4429,7 +4429,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10617351/b9f9564a-784b-4851-aa70-31ca30dd56ca__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10617351/b9f9564a-784b-4851-aa70-31ca30dd56ca__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10617351/skoda-octavia-2.0-tsi-180kw-rs"
     },
     {
@@ -4451,7 +4451,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10605709/70304a87-559c-47a3-87bb-5248ba5f666b__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10605709/70304a87-559c-47a3-87bb-5248ba5f666b__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10605709/skoda-octavia-combi-1.5-tsi-110kw-dsg-sportline"
     },
     {
@@ -4473,7 +4473,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10595529/98343791-0e4f-481f-aa8f-d8800446b3c0__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10595529/98343791-0e4f-481f-aa8f-d8800446b3c0__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10595529/skoda-octavia-2.0-tsi-140kw-sportline-4x4"
     },
     {
@@ -4495,7 +4495,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10601740/80f40aa3-607b-44a3-a387-47f5f82e90a9__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10601740/80f40aa3-607b-44a3-a387-47f5f82e90a9__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10601740/skoda-octavia-combi-2.0-tsi-195kw-rs"
     },
     {
@@ -4517,7 +4517,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10609536/7e405642-4708-4ce4-9746-14e26b528fbc__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10609536/7e405642-4708-4ce4-9746-14e26b528fbc__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10609536/skoda-octavia-combi-1.5-tsi-110kw-dsg-sportine"
     },
     {
@@ -4539,7 +4539,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10608234/a615f771-3bdd-452a-bc86-7eaa3847336e__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10608234/a615f771-3bdd-452a-bc86-7eaa3847336e__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10608234/skoda-octavia-combi-2.0-tsi-195kw-dsg-rs"
     },
     {
@@ -4561,7 +4561,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10600540/2d20e4e7-72de-40e7-b0b4-603260efea62__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10600540/2d20e4e7-72de-40e7-b0b4-603260efea62__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10600540/volkswagen-passat-variant-2.0-tdi-142kw-elegance"
     },
     {
@@ -4583,7 +4583,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10620708/518d32e9-0bc5-4a86-915b-5031a04dbaf5__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10620708/518d32e9-0bc5-4a86-915b-5031a04dbaf5__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10620708/skoda-rapid-1.2-tsi-66kw-fresh"
     },
     {
@@ -4605,7 +4605,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10598372/9ec87ef9-01ae-441e-9af2-15eb1307fbdd__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10598372/9ec87ef9-01ae-441e-9af2-15eb1307fbdd__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10598372/skoda-scala-1.0-tsi-81kw-ambition-plus"
     },
     {
@@ -4627,7 +4627,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615442/0fbde480-2e52-4e35-9e4b-2065c452469c__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615442/0fbde480-2e52-4e35-9e4b-2065c452469c__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10615442/skoda-scala-1.5-tsi-110kw-style"
     },
     {
@@ -4649,7 +4649,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10623882/e8051759-25c7-4ec6-b54f-a56ec33c1f8d__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10623882/e8051759-25c7-4ec6-b54f-a56ec33c1f8d__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10623882/skoda-scala-1.0-tsi-85kw-selection"
     },
     {
@@ -4671,7 +4671,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10563704/01724b79-62e4-4cec-a58a-310546ac871c__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10563704/01724b79-62e4-4cec-a58a-310546ac871c__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10563704/skoda-scala-1.5-tsi-110kw-monte-carlo"
     },
     {
@@ -4693,7 +4693,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10585153/22013169-ceda-4ceb-a8c4-49bb0179d502__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10585153/22013169-ceda-4ceb-a8c4-49bb0179d502__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10585153/skoda-scala-1.0-tsi-85kw-monte-carlo"
     },
     {
@@ -4715,7 +4715,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10611560/6a700160-cbc7-473e-89af-d2f767f6bf9a__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10611560/6a700160-cbc7-473e-89af-d2f767f6bf9a__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10611560/skoda-scala-1.0-tsi-85kw-top-selection"
     },
     {
@@ -4737,7 +4737,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10582826/1c2839b0-31df-4d6a-9cf3-33019de9aa00__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10582826/1c2839b0-31df-4d6a-9cf3-33019de9aa00__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10582826/skoda-scala-1.0-tsi-85kw-top-selection"
     },
     {
@@ -4759,7 +4759,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10585138/0da9fd35-a235-4d88-8780-7c2651cabc05__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10585138/0da9fd35-a235-4d88-8780-7c2651cabc05__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10585138/skoda-scala-1.5-tsi-110kw-monte-carlo-"
     },
     {
@@ -4781,7 +4781,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10618760/36d69e2b-f579-4176-a316-a2c0ac6a510c__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10618760/36d69e2b-f579-4176-a316-a2c0ac6a510c__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10618760/skoda-scala-1.5-tsi-110kw-style"
     },
     {
@@ -4803,7 +4803,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10623452/23df77c3-730a-43db-b994-4936eab00de1__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10623452/23df77c3-730a-43db-b994-4936eab00de1__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10623452/skoda-scala-1.5-tsi-110kw-monte-carlo"
     },
     {
@@ -4825,7 +4825,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10613760/f23745c5-58d2-4ff8-8e78-c74c3aee8d3c__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10613760/f23745c5-58d2-4ff8-8e78-c74c3aee8d3c__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10613760/skoda-scala-1.5-tsi-110kw-monte-carlo"
     },
     {
@@ -4847,7 +4847,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10608494/abd26053-e6ca-46aa-8a26-6b5010e56564__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10608494/abd26053-e6ca-46aa-8a26-6b5010e56564__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10608494/skoda-scala-1.5-tsi-110kw-top-selection"
     },
     {
@@ -4869,7 +4869,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10620663/625de1e0-26e4-4908-9248-4f225baf00fe__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10620663/625de1e0-26e4-4908-9248-4f225baf00fe__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10620663/skoda-scala-1.0-tsi-85kw-montecarlo"
     },
     {
@@ -4891,7 +4891,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10606210/15cc7252-2abc-491f-8690-724c5010ecda__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10606210/15cc7252-2abc-491f-8690-724c5010ecda__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10606210/skoda-scala-1.5-tsi-110kw-dsg-monte-carlo"
     },
     {
@@ -4913,7 +4913,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10607835/71bd89c5-40d1-4acc-b415-5624131be2b7__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10607835/71bd89c5-40d1-4acc-b415-5624131be2b7__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10607835/skoda-scala-1.5-tsi-110kw-dsg-monte-carlo-"
     },
     {
@@ -4935,7 +4935,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10606212/7fcc797d-5214-4554-9959-51b6d248deda__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10606212/7fcc797d-5214-4554-9959-51b6d248deda__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10606212/skoda-scala-1.5-tsi-110kw-dsg-monte-carlo-"
     },
     {
@@ -4957,7 +4957,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615617/116a0ec3-6c21-456e-b7ab-07340f9f010f__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615617/116a0ec3-6c21-456e-b7ab-07340f9f010f__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10615617/kia-sportage-1.6-t-gdi-mhev-110kw-4x2-exclusive"
     },
     {
@@ -4979,7 +4979,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10623824/9b7c13c9-2124-418d-9462-1ce0ab9871da__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10623824/9b7c13c9-2124-418d-9462-1ce0ab9871da__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10623824/skoda-superb-combi-3.6-v6-fsi-dsg-4x4-elegance"
     },
     {
@@ -5001,7 +5001,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615614/06206a6a-3b5a-4d11-b474-35e59abcd47a__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615614/06206a6a-3b5a-4d11-b474-35e59abcd47a__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10615614/skoda-superb-combi-1.8-tsi-132kw-dsg-style"
     },
     {
@@ -5023,7 +5023,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10558598/48a454d3-5ddb-4f4a-8444-6cd5f8b826f6__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10558598/48a454d3-5ddb-4f4a-8444-6cd5f8b826f6__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10558598/skoda-superb-2.0-tsi-140kw-style-plus-dsg"
     },
     {
@@ -5045,7 +5045,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10613472/92370e57-6029-4cb7-a688-06ebd727ceec__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10613472/92370e57-6029-4cb7-a688-06ebd727ceec__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10613472/skoda-superb-2.0-tdi-110kw-l-k"
     },
     {
@@ -5067,7 +5067,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10570298/9f360ad0-3218-4f0b-8ba1-d161d6514961__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10570298/9f360ad0-3218-4f0b-8ba1-d161d6514961__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10570298/skoda-superb-1.5-tsi-110kw-style-plus"
     },
     {
@@ -5089,7 +5089,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10623401/f396d91e-51cd-4b21-bf47-37575f598f07__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10623401/f396d91e-51cd-4b21-bf47-37575f598f07__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10623401/skoda-superb-combi-2.0-tdi-110kw-style-extra"
     },
     {
@@ -5111,7 +5111,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10589692/855dfe22-09b2-4ef5-812c-8f1bd032b25a__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10589692/855dfe22-09b2-4ef5-812c-8f1bd032b25a__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10589692/skoda-superb-2.0-tdi-142kw-l-k-4x4"
     },
     {
@@ -5133,7 +5133,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10588172/237c42d5-284b-4503-b7bb-b5a38fc6cfe8__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10588172/237c42d5-284b-4503-b7bb-b5a38fc6cfe8__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10588172/skoda-superb-2.0-tdi-110kw-l-k"
     },
     {
@@ -5155,7 +5155,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10610677/aadff603-7f4b-418b-a3e3-3e887639c39d__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10610677/aadff603-7f4b-418b-a3e3-3e887639c39d__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10610677/skoda-superb-2.0-tdi-142kw-l-k"
     },
     {
@@ -5177,7 +5177,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10602927/f4d30abc-8116-485a-81e6-6ebf5a84c986__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10602927/f4d30abc-8116-485a-81e6-6ebf5a84c986__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10602927/skoda-superb-combi-2.0-tdi-142kw-l-k"
     },
     {
@@ -5199,7 +5199,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10605858/8b445b85-4d7b-49bc-882a-58aa752bfc8a__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10605858/8b445b85-4d7b-49bc-882a-58aa752bfc8a__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10605858/skoda-superb-2.0-tsi-195kw-l-k"
     },
     {
@@ -5221,7 +5221,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10609264/38e80dfa-0f90-4657-8693-9afb50239e8a__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10609264/38e80dfa-0f90-4657-8693-9afb50239e8a__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10609264/volkswagen-tiguan-1.4-tsi-92kw-lounge"
     },
     {
@@ -5243,7 +5243,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10611601/bb33b9fe-9a83-47c8-87d0-e538c8f8570f__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10611601/bb33b9fe-9a83-47c8-87d0-e538c8f8570f__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10611601/volkswagen-tiguan-1.5-tsi-96kw-dsg-life"
     },
     {
@@ -5265,7 +5265,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10598201/d3286d61-0962-43ab-8e13-8904b8caa1ac__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10598201/d3286d61-0962-43ab-8e13-8904b8caa1ac__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10598201/volkswagen-touran-1.4-tsi-110kw-highline"
     },
     {
@@ -5287,7 +5287,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10612179/6d37e148-c137-4e80-b2de-7cb8f322ee8d__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10612179/6d37e148-c137-4e80-b2de-7cb8f322ee8d__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10612179/volkswagen-touran-1.0-tsi-85kw-join"
     },
     {
@@ -5309,7 +5309,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10592613/e88f7aaf-b152-4943-998f-c28379779cb1__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10592613/e88f7aaf-b152-4943-998f-c28379779cb1__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10592613/kia-xceed-1.5-t-gdi"
     },
     {
@@ -5331,7 +5331,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10576484/533ed800-d19a-4f24-a2f5-91c40f13db06__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10576484/533ed800-d19a-4f24-a2f5-91c40f13db06__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10576484/hyundai-i30-combi-1.0-t-gdi-73kw-"
     },
     {
@@ -5353,7 +5353,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10611128/0c6ad343-509a-4025-9361-445d92f5751f__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10611128/0c6ad343-509a-4025-9361-445d92f5751f__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10611128/hyundai-i30-combi-1.0-tgdi-73kw"
     },
     {
@@ -5375,7 +5375,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10623159/59d1d970-42d4-4785-a86a-8cca0d1cffc0__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10623159/59d1d970-42d4-4785-a86a-8cca0d1cffc0__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10623159/hyundai-i30-combi-1.0-t-gdi-73kw"
     },
     {
@@ -5397,7 +5397,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10621140/d01ea5e1-befc-416b-836d-003480bd333f__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10621140/d01ea5e1-befc-416b-836d-003480bd333f__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10621140/hyundai-i30-combi-1.0-t-gdi-73kw"
     },
     {
@@ -5419,7 +5419,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10607545/2e602ca8-fc3e-474a-9a7f-a464db426e67__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10607545/2e602ca8-fc3e-474a-9a7f-a464db426e67__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10607545/audi-a4-2.0-tdi-110-kw-s-tronic-sport-"
     },
     {
@@ -5441,7 +5441,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10557063/e5857903-8ff1-4425-814c-d1c07f603961__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10557063/e5857903-8ff1-4425-814c-d1c07f603961__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10557063/audi-a6-allroad-quattro-3.0-tdi-v6-210-kw-allroad"
     },
     {
@@ -5463,7 +5463,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10247077/e1dc6a13-6101-4d69-8039-ab8c10ac375c__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10247077/e1dc6a13-6101-4d69-8039-ab8c10ac375c__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10247077/volkswagen-arteon-2.0-tdi-r-line"
     },
     {
@@ -5485,7 +5485,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619417/e80e4a6e-adc7-4050-a54d-8330d19baf0c__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619417/e80e4a6e-adc7-4050-a54d-8330d19baf0c__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10619417/volkswagen-caravelle-2.0-tdi-110-kw-dsg-comfortline"
     },
     {
@@ -5507,7 +5507,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10572687/d9b9e490-0e01-49ea-9f0b-e5de2d02ad5d__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10572687/d9b9e490-0e01-49ea-9f0b-e5de2d02ad5d__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10572687/renault-clio-1.6i-67-kw-e-tech-hybrid"
     },
     {
@@ -5529,7 +5529,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10577342/b15047e9-a731-4d5c-a568-78a33f102a8c__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10577342/b15047e9-a731-4d5c-a568-78a33f102a8c__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10577342/ford-explorer-3.0-v6-267kw-ecoboost-hybrid-phev-awd-st-line"
     },
     {
@@ -5551,7 +5551,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10251134/8ac68e1a-5e57-4b1a-b381-1bd4b980c7df__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10251134/8ac68e1a-5e57-4b1a-b381-1bd4b980c7df__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10251134/skoda-fabia-1.0-mpi-ambition-plus"
     },
     {
@@ -5573,7 +5573,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10253544/c9cc312d-6114-4f44-9279-8cb7cd64a15b__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10253544/c9cc312d-6114-4f44-9279-8cb7cd64a15b__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10253544/skoda-fabia-1.0-tsi-ambition-plus"
     },
     {
@@ -5595,7 +5595,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10620462/b6f75466-1b61-4dfd-a660-6a27bd24a3cc__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10620462/b6f75466-1b61-4dfd-a660-6a27bd24a3cc__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10620462/skoda-fabia-1.0-tsi-85-kw-top-selection"
     },
     {
@@ -5617,7 +5617,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619979/4b5bdfac-c17a-4b24-9130-5704362825a6__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619979/4b5bdfac-c17a-4b24-9130-5704362825a6__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10619979/skoda-fabia-1.0-tsi-85-kw-monte-carlo-"
     },
     {
@@ -5639,7 +5639,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10559662/9f29d5c2-78f1-44a5-bc5b-c441b90b589b__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10559662/9f29d5c2-78f1-44a5-bc5b-c441b90b589b__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10559662/ford-focus-1.0-ecoboost-92-kw-trend"
     },
     {
@@ -5661,7 +5661,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10560884/f273a906-dc94-4370-97cc-bbfb39b5cdbb__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10560884/f273a906-dc94-4370-97cc-bbfb39b5cdbb__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10560884/ford-galaxy-1.5-ecoboost-118-kw-"
     },
     {
@@ -5683,7 +5683,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10572371/75b198a6-c20c-4512-a780-994e2accfe8a__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10572371/75b198a6-c20c-4512-a780-994e2accfe8a__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10572371/volkswagen-golf-2.0-tdi-110-kw-highline"
     },
     {
@@ -5705,7 +5705,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10264590/f5f5e335-b564-4dcc-a3ff-57dc5542283e__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10264590/f5f5e335-b564-4dcc-a3ff-57dc5542283e__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10264590/volkswagen-golf-1.6-tdi-trend-line"
     },
     {
@@ -5727,7 +5727,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10553980/6a39b2fe-a214-40c4-be04-751cbac6e775__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10553980/6a39b2fe-a214-40c4-be04-751cbac6e775__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10553980/opel-grandland-x-1.2-t-96-kw-enjoy"
     },
     {
@@ -5749,7 +5749,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10598269/f5d005cc-b751-43b5-8e2d-697c6dc95d04__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10598269/f5d005cc-b751-43b5-8e2d-697c6dc95d04__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10598269/renault-kadjar-1.3-tce-103-kw"
     },
     {
@@ -5771,7 +5771,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10568037/c33f548f-f431-4840-ba89-6d11d187be45__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10568037/c33f548f-f431-4840-ba89-6d11d187be45__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10568037/skoda-karoq-1.5-tsi-110-kw-dsg-style"
     },
     {
@@ -5793,7 +5793,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10509863/e329b877-deac-4bc0-bebf-e9a61f86f88a__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10509863/e329b877-deac-4bc0-bebf-e9a61f86f88a__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10509863/skoda-karoq-2.0-tdi-110-kw-top-selection"
     },
     {
@@ -5815,7 +5815,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10617905/edfdc8e7-d5ac-41eb-8cdb-7cfb6ee592a7__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10617905/edfdc8e7-d5ac-41eb-8cdb-7cfb6ee592a7__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10617905/skoda-karoq-1.5-tsi-110-kw-dsg-top-selection"
     },
     {
@@ -5837,7 +5837,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10550229/f80a97f8-718d-4077-8d3e-c3c887faa7b6__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10550229/f80a97f8-718d-4077-8d3e-c3c887faa7b6__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10550229/skoda-karoq-2.0-tdi-110-kw-4x4-style-plus"
     },
     {
@@ -5859,7 +5859,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619977/d2976f32-b78c-400b-a07a-140853220baa__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619977/d2976f32-b78c-400b-a07a-140853220baa__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10619977/skoda-kodiaq-2.0-tdi-140-kw-ambition"
     },
     {
@@ -5881,7 +5881,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10607268/28d756f3-0d52-4e43-aa71-7d5bcdccdacf__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10607268/28d756f3-0d52-4e43-aa71-7d5bcdccdacf__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10607268/skoda-kodiaq-2.0-tdi-140-kw-dsg-4x4-style"
     },
     {
@@ -5903,7 +5903,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10475879/d9e18028-3365-4dc4-9051-ef0445ff9b1f__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10475879/d9e18028-3365-4dc4-9051-ef0445ff9b1f__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10475879/skoda-kodiaq-2.0-tdi-110-kw-style-plus"
     },
     {
@@ -5925,7 +5925,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10368321/0c32a56b-b270-4999-a522-b77b8499527c__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10368321/0c32a56b-b270-4999-a522-b77b8499527c__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10368321/skoda-kodiaq-2.0tdi-110kw-ambition-4x4-dsg"
     },
     {
@@ -5947,7 +5947,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10558548/3e4d1af0-4530-46a9-9a8e-d1dfcd39f3af__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10558548/3e4d1af0-4530-46a9-9a8e-d1dfcd39f3af__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10558548/skoda-kodiaq-2.0-tdi-142-kw-exclusive-selection"
     },
     {
@@ -5969,7 +5969,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10519931/13910d63-46bc-45ba-95b8-2368ad500cf1__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10519931/13910d63-46bc-45ba-95b8-2368ad500cf1__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10519931/skoda-kodiaq-2.0-tdi-142-kw-exclusive-selection"
     },
     {
@@ -5991,7 +5991,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10569368/e0630808-c8fb-4f6d-85ca-98e8067b34df__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10569368/e0630808-c8fb-4f6d-85ca-98e8067b34df__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10569368/seat-leon-1.4-tsi-110-kw-dsg-fr"
     },
     {
@@ -6013,7 +6013,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10616019/1ea22251-c718-49db-8884-fc52619f3684__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10616019/1ea22251-c718-49db-8884-fc52619f3684__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10616019/skoda-octavia-1.4-tsi-g-tec-81-kw-style"
     },
     {
@@ -6035,7 +6035,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619443/fcb50a5a-ada0-42f7-94b7-74e831775b6d__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619443/fcb50a5a-ada0-42f7-94b7-74e831775b6d__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10619443/skoda-octavia-1.4-tsi-110-kw-ambition"
     },
     {
@@ -6057,7 +6057,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10271736/780ee044-1d0d-4a97-8cd7-45a722c4cd93__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10271736/780ee044-1d0d-4a97-8cd7-45a722c4cd93__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10271736/skoda-octavia-2.0-tdi-ambition-plus"
     },
     {
@@ -6079,7 +6079,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10271867/99adcdc9-6bb5-448b-ac08-51a4ba8531a3__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10271867/99adcdc9-6bb5-448b-ac08-51a4ba8531a3__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10271867/skoda-octavia-2.0-tdi-ambition-plus"
     },
     {
@@ -6101,7 +6101,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10609796/da198f02-217a-4cc3-8fb4-17304de79d6a__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10609796/da198f02-217a-4cc3-8fb4-17304de79d6a__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10609796/skoda-octavia-1.5-tsi-110-kw-ambition"
     },
     {
@@ -6123,7 +6123,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10609784/26f47386-7d84-48b5-ae21-c4b570681ab7__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10609784/26f47386-7d84-48b5-ae21-c4b570681ab7__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10609784/skoda-octavia-1.5-tsi-110-kw-"
     },
     {
@@ -6145,7 +6145,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10214795/de774a24-1dcc-4ea7-99b1-1482adcdc5ce__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10214795/de774a24-1dcc-4ea7-99b1-1482adcdc5ce__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10214795/skoda-octavia-combi-2.0-tdi-dsg-110-kw-style"
     },
     {
@@ -6167,7 +6167,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10563111/0f674d72-f14b-4309-a7bc-27c6944abe6d__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10563111/0f674d72-f14b-4309-a7bc-27c6944abe6d__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10563111/skoda-octavia-1-5-tsi-110kw-top-selection"
     },
     {
@@ -6189,7 +6189,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10528348/3d4df7d7-f6a7-4ffe-bca7-bb406890f650__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10528348/3d4df7d7-f6a7-4ffe-bca7-bb406890f650__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10528348/skoda-octavia-2.0-tdi-85-kw-top-selection"
     },
     {
@@ -6211,7 +6211,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10569466/f59d21e5-72dc-4871-8c6d-d6064f08a91c__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10569466/f59d21e5-72dc-4871-8c6d-d6064f08a91c__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10569466/skoda-octavia-2.0-tdi-110-kw-dsg-style"
     },
     {
@@ -6233,7 +6233,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10502779/84144780-ae70-4766-8ad6-351e608442e4__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10502779/84144780-ae70-4766-8ad6-351e608442e4__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10502779/audi-q5-2.0-tdi-140-kw-quattro-s-line"
     },
     {
@@ -6255,7 +6255,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10607528/4f552e79-cdf3-4598-aeda-c74619b3ce8c__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10607528/4f552e79-cdf3-4598-aeda-c74619b3ce8c__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10607528/skoda-scala-1.0-tsi-81-kw-ambition-"
     },
     {
@@ -6277,7 +6277,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10574974/c391e914-5b4f-4afb-91da-aea3e5eec3b7__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10574974/c391e914-5b4f-4afb-91da-aea3e5eec3b7__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10574974/skoda-scala-1.0-tsi-81-kw-dsg-style"
     },
     {
@@ -6299,7 +6299,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10593413/0f74c9a4-0c12-447f-9c62-3bac5e81f4ee__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10593413/0f74c9a4-0c12-447f-9c62-3bac5e81f4ee__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10593413/kia-sorento-2.2-crdi-148-kw-dct-awd"
     },
     {
@@ -6321,7 +6321,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10572621/bcf6e775-1b64-4d6a-89cc-21147065f6a6__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10572621/bcf6e775-1b64-4d6a-89cc-21147065f6a6__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10572621/kia-sorento-2.2-crdi-148-kw-dct-4x4-"
     },
     {
@@ -6343,7 +6343,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10618972/7d8b1499-ed2a-435d-a8f5-02161941b112__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10618972/7d8b1499-ed2a-435d-a8f5-02161941b112__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10618972/skoda-superb-2.0-tdi-103-kw-exclusive-4x4"
     },
     {
@@ -6365,7 +6365,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619155/ed291f60-2b48-4ea4-9e5e-f5749047e6e5__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619155/ed291f60-2b48-4ea4-9e5e-f5749047e6e5__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10619155/skoda-superb-2.0-tdi-110-kw-dsg"
     },
     {
@@ -6387,7 +6387,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10570673/c3bbf61f-7206-456d-8b8c-34a055d02d1d__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10570673/c3bbf61f-7206-456d-8b8c-34a055d02d1d__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10570673/skoda-superb-2.0-tdi-147-kw-scout"
     },
     {
@@ -6409,7 +6409,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10618973/00e6cc80-fe99-4281-ace0-9bd192368614__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10618973/00e6cc80-fe99-4281-ace0-9bd192368614__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10618973/skoda-superb-2.0-tdi-110-kw-style"
     },
     {
@@ -6431,7 +6431,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10575058/66829937-b729-4898-9d1f-07578fb9b557__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10575058/66829937-b729-4898-9d1f-07578fb9b557__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10575058/skoda-superb-2.0-tdi-147-kw-4x4-sportline"
     },
     {
@@ -6453,7 +6453,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10577327/b9dea37b-e661-40f1-81b2-996681d3422b__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10577327/b9dea37b-e661-40f1-81b2-996681d3422b__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10577327/volkswagen-tiguan-1.4-tsi-110-kw-trend-fun"
     },
     {
@@ -6475,7 +6475,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10572034/cb38c1fe-2df0-4fcd-b937-10d8502153cf__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10572034/cb38c1fe-2df0-4fcd-b937-10d8502153cf__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10572034/volkswagen-tiguan-2.0-tdi-103-kw-sport-style"
     },
     {
@@ -6497,7 +6497,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10563195/f2a4f3ee-3076-4855-b274-32fca29f2307__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10563195/f2a4f3ee-3076-4855-b274-32fca29f2307__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10563195/volkswagen-tiguan-2.0-tdi-140-kw-highline"
     },
     {
@@ -6519,7 +6519,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619980/39bc9530-c4e4-42fa-bb84-09c5e629fae2__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619980/39bc9530-c4e4-42fa-bb84-09c5e629fae2__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10619980/seat-toledo-1.2-tsi-63-kw-refference"
     },
     {
@@ -6541,7 +6541,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10312501/cf6a0cf9-7bf8-4e66-b98c-9cad9bd6d609__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10312501/cf6a0cf9-7bf8-4e66-b98c-9cad9bd6d609__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10312501/volkswagen-touran-1.2-tsi-77-kw-comfortline"
     },
     {
@@ -6563,7 +6563,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10572681/1be2b069-f92e-4905-b97b-4481e49c1aef__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10572681/1be2b069-f92e-4905-b97b-4481e49c1aef__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10572681/mercedes-benz-tridy-b-250-155-kw-dct-4matic"
     },
     {
@@ -6585,7 +6585,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10556996/ff1b56f4-1bd6-4e01-9618-12831895bb59__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10556996/ff1b56f4-1bd6-4e01-9618-12831895bb59__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10556996/mercedes-benz-tridy-c-c-200-d-t-117-kw"
     },
     {
@@ -6607,7 +6607,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10560756/a785e280-34ca-4a78-812a-d57d2404ec08__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10560756/a785e280-34ca-4a78-812a-d57d2404ec08__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10560756/mercedes-benz-tridy-e-e-400-d-4matic-kupe-avantgarde"
     },
     {
@@ -6629,7 +6629,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10591264/0e149dc3-ece4-4f9f-9004-ca185a60d7d2__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10591264/0e149dc3-ece4-4f9f-9004-ca185a60d7d2__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10591264/volvo-v90-2.0-110-kw-d3-drive-e-momentum-auto"
     },
     {
@@ -6651,7 +6651,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10574772/ef930809-2066-42cd-a5d3-f302b060b75c__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10574772/ef930809-2066-42cd-a5d3-f302b060b75c__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10574772/toyota-yaris-1.0-vvt-i-51-kw-trend"
     },
     {
@@ -6673,7 +6673,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10618974/89481363-c835-442c-8ea7-03c4d662e31e__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10618974/89481363-c835-442c-8ea7-03c4d662e31e__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10618974/volkswagen-e-golf-85-kw-comfortline"
     },
     {
@@ -6695,7 +6695,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10500146/a594d4f0-405f-4ff2-811d-ab108820d5ba__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10500146/a594d4f0-405f-4ff2-811d-ab108820d5ba__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10500146/audi-a5-avant-tdi-quattro-150kw-str"
     },
     {
@@ -6717,7 +6717,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10500776/52a3740a-08fe-437c-b340-b9ec27663af3__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10500776/52a3740a-08fe-437c-b340-b9ec27663af3__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10500776/audi-a5-avant-tdi-quattro-150kw-str"
     },
     {
@@ -6739,7 +6739,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10614940/193fb009-1fb7-4627-8e0e-8eb67b684d9f__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10614940/193fb009-1fb7-4627-8e0e-8eb67b684d9f__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10614940/volkswagen-arteon-r-line-2-0bi-tdi-4mot-7dsg"
     },
     {
@@ -6761,7 +6761,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10595757/d811287f-0ea8-42e9-b236-a921ea436f62__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10595757/d811287f-0ea8-42e9-b236-a921ea436f62__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10595757/volkswagen-caddy-2.0tdi-75kw"
     },
     {
@@ -6783,7 +6783,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10602323/4b39bcd6-cd9b-4e65-977d-fcdf1f411726__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10602323/4b39bcd6-cd9b-4e65-977d-fcdf1f411726__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10602323/volkswagen-caddy-life-edition-1.5-tsi-phev"
     },
     {
@@ -6805,7 +6805,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10609488/b44d4915-96b3-4a9d-9d07-c500b7591ce8__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10609488/b44d4915-96b3-4a9d-9d07-c500b7591ce8__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10609488/volkswagen-caddy-maxi-2.0-tdi-75kw"
     },
     {
@@ -6827,7 +6827,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10598352/c06bdaaa-e675-4d99-8db6-bf0cba238ed6__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10598352/c06bdaaa-e675-4d99-8db6-bf0cba238ed6__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10598352/volkswagen-caravelle-style-2.0tdi-4mot-8aut-dr"
     },
     {
@@ -6849,7 +6849,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10620932/9d04b796-5c99-4162-a01e-d081c72f9bda__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10620932/9d04b796-5c99-4162-a01e-d081c72f9bda__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10620932/volkswagen-caravelle-e-caravelle-style-210-kw-4mot-dr"
     },
     {
@@ -6871,7 +6871,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10620895/55a2e267-8586-4bf7-8523-5b9d2f8b2a5c__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10620895/55a2e267-8586-4bf7-8523-5b9d2f8b2a5c__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10620895/audi-e-tron-advanced-50-quattro-230-kw"
     },
     {
@@ -6893,7 +6893,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10572494/d5340b21-576d-4f33-a21b-5d74f3e2b93e__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10572494/d5340b21-576d-4f33-a21b-5d74f3e2b93e__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10572494/skoda-fabia-top-selection-1.0-tsi-85kw-dsg"
     },
     {
@@ -6915,7 +6915,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10599047/21a489b2-1c4c-4266-96b1-2f988420894a__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10599047/21a489b2-1c4c-4266-96b1-2f988420894a__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10599047/skoda-fabia-1.0tsi-85kw-top-selection"
     },
     {
@@ -6937,7 +6937,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10573067/4e122292-5c94-41eb-9a22-066ba3f3958c__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10573067/4e122292-5c94-41eb-9a22-066ba3f3958c__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10573067/skoda-fabia-monte-carlo-1.0ts-a7f-"
     },
     {
@@ -6959,7 +6959,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10595939/6b71a9dd-b833-4005-a4cb-2e5ee5924a8b__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10595939/6b71a9dd-b833-4005-a4cb-2e5ee5924a8b__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10595939/volkswagen-golf-style-2.0-tdi-110-kw-dsg-variant"
     },
     {
@@ -6981,7 +6981,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10621309/b5147691-0397-4022-a982-47620a04f537__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10621309/b5147691-0397-4022-a982-47620a04f537__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10621309/volkswagen-golf-people-1-5tsi-110-kw-7dsg-mhev"
     },
     {
@@ -7003,7 +7003,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10622598/722825b7-100d-4b2f-8775-d2ba78c22381__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10622598/722825b7-100d-4b2f-8775-d2ba78c22381__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10622598/volkswagen-golf-gti-clubsport-2-0-tsi-221-kw-7dsg"
     },
     {
@@ -7025,7 +7025,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10621300/c95ccb7e-28e4-4f9e-b74f-ef2c44abef55__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10621300/c95ccb7e-28e4-4f9e-b74f-ef2c44abef55__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10621300/volkswagen-id.3-neo-life-58-kwh-140-kw"
     },
     {
@@ -7047,7 +7047,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10595715/5202f796-fe06-406d-9bb3-d619d6ec123f__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10595715/5202f796-fe06-406d-9bb3-d619d6ec123f__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10595715/volkswagen-id.7-gtx-people-250-kw-4m-kap.-86-kwh"
     },
     {
@@ -7069,7 +7069,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10598664/277069bb-b821-41ef-8d10-6f987a294b48__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10598664/277069bb-b821-41ef-8d10-6f987a294b48__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10598664/skoda-kamiq-monte-carlo-1.0tsi-85kw"
     },
     {
@@ -7091,7 +7091,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10598314/516d99fb-29f6-4f2e-bb3d-53606199574c__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10598314/516d99fb-29f6-4f2e-bb3d-53606199574c__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10598314/skoda-kamiq-1.0tsi-dsg-monte-carlo-85kw"
     },
     {
@@ -7113,7 +7113,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10573066/f23ffbcd-3864-435a-bc43-a02bbd747001__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10573066/f23ffbcd-3864-435a-bc43-a02bbd747001__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10573066/skoda-karoq-2.0tdi-dsg-business-"
     },
     {
@@ -7135,7 +7135,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10610050/b84566f2-5001-498f-87e4-7596bbb0ae6b__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10610050/b84566f2-5001-498f-87e4-7596bbb0ae6b__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10610050/skoda-karoq-sportline-1.5-a7f-110kw"
     },
     {
@@ -7157,7 +7157,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10618759/1747b915-37f2-4d10-96f3-16fa6aa1ef31__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10618759/1747b915-37f2-4d10-96f3-16fa6aa1ef31__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10618759/skoda-kodiaq-2.0tdi-dsg-style-business"
     },
     {
@@ -7179,7 +7179,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10602322/7e4ce194-c789-4982-a525-a04dca1998b4__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10602322/7e4ce194-c789-4982-a525-a04dca1998b4__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10602322/volkswagen-multivan-long-2.0tdi-life-7dsg-110kw"
     },
     {
@@ -7201,7 +7201,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10609471/ab288477-b3aa-41fd-9e75-05a2891f13bc__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10609471/ab288477-b3aa-41fd-9e75-05a2891f13bc__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10609471/volkswagen-multivan-long-2.0tdi-life-7dsg-110kw"
     },
     {
@@ -7223,7 +7223,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10584194/66888a1e-894c-4595-9cc1-f5f6cc6ca753__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10584194/66888a1e-894c-4595-9cc1-f5f6cc6ca753__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10584194/skoda-octavia-130let-2.0tdi-dsg-select-110kw-"
     },
     {
@@ -7245,7 +7245,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10602288/40485926-fbc6-4096-94e0-d1b40745b661__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10602288/40485926-fbc6-4096-94e0-d1b40745b661__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10602288/skoda-octavia-1.5-tsi-110kw-top-selection."
     },
     {
@@ -7267,7 +7267,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10621320/3d5b0901-1b72-457f-bc35-f1eb19c4c612__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10621320/3d5b0901-1b72-457f-bc35-f1eb19c4c612__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10621320/volkswagen-passat-elegance-2-0-tdi-142-kw-4motion"
     },
     {
@@ -7289,7 +7289,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10568706/8827a146-ff42-465c-b73b-f97b76a3d16b__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10568706/8827a146-ff42-465c-b73b-f97b76a3d16b__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10568706/volkswagen-passat-variant-2.0tsi-150kw-elegance"
     },
     {
@@ -7311,7 +7311,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10614909/278071de-726a-468d-9c7d-3de819e09c77__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10614909/278071de-726a-468d-9c7d-3de819e09c77__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10614909/audi-q3-2.0tdi-s-line-"
     },
     {
@@ -7333,7 +7333,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10613570/7d4078b7-01cf-4394-a42d-4898749859e9__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10613570/7d4078b7-01cf-4394-a42d-4898749859e9__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10613570/audi-q7-50tdi-quattro-s-line"
     },
     {
@@ -7355,7 +7355,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10611449/d59ec4f3-e96c-4063-b5a4-75cfcf76ac07__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10611449/d59ec4f3-e96c-4063-b5a4-75cfcf76ac07__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10611449/audi-rs-q8-441kw-quattro"
     },
     {
@@ -7377,7 +7377,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10516922/1d949d8e-7ca4-44ca-b73a-8b6edf9df997__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10516922/1d949d8e-7ca4-44ca-b73a-8b6edf9df997__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10516922/audi-rs7-tfsi-463-kw-quattro"
     },
     {
@@ -7399,7 +7399,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10610715/e37d87f7-93db-4cbb-a9fa-96e9d3721bc7__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10610715/e37d87f7-93db-4cbb-a9fa-96e9d3721bc7__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10610715/skoda-scala-1.0tsi-85kw-selection-"
     },
     {
@@ -7421,7 +7421,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10620909/b23195bb-28ba-409d-98fa-3c81e74ba5f9__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10620909/b23195bb-28ba-409d-98fa-3c81e74ba5f9__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10620909/skoda-scala-mc1.0tsi-dsg-85kw"
     },
     {
@@ -7443,7 +7443,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10598519/3c2426e8-0aca-40ab-bc25-182f8ec365d6__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10598519/3c2426e8-0aca-40ab-bc25-182f8ec365d6__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10598519/skoda-scala-monte-carlo-1.0tsi-85kw"
     },
     {
@@ -7465,7 +7465,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10559890/b2e03f28-496d-401c-9a6e-3d0139258645__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10559890/b2e03f28-496d-401c-9a6e-3d0139258645__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10559890/skoda-superb-business-2.0-tdi-110-kw-dsg-combi"
     },
     {
@@ -7487,7 +7487,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10614908/68fbd137-dfac-4934-9e34-406810f99ce3__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10614908/68fbd137-dfac-4934-9e34-406810f99ce3__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10614908/volkswagen-taigo-1.0tsi-dsg-style-81kw"
     },
     {
@@ -7509,7 +7509,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10621299/f74a54af-ed33-43f1-9e0f-d734313c8059__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10621299/f74a54af-ed33-43f1-9e0f-d734313c8059__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10621299/volkswagen-tayron-r-line-people-2-0-tdi-142-kw-4mot"
     },
     {
@@ -7531,7 +7531,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10614907/c9f51f57-a1a1-4e31-8a00-6c6c57828fdb__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10614907/c9f51f57-a1a1-4e31-8a00-6c6c57828fdb__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10614907/volkswagen-tiguan-2-0tdi-147kw-4motion-dsg-businesspremium"
     },
     {
@@ -7553,7 +7553,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10618758/6b46ef05-3704-4324-8184-99acd317d6d2__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10618758/6b46ef05-3704-4324-8184-99acd317d6d2__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10618758/volkswagen-tiguan-2.0tdi-dsg-goal"
     },
     {
@@ -7575,7 +7575,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10620892/59c1011a-e251-414b-9d0b-732342b91bcb__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10620892/59c1011a-e251-414b-9d0b-732342b91bcb__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10620892/volkswagen-touareg-3.0tdi-v6-193kw-r-line-4mottion"
     },
     {
@@ -7597,7 +7597,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10576655/e5f32295-3a1b-430f-8009-207100b0d0cd__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10576655/e5f32295-3a1b-430f-8009-207100b0d0cd__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10576655/volkswagen-transporter---skrinovy-vuz-2.0-tdi-110kw-dr"
     },
     {
@@ -7619,7 +7619,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10622860/6833365e-431c-4bbb-b373-2551555fc136__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10622860/6833365e-431c-4bbb-b373-2551555fc136__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10622860/skoda-enyaq-iv-4x4-rs-250-kw"
     },
     {
@@ -7641,7 +7641,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619004/dce562c7-d547-42fb-9487-355f2f8342c4__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619004/dce562c7-d547-42fb-9487-355f2f8342c4__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10619004/skoda-fabia-1.0-tsi-70-kw-ambition-"
     },
     {
@@ -7663,7 +7663,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10599878/437b8fb1-6232-4c59-a8c2-e25d879a8d71__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10599878/437b8fb1-6232-4c59-a8c2-e25d879a8d71__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10599878/skoda-fabia-1.0-tsi-70-kw-ambition"
     },
     {
@@ -7685,7 +7685,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10602627/db02a1dc-b70a-41dc-b856-4d1835d3a861__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10602627/db02a1dc-b70a-41dc-b856-4d1835d3a861__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10602627/skoda-fabia-combi-1.0-tsi-70-kw-"
     },
     {
@@ -7707,7 +7707,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10606007/db07af63-d353-40e3-a2ef-b381faa8a830__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10606007/db07af63-d353-40e3-a2ef-b381faa8a830__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10606007/skoda-fabia-combi-1.0-tsi-70-kw-"
     },
     {
@@ -7729,7 +7729,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10621057/e4076768-af68-41b6-af2d-81bcfbcc719b__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10621057/e4076768-af68-41b6-af2d-81bcfbcc719b__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10621057/skoda-fabia-1.0-tsi-85-kw-topselection"
     },
     {
@@ -7751,7 +7751,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10614266/edbc7e59-1bc3-43db-b03a-a49183763bbd__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10614266/edbc7e59-1bc3-43db-b03a-a49183763bbd__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10614266/skoda-fabia-1.0-tsi-85-kw-topselection"
     },
     {
@@ -7773,7 +7773,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10621016/9d67fda2-90b2-4ad6-a14f-7c978d68e5ec__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10621016/9d67fda2-90b2-4ad6-a14f-7c978d68e5ec__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10621016/skoda-kamiq-1.5-tsi-110-kw-style-plus"
     },
     {
@@ -7795,7 +7795,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10622727/68420134-9fcc-4b51-81f9-e0a245a9f3a2__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10622727/68420134-9fcc-4b51-81f9-e0a245a9f3a2__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10622727/skoda-kamiq-1.0-tsi-85-kw-dsg-topselection"
     },
     {
@@ -7817,7 +7817,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10622105/e3e799df-bf4d-4940-9c83-0826329d5293__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10622105/e3e799df-bf4d-4940-9c83-0826329d5293__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10622105/skoda-kamiq-1.0-tsi-85-kw-monte-carlo-"
     },
     {
@@ -7839,7 +7839,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10622173/30ca7bc3-d5a7-4c30-9936-4867de81efe1__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10622173/30ca7bc3-d5a7-4c30-9936-4867de81efe1__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10622173/skoda-karoq-1.5-tsi-110-kw-dsg-style-plus"
     },
     {
@@ -7861,7 +7861,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10622696/89c8584a-358a-4e2c-9060-16f1da1c0816__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10622696/89c8584a-358a-4e2c-9060-16f1da1c0816__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10622696/skoda-octavia-1.5-tsi-110-kw-dsg-style-plus"
     },
     {
@@ -7883,7 +7883,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10623301/65a6f09c-c872-42da-be01-4db63dbd1623__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10623301/65a6f09c-c872-42da-be01-4db63dbd1623__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10623301/skoda-octavia-1.5-tsi-85-kw-selection"
     },
     {
@@ -7905,7 +7905,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10578340/e2ba6de4-9643-4749-b81d-0c987e9f7d69__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10578340/e2ba6de4-9643-4749-b81d-0c987e9f7d69__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10578340/skoda-octavia-1.5-tsi-85-kw-selection"
     },
     {
@@ -7927,7 +7927,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10617318/0a68511f-df4d-4687-a9a1-8fb787e28d34__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10617318/0a68511f-df4d-4687-a9a1-8fb787e28d34__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10617318/skoda-octavia-combi-1.5-tsi-110-kw-selection"
     },
     {
@@ -7949,7 +7949,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10552328/5c5cf005-f05c-4554-b685-5f05406b0d0f__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10552328/5c5cf005-f05c-4554-b685-5f05406b0d0f__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10552328/skoda-octavia-2.0-tdi-110-kw-dsg-topselection"
     },
     {
@@ -7971,7 +7971,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10569820/407f9dc3-a778-4584-bfdc-ed5e909b4ee2__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10569820/407f9dc3-a778-4584-bfdc-ed5e909b4ee2__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10569820/skoda-octavia-combi-2.0-tsi-195-kw-dsg-rs"
     },
     {
@@ -7993,7 +7993,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10609954/14956b84-b79d-4432-96a0-cf8ec03e6f6b__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10609954/14956b84-b79d-4432-96a0-cf8ec03e6f6b__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10609954/skoda-octavia-2.0-tsi-195-kw-dsg-rs"
     },
     {
@@ -8015,7 +8015,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10621953/4ee66f6c-a7f9-4986-986c-760008e3310d__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10621953/4ee66f6c-a7f9-4986-986c-760008e3310d__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10621953/skoda-octavia-combi-2.0-tsi-195-kw-dsg-rs"
     },
     {
@@ -8037,7 +8037,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10569607/5ceacda7-1414-4f38-86ba-e3baef36e431__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10569607/5ceacda7-1414-4f38-86ba-e3baef36e431__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10569607/skoda-octavia-combi-2.0-tsi-195-kw-dsg-rs"
     },
     {
@@ -8059,7 +8059,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10599956/1158401d-9970-4fea-bb69-89f15b363916__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10599956/1158401d-9970-4fea-bb69-89f15b363916__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10599956/skoda-octavia-2.0-tsi-195-kw-dsg-rs"
     },
     {
@@ -8081,7 +8081,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10621922/627c3488-c677-43ba-b343-30e6ce80ef2e__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10621922/627c3488-c677-43ba-b343-30e6ce80ef2e__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10621922/volkswagen-passat-variant-2.0-tdi-110-kw-"
     },
     {
@@ -8103,7 +8103,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10604329/12a71336-87d9-42bb-a331-67dafacc5abf__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10604329/12a71336-87d9-42bb-a331-67dafacc5abf__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10604329/hyundai-santa-fe-2.2-crdi-142-kw-4x4-"
     },
     {
@@ -8125,7 +8125,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619001/a2d531c2-8555-4e7c-b74c-52e7529c6539__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619001/a2d531c2-8555-4e7c-b74c-52e7529c6539__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10619001/skoda-scala-1.0-tsi-81-kw-ambition-plus"
     },
     {
@@ -8147,7 +8147,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10617317/7b0aaf75-4269-481e-b45b-172f19f19608__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10617317/7b0aaf75-4269-481e-b45b-172f19f19608__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10617317/skoda-scala-1.5-tsi-110-kw-style"
     },
     {
@@ -8169,7 +8169,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10610527/ab7e83f4-86a9-47ba-8392-8424a7a32bef__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10610527/ab7e83f4-86a9-47ba-8392-8424a7a32bef__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10610527/skoda-scala-1.0-tsi-85-kw-selection-"
     },
     {
@@ -8191,7 +8191,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10607886/b0e97642-affc-4065-b3e8-c525287da110__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10607886/b0e97642-affc-4065-b3e8-c525287da110__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10607886/skoda-scala-1.0-tsi-85-kw-selection"
     },
     {
@@ -8213,7 +8213,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10613463/988e78b5-523d-469c-8df1-3b77beda544a__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10613463/988e78b5-523d-469c-8df1-3b77beda544a__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10613463/skoda-scala-1.0-tsi-85-kw-monte-carlo-"
     },
     {
@@ -8235,7 +8235,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10621054/2fcc91b6-d5dc-4a37-9ebb-897f8330d386__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10621054/2fcc91b6-d5dc-4a37-9ebb-897f8330d386__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10621054/skoda-scala-1.5-tsi-110-kw-monte-carlo"
     },
     {
@@ -8257,7 +8257,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10611649/4c4198c7-d525-43d5-920c-a3c7e224f86b__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10611649/4c4198c7-d525-43d5-920c-a3c7e224f86b__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10611649/skoda-scala-1.5-tsi-110-kw-dsg-monte-carlo"
     },
     {
@@ -8279,7 +8279,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10614000/a722baee-1339-417a-b6ba-340653ff9f47__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10614000/a722baee-1339-417a-b6ba-340653ff9f47__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10614000/skoda-scala-1.5-tsi-110-kw-dsg-monte-carlo"
     },
     {
@@ -8301,7 +8301,7 @@
       "firstSeen": "2026-08-29T10:55:38+02:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10621903/b369af2f-60ae-4594-aa0d-c5bc3b21d3ff__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10621903/b369af2f-60ae-4594-aa0d-c5bc3b21d3ff__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10621903/skoda-superb-combi-2.0-tsi-206-kw-4x4-dsg-l-k"
     },
     {
@@ -8323,7 +8323,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#707d75",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10616601/34b8c82b-8702-472d-8ba4-d40e99f9d3b5__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10616601/34b8c82b-8702-472d-8ba4-d40e99f9d3b5__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10616601/skoda-superb-2.0-tdi-110-kw-dsg-style-plus"
     },
     {
@@ -8345,7 +8345,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10578805/119625f5-bfec-4341-ae3f-c7712fb79259__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10578805/119625f5-bfec-4341-ae3f-c7712fb79259__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10578805/skoda-superb-2.0-tsi-200-kw-dsg-4x4-sportline"
     },
     {
@@ -8367,7 +8367,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619002/b64029c0-61a1-48b4-94ad-662441a9899b__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619002/b64029c0-61a1-48b4-94ad-662441a9899b__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10619002/skoda-superb-combi-2.0-tdi-110-kw-dsg-style-plus"
     },
     {
@@ -8389,7 +8389,7 @@
       "firstSeen": "2026-08-29T09:52:37+02:00",
       "isNew": false,
       "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10545415/d3e804df-605e-4c7f-a170-af6f2030adf9__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10545415/d3e804df-605e-4c7f-a170-af6f2030adf9__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10545415/skoda-superb-combi-2.0-tsi-195-kw-dsg-4x4-l-k"
     },
     {
@@ -8411,7 +8411,7 @@
       "firstSeen": "2026-08-29T08:53:32+00:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10623302/fcf645a8-2bd2-48de-a1ea-e290ad2ff447__thumbnail.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10623302/fcf645a8-2bd2-48de-a1ea-e290ad2ff447__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10623302/volkswagen-tiguan-allspace-1.5-tsi-110-kw-dsg"
     }
   ]
