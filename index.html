@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=5" />
   </head>
   <body>
     <header class="topbar">
@@ -76,23 +76,27 @@
           <button class="location-tab" data-city="Brno">Brno <span id="brnoTabCount">0</span></button>
         </div>
         <div class="filter-row">
-          <label class="select-wrap">
-            <span class="sr-only">Model</span>
+          <label class="select-wrap filter-field model-filter">
+            <span class="filter-label">Model</span>
             <select id="modelFilter"><option value="all">Všechny modely</option></select>
           </label>
-          <label class="select-wrap">
-            <span class="sr-only">Maximální cena</span>
-            <select id="priceFilter">
-              <option value="all">Jakákoliv cena</option>
-              <option value="500000">Do 500 000 Kč</option>
-              <option value="700000">Do 700 000 Kč</option>
-              <option value="900000">Do 900 000 Kč</option>
-              <option value="1200000">Do 1 200 000 Kč</option>
-            </select>
-          </label>
+          <div class="range-filter">
+            <span class="filter-label">Cena</span>
+            <div class="range-controls">
+              <label class="select-wrap"><span class="sr-only">Cena od</span><select id="minPriceFilter"><option value="all">Od</option></select></label>
+              <label class="select-wrap"><span class="sr-only">Cena do</span><select id="maxPriceFilter"><option value="all">Do</option></select></label>
+            </div>
+          </div>
+          <div class="range-filter">
+            <span class="filter-label">Nájezd</span>
+            <div class="range-controls">
+              <label class="select-wrap"><span class="sr-only">Nájezd od</span><select id="minMileageFilter"><option value="all">Od</option></select></label>
+              <label class="select-wrap"><span class="sr-only">Nájezd do</span><select id="maxMileageFilter"><option value="all">Do</option></select></label>
+            </div>
+          </div>
           <label class="check-filter"><input type="checkbox" id="onlyChanges" /><span></span> Jen novinky a zlevnění</label>
-          <label class="select-wrap sort-wrap">
-            <span class="sr-only">Řazení</span>
+          <label class="select-wrap filter-field sort-wrap">
+            <span class="filter-label">Řazení</span>
             <select id="sortFilter">
               <option value="newest">Nejnovější</option>
               <option value="price-asc">Cena od nejnižší</option>
@@ -160,6 +164,6 @@
       </article>
     </template>
 
-    <script src="app.js?v=4" defer></script>
+    <script src="app.js?v=5" defer></script>
   </body>
 </html>

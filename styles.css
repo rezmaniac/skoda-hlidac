@@ -78,13 +78,21 @@ h1 span { color: var(--green); }
 .location-tab span { margin-left: 5px; padding: 2px 7px; border-radius: 100px; background: var(--surface-2); font-size: 11px; }
 .location-tab.active { background: var(--green); color: #fff; }
 .location-tab.active span { background: rgba(255,255,255,.17); }
-.filter-row { display: flex; align-items: center; gap: 10px; padding: 10px 4px 2px; }
+.filter-row { display: flex; align-items: end; flex-wrap: wrap; gap: 10px; padding: 12px 4px 2px; }
 .select-wrap { position: relative; }
 .select-wrap::after { content: "⌄"; position: absolute; right: 13px; top: 48%; transform: translateY(-50%); color: var(--muted); pointer-events: none; }
+.filter-field::after { top: auto; bottom: 12px; transform: none; }
+.filter-field select { width: 100%; }
+.filter-label { display: block; margin: 0 0 6px 2px; color: var(--muted); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .55px; }
+.model-filter { flex: 1 1 170px; }
+.range-filter { flex: 2 1 280px; }
+.range-controls { display: grid; grid-template-columns: repeat(2, minmax(130px, 1fr)); gap: 6px; }
+.range-controls .select-wrap, .range-controls select { width: 100%; }
+.range-controls select { min-width: 0; }
 select { min-width: 170px; padding: 11px 34px 11px 13px; appearance: none; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--ink); cursor: pointer; outline: none; }
 select:focus { border-color: var(--green); box-shadow: 0 0 0 3px color-mix(in srgb, var(--green) 13%, transparent); }
-.sort-wrap { margin-left: auto; }
-.check-filter { display: flex; align-items: center; gap: 9px; color: var(--muted); font-size: 13px; font-weight: 600; cursor: pointer; }
+.sort-wrap { flex: 0 1 180px; margin-left: auto; }
+.check-filter { min-height: 43px; display: flex; align-items: center; gap: 9px; color: var(--muted); font-size: 13px; font-weight: 600; cursor: pointer; }
 .check-filter input { position: absolute; opacity: 0; }
 .check-filter span { width: 36px; height: 20px; padding: 2px; border-radius: 100px; background: var(--line); transition: .2s; }
 .check-filter span::after { content: ""; display: block; width: 16px; height: 16px; border-radius: 50%; background: white; box-shadow: 0 1px 4px rgba(0,0,0,.2); transition: .2s; }
@@ -167,6 +175,7 @@ footer { padding: 24px 0 42px; display: flex; justify-content: space-between; ga
   .stat-card { min-height: 124px; padding: 16px; }
   .stat-card strong { font-size: 25px; }
   .filter-row > * { width: 100%; }
+  .range-controls { grid-template-columns: 1fr 1fr; }
   select { width: 100%; }
   .check-filter { padding: 7px 2px; }
   .results { padding-top: 42px; }

@@ -2,7 +2,10 @@ const state = {
   offers: [],
   city: "all",
   model: "all",
+  minPrice: "all",
   maxPrice: "all",
+  minMileage: "all",
+  maxMileage: "all",
   onlyChanges: false,
   sort: "newest",
 };
@@ -12,7 +15,10 @@ const elements = {
   template: document.querySelector("#carCardTemplate"),
   empty: document.querySelector("#emptyState"),
   model: document.querySelector("#modelFilter"),
-  price: document.querySelector("#priceFilter"),
+  minPrice: document.querySelector("#minPriceFilter"),
+  maxPrice: document.querySelector("#maxPriceFilter"),
+  minMileage: document.querySelector("#minMileageFilter"),
+  maxMileage: document.querySelector("#maxMileageFilter"),
   onlyChanges: document.querySelector("#onlyChanges"),
   sort: document.querySelector("#sortFilter"),
 };
@@ -35,7 +41,10 @@ function filteredOffers() {
   return state.offers
     .filter(offer => state.city === "all" || offer.city === state.city)
     .filter(offer => state.model === "all" || offer.model === state.model)
+    .filter(offer => state.minPrice === "all" || offer.price >= Number(state.minPrice))
     .filter(offer => state.maxPrice === "all" || offer.price <= Number(state.maxPrice))
+    .filter(offer => state.minMileage === "all" || offer.mileage >= Number(state.minMileage))
+    .filter(offer => state.maxMileage === "all" || offer.mileage <= Number(state.maxMileage))
     .filter(offer => !state.onlyChanges || offer.isNew || offer.previousPrice > offer.price)
     .sort((a, b) => {
       if (state.sort === "price-asc") return a.price - b.price;
@@ -121,13 +130,44 @@ function render() {
 function resetFilters() {
   state.city = "all";
   state.model = "all";
+  state.minPrice = "all";
   state.maxPrice = "all";
+  state.minMileage = "all";
+  state.maxMileage = "all";
   state.onlyChanges = false;
   state.sort = "newest";
   elements.model.value = "all";
-  elements.price.value = "all";
+  elements.minPrice.value = "all";
+  elements.maxPrice.value = "all";
+  elements.minMileage.value = "all";
+  elements.maxMileage.value = "all";
   elements.onlyChanges.checked = false;
   elements.sort.value = "newest";
+  render();
+}
+
+function populateRange(select, start, end, step, formatter) {
+  for (let value = start; value <= end; value += step) {
+    select.add(new Option(formatter(value), String(value)));
+  }
+}
+
+function updateRange(kind, changedBound) {
+  const minKey = `min${kind}`;
+  const maxKey = `max${kind}`;
+  const minElement = elements[minKey];
+  const maxElement = elements[maxKey];
+  state[minKey] = minElement.value;
+  state[maxKey] = maxElement.value;
+  if (state[minKey] !== "all" && state[maxKey] !== "all" && Number(state[minKey]) > Number(state[maxKey])) {
+    if (changedBound === "min") {
+      state[maxKey] = state[minKey];
+      maxElement.value = state[maxKey];
+    } else {
+      state[minKey] = state[maxKey];
+      minElement.value = state[minKey];
+    }
+  }
   render();
 }
 
@@ -137,7 +177,10 @@ function bindControls() {
     render();
   }));
   elements.model.addEventListener("change", event => { state.model = event.target.value; render(); });
-  elements.price.addEventListener("change", event => { state.maxPrice = event.target.value; render(); });
+  elements.minPrice.addEventListener("change", () => updateRange("Price", "min"));
+  elements.maxPrice.addEventListener("change", () => updateRange("Price", "max"));
+  elements.minMileage.addEventListener("change", () => updateRange("Mileage", "min"));
+  elements.maxMileage.addEventListener("change", () => updateRange("Mileage", "max"));
   elements.onlyChanges.addEventListener("change", event => { state.onlyChanges = event.target.checked; render(); });
   elements.sort.addEventListener("change", event => { state.sort = event.target.value; render(); });
   document.querySelector("#resetFilters").addEventListener("click", resetFilters);
@@ -161,6 +204,12 @@ async function initialize() {
     document.querySelector("#demoBadge").hidden = !data.demo;
     const models = [...new Set(state.offers.map(offer => offer.model))].sort((a, b) => a.localeCompare(b, "cs"));
     models.forEach(model => elements.model.add(new Option(model, model)));
+    const maximumPrice = Math.ceil(Math.max(...state.offers.map(offer => offer.price), 100000) / 50000) * 50000;
+    populateRange(elements.minPrice, 100000, maximumPrice, 50000, value => `Od ${formatNumber(value)} Kč`);
+    populateRange(elements.maxPrice, 100000, maximumPrice, 50000, value => `Do ${formatNumber(value)} Kč`);
+    const maximumMileage = Math.ceil(Math.max(...state.offers.map(offer => offer.mileage), 0) / 25000) * 25000;
+    populateRange(elements.minMileage, 0, maximumMileage, 25000, value => `Od ${formatNumber(value)} km`);
+    populateRange(elements.maxMileage, 0, maximumMileage, 25000, value => `Do ${formatNumber(value)} km`);
     document.querySelector("#allTabCount").textContent = state.offers.length;
     document.querySelector("#ivanciceTabCount").textContent = state.offers.filter(offer => offer.city === "Ivančice").length;
     document.querySelector("#brnoTabCount").textContent = state.offers.filter(offer => offer.city === "Brno").length;
