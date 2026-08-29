@@ -41,7 +41,7 @@ query Cars($filter: CarFilterInput, $first: Int, $after: String, $lang: Lang!) {
         transmission { id }
         equipmentLevel { value }
         prettyUrl
-        images(limit: 1) { thumbnailUrl }
+        images(limit: 1) { thumbnailUrl normalUrl }
       }
     }
     pageInfo { endCursor hasNextPage }
@@ -152,7 +152,7 @@ def normalize(node: dict, dealer_cities: dict[str, str], previous: dict[str, dic
     model = node.get("model") or {}
     trim = (node.get("equipmentLevel") or {}).get("value") or ""
     images = node.get("images") or []
-    image_path = images[0].get("thumbnailUrl") if images else None
+    image_path = (images[0].get("normalUrl") or images[0].get("thumbnailUrl")) if images else None
     pretty_url = node.get("prettyUrl") or ""
     dealer = node.get("dealer") or {}
     first_seen = old.get("firstSeen") if old else now

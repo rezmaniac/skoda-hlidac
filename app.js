@@ -63,13 +63,17 @@ function makeBadge(text, className) {
   return badge;
 }
 
+function normalImageUrl(url) {
+  return url?.replace(/__thumbnail\.jpg(?:$|\?)/, match => match.replace("__thumbnail", "__normal"));
+}
+
 function renderCard(offer) {
   const fragment = elements.template.content.cloneNode(true);
   const card = fragment.querySelector(".car-card");
   card.style.setProperty("--car-color", offer.color || "#3a6155");
   const photo = fragment.querySelector(".car-photo");
   if (offer.imageUrl) {
-    photo.src = offer.imageUrl;
+    photo.src = normalImageUrl(offer.imageUrl);
     photo.alt = `${offer.make} ${offer.model} ${offer.trim}`.trim();
   }
   fragment.querySelector(".location-badge").textContent = offer.city;
