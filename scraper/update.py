@@ -24,6 +24,7 @@ PAGE_SIZE = 100
 
 QUERY = """
 query Cars($filter: CarFilterInput, $first: Int, $after: String, $lang: Lang!) {
+  carsCount(filter: $filter)
   cars(first: $first, after: $after, filter: $filter) {
     edges {
       node {
@@ -59,10 +60,19 @@ def load_json(path: pathlib.Path, fallback):
 
 
 def graphql_request(dealer_ids: list[str], after: str | None = None) -> dict:
+    car_filter = {
+        "dealers": dealer_ids,
+        "regionCountry": "CZ",
+        "carsOrderBy": "FIRST_REGISTRATION_DESC",
+        "skodaPlus": True,
+        "oneYearCar": True,
+        "usedCar": True,
+        "demoCarTypes": ["EMPTY", "FOR_SALE", "ON_REQUEST"],
+    }
     body = json.dumps({
         "query": QUERY,
         "variables": {
-            "filter": {"dealers": dealer_ids, "regionCountry": "CZ"},
+            "filter": car_filter,
             "first": PAGE_SIZE,
             "after": after,
             "lang": "CS",
@@ -84,7 +94,7 @@ def graphql_request(dealer_ids: list[str], after: str | None = None) -> dict:
                 payload = json.load(response)
             if payload.get("errors"):
                 raise RuntimeError(f"GraphQL error: {payload['errors'][0].get('message', 'unknown')}")
-            return payload["data"]["cars"]
+            return payload["data"]
         except (urllib.error.URLError, TimeoutError) as exc:
             if attempt == 2:
                 raise RuntimeError(f"Škoda Plus request failed: {exc}") from exc
@@ -95,11 +105,19 @@ def graphql_request(dealer_ids: list[str], after: str | None = None) -> dict:
 def fetch_all(dealer_ids: list[str]) -> list[dict]:
     nodes: list[dict] = []
     after = None
+    expected_count = None
     while True:
-        page = graphql_request(dealer_ids, after)
+        result = graphql_request(dealer_ids, after)
+        page = result["cars"]
+        expected_count = int(result["carsCount"])
         nodes.extend(edge["node"] for edge in page.get("edges", []))
         info = page.get("pageInfo") or {}
         if not info.get("hasNextPage"):
+            unique = {node["id"]: node for node in nodes}
+            if len(unique) != len(nodes):
+                raise RuntimeError(f"Pagination returned {len(nodes) - len(unique)} duplicate offers")
+            if len(nodes) != expected_count:
+                raise RuntimeError(f"Expected {expected_count} offers, downloaded {len(nodes)}")
             return nodes
         after = info.get("endCursor")
         if not after:
@@ -226,7 +244,11 @@ def main() -> int:
         raise RuntimeError("No dealers configured")
     previous_snapshot = load_json(DATA_PATH, {})
     previous_offers = {offer["id"]: offer for offer in previous_snapshot.get("offers", [])}
-    baseline = not previous_offers or bool(previous_snapshot.get("demo"))
+    baseline = (
+        not previous_offers
+        or bool(previous_snapshot.get("demo"))
+        or previous_snapshot.get("schemaVersion") != 2
+    )
     now = dt.datetime.now(dt.timezone.utc).astimezone().isoformat(timespec="seconds")
     dealer_ids = [dealer["id"] for dealer in dealers]
     dealer_cities = {dealer["id"]: dealer["city"] for dealer in dealers}
@@ -242,6 +264,7 @@ def main() -> int:
         if offer["previousPrice"] > offer["price"] and matches_notification_filter(offer, filters)
     ]
     snapshot = {
+        "schemaVersion": 2,
         "generatedAt": now,
         "demo": False,
         "source": GRAPHQL_URL,
