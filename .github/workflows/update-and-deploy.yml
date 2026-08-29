@@ -1,0 +1,73 @@
+name: Aktualizovat data a publikovat web
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 6 * * *"
+      timezone: "Europe/Prague"
+  workflow_dispatch:
+    inputs:
+      test_telegram:
+        description: Poslat testovací Telegram zprávu
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: skoda-hlidac
+  cancel-in-progress: false
+
+jobs:
+  update-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Stáhnout repozitář
+        uses: actions/checkout@v6
+
+      - name: Nastavit Python
+        if: github.event_name != 'push'
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Stáhnout a porovnat nabídky
+        if: github.event_name != 'push'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_TEST: ${{ inputs.test_telegram && '1' || '0' }}
+        run: python scraper/update.py
+
+      - name: Uložit aktuální data
+        if: github.event_name != 'push'
+        run: |
+          if git diff --quiet -- data/latest.json; then
+            echo "Data se nezměnila."
+            exit 0
+          fi
+          git config user.name "skoda-hlidac-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/latest.json
+          git commit -m "data: denní aktualizace nabídek"
+          git push
+
+      - name: Nastavit GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Připravit web
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: .
+
+      - name: Publikovat GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

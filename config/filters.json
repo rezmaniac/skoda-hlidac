@@ -1,0 +1,16 @@
+{
+  "dealers": [
+    { "id": "Dealer-264", "city": "Ivančice", "name": "IVACAR 2000, a.s." },
+    { "id": "Dealer-171", "city": "Brno", "name": "Porsche Brno" },
+    { "id": "Dealer-10205", "city": "Brno", "name": "ARAVER CZ – Brno" },
+    { "id": "Dealer-21", "city": "Brno", "name": "AUTONOVA BRNO s.r.o." },
+    { "id": "Dealer-39", "city": "Brno", "name": "Direct auto Brno, s.r.o." },
+    { "id": "Dealer-142", "city": "Brno", "name": "AUTO IN BRNO a.s." }
+  ],
+  "notifications": {
+    "models": [],
+    "maxPrice": null,
+    "maxMileage": null,
+    "minYear": null
+  }
+}

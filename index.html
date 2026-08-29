@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Denní přehled vybraných nabídek vozů Škoda Plus z Ivančic a Brna." />
+    <meta name="theme-color" content="#0b1713" />
+    <title>Hlídač vozů — Ivančice & Brno</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="Hlídač vozů – domů">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" role="img"><path d="M6.2 18.2 9.1 11A4.8 4.8 0 0 1 13.6 8h5.1a4.8 4.8 0 0 1 4.5 3l2.7 7.2M4 19.7h24v4.8a2 2 0 0 1-2 2h-1.1a2 2 0 0 1-2-2v-.8H9v.8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-4.8Z"/><circle cx="9" cy="20" r="1.7"/><circle cx="23" cy="20" r="1.7"/></svg>
+        </span>
+        <span>Hlídač<span class="brand-accent">vozů</span></span>
+      </a>
+      <div class="topbar-right">
+        <span class="status-pill"><span class="status-dot"></span> Denní kontrola připravena</span>
+        <button class="icon-button" id="themeButton" aria-label="Přepnout barevný režim" title="Přepnout barevný režim">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.3 15.7A9 9 0 0 1 8.3 3.7 9 9 0 1 0 20.3 15.7Z"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Ivančice · Brno</p>
+          <h1>Dobré auto se objeví.<br /><span>My ho nepřehlédneme.</span></h1>
+          <p class="hero-text">Každý den kontrolujeme vybrané nabídky a ukážeme nové vozy i změny cen na jednom místě.</p>
+        </div>
+        <div class="update-card">
+          <span class="update-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M18 8a6 6 0 1 0 .2 7.8M18 4v4h-4"/></svg>
+          </span>
+          <div>
+            <span>Poslední kontrola</span>
+            <strong id="lastUpdated">Načítám…</strong>
+          </div>
+          <span class="demo-badge" id="demoBadge">DEMO</span>
+        </div>
+      </section>
+
+      <section class="stats" aria-label="Souhrn nabídek">
+        <article class="stat-card stat-primary">
+          <span class="stat-label">Sledované vozy</span>
+          <strong id="totalCount">—</strong>
+          <span class="stat-note">v aktuálním výběru</span>
+        </article>
+        <article class="stat-card">
+          <span class="stat-label">Nové nabídky</span>
+          <strong id="newCount">—</strong>
+          <span class="stat-note positive">od poslední kontroly</span>
+        </article>
+        <article class="stat-card">
+          <span class="stat-label">Zlevněné</span>
+          <strong id="discountCount">—</strong>
+          <span class="stat-note">změna ceny</span>
+        </article>
+        <article class="stat-card">
+          <span class="stat-label">Průměrná cena</span>
+          <strong id="averagePrice">—</strong>
+          <span class="stat-note">zobrazených vozů</span>
+        </article>
+      </section>
+
+      <section class="toolbar" aria-label="Filtry nabídek">
+        <div class="location-tabs" role="group" aria-label="Lokalita">
+          <button class="location-tab active" data-city="all">Všechny <span id="allTabCount">0</span></button>
+          <button class="location-tab" data-city="Ivančice">Ivančice <span id="ivanciceTabCount">0</span></button>
+          <button class="location-tab" data-city="Brno">Brno <span id="brnoTabCount">0</span></button>
+        </div>
+        <div class="filter-row">
+          <label class="select-wrap">
+            <span class="sr-only">Model</span>
+            <select id="modelFilter"><option value="all">Všechny modely</option></select>
+          </label>
+          <label class="select-wrap">
+            <span class="sr-only">Maximální cena</span>
+            <select id="priceFilter">
+              <option value="all">Jakákoliv cena</option>
+              <option value="500000">Do 500 000 Kč</option>
+              <option value="700000">Do 700 000 Kč</option>
+              <option value="900000">Do 900 000 Kč</option>
+              <option value="1200000">Do 1 200 000 Kč</option>
+            </select>
+          </label>
+          <label class="check-filter"><input type="checkbox" id="onlyChanges" /><span></span> Jen novinky a zlevnění</label>
+          <label class="select-wrap sort-wrap">
+            <span class="sr-only">Řazení</span>
+            <select id="sortFilter">
+              <option value="newest">Nejnovější</option>
+              <option value="price-asc">Cena od nejnižší</option>
+              <option value="price-desc">Cena od nejvyšší</option>
+              <option value="mileage">Nejnižší nájezd</option>
+            </select>
+          </label>
+        </div>
+      </section>
+
+      <section class="results">
+        <div class="results-heading">
+          <div>
+            <p class="eyebrow">Aktuální nabídky</p>
+            <h2 id="resultHeading">0 vozů odpovídá výběru</h2>
+          </div>
+          <p class="results-note">Data se kontrolují jednou denně</p>
+        </div>
+        <div class="car-grid" id="carGrid" aria-live="polite"></div>
+        <div class="empty-state" id="emptyState" hidden>
+          <span>Žádný vůz neodpovídá vybraným filtrům.</span>
+          <button id="resetFilters">Zrušit filtry</button>
+        </div>
+      </section>
+
+      <section class="notify-banner">
+        <div class="telegram-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="m21.5 3.7-3.1 16.1c-.2 1.1-.9 1.4-1.8.9l-4.8-3.5-2.3 2.2c-.3.3-.5.5-1 .5l.3-4.9 9-8.1c.4-.3-.1-.5-.6-.2L6.1 13.8l-4.7-1.5c-1-.3-1-1 .2-1.5L20 3.7c.9-.3 1.7.2 1.5 0Z"/></svg>
+        </div>
+        <div class="notify-copy">
+          <p class="eyebrow">Telegram upozornění</p>
+          <h2>Nový vůz? Budete vědět první.</h2>
+          <p>Po napojení dat vám hlídač pošle nové nabídky a zlevnění přímo do telefonu.</p>
+        </div>
+        <button class="notify-button" disabled title="Bude aktivováno po napojení Telegram bota">Připraveno k napojení</button>
+      </section>
+    </main>
+
+    <footer>
+      <p>Neoficiální hlídač veřejných nabídek. Data a odkazy pocházejí z webu Škoda Plus.</p>
+      <p>Vyrobeno pro rychlejší hledání správného auta.</p>
+    </footer>
+
+    <template id="carCardTemplate">
+      <article class="car-card">
+        <div class="car-visual">
+          <img class="car-photo" alt="" loading="lazy" />
+          <div class="car-shape" aria-hidden="true">
+            <svg viewBox="0 0 300 130"><path d="M36 91c4-17 12-27 27-31l31-7 31-26c8-7 17-10 28-10h50c12 0 21 4 28 13l19 24 29 10c10 4 16 12 17 23l1 12H25l2-9c1-5 4-8 9-9Z"/><path d="m111 52 25-22c5-4 11-6 18-6h22v29l-65-1Zm73-28h16c9 0 15 3 21 10l15 20-52-1V24Z" class="window"/><circle cx="78" cy="97" r="23"/><circle cx="236" cy="97" r="23"/><circle cx="78" cy="97" r="11" class="rim"/><circle cx="236" cy="97" r="11" class="rim"/></svg>
+          </div>
+          <div class="card-badges"></div>
+          <span class="location-badge"></span>
+        </div>
+        <div class="car-content">
+          <div class="car-title-row"><div><p class="car-make"></p><h3 class="car-name"></h3></div><button class="save-button" aria-label="Uložit vůz"><svg viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1.1L12 21l7.8-7.5 1.1-1.1a5.5 5.5 0 0 0-.1-7.8Z"/></svg></button></div>
+          <p class="car-engine"></p>
+          <dl class="car-specs">
+            <div><dt>Rok</dt><dd class="car-year"></dd></div>
+            <div><dt>Nájezd</dt><dd class="car-mileage"></dd></div>
+            <div><dt>Převodovka</dt><dd class="car-transmission"></dd></div>
+          </dl>
+          <div class="price-row"><div><span class="previous-price"></span><strong class="current-price"></strong></div><a class="detail-link" target="_blank" rel="noopener">Detail <span>↗</span></a></div>
+          <p class="dealer-name"></p>
+        </div>
+      </article>
+    </template>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
