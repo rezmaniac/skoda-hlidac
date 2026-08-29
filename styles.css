@@ -84,7 +84,7 @@ h1 span { color: var(--green); }
 .filter-field::after { top: auto; bottom: 12px; transform: none; }
 .filter-field select { width: 100%; }
 .filter-label { display: block; margin: 0 0 6px 2px; color: var(--muted); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .55px; }
-.model-filter { flex: 1 1 170px; }
+.make-filter, .model-filter { flex: 1 1 160px; }
 .range-filter { flex: 2 1 280px; }
 .range-controls { display: grid; grid-template-columns: repeat(2, minmax(130px, 1fr)); gap: 6px; }
 .range-controls .select-wrap, .range-controls select { width: 100%; }

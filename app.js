@@ -1,6 +1,7 @@
 const state = {
   offers: [],
   city: "all",
+  make: "all",
   model: "all",
   minPrice: "all",
   maxPrice: "all",
@@ -14,6 +15,7 @@ const elements = {
   grid: document.querySelector("#carGrid"),
   template: document.querySelector("#carCardTemplate"),
   empty: document.querySelector("#emptyState"),
+  make: document.querySelector("#makeFilter"),
   model: document.querySelector("#modelFilter"),
   minPrice: document.querySelector("#minPriceFilter"),
   maxPrice: document.querySelector("#maxPriceFilter"),
@@ -40,6 +42,7 @@ const carCountLabel = count => {
 function filteredOffers() {
   return state.offers
     .filter(offer => state.city === "all" || offer.city === state.city)
+    .filter(offer => state.make === "all" || offer.make === state.make)
     .filter(offer => state.model === "all" || offer.model === state.model)
     .filter(offer => state.minPrice === "all" || offer.price >= Number(state.minPrice))
     .filter(offer => state.maxPrice === "all" || offer.price <= Number(state.maxPrice))
@@ -129,6 +132,7 @@ function render() {
 
 function resetFilters() {
   state.city = "all";
+  state.make = "all";
   state.model = "all";
   state.minPrice = "all";
   state.maxPrice = "all";
@@ -136,6 +140,8 @@ function resetFilters() {
   state.maxMileage = "all";
   state.onlyChanges = false;
   state.sort = "newest";
+  elements.make.value = "all";
+  populateModelOptions();
   elements.model.value = "all";
   elements.minPrice.value = "all";
   elements.maxPrice.value = "all";
@@ -144,6 +150,19 @@ function resetFilters() {
   elements.onlyChanges.checked = false;
   elements.sort.value = "newest";
   render();
+}
+
+function populateModelOptions() {
+  const currentModel = state.model;
+  const models = [...new Set(
+    state.offers
+      .filter(offer => state.make === "all" || offer.make === state.make)
+      .map(offer => offer.model),
+  )].sort((a, b) => a.localeCompare(b, "cs"));
+  elements.model.replaceChildren(new Option("Všechny modely", "all"));
+  models.forEach(model => elements.model.add(new Option(model, model)));
+  state.model = models.includes(currentModel) ? currentModel : "all";
+  elements.model.value = state.model;
 }
 
 function populateRange(select, start, end, step, formatter) {
@@ -176,6 +195,11 @@ function bindControls() {
     state.city = button.dataset.city;
     render();
   }));
+  elements.make.addEventListener("change", event => {
+    state.make = event.target.value;
+    populateModelOptions();
+    render();
+  });
   elements.model.addEventListener("change", event => { state.model = event.target.value; render(); });
   elements.minPrice.addEventListener("change", () => updateRange("Price", "min"));
   elements.maxPrice.addEventListener("change", () => updateRange("Price", "max"));
@@ -202,8 +226,9 @@ async function initialize() {
       timeStyle: "short",
     }).format(new Date(data.generatedAt));
     document.querySelector("#demoBadge").hidden = !data.demo;
-    const models = [...new Set(state.offers.map(offer => offer.model))].sort((a, b) => a.localeCompare(b, "cs"));
-    models.forEach(model => elements.model.add(new Option(model, model)));
+    const makes = [...new Set(state.offers.map(offer => offer.make))].sort((a, b) => a.localeCompare(b, "cs"));
+    makes.forEach(make => elements.make.add(new Option(make, make)));
+    populateModelOptions();
     const maximumPrice = Math.ceil(Math.max(...state.offers.map(offer => offer.price), 100000) / 50000) * 50000;
     populateRange(elements.minPrice, 100000, maximumPrice, 50000, value => `Od ${formatNumber(value)} Kč`);
     populateRange(elements.maxPrice, 100000, maximumPrice, 50000, value => `Do ${formatNumber(value)} Kč`);
