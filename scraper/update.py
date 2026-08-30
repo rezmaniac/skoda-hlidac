@@ -142,7 +142,7 @@ def transmission_name(node: dict) -> str:
     return "Automat" if transmission_id == "transmission_2" else "Manuál"
 
 
-def normalize(node: dict, dealer_cities: dict[str, str], previous: dict[str, dict], baseline: bool, now: str) -> dict:
+def normalize(node: dict, dealers_by_id: dict[str, dict], previous: dict[str, dict], baseline: bool, now: str) -> dict:
     raw_id = node["id"]
     car_id = raw_id.replace("Car-", "")
     old = previous.get(car_id)
@@ -160,6 +160,7 @@ def normalize(node: dict, dealer_cities: dict[str, str], previous: dict[str, dic
     pretty_url = node.get("prettyUrl") or ""
     dealer = node.get("dealer") or {}
     first_seen = old.get("firstSeen") if old else now
+    dealer_config = dealers_by_id.get(dealer.get("id"), {})
     return {
         "id": car_id,
         "make": (model.get("carMake") or {}).get("name") or "",
@@ -175,7 +176,8 @@ def normalize(node: dict, dealer_cities: dict[str, str], previous: dict[str, dic
         "previousPrice": old_price,
         "dealer": dealer.get("name") or "",
         "dealerId": dealer.get("id") or "",
-        "city": dealer_cities.get(dealer.get("id"), (dealer.get("address") or {}).get("city") or ""),
+        "city": dealer_config.get("city") or (dealer.get("address") or {}).get("city") or "",
+        "area": dealer_config.get("area") or "Okolí Brna",
         "firstSeen": first_seen,
         "isNew": bool(old is None and not baseline),
         "color": COLORS[sum(ord(char) for char in car_id) % len(COLORS)],
@@ -255,13 +257,13 @@ def main() -> int:
     baseline = (
         not previous_offers
         or bool(previous_snapshot.get("demo"))
-        or previous_snapshot.get("schemaVersion") != 2
+        or previous_snapshot.get("schemaVersion") != 3
     )
     now = dt.datetime.now(dt.timezone.utc).astimezone().isoformat(timespec="seconds")
     dealer_ids = [dealer["id"] for dealer in dealers]
-    dealer_cities = {dealer["id"]: dealer["city"] for dealer in dealers}
+    dealers_by_id = {dealer["id"]: dealer for dealer in dealers}
     raw_offers = fetch_all(dealer_ids)
-    offers = [normalize(node, dealer_cities, previous_offers, baseline, now) for node in raw_offers]
+    offers = [normalize(node, dealers_by_id, previous_offers, baseline, now) for node in raw_offers]
     offers.sort(key=lambda offer: (offer["city"], offer["dealer"], offer["model"], offer["price"]))
     current_ids = {offer["id"] for offer in offers}
     removed_ids = sorted(set(previous_offers) - current_ids) if not baseline else []
@@ -272,7 +274,7 @@ def main() -> int:
         if offer["previousPrice"] > offer["price"] and matches_notification_filter(offer, filters)
     ]
     snapshot = {
-        "schemaVersion": 2,
+        "schemaVersion": 3,
         "generatedAt": now,
         "demo": False,
         "source": GRAPHQL_URL,

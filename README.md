@@ -1,6 +1,6 @@
 # Hlídač vozů
 
-Statický frontend pro GitHub Pages s hodinovým načítáním veřejných nabídek Škoda Plus z Ivančic a Brna během dne.
+Statický frontend pro GitHub Pages s hodinovým načítáním veřejných nabídek Škoda Plus z Brna a praktického dojezdového okruhu přibližně 100 km během dne.
 
 ## Lokální spuštění
 

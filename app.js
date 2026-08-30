@@ -1,6 +1,6 @@
 const state = {
   offers: [],
-  city: "all",
+  area: "all",
   make: "all",
   model: "all",
   minPrice: "all",
@@ -41,7 +41,7 @@ const carCountLabel = count => {
 
 function filteredOffers() {
   return state.offers
-    .filter(offer => state.city === "all" || offer.city === state.city)
+    .filter(offer => state.area === "all" || offer.area === state.area)
     .filter(offer => state.make === "all" || offer.make === state.make)
     .filter(offer => state.model === "all" || offer.model === state.model)
     .filter(offer => state.minPrice === "all" || offer.price >= Number(state.minPrice))
@@ -127,11 +127,11 @@ function render() {
   elements.empty.hidden = offers.length > 0;
   elements.grid.hidden = offers.length === 0;
   updateStats(offers);
-  document.querySelectorAll(".location-tab").forEach(button => button.classList.toggle("active", button.dataset.city === state.city));
+  document.querySelectorAll(".location-tab").forEach(button => button.classList.toggle("active", button.dataset.area === state.area));
 }
 
 function resetFilters() {
-  state.city = "all";
+  state.area = "all";
   state.make = "all";
   state.model = "all";
   state.minPrice = "all";
@@ -192,7 +192,7 @@ function updateRange(kind, changedBound) {
 
 function bindControls() {
   document.querySelectorAll(".location-tab").forEach(button => button.addEventListener("click", () => {
-    state.city = button.dataset.city;
+    state.area = button.dataset.area;
     render();
   }));
   elements.make.addEventListener("change", event => {
@@ -236,8 +236,8 @@ async function initialize() {
     populateRange(elements.minMileage, 0, maximumMileage, 25000, value => `Od ${formatNumber(value)} km`);
     populateRange(elements.maxMileage, 0, maximumMileage, 25000, value => `Do ${formatNumber(value)} km`);
     document.querySelector("#allTabCount").textContent = state.offers.length;
-    document.querySelector("#ivanciceTabCount").textContent = state.offers.filter(offer => offer.city === "Ivančice").length;
-    document.querySelector("#brnoTabCount").textContent = state.offers.filter(offer => offer.city === "Brno").length;
+    document.querySelector("#brnoTabCount").textContent = state.offers.filter(offer => offer.area === "Brno").length;
+    document.querySelector("#nearbyTabCount").textContent = state.offers.filter(offer => offer.area === "Okolí Brna").length;
     render();
   } catch (error) {
     elements.grid.innerHTML = `<p class="load-error">Data se nepodařilo načíst. Spusťte stránku přes lokální HTTP server.</p>`;

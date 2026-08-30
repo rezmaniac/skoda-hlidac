@@ -4,7 +4,7 @@ Aktualizováno: 29. 8. 2026
 
 ## Co projekt dělá
 
-Web sleduje veřejné nabídky Škoda Plus u vybraných prodejců v Ivančicích a Brně. Každou hodinu přes den stáhne nabídky, ukáže je na statickém webu a do Telegramu odešle upozornění pouze na nové vozy nebo zlevnění, které odpovídají nastavenému filtru.
+Web sleduje veřejné nabídky Škoda Plus u vybraných prodejců v Brně a praktickém dojezdovém okruhu přibližně 100 km. Každou hodinu přes den stáhne nabídky, ukáže je na statickém webu a do Telegramu odešle upozornění pouze na nové vozy nebo zlevnění, které odpovídají nastavenému filtru.
 
 ## Kde je projekt
 
@@ -30,8 +30,9 @@ GitHub je hlavní záloha: každý odeslaný commit obsahuje kód, konfiguraci i
 
 ### Pobočky
 
-- Ivančice: IVACAR 2000
-- Brno: Porsche Brno, ARAVER CZ, AUTONOVA BRNO, Direct auto Brno a AUTO IN BRNO
+- Brno a Modřice: všech devět aktuálních poboček Škoda Plus.
+- Okolí Brna: Ivančice, Blansko, Slavkov u Brna, Vyškov, Kunštát, Velké Meziříčí, Hodonín, Třebíč, Znojmo, Prostějov, Kroměříž, Olomouc, Přerov, Uherské Hradiště, Staré Město, Žďár nad Sázavou, Holešov a Zlín.
+- Web dělí výsledky do přepínačů `Brno` a `Okolí Brna`; přesná pobočka i město jsou stále u každé nabídky.
 
 ### Telegram filtr
 
