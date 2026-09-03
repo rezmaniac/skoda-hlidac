@@ -1,13 +1,13 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-09-03T18:43:59+00:00",
+  "generatedAt": "2026-09-03T21:44:39+00:00",
   "demo": false,
   "source": "https://www.skodaplus.cz/graphql",
   "summary": {
     "total": 1779,
     "new": 0,
-    "discounted": 1,
-    "removed": 6
+    "discounted": 0,
+    "removed": 0
   },
   "offers": [
     {
@@ -948,7 +948,7 @@
       "city": "Blansko",
       "area": "Okolí Brna",
       "firstSeen": "2026-09-03T18:43:59+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#7b5148",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615913/9b83006c-1fc3-4481-9884-f53b69d8612a__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10615913/volkswagen-touran-2.0tdi-85kw-dsg-comfortline"
@@ -4743,7 +4743,7 @@
       "city": "Brno",
       "area": "Brno",
       "firstSeen": "2026-09-03T18:43:59+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#276b63",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10625088/a1f565d1-f80b-43d9-9b6b-6313db4dc961__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10625088/skoda-octavia-2.0-tdi-110kw-style-plus"
@@ -5502,7 +5502,7 @@
       "city": "Brno",
       "area": "Brno",
       "firstSeen": "2026-09-03T18:43:59+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#355b82",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10625092/e46d335d-bacd-43ff-ae78-363461ba1b4b__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10625092/skoda-octavia-1.5-tsi-110kw-sportline"
@@ -5525,7 +5525,7 @@
       "city": "Brno",
       "area": "Brno",
       "firstSeen": "2026-09-03T18:43:59+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#707d75",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10625094/76dfe1dc-edb4-4a08-bd91-cc5a2be47d63__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10625094/skoda-octavia-1.5-tsi-110kw-selection"
@@ -12839,7 +12839,7 @@
       "city": "Brno",
       "area": "Brno",
       "firstSeen": "2026-09-03T18:43:59+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#355b82",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10625074/c5ff39f8-c00b-4006-bcdd-51936932adb6__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10625074/volkswagen-touareg-3.0tdi-210kw-r-line-4motion"
@@ -17738,7 +17738,7 @@
       "city": "Nový Šaldorf - Sedlešovice",
       "area": "Okolí Brna",
       "firstSeen": "2026-09-03T18:43:59+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#276b63",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10620423/97741f43-fe85-455a-8753-4b017aa1e024__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10620423/seat-leon-cupra-2.0-tsi-221-kw-4x4-dsg"
@@ -18261,7 +18261,7 @@
       "year": 2014,
       "mileage": 200796,
       "price": 174900,
-      "previousPrice": 184900,
+      "previousPrice": 174900,
       "dealer": "Libor Suchý, autoprodejna",
       "dealerId": "Dealer-126",
       "city": "Nový Šaldorf - Sedlešovice",
@@ -27145,7 +27145,7 @@
       "city": "Prostějov",
       "area": "Okolí Brna",
       "firstSeen": "2026-09-03T18:43:59+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#355b82",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10625023/4ef2c7bf-ec5a-4309-bd7c-fafd18934f53__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10625023/skoda-octavia-2.0-tdi-110kw-dsg-style-plus-combi"
@@ -28525,7 +28525,7 @@
       "city": "Přerov",
       "area": "Okolí Brna",
       "firstSeen": "2026-09-03T18:43:59+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#707d75",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10625007/684fd90d-be0a-47c8-98cf-f056aaffd596__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10625007/skoda-karoq-2.0tsi-140kw-dsg-4x4-sportline"
@@ -28870,7 +28870,7 @@
       "city": "Přerov",
       "area": "Okolí Brna",
       "firstSeen": "2026-09-03T18:43:59+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#b8b2a8",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10625063/49c01168-ec7a-4d54-8f55-eda88c5c07e4__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10625063/seat-leon-fr-1.5-tsi-110kw-sp"
@@ -30572,7 +30572,7 @@
       "city": "Slavkov u Brna",
       "area": "Okolí Brna",
       "firstSeen": "2026-09-03T18:43:59+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#707d75",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10622994/ef6c87be-ae39-4785-9f98-def067e3503c__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10622994/skoda-superb-2.0tsi-206kw-dsg-4x4-l-k"
@@ -31860,7 +31860,7 @@
       "city": "Staré Město",
       "area": "Okolí Brna",
       "firstSeen": "2026-09-03T18:43:59+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#9a3942",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10624993/d45e195b-9f24-4cd0-8932-df33cf61598b__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10624993/skoda-scala-1.0-tsi-85kw-top-selection"
@@ -32803,7 +32803,7 @@
       "city": "Třebíč",
       "area": "Okolí Brna",
       "firstSeen": "2026-09-03T18:43:59+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#b8b2a8",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10623872/f2c36f47-7c63-462e-8dea-a532d951b28a__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10623872/skoda-kodiaq-1.5-tsi-150-kw-iv-sportline-dsg"
@@ -38708,7 +38708,7 @@
       "year": 2024,
       "mileage": 23302,
       "price": 769000,
-      "previousPrice": 799000,
+      "previousPrice": 769000,
       "dealer": "SAMOHÝL MOTOR a.s.",
       "dealerId": "Dealer-122",
       "city": "Zlín",
