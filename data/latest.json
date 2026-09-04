@@ -1,13 +1,13 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-09-04T18:28:43+00:00",
+  "generatedAt": "2026-09-04T21:33:14+00:00",
   "demo": false,
   "source": "https://www.skodaplus.cz/graphql",
   "summary": {
     "total": 1787,
-    "new": 3,
+    "new": 0,
     "discounted": 0,
-    "removed": 5
+    "removed": 0
   },
   "offers": [
     {
@@ -1937,7 +1937,7 @@
       "city": "Brno",
       "area": "Brno",
       "firstSeen": "2026-09-04T18:28:43+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#276b63",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10624683/da25adef-51fe-4908-a98d-69eb333511cd__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10624683/kia-xceed-1.5-t-gdi-117kw-gt-line-zaruka"
@@ -5870,7 +5870,7 @@
       "city": "Brno",
       "area": "Brno",
       "firstSeen": "2026-09-04T18:28:43+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#355b82",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10625344/96ab615c-709a-448f-b8f1-c2bca4a2340d__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10625344/skoda-scala-1.0-tsi-85kw-monte-carlo"
@@ -6284,7 +6284,7 @@
       "city": "Brno",
       "area": "Brno",
       "firstSeen": "2026-09-04T18:28:43+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#9a3942",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10625347/bc6fe429-c28a-4d13-a396-d63b2e09055c__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10625347/skoda-superb-2.0-tsi-140kw-style"
@@ -12862,7 +12862,7 @@
       "city": "Brno-Modřice",
       "area": "Brno",
       "firstSeen": "2026-09-04T18:28:43+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#707d75",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10624680/34c35f6b-4a36-4688-bb3d-b2111e702715__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10624680/skoda-karoq-2.0-tdi-110kw-style"
@@ -14334,7 +14334,7 @@
       "city": "Hodonín",
       "area": "Okolí Brna",
       "firstSeen": "2026-09-04T18:28:43+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#b8b2a8",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10623944/2fe1112a-1835-4378-a7e7-8cb6947aa625__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10623944/skoda-scala-1.0-tsi-85-kw-selection"
@@ -14771,7 +14771,7 @@
       "city": "Holešov",
       "area": "Okolí Brna",
       "firstSeen": "2026-09-04T18:28:43+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#355b82",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10624846/433e6116-e662-44f8-8047-918a85a694f5__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10624846/skoda-elroq-rs-85x-250-kw"
@@ -14817,7 +14817,7 @@
       "city": "Holešov",
       "area": "Okolí Brna",
       "firstSeen": "2026-09-04T18:28:43+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#7b5148",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10624850/6db469b8-8688-4fff-8600-13296efd803d__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10624850/skoda-enyaq-rs-85x-250kw"
@@ -14955,7 +14955,7 @@
       "city": "Holešov",
       "area": "Okolí Brna",
       "firstSeen": "2026-09-04T18:28:43+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#7b5148",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10623176/b3fed15b-6f88-4d27-8ad9-6c9f42016dda__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10623176/skoda-karoq-top-selection-1.5tsi-110kw"
@@ -20176,7 +20176,7 @@
       "city": "Olomouc",
       "area": "Okolí Brna",
       "firstSeen": "2026-09-04T18:28:43+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#9a3942",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10623952/8b5e1c09-5e71-4774-8e53-45f75bacf329__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10623952/skoda-rapid-style-1.0-tsi-81-kw"
@@ -20222,7 +20222,7 @@
       "city": "Olomouc",
       "area": "Okolí Brna",
       "firstSeen": "2026-09-04T18:28:43+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#7b5148",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10616561/de1f7720-e8fe-4341-add4-17e979fdb402__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10616561/skoda-scala-1.0-tsi-81-kw-ambition-plus"
@@ -23097,7 +23097,7 @@
       "city": "Olomouc-Holice",
       "area": "Okolí Brna",
       "firstSeen": "2026-09-04T18:28:43+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#276b63",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10625349/ddabc9d6-3799-4fc6-bcae-8621d0be13ce__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10625349/kia-ceed-sw-1.5t-gdi-103kw-top-7dct-"
@@ -25345,7 +25345,7 @@
       "year": 2024,
       "mileage": 16601,
       "price": 729000,
-      "previousPrice": 749000,
+      "previousPrice": 729000,
       "dealer": "Automechanika, a.s.  Škoda Plus ",
       "dealerId": "Dealer-149",
       "city": "Prostějov",
@@ -25374,7 +25374,7 @@
       "city": "Prostějov",
       "area": "Okolí Brna",
       "firstSeen": "2026-09-04T18:28:43+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#b8b2a8",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10625315/2f98db14-f9eb-4d0e-9579-60fc5a3352fe__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10625315/skoda-octavia-combi-m-hev-dsg-1.5-110kw-top-selection"
@@ -25742,7 +25742,7 @@
       "city": "Prostějov",
       "area": "Okolí Brna",
       "firstSeen": "2026-09-04T18:28:43+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#276b63",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10625310/364ef424-4900-499a-ad4b-ec4bc18ecc6c__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10625310/skoda-scala-dsg-1.0-tsi-85kw-top-selection"
@@ -27237,7 +27237,7 @@
       "city": "Prostějov",
       "area": "Okolí Brna",
       "firstSeen": "2026-09-04T18:28:43+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#355b82",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10625353/5c5fe7ff-011a-4364-ba22-a685cddaa27d__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10625353/skoda-octavia-1.5-tsi-e-tec-110kw-dsg-selection-combi"
@@ -31745,7 +31745,7 @@
       "city": "Staré Město",
       "area": "Okolí Brna",
       "firstSeen": "2026-09-04T18:28:43+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#b8b2a8",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10625348/66cee2b1-3426-4e51-ab8f-26d818de9b9b__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10625348/skoda-octavia-1.5-tsi-m-hev-85kw-dsg-top-selection"
@@ -39795,7 +39795,7 @@
       "city": "Znojmo",
       "area": "Okolí Brna",
       "firstSeen": "2026-09-04T18:28:43+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#b8b2a8",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10625366/ada4bbe4-a832-4b99-a552-aeebffe912af__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10625366/skoda-kodiaq-2-0tsi-140kw-4x4-dsg-l-k"
@@ -40301,7 +40301,7 @@
       "city": "Znojmo",
       "area": "Okolí Brna",
       "firstSeen": "2026-09-04T18:28:43+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#355b82",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10624015/e97a5124-944e-448f-a366-678cf5ad039f__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10624015/skoda-scala-1-0tsi-81kw-style"
