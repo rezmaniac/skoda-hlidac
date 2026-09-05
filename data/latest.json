@@ -1,13 +1,13 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-09-05T09:08:41+00:00",
+  "generatedAt": "2026-09-05T12:46:33+00:00",
   "demo": false,
   "source": "https://www.skodaplus.cz/graphql",
   "summary": {
-    "total": 1786,
+    "total": 1785,
     "new": 0,
     "discounted": 0,
-    "removed": 2
+    "removed": 1
   },
   "offers": [
     {
@@ -16339,29 +16339,6 @@
       "color": "#7b5148",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10617317/7b0aaf75-4269-481e-b45b-172f19f19608__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10617317/skoda-scala-1.5-tsi-110-kw-style"
-    },
-    {
-      "id": "10610527",
-      "make": "Škoda",
-      "model": "Scala",
-      "trim": "Selection",
-      "engine": "1.0 TSI 85 kW Selection ",
-      "powerKw": 85,
-      "fuel": "Benzín",
-      "transmission": "Manuál",
-      "year": 2025,
-      "mileage": 11000,
-      "price": 438800,
-      "previousPrice": 438800,
-      "dealer": "IVACAR 2000, a.s.",
-      "dealerId": "Dealer-264",
-      "city": "Ivančice",
-      "area": "Okolí Brna",
-      "firstSeen": "2026-08-30T18:43:03+02:00",
-      "isNew": false,
-      "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10610527/ab7e83f4-86a9-47ba-8392-8424a7a32bef__big.jpg",
-      "url": "https://www.skodaplus.cz/Car/10610527/skoda-scala-1.0-tsi-85-kw-selection-"
     },
     {
       "id": "10607886",
@@ -39749,7 +39726,7 @@
       "city": "Znojmo",
       "area": "Okolí Brna",
       "firstSeen": "2026-09-05T09:08:41+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#7b5148",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619942/8dac763f-ca18-4489-aec1-e45ee98c7ded__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10619942/skoda-kodiaq-2-0tdi-110kw-dsg-ambition"
