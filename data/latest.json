@@ -1,13 +1,13 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-09-04T21:33:14+00:00",
+  "generatedAt": "2026-09-05T09:08:41+00:00",
   "demo": false,
   "source": "https://www.skodaplus.cz/graphql",
   "summary": {
-    "total": 1787,
+    "total": 1786,
     "new": 0,
     "discounted": 0,
-    "removed": 0
+    "removed": 2
   },
   "offers": [
     {
@@ -3859,7 +3859,7 @@
       "engine": "1.5 TSi 110kW Sportline",
       "powerKw": 110,
       "fuel": "Benzín",
-      "transmission": "Automat",
+      "transmission": "Manuál",
       "year": 2024,
       "mileage": 32265,
       "price": 707900,
@@ -27174,29 +27174,6 @@
       "url": "https://www.skodaplus.cz/Car/10617466/skoda-octavia-2.0-tdi-110kw-dsg-style-plus-combi"
     },
     {
-      "id": "10623626",
-      "make": "Škoda",
-      "model": "Octavia",
-      "trim": "Style Plus",
-      "engine": "2.0 TDI 110kW DSG Style Plus combi",
-      "powerKw": 110,
-      "fuel": "Nafta",
-      "transmission": "Manuál",
-      "year": 2023,
-      "mileage": 98716,
-      "price": 499000,
-      "previousPrice": 499000,
-      "dealer": "PV – AUTO spol. s r.o.",
-      "dealerId": "Dealer-166",
-      "city": "Prostějov",
-      "area": "Okolí Brna",
-      "firstSeen": "2026-08-31T19:09:26+00:00",
-      "isNew": false,
-      "color": "#7b5148",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10623626/22363709-7a72-4afe-9c86-7ba248e0bace__big.jpg",
-      "url": "https://www.skodaplus.cz/Car/10623626/skoda-octavia-2.0-tdi-110kw-dsg-style-plus-combi"
-    },
-    {
       "id": "10624125",
       "make": "Škoda",
       "model": "Octavia",
@@ -29541,29 +29518,6 @@
       "color": "#9a3942",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10623079/3626bf64-7ab5-4b8c-afc6-591474fac736__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10623079/skoda-superb-2.0tdi-110kw-dsg-comfort-plus"
-    },
-    {
-      "id": "10611860",
-      "make": "Škoda",
-      "model": "Superb",
-      "trim": "Style",
-      "engine": "2.0 TDI 110kW Style ",
-      "powerKw": 110,
-      "fuel": "Nafta",
-      "transmission": "Manuál",
-      "year": 2022,
-      "mileage": 144270,
-      "price": 468000,
-      "previousPrice": 468000,
-      "dealer": "Autocentrum Přerov CZ  s.r.o.",
-      "dealerId": "Dealer-271",
-      "city": "Přerov",
-      "area": "Okolí Brna",
-      "firstSeen": "2026-08-30T18:43:03+02:00",
-      "isNew": false,
-      "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10611860/dbfc31e3-b35a-4f95-b57f-1f36705053ea__big.jpg",
-      "url": "https://www.skodaplus.cz/Car/10611860/skoda-superb-2.0-tdi-110kw-style-"
     },
     {
       "id": "10612743",
@@ -39776,6 +39730,29 @@
       "color": "#355b82",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10571443/36df273d-6f8c-4640-9dee-65e9e6f54ed0__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10571443/skoda-kamiq-1-0tsi-85kw-dsg-monte-carlo"
+    },
+    {
+      "id": "10619942",
+      "make": "Škoda",
+      "model": "Kodiaq",
+      "trim": "Ambition",
+      "engine": "2,0TDI 110KW DSG AMBITION",
+      "powerKw": 110,
+      "fuel": "Nafta",
+      "transmission": "Automat",
+      "year": 2023,
+      "mileage": 174000,
+      "price": 519000,
+      "previousPrice": 519000,
+      "dealer": "AUTODRUŽSTVO ZNOJMO",
+      "dealerId": "Dealer-319",
+      "city": "Znojmo",
+      "area": "Okolí Brna",
+      "firstSeen": "2026-09-05T09:08:41+00:00",
+      "isNew": true,
+      "color": "#7b5148",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619942/8dac763f-ca18-4489-aec1-e45ee98c7ded__big.jpg",
+      "url": "https://www.skodaplus.cz/Car/10619942/skoda-kodiaq-2-0tdi-110kw-dsg-ambition"
     },
     {
       "id": "10625366",
