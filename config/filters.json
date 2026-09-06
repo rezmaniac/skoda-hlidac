@@ -42,7 +42,7 @@
     "fuels": ["Benzín"],
     "priorityCities": ["Ivančice"],
     "minPrice": 300000,
-    "maxPrice": 400000,
+    "maxPrice": 410000,
     "maxMileage": null,
     "minYear": null
   }
