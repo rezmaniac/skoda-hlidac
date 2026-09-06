@@ -19,7 +19,7 @@ GitHub je hlavní záloha: každý odeslaný commit obsahuje kód, konfiguraci i
 
 | Část | Soubor / služba | Účel |
 | --- | --- | --- |
-| Web | `index.html`, `styles.css`, `app.js` | Statický přehled nabídek a filtry v prohlížeči. |
+| Web | `index.html`, `styles.css`, `app.js` | Statický přehled nabídek, filtry a porovnání až tří vozů v prohlížeči. |
 | Data | `data/latest.json` | Poslední stažené nabídky a stav pro porovnání změn. |
 | Sběr dat | `scraper/update.py` | Volá veřejné GraphQL rozhraní Škoda Plus, porovnává nabídky a případně posílá Telegram. |
 | Nastavení | `config/filters.json` | Pobočky a pravidla pro Telegram notifikace. |

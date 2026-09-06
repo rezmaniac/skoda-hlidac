@@ -10,6 +10,7 @@ const state = {
   maxMileage: "all",
   onlyChanges: false,
   sort: "newest",
+  compareIds: new Set(loadStoredArray("comparedCars").slice(0, 3)),
 };
 
 const elements = {
@@ -25,7 +26,23 @@ const elements = {
   maxMileage: document.querySelector("#maxMileageFilter"),
   onlyChanges: document.querySelector("#onlyChanges"),
   sort: document.querySelector("#sortFilter"),
+  compareBar: document.querySelector("#compareBar"),
+  compareHint: document.querySelector("#compareHint"),
+  compareChips: document.querySelector("#compareChips"),
+  compareCount: document.querySelector("#compareCount"),
+  openCompare: document.querySelector("#openCompare"),
+  compareDialog: document.querySelector("#compareDialog"),
+  compareTable: document.querySelector("#compareTable"),
 };
+
+function loadStoredArray(key) {
+  try {
+    const value = JSON.parse(localStorage.getItem(key) || "[]");
+    return Array.isArray(value) ? value : [];
+  } catch {
+    return [];
+  }
+}
 
 const formatPrice = value => new Intl.NumberFormat("cs-CZ", {
   style: "currency",
@@ -104,6 +121,9 @@ function renderCard(offer) {
   fragment.querySelector(".car-year").textContent = offer.year;
   fragment.querySelector(".car-mileage").textContent = `${formatNumber(offer.mileage)} km`;
   fragment.querySelector(".car-transmission").textContent = offer.transmission;
+  const compareButton = fragment.querySelector(".compare-button");
+  compareButton.dataset.offerId = offer.id;
+  compareButton.addEventListener("click", () => toggleCompare(offer.id));
   fragment.querySelector(".current-price").textContent = formatPrice(offer.price);
   fragment.querySelector(".dealer-name").textContent = offer.dealer;
   const previous = fragment.querySelector(".previous-price");
@@ -130,6 +150,138 @@ function toggleSaved(id, button) {
   button.classList.toggle("saved", saved.has(id));
 }
 
+function selectedOffers() {
+  return [...state.compareIds]
+    .map(id => state.offers.find(offer => offer.id === id))
+    .filter(Boolean);
+}
+
+function toggleCompare(id) {
+  if (state.compareIds.has(id)) {
+    state.compareIds.delete(id);
+  } else if (state.compareIds.size < 3) {
+    state.compareIds.add(id);
+  }
+  localStorage.setItem("comparedCars", JSON.stringify([...state.compareIds]));
+  syncCompareUi();
+}
+
+function syncCompareUi() {
+  const offers = selectedOffers();
+  const isFull = offers.length >= 3;
+  elements.compareBar.hidden = offers.length === 0;
+  elements.compareCount.textContent = offers.length;
+  elements.openCompare.disabled = offers.length < 2;
+  elements.compareHint.textContent = offers.length < 2
+    ? "Vyberte ještě jeden vůz"
+    : `${offers.length} ze 3 vozů vybráno`;
+
+  const chips = offers.map(offer => {
+    const button = document.createElement("button");
+    button.className = "compare-chip";
+    button.type = "button";
+    button.textContent = `${offer.model} · ${formatPrice(offer.price)} ×`;
+    button.setAttribute("aria-label", `Odebrat ${offer.make} ${offer.model} z porovnání`);
+    button.addEventListener("click", () => toggleCompare(offer.id));
+    return button;
+  });
+  elements.compareChips.replaceChildren(...chips);
+
+  document.querySelectorAll(".compare-button").forEach(button => {
+    const selected = state.compareIds.has(button.dataset.offerId);
+    button.classList.toggle("selected", selected);
+    button.disabled = isFull && !selected;
+    button.setAttribute("aria-pressed", String(selected));
+    button.innerHTML = selected
+      ? '<span aria-hidden="true">✓</span> Vybráno'
+      : '<span aria-hidden="true">＋</span> Přidat do porovnání';
+  });
+}
+
+function comparisonHeader(offer) {
+  const wrapper = document.createElement("div");
+  wrapper.className = "compare-car-heading";
+  if (offer.imageUrl) {
+    const image = document.createElement("img");
+    image.src = highResolutionImageUrl(offer.imageUrl);
+    image.alt = "";
+    wrapper.append(image);
+  } else {
+    wrapper.classList.add("no-image");
+  }
+  const title = document.createElement("strong");
+  title.textContent = `${offer.make} ${offer.model}`;
+  const trim = document.createElement("span");
+  trim.textContent = offer.trim || offer.engine;
+  const link = document.createElement("a");
+  link.href = offer.url;
+  link.target = "_blank";
+  link.rel = "noopener";
+  link.textContent = "Otevřít nabídku ↗";
+  wrapper.append(title, trim, link);
+  return wrapper;
+}
+
+function renderComparison() {
+  const offers = selectedOffers();
+  const lowestPrice = Math.min(...offers.map(offer => offer.price));
+  const lowestMileage = Math.min(...offers.map(offer => offer.mileage));
+  const newestYear = Math.max(...offers.map(offer => offer.year));
+  const highestPower = Math.max(...offers.map(offer => offer.powerKw));
+  const rows = [
+    { label: "Cena", value: offer => `${formatPrice(offer.price)}${offer.price > lowestPrice ? ` (+${formatPrice(offer.price - lowestPrice)})` : ""}`, best: offer => offer.price === lowestPrice },
+    { label: "Rok", value: offer => offer.year || "—", best: offer => offer.year === newestYear },
+    { label: "Nájezd", value: offer => `${formatNumber(offer.mileage)} km`, best: offer => offer.mileage === lowestMileage },
+    { label: "Motor", value: offer => offer.engine || "—" },
+    { label: "Výkon", value: offer => `${formatNumber(offer.powerKw)} kW`, best: offer => offer.powerKw === highestPower },
+    { label: "Palivo", value: offer => offer.fuel || "—" },
+    { label: "Převodovka", value: offer => offer.transmission || "—" },
+    { label: "Výbava", value: offer => offer.trim || "—" },
+    { label: "Pobočka", value: offer => `${offer.city} · ${offer.dealer}` },
+  ];
+
+  const headRow = document.createElement("tr");
+  const corner = document.createElement("th");
+  corner.scope = "col";
+  corner.textContent = "Parametr";
+  headRow.append(corner);
+  offers.forEach(offer => {
+    const heading = document.createElement("th");
+    heading.scope = "col";
+    heading.append(comparisonHeader(offer));
+    headRow.append(heading);
+  });
+  const thead = document.createElement("thead");
+  thead.append(headRow);
+
+  const tbody = document.createElement("tbody");
+  rows.forEach(row => {
+    const tableRow = document.createElement("tr");
+    const label = document.createElement("th");
+    label.scope = "row";
+    label.textContent = row.label;
+    tableRow.append(label);
+    offers.forEach(offer => {
+      const value = document.createElement("td");
+      value.textContent = row.value(offer);
+      if (row.best?.(offer)) value.classList.add("compare-best");
+      tableRow.append(value);
+    });
+    tbody.append(tableRow);
+  });
+  elements.compareTable.replaceChildren(thead, tbody);
+}
+
+function openComparison() {
+  if (selectedOffers().length < 2) return;
+  renderComparison();
+  if (typeof elements.compareDialog.showModal === "function") {
+    elements.compareDialog.showModal();
+  } else {
+    elements.compareDialog.setAttribute("open", "");
+  }
+}
+
 function render() {
   const offers = filteredOffers();
   elements.grid.replaceChildren(...offers.map(renderCard));
@@ -137,6 +289,7 @@ function render() {
   elements.grid.hidden = offers.length === 0;
   updateStats(offers);
   document.querySelectorAll(".location-tab").forEach(button => button.classList.toggle("active", button.dataset.location === state.location));
+  syncCompareUi();
 }
 
 function resetFilters() {
@@ -230,6 +383,16 @@ function bindControls() {
   elements.onlyChanges.addEventListener("change", event => { state.onlyChanges = event.target.checked; render(); });
   elements.sort.addEventListener("change", event => { state.sort = event.target.value; render(); });
   document.querySelector("#resetFilters").addEventListener("click", resetFilters);
+  document.querySelector("#clearCompare").addEventListener("click", () => {
+    state.compareIds.clear();
+    localStorage.removeItem("comparedCars");
+    syncCompareUi();
+  });
+  elements.openCompare.addEventListener("click", openComparison);
+  document.querySelector("#closeCompare").addEventListener("click", () => elements.compareDialog.close());
+  elements.compareDialog.addEventListener("click", event => {
+    if (event.target === elements.compareDialog) elements.compareDialog.close();
+  });
   document.querySelector("#themeButton").addEventListener("click", () => {
     const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
     document.documentElement.dataset.theme = next;
@@ -243,6 +406,8 @@ async function initialize() {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
     state.offers = data.offers;
+    state.compareIds = new Set([...state.compareIds].filter(id => state.offers.some(offer => offer.id === id)).slice(0, 3));
+    localStorage.setItem("comparedCars", JSON.stringify([...state.compareIds]));
     document.querySelector("#lastUpdated").textContent = new Intl.DateTimeFormat("cs-CZ", {
       dateStyle: "medium",
       timeStyle: "short",

@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css?v=6" />
+    <link rel="stylesheet" href="styles.css?v=7" />
   </head>
   <body>
     <header class="topbar">
@@ -167,12 +167,40 @@
             <div><dt>Nájezd</dt><dd class="car-mileage"></dd></div>
             <div><dt>Převodovka</dt><dd class="car-transmission"></dd></div>
           </dl>
+          <button class="compare-button" type="button"><span aria-hidden="true">＋</span> Přidat do porovnání</button>
           <div class="price-row"><div><span class="previous-price"></span><strong class="current-price"></strong></div><a class="detail-link" target="_blank" rel="noopener">Detail <span>↗</span></a></div>
           <p class="dealer-name"></p>
         </div>
       </article>
     </template>
 
-    <script src="app.js?v=6" defer></script>
+    <aside class="compare-bar" id="compareBar" aria-label="Vybrané vozy k porovnání" hidden>
+      <div class="compare-bar-inner">
+        <div>
+          <strong>Porovnání vozů</strong>
+          <span id="compareHint">Vyberte alespoň dva vozy</span>
+        </div>
+        <div class="compare-chips" id="compareChips"></div>
+        <div class="compare-bar-actions">
+          <button class="compare-clear" id="clearCompare" type="button">Vymazat</button>
+          <button class="compare-open" id="openCompare" type="button" disabled>Porovnat <span id="compareCount">0</span></button>
+        </div>
+      </div>
+    </aside>
+
+    <dialog class="compare-dialog" id="compareDialog" aria-labelledby="compareTitle">
+      <div class="compare-dialog-heading">
+        <div>
+          <p class="eyebrow">Vedle sebe, bez dojmologie</p>
+          <h2 id="compareTitle">Porovnání vybraných vozů</h2>
+        </div>
+        <button class="compare-close" id="closeCompare" type="button" aria-label="Zavřít porovnání">×</button>
+      </div>
+      <div class="compare-table-wrap">
+        <table class="compare-table" id="compareTable"></table>
+      </div>
+    </dialog>
+
+    <script src="app.js?v=7" defer></script>
   </body>
 </html>
