@@ -1,13 +1,13 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-09-06T13:43:10+00:00",
+  "generatedAt": "2026-09-06T14:19:56+00:00",
   "demo": false,
   "source": "https://www.skodaplus.cz/graphql",
   "summary": {
     "total": 1787,
-    "new": 2,
+    "new": 0,
     "discounted": 0,
-    "removed": 1
+    "removed": 0
   },
   "offers": [
     {
@@ -16013,7 +16013,7 @@
       "city": "Ivančice",
       "area": "Okolí Brna",
       "firstSeen": "2026-09-06T13:43:10+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#9a3942",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10625491/0c7356a4-f181-434d-be1d-f1dd0f6881fd__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10625491/skoda-karoq-1.5-tsi-110-kw-dsg-sportline"
@@ -16289,7 +16289,7 @@
       "city": "Ivančice",
       "area": "Okolí Brna",
       "firstSeen": "2026-09-06T13:43:10+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#9a3942",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10625488/b416a658-020e-48a8-87cd-a29cb2ac56a4__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10625488/skoda-rapid-1.0-tsi-81-kw-style"
@@ -16358,7 +16358,7 @@
       "city": "Ivančice",
       "area": "Okolí Brna",
       "firstSeen": "2026-09-06T13:43:10+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#b8b2a8",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10625489/a1aac61a-1cf9-4616-9457-f6a3380d6996__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10625489/skoda-scala-1.5-tsi-110-kw-style"
