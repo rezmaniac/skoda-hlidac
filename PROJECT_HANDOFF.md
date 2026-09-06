@@ -20,8 +20,8 @@ GitHub je hlavní záloha: každý odeslaný commit obsahuje kód, konfiguraci i
 | Část | Soubor / služba | Účel |
 | --- | --- | --- |
 | Web | `index.html`, `styles.css`, `app.js` | Statický přehled nabídek, filtry a porovnání až tří vozů v prohlížeči. |
-| Data | `data/latest.json` | Poslední stažené nabídky a stav pro porovnání změn. |
-| Sběr dat | `scraper/update.py` | Volá veřejné GraphQL rozhraní Škoda Plus, porovnává nabídky a případně posílá Telegram. |
+| Data | `data/latest.json` | Poslední stažené nabídky včetně detailní výbavy a stav pro porovnání změn. |
+| Sběr dat | `scraper/update.py` | Volá veřejné GraphQL rozhraní Škoda Plus, dávkově doplňuje výbavu, porovnává nabídky a případně posílá Telegram. |
 | Nastavení | `config/filters.json` | Pobočky a pravidla pro Telegram notifikace. |
 | Automatizace | `.github/workflows/update-and-deploy.yml` | Hodinové aktualizace, ukládání dat a nasazení GitHub Pages. |
 | Tajemství | GitHub Actions Secrets | Token bota a Telegram chat ID; nikdy je neukládat do souborů. |

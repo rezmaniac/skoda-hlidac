@@ -33,6 +33,7 @@ const elements = {
   openCompare: document.querySelector("#openCompare"),
   compareDialog: document.querySelector("#compareDialog"),
   compareTable: document.querySelector("#compareTable"),
+  equipmentDifferencesOnly: document.querySelector("#equipmentDifferencesOnly"),
 };
 
 function loadStoredArray(key) {
@@ -222,6 +223,74 @@ function comparisonHeader(offer) {
   return wrapper;
 }
 
+function equipmentKey(name) {
+  return name.normalize("NFKC").toLocaleLowerCase("cs-CZ").replace(/\s+/g, " ").trim();
+}
+
+function comparisonEquipment(offers) {
+  const displayNames = new Map();
+  const equipmentSets = offers.map(offer => {
+    const names = Array.isArray(offer.equipment) ? offer.equipment : [];
+    const set = new Set();
+    names.forEach(name => {
+      const key = equipmentKey(name);
+      if (!key) return;
+      set.add(key);
+      if (!displayNames.has(key)) displayNames.set(key, name);
+    });
+    return set;
+  });
+  return [...displayNames]
+    .map(([key, name]) => {
+      const presence = equipmentSets.map(set => set.has(key));
+      return { key, name, presence, isDifferent: presence.some(Boolean) && !presence.every(Boolean) };
+    })
+    .sort((a, b) => a.name.localeCompare(b.name, "cs"));
+}
+
+function appendEquipmentComparison(tbody, offers) {
+  const allEquipment = comparisonEquipment(offers);
+  const differentEquipment = allEquipment.filter(item => item.isDifferent);
+  const equipment = elements.equipmentDifferencesOnly.checked ? differentEquipment : allEquipment;
+
+  const sectionRow = document.createElement("tr");
+  sectionRow.className = "compare-section-row";
+  const sectionHeading = document.createElement("th");
+  sectionHeading.colSpan = offers.length + 1;
+  sectionHeading.textContent = `Výbavové prvky · ${allEquipment.length} položek · ${differentEquipment.length} rozdílů`;
+  sectionRow.append(sectionHeading);
+  tbody.append(sectionRow);
+
+  if (!equipment.length) {
+    const emptyRow = document.createElement("tr");
+    const emptyCell = document.createElement("td");
+    emptyCell.colSpan = offers.length + 1;
+    emptyCell.className = "compare-equipment-empty";
+    emptyCell.textContent = allEquipment.length
+      ? "Podle údajů prodejců mají vybrané vozy shodnou uvedenou výbavu. Vypněte volbu „Jen rozdíly“, chcete-li ji zobrazit celou."
+      : "Prodejci u těchto nabídek neposkytli seznam jednotlivých prvků výbavy.";
+    emptyRow.append(emptyCell);
+    tbody.append(emptyRow);
+    return;
+  }
+
+  equipment.forEach(item => {
+    const row = document.createElement("tr");
+    row.className = item.isDifferent ? "equipment-difference" : "equipment-common";
+    const label = document.createElement("th");
+    label.scope = "row";
+    label.textContent = item.name;
+    row.append(label);
+    item.presence.forEach(isPresent => {
+      const cell = document.createElement("td");
+      cell.className = isPresent ? "equipment-present" : "equipment-absent";
+      cell.textContent = isPresent ? "✓ Ano" : "—";
+      row.append(cell);
+    });
+    tbody.append(row);
+  });
+}
+
 function renderComparison() {
   const offers = selectedOffers();
   const lowestPrice = Math.min(...offers.map(offer => offer.price));
@@ -269,6 +338,7 @@ function renderComparison() {
     });
     tbody.append(tableRow);
   });
+  appendEquipmentComparison(tbody, offers);
   elements.compareTable.replaceChildren(thead, tbody);
 }
 
@@ -389,6 +459,9 @@ function bindControls() {
     syncCompareUi();
   });
   elements.openCompare.addEventListener("click", openComparison);
+  elements.equipmentDifferencesOnly.addEventListener("change", () => {
+    if (elements.compareDialog.open) renderComparison();
+  });
   document.querySelector("#closeCompare").addEventListener("click", () => elements.compareDialog.close());
   elements.compareDialog.addEventListener("click", event => {
     if (event.target === elements.compareDialog) elements.compareDialog.close();

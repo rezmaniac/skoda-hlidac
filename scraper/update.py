@@ -21,6 +21,7 @@ CONFIG_PATH = ROOT / "config" / "filters.json"
 GRAPHQL_URL = "https://www.skodaplus.cz/graphql"
 SITE_URL = "https://www.skodaplus.cz"
 PAGE_SIZE = 100
+EQUIPMENT_BATCH_SIZE = 25
 
 QUERY = """
 query Cars($filter: CarFilterInput, $first: Int, $after: String, $lang: Lang!) {
@@ -40,6 +41,7 @@ query Cars($filter: CarFilterInput, $first: Int, $after: String, $lang: Lang!) {
         motorType { value(lang: $lang) }
         transmission { id }
         equipmentLevel { value }
+        modifiedAt
         prettyUrl
         images(limit: 1) { thumbnailUrl normalUrl bigUrl }
       }
@@ -59,24 +61,10 @@ def load_json(path: pathlib.Path, fallback):
         return fallback
 
 
-def graphql_request(dealer_ids: list[str], after: str | None = None) -> dict:
-    car_filter = {
-        "dealers": dealer_ids,
-        "regionCountry": "CZ",
-        "carsOrderBy": "FIRST_REGISTRATION_DESC",
-        "skodaPlus": True,
-        "oneYearCar": True,
-        "usedCar": True,
-        "demoCarTypes": ["EMPTY", "FOR_SALE", "ON_REQUEST"],
-    }
+def graphql_call(query: str, variables: dict) -> dict:
     body = json.dumps({
-        "query": QUERY,
-        "variables": {
-            "filter": car_filter,
-            "first": PAGE_SIZE,
-            "after": after,
-            "lang": "CS",
-        },
+        "query": query,
+        "variables": variables,
     }).encode("utf-8")
     request = urllib.request.Request(
         GRAPHQL_URL,
@@ -102,6 +90,24 @@ def graphql_request(dealer_ids: list[str], after: str | None = None) -> dict:
     raise RuntimeError("Škoda Plus request failed")
 
 
+def graphql_request(dealer_ids: list[str], after: str | None = None) -> dict:
+    car_filter = {
+        "dealers": dealer_ids,
+        "regionCountry": "CZ",
+        "carsOrderBy": "FIRST_REGISTRATION_DESC",
+        "skodaPlus": True,
+        "oneYearCar": True,
+        "usedCar": True,
+        "demoCarTypes": ["EMPTY", "FOR_SALE", "ON_REQUEST"],
+    }
+    return graphql_call(QUERY, {
+        "filter": car_filter,
+        "first": PAGE_SIZE,
+        "after": after,
+        "lang": "CS",
+    })
+
+
 def fetch_all(dealer_ids: list[str]) -> list[dict]:
     nodes: list[dict] = []
     after = None
@@ -124,6 +130,52 @@ def fetch_all(dealer_ids: list[str]) -> list[dict]:
             raise RuntimeError("Pagination did not provide an end cursor")
 
 
+def clean_equipment_names(items: list[dict]) -> list[str]:
+    names: list[str] = []
+    seen: set[str] = set()
+    for item in items:
+        name = " ".join((item.get("name") or "").split())
+        key = name.casefold()
+        if not name or key in seen:
+            continue
+        seen.add(key)
+        names.append(name)
+    return sorted(names, key=str.casefold)
+
+
+def fetch_equipment(nodes: list[dict], previous: dict[str, dict]) -> dict[str, list[str]]:
+    equipment_by_id: dict[str, list[str]] = {}
+    pending: list[dict] = []
+    for node in nodes:
+        car_id = node["id"].replace("Car-", "")
+        old = previous.get(car_id)
+        if (
+            old is not None
+            and isinstance(old.get("equipment"), list)
+            and (old.get("sourceModifiedAt") is None or old.get("sourceModifiedAt") == node.get("modifiedAt"))
+        ):
+            equipment_by_id[node["id"]] = old["equipment"]
+        else:
+            pending.append(node)
+
+    for start in range(0, len(pending), EQUIPMENT_BATCH_SIZE):
+        batch = pending[start:start + EQUIPMENT_BATCH_SIZE]
+        definitions = ", ".join(f"$car{index}: ID!" for index in range(len(batch)))
+        selections = "\n".join(
+            f"car{index}: car(id: $car{index}) {{ equipmentItems {{ name(lang: CS) }} }}"
+            for index in range(len(batch))
+        )
+        query = f"query Equipment({definitions}) {{\n{selections}\n}}"
+        variables = {f"car{index}": node["id"] for index, node in enumerate(batch)}
+        result = graphql_call(query, variables)
+        for index, node in enumerate(batch):
+            detail = result.get(f"car{index}") or {}
+            equipment_by_id[node["id"]] = clean_equipment_names(detail.get("equipmentItems") or [])
+        print(f"Loaded equipment for {min(start + len(batch), len(pending))}/{len(pending)} offers needing refresh.")
+
+    return equipment_by_id
+
+
 def infer_fuel(node: dict) -> str:
     text = f"{node.get('modelType', '')} {(node.get('motorType') or {}).get('value', '')}".lower()
     if any(value in text for value in ("electric", "elektro", "kwh", "iv 80", "iv 60")):
@@ -142,7 +194,7 @@ def transmission_name(node: dict) -> str:
     return "Automat" if transmission_id == "transmission_2" else "Manuál"
 
 
-def normalize(node: dict, dealers_by_id: dict[str, dict], previous: dict[str, dict], baseline: bool, now: str) -> dict:
+def normalize(node: dict, dealers_by_id: dict[str, dict], previous: dict[str, dict], equipment_by_id: dict[str, list[str]], baseline: bool, now: str) -> dict:
     raw_id = node["id"]
     car_id = raw_id.replace("Car-", "")
     old = previous.get(car_id)
@@ -166,6 +218,8 @@ def normalize(node: dict, dealers_by_id: dict[str, dict], previous: dict[str, di
         "make": (model.get("carMake") or {}).get("name") or "",
         "model": model.get("modelName") or "",
         "trim": trim,
+        "equipment": equipment_by_id.get(raw_id, []),
+        "sourceModifiedAt": node.get("modifiedAt"),
         "engine": node.get("modelType") or "",
         "powerKw": int(node.get("enginePower") or 0),
         "fuel": infer_fuel(node),
@@ -296,13 +350,14 @@ def main() -> int:
     baseline = (
         not previous_offers
         or bool(previous_snapshot.get("demo"))
-        or previous_snapshot.get("schemaVersion") != 3
+        or previous_snapshot.get("schemaVersion") != 4
     )
     now = dt.datetime.now(dt.timezone.utc).astimezone().isoformat(timespec="seconds")
     dealer_ids = [dealer["id"] for dealer in dealers]
     dealers_by_id = {dealer["id"]: dealer for dealer in dealers}
     raw_offers = fetch_all(dealer_ids)
-    offers = [normalize(node, dealers_by_id, previous_offers, baseline, now) for node in raw_offers]
+    equipment_by_id = fetch_equipment(raw_offers, previous_offers)
+    offers = [normalize(node, dealers_by_id, previous_offers, equipment_by_id, baseline, now) for node in raw_offers]
     offers.sort(key=lambda offer: (offer["city"], offer["dealer"], offer["model"], offer["price"]))
     current_ids = {offer["id"] for offer in offers}
     removed_ids = sorted(set(previous_offers) - current_ids) if not baseline else []
@@ -313,7 +368,7 @@ def main() -> int:
         if offer["previousPrice"] > offer["price"] and matches_notification_filter(offer, filters)
     ]
     snapshot = {
-        "schemaVersion": 3,
+        "schemaVersion": 4,
         "generatedAt": now,
         "demo": False,
         "source": GRAPHQL_URL,

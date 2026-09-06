@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css?v=7" />
+    <link rel="stylesheet" href="styles.css?v=8" />
   </head>
   <body>
     <header class="topbar">
@@ -193,6 +193,12 @@
         <div>
           <p class="eyebrow">Vedle sebe, bez dojmologie</p>
           <h2 id="compareTitle">Porovnání vybraných vozů</h2>
+          <p class="compare-dialog-note">Výbava vychází z údajů jednotlivých prodejců, takže se názvy podobných prvků mohou mírně lišit.</p>
+          <label class="equipment-toggle">
+            <input type="checkbox" id="equipmentDifferencesOnly" checked />
+            <span aria-hidden="true"></span>
+            Jen rozdíly ve výbavě
+          </label>
         </div>
         <button class="compare-close" id="closeCompare" type="button" aria-label="Zavřít porovnání">×</button>
       </div>
@@ -201,6 +207,6 @@
       </div>
     </dialog>
 
-    <script src="app.js?v=7" defer></script>
+    <script src="app.js?v=8" defer></script>
   </body>
 </html>

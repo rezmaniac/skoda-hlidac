@@ -20,7 +20,9 @@ python3 scraper/update.py
 
 Pobočky a filtr Telegram notifikací jsou v `config/filters.json`. Web zobrazuje všechny stažené nabídky; notifikační filtr rozhoduje pouze o odeslání zprávy.
 
-Uživatel může na kartách vybrat až tři vozy a porovnat jejich cenu, rok, nájezd, motor, výkon, palivo, převodovku, výbavu a pobočku. Výběr se uchovává lokálně v prohlížeči.
+Uživatel může na kartách vybrat až tři vozy a porovnat jejich cenu, rok, nájezd, motor, výkon, palivo, převodovku, výbavovou linii, jednotlivé prvky výbavy a pobočku. U výbavy lze přepínat mezi celým seznamem a pouze rozdíly. Výběr se uchovává lokálně v prohlížeči.
+
+Detailní výbava se načítá dávkově z detailů nabídek. U nezměněných vozů se používá uložená výbava z předchozího snapshotu; nové dotazy se provádějí jen pro nové nabídky nebo inzeráty upravené prodejcem.
 
 ## GitHub Pages
 

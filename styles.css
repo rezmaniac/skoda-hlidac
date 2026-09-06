@@ -177,8 +177,15 @@ footer { padding: 24px 0 42px; display: flex; justify-content: space-between; ga
 .compare-dialog::backdrop { background: rgba(5, 16, 11, .64); backdrop-filter: blur(4px); }
 .compare-dialog-heading { padding: 22px 24px 18px; display: flex; align-items: start; justify-content: space-between; gap: 20px; border-bottom: 1px solid var(--line); }
 .compare-dialog-heading h2 { margin: 0; font-size: 25px; letter-spacing: -.8px; }
+.compare-dialog-note { max-width: 680px; margin: 7px 0 13px; color: var(--muted); font-size: 12px; line-height: 1.45; }
+.equipment-toggle { display: inline-flex; align-items: center; gap: 8px; color: var(--muted); font-size: 12px; font-weight: 700; cursor: pointer; }
+.equipment-toggle input { position: absolute; opacity: 0; }
+.equipment-toggle span { width: 32px; height: 18px; padding: 2px; border-radius: 100px; background: var(--line); transition: .2s; }
+.equipment-toggle span::after { content: ""; display: block; width: 14px; height: 14px; border-radius: 50%; background: #fff; box-shadow: 0 1px 4px rgba(0,0,0,.2); transition: .2s; }
+.equipment-toggle input:checked + span { background: var(--green); }
+.equipment-toggle input:checked + span::after { transform: translateX(14px); }
 .compare-close { flex: 0 0 38px; width: 38px; height: 38px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface-2); color: var(--muted); font-size: 25px; line-height: 1; cursor: pointer; }
-.compare-table-wrap { max-height: calc(86vh - 100px); overflow: auto; }
+.compare-table-wrap { max-height: calc(86vh - 155px); overflow: auto; }
 .compare-table { width: 100%; min-width: 760px; border-collapse: collapse; font-size: 13px; }
 .compare-table th, .compare-table td { min-width: 210px; padding: 15px 18px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
 .compare-table th:first-child { width: 135px; min-width: 135px; position: sticky; left: 0; z-index: 2; background: var(--surface); color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .5px; }
@@ -187,6 +194,11 @@ footer { padding: 24px 0 42px; display: flex; justify-content: space-between; ga
 .compare-table td:last-child, .compare-table th:last-child { border-right: 0; }
 .compare-table tbody tr:last-child th, .compare-table tbody tr:last-child td { border-bottom: 0; }
 .compare-table td.compare-best { background: var(--green-soft); color: var(--green); font-weight: 800; }
+.compare-table .compare-section-row th { position: static; padding: 13px 18px; background: color-mix(in srgb, var(--green) 9%, var(--surface)); color: var(--green); font-size: 11px; font-weight: 800; letter-spacing: .65px; text-transform: uppercase; }
+.compare-table .equipment-present { color: var(--green); font-weight: 800; }
+.compare-table .equipment-difference .equipment-present { background: var(--green-soft); }
+.compare-table .equipment-absent { color: var(--muted); }
+.compare-equipment-empty { padding: 22px !important; color: var(--muted); text-align: center !important; line-height: 1.55; }
 .compare-car-heading { display: grid; grid-template-columns: 74px 1fr; column-gap: 12px; align-items: center; }
 .compare-car-heading.no-image { grid-template-columns: 1fr; }
 .compare-car-heading img { width: 74px; height: 56px; grid-row: 1 / 4; border-radius: 9px; object-fit: cover; background: var(--surface-2); }
@@ -238,7 +250,7 @@ footer { padding: 24px 0 42px; display: flex; justify-content: space-between; ga
   .compare-dialog { width: calc(100% - 16px); max-height: 92vh; border-radius: 16px; }
   .compare-dialog-heading { padding: 17px; }
   .compare-dialog-heading h2 { font-size: 20px; }
-  .compare-table-wrap { max-height: calc(92vh - 88px); }
+  .compare-table-wrap { max-height: calc(92vh - 145px); }
   footer { flex-direction: column; }
   footer p { margin: 0; }
 }
