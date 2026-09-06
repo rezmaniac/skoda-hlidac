@@ -8,8 +8,10 @@ import html
 import json
 import os
 import pathlib
+import statistics
 import sys
 import time
+import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -17,11 +19,14 @@ import urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "latest.json"
+MARKET_PATH = ROOT / "data" / "market.json"
 CONFIG_PATH = ROOT / "config" / "filters.json"
 GRAPHQL_URL = "https://www.skodaplus.cz/graphql"
 SITE_URL = "https://www.skodaplus.cz"
 PAGE_SIZE = 100
 EQUIPMENT_BATCH_SIZE = 25
+MARKET_CACHE_HOURS = 20
+SKODA_MAKE_ID = "brand_32"
 
 QUERY = """
 query Cars($filter: CarFilterInput, $first: Int, $after: String, $lang: Lang!) {
@@ -38,8 +43,9 @@ query Cars($filter: CarFilterInput, $first: Int, $after: String, $lang: Lang!) {
         price { value exclusiveOfVat }
         enginePower
         engineCapacity
+        fuel { id value(lang: $lang) }
         motorType { value(lang: $lang) }
-        transmission { id }
+        transmission { id value(lang: $lang) }
         equipmentLevel { value }
         modifiedAt
         prettyUrl
@@ -90,9 +96,8 @@ def graphql_call(query: str, variables: dict) -> dict:
     raise RuntimeError("Škoda Plus request failed")
 
 
-def graphql_request(dealer_ids: list[str], after: str | None = None) -> dict:
+def offer_filter(dealer_ids: list[str] | None = None, make_ids: list[str] | None = None) -> dict:
     car_filter = {
-        "dealers": dealer_ids,
         "regionCountry": "CZ",
         "carsOrderBy": "FIRST_REGISTRATION_DESC",
         "skodaPlus": True,
@@ -100,6 +105,14 @@ def graphql_request(dealer_ids: list[str], after: str | None = None) -> dict:
         "usedCar": True,
         "demoCarTypes": ["EMPTY", "FOR_SALE", "ON_REQUEST"],
     }
+    if dealer_ids:
+        car_filter["dealers"] = dealer_ids
+    if make_ids:
+        car_filter["make"] = make_ids
+    return car_filter
+
+
+def graphql_request(car_filter: dict, after: str | None = None) -> dict:
     return graphql_call(QUERY, {
         "filter": car_filter,
         "first": PAGE_SIZE,
@@ -108,12 +121,12 @@ def graphql_request(dealer_ids: list[str], after: str | None = None) -> dict:
     })
 
 
-def fetch_all(dealer_ids: list[str]) -> list[dict]:
+def fetch_all(car_filter: dict, label: str) -> list[dict]:
     nodes: list[dict] = []
     after = None
     expected_count = None
     while True:
-        result = graphql_request(dealer_ids, after)
+        result = graphql_request(car_filter, after)
         page = result["cars"]
         expected_count = int(result["carsCount"])
         nodes.extend(edge["node"] for edge in page.get("edges", []))
@@ -124,6 +137,7 @@ def fetch_all(dealer_ids: list[str]) -> list[dict]:
                 raise RuntimeError(f"Pagination returned {len(nodes) - len(unique)} duplicate offers")
             if len(nodes) != expected_count:
                 raise RuntimeError(f"Expected {expected_count} offers, downloaded {len(nodes)}")
+            print(f"Loaded {len(nodes)} {label} offers.")
             return nodes
         after = info.get("endCursor")
         if not after:
@@ -177,6 +191,18 @@ def fetch_equipment(nodes: list[dict], previous: dict[str, dict]) -> dict[str, l
 
 
 def infer_fuel(node: dict) -> str:
+    source_value = (node.get("fuel") or {}).get("value", "").lower()
+    if "hybrid" in source_value:
+        return "Hybrid"
+    if "diesel" in source_value or "nafta" in source_value:
+        return "Nafta"
+    if "elektr" in source_value:
+        return "Elektřina"
+    if "cng" in source_value:
+        return "CNG"
+    if "benz" in source_value:
+        return "Benzín"
+
     text = f"{node.get('modelType', '')} {(node.get('motorType') or {}).get('value', '')}".lower()
     if any(value in text for value in ("electric", "elektro", "kwh", "iv 80", "iv 60")):
         return "Elektřina"
@@ -190,8 +216,137 @@ def infer_fuel(node: dict) -> str:
 
 
 def transmission_name(node: dict) -> str:
-    transmission_id = (node.get("transmission") or {}).get("id", "")
-    return "Automat" if transmission_id == "transmission_2" else "Manuál"
+    transmission = node.get("transmission") or {}
+    transmission_id = transmission.get("id", "")
+    value = transmission.get("value", "").lower()
+    is_automatic = transmission_id in {"transmission_2", "transmission_5"} or "automat" in value or "dsg" in value
+    return "Automat" if is_automatic else "Manuál"
+
+
+def market_offer(node: dict) -> dict:
+    registration = node.get("firstRegistration") or ""
+    model = node.get("model") or {}
+    return {
+        "id": node["id"].replace("Car-", ""),
+        "model": model.get("modelName") or "",
+        "trim": (node.get("equipmentLevel") or {}).get("value") or "",
+        "powerKw": int(node.get("enginePower") or 0),
+        "fuel": infer_fuel(node),
+        "transmission": transmission_name(node),
+        "year": int(registration[:4]) if registration[:4].isdigit() else 0,
+        "mileage": int(node.get("mileage") or 0),
+        "price": int((node.get("price") or {}).get("value") or 0),
+    }
+
+
+def parse_timestamp(value: str | None) -> dt.datetime | None:
+    if not value:
+        return None
+    try:
+        parsed = dt.datetime.fromisoformat(value.replace("Z", "+00:00"))
+        return parsed if parsed.tzinfo else parsed.replace(tzinfo=dt.timezone.utc)
+    except ValueError:
+        return None
+
+
+def load_market_catalog(now: dt.datetime) -> tuple[list[dict], str]:
+    cached = load_json(MARKET_PATH, {})
+    generated_at = parse_timestamp(cached.get("generatedAt"))
+    cached_offers = cached.get("offers") or []
+    is_fresh = (
+        cached.get("schemaVersion") == 2
+        and generated_at is not None
+        and now.astimezone(dt.timezone.utc) - generated_at.astimezone(dt.timezone.utc) < dt.timedelta(hours=MARKET_CACHE_HOURS)
+        and len(cached_offers) >= 100
+    )
+    if is_fresh:
+        print(f"Using cached nationwide catalog with {len(cached_offers)} offers.")
+        return cached_offers, cached["generatedAt"]
+
+    raw_market = fetch_all(offer_filter(make_ids=[SKODA_MAKE_ID]), "nationwide Škoda")
+    offers = [offer for offer in (market_offer(node) for node in raw_market) if offer["price"] > 0]
+    generated = now.astimezone().isoformat(timespec="seconds")
+    snapshot = {
+        "schemaVersion": 2,
+        "generatedAt": generated,
+        "source": GRAPHQL_URL,
+        "make": "Škoda",
+        "offers": offers,
+    }
+    MARKET_PATH.parent.mkdir(parents=True, exist_ok=True)
+    MARKET_PATH.write_text(json.dumps(snapshot, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+    print(f"Saved nationwide market catalog with {len(offers)} offers.")
+    return offers, generated
+
+
+def comparison_key(value: str) -> str:
+    normalized = unicodedata.normalize("NFKC", value or "")
+    return " ".join(normalized.casefold().split())
+
+
+def rounded_market_price(value: float) -> int:
+    return int(round(value / 1000) * 1000)
+
+
+def percentile(values: list[int], fraction: float) -> int:
+    ordered = sorted(values)
+    position = (len(ordered) - 1) * fraction
+    lower = int(position)
+    upper = min(lower + 1, len(ordered) - 1)
+    interpolated = ordered[lower] + (ordered[upper] - ordered[lower]) * (position - lower)
+    return rounded_market_price(interpolated)
+
+
+def market_benchmark(offer: dict, catalog_index: dict[tuple[str, str, str, str], list[dict]]) -> dict | None:
+    model_key = comparison_key(offer["model"])
+    trim_key = comparison_key(offer["trim"])
+    if offer["make"] != "Škoda" or not model_key or not trim_key or not offer["year"] or not offer["powerKw"]:
+        return None
+
+    candidates = []
+    key = (model_key, trim_key, offer["fuel"], offer["transmission"])
+    for candidate in catalog_index.get(key, []):
+        if candidate["id"] == offer["id"]:
+            continue
+        year_gap = abs(candidate["year"] - offer["year"])
+        mileage_gap = abs(candidate["mileage"] - offer["mileage"])
+        power_gap = abs(candidate["powerKw"] - offer["powerKw"])
+        if year_gap > 2 or mileage_gap > 30_000 or power_gap > 15:
+            continue
+        score = year_gap * 6 + mileage_gap / 5_000 + power_gap / 5
+        candidates.append((score, candidate))
+
+    nearest = [candidate for _, candidate in sorted(candidates, key=lambda item: item[0])[:40]]
+    if len(nearest) < 5:
+        return None
+    prices = [candidate["price"] for candidate in nearest]
+    sample_size = len(prices)
+    confidence = "high" if sample_size >= 15 else "medium" if sample_size >= 8 else "low"
+    return {
+        "typicalPrice": rounded_market_price(statistics.median(prices)),
+        "lowerQuartile": percentile(prices, 0.25),
+        "upperQuartile": percentile(prices, 0.75),
+        "sampleSize": sample_size,
+        "confidence": confidence,
+    }
+
+
+def attach_market_benchmarks(offers: list[dict], catalog: list[dict]) -> int:
+    catalog_index: dict[tuple[str, str, str, str], list[dict]] = {}
+    for candidate in catalog:
+        key = (
+            comparison_key(candidate["model"]),
+            comparison_key(candidate["trim"]),
+            candidate["fuel"],
+            candidate["transmission"],
+        )
+        catalog_index.setdefault(key, []).append(candidate)
+    matched = 0
+    for offer in offers:
+        offer["market"] = market_benchmark(offer, catalog_index)
+        if offer["market"] is not None:
+            matched += 1
+    return matched
 
 
 def normalize(node: dict, dealers_by_id: dict[str, dict], previous: dict[str, dict], equipment_by_id: dict[str, list[str]], baseline: bool, now: str) -> dict:
@@ -352,12 +507,15 @@ def main() -> int:
         or bool(previous_snapshot.get("demo"))
         or previous_snapshot.get("schemaVersion") != 4
     )
-    now = dt.datetime.now(dt.timezone.utc).astimezone().isoformat(timespec="seconds")
+    now_datetime = dt.datetime.now(dt.timezone.utc).astimezone()
+    now = now_datetime.isoformat(timespec="seconds")
     dealer_ids = [dealer["id"] for dealer in dealers]
     dealers_by_id = {dealer["id"]: dealer for dealer in dealers}
-    raw_offers = fetch_all(dealer_ids)
+    raw_offers = fetch_all(offer_filter(dealer_ids=dealer_ids), "local")
     equipment_by_id = fetch_equipment(raw_offers, previous_offers)
     offers = [normalize(node, dealers_by_id, previous_offers, equipment_by_id, baseline, now) for node in raw_offers]
+    market_catalog, market_generated_at = load_market_catalog(now_datetime)
+    benchmark_count = attach_market_benchmarks(offers, market_catalog)
     offers.sort(key=lambda offer: (offer["city"], offer["dealer"], offer["model"], offer["price"]))
     current_ids = {offer["id"] for offer in offers}
     removed_ids = sorted(set(previous_offers) - current_ids) if not baseline else []
@@ -377,6 +535,12 @@ def main() -> int:
             "new": len(new_offers),
             "discounted": len(discounts),
             "removed": len(removed_ids),
+            "benchmarked": benchmark_count,
+        },
+        "market": {
+            "generatedAt": market_generated_at,
+            "sampleSize": len(market_catalog),
+            "method": "median of same model, trim, fuel and transmission; power ±15 kW, year ±2, mileage ±30,000 km",
         },
         "offers": offers,
     }

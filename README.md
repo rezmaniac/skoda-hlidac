@@ -12,7 +12,7 @@ Potom otevřete `http://localhost:4173`.
 
 ## Aktualizace dat
 
-Skript `scraper/update.py` načte veřejné GraphQL rozhraní Škoda Plus, porovná nabídky s předchozím stavem a aktualizuje `data/latest.json`.
+Skript `scraper/update.py` načte veřejné GraphQL rozhraní Škoda Plus, porovná nabídky s předchozím stavem a aktualizuje `data/latest.json`. Jednou denně zároveň obnoví kompaktní celorepublikový katalog vozů Škoda v `data/market.json`.
 
 ```bash
 python3 scraper/update.py
@@ -21,6 +21,8 @@ python3 scraper/update.py
 Pobočky a filtr Telegram notifikací jsou v `config/filters.json`. Web zobrazuje všechny stažené nabídky; notifikační filtr rozhoduje pouze o odeslání zprávy.
 
 Uživatel může na kartách vybrat až tři vozy a porovnat jejich cenu, rok, nájezd, motor, výkon, palivo, převodovku, výbavovou linii, jednotlivé prvky výbavy a pobočku. U výbavy lze přepínat mezi celým seznamem a pouze rozdíly. Výběr se uchovává lokálně v prohlížeči.
+
+U škodovek web ukazuje také typickou nabídkovou cenu z celé ČR. Jde o medián nejvýše 40 nejbližších vozů se stejným modelem, výbavovou linií, palivem a převodovkou, s výkonem ±15 kW, rokem registrace ±2 a nájezdem ±30 000 km. Výsledek se zobrazí jen při alespoň pěti srovnatelných nabídkách; nejde o realizovanou prodejní cenu.
 
 Detailní výbava se načítá dávkově z detailů nabídek. U nezměněných vozů se používá uložená výbava z předchozího snapshotu; nové dotazy se provádějí jen pro nové nabídky nebo inzeráty upravené prodejcem.
 
@@ -48,6 +50,7 @@ python3 scraper/setup_telegram.py
 Workflow `.github/workflows/update-and-deploy.yml`:
 
 1. každou hodinu od 07:17 do 22:17 Europe/Prague stáhne data,
-2. porovná změny a případně odešle Telegram,
-3. uloží nový snapshot do repozitáře,
-4. publikuje web přes GitHub Pages.
+2. jednou denně obnoví celorepublikový cenový katalog Škoda,
+3. porovná změny a případně odešle Telegram,
+4. uloží nové snapshoty do repozitáře,
+5. publikuje web přes GitHub Pages.

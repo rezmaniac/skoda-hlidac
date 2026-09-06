@@ -53,6 +53,21 @@ const formatPrice = value => new Intl.NumberFormat("cs-CZ", {
 
 const formatNumber = value => new Intl.NumberFormat("cs-CZ").format(value);
 
+const confidenceLabel = confidence => ({
+  high: "vyšší jistota",
+  medium: "střední jistota",
+  low: "nižší jistota",
+}[confidence] || "orientační");
+
+function marketDifferenceText(offer, short = false) {
+  if (!offer.market) return "—";
+  const difference = offer.price - offer.market.typicalPrice;
+  if (Math.abs(difference) < 5000) return short ? "V typickém pásmu" : "V pásmu typické ceny";
+  const direction = difference < 0 ? "pod" : "nad";
+  const amount = formatPrice(Math.abs(difference));
+  return short ? `${difference < 0 ? "−" : "+"}${amount}` : `O ${amount} ${direction} typickou cenou`;
+}
+
 const carCountLabel = count => {
   if (count === 1) return "1 vůz odpovídá výběru";
   if (count >= 2 && count <= 4) return `${count} vozy odpovídají výběru`;
@@ -126,6 +141,20 @@ function renderCard(offer) {
   compareButton.dataset.offerId = offer.id;
   compareButton.addEventListener("click", () => toggleCompare(offer.id));
   fragment.querySelector(".current-price").textContent = formatPrice(offer.price);
+  const marketInsight = fragment.querySelector(".market-insight");
+  if (offer.market) {
+    const difference = offer.price - offer.market.typicalPrice;
+    marketInsight.hidden = false;
+    marketInsight.classList.add(difference < -5000 ? "market-below" : difference > 5000 ? "market-above" : "market-typical");
+    marketInsight.querySelector(".market-delta").textContent = marketDifferenceText(offer);
+    marketInsight.querySelector(".market-detail").textContent = `Typická ${formatPrice(offer.market.typicalPrice)} · ${offer.market.sampleSize} podobných vozů`;
+    marketInsight.title = `Celá ČR · obvyklé pásmo ${formatPrice(offer.market.lowerQuartile)}–${formatPrice(offer.market.upperQuartile)} · ${confidenceLabel(offer.market.confidence)}`;
+  } else if (offer.make === "Škoda") {
+    marketInsight.hidden = false;
+    marketInsight.classList.add("market-unavailable");
+    marketInsight.querySelector(".market-delta").textContent = "Málo srovnatelných vozů";
+    marketInsight.querySelector(".market-detail").textContent = "Cenu raději neodhadujeme";
+  }
   fragment.querySelector(".dealer-name").textContent = offer.dealer;
   const previous = fragment.querySelector(".previous-price");
   if (offer.previousPrice > offer.price) previous.textContent = formatPrice(offer.previousPrice);
@@ -299,6 +328,9 @@ function renderComparison() {
   const highestPower = Math.max(...offers.map(offer => offer.powerKw));
   const rows = [
     { label: "Cena", value: offer => `${formatPrice(offer.price)}${offer.price > lowestPrice ? ` (+${formatPrice(offer.price - lowestPrice)})` : ""}`, best: offer => offer.price === lowestPrice },
+    { label: "Typická nabídková cena", value: offer => offer.market ? formatPrice(offer.market.typicalPrice) : "Málo dat" },
+    { label: "Proti typické ceně", value: offer => marketDifferenceText(offer, true), best: offer => offer.market && offer.price < offer.market.typicalPrice - 5000 },
+    { label: "Srovnatelný vzorek", value: offer => offer.market ? `${offer.market.sampleSize} vozů · ${confidenceLabel(offer.market.confidence)}` : "Méně než 5 vozů" },
     { label: "Rok", value: offer => offer.year || "—", best: offer => offer.year === newestYear },
     { label: "Nájezd", value: offer => `${formatNumber(offer.mileage)} km`, best: offer => offer.mileage === lowestMileage },
     { label: "Motor", value: offer => offer.engine || "—" },

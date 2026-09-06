@@ -143,6 +143,14 @@ select:focus { border-color: var(--green); box-shadow: 0 0 0 3px color-mix(in sr
 .current-price { font-family: Manrope, sans-serif; font-size: 20px; letter-spacing: -.7px; }
 .previous-price { min-height: 16px; color: var(--muted); font-size: 11px; text-decoration: line-through; }
 .detail-link { padding: 8px 10px; border-radius: 8px; background: var(--green-soft); color: var(--green); text-decoration: none; font-size: 12px; font-weight: 800; }
+.market-insight { margin-top: 13px; padding: 10px 11px; display: flex; flex-direction: column; gap: 3px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface-2); }
+.market-insight[hidden] { display: none; }
+.market-insight strong { font-size: 12px; }
+.market-insight span { color: var(--muted); font-size: 10px; line-height: 1.4; }
+.market-insight.market-below { border-color: color-mix(in srgb, var(--green) 28%, var(--line)); background: var(--green-soft); }
+.market-insight.market-below strong { color: var(--green); }
+.market-insight.market-above strong { color: var(--orange); }
+.market-insight.market-unavailable { border-style: dashed; opacity: .78; }
 .dealer-name { margin: 16px 0 0; padding-top: 13px; border-top: 1px solid var(--line); color: var(--muted); font-size: 11px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .empty-state { padding: 70px 20px; text-align: center; background: var(--surface); border: 1px dashed var(--line); border-radius: var(--radius); color: var(--muted); }
 .empty-state button { display: block; margin: 18px auto 0; padding: 9px 14px; border: 0; border-radius: 9px; background: var(--green); color: white; cursor: pointer; }

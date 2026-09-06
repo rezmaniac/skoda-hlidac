@@ -1,6 +1,6 @@
 # Předání projektu — Hlídač vozů
 
-Aktualizováno: 29. 8. 2026
+Aktualizováno: 6. 9. 2026
 
 ## Co projekt dělá
 
@@ -20,8 +20,8 @@ GitHub je hlavní záloha: každý odeslaný commit obsahuje kód, konfiguraci i
 | Část | Soubor / služba | Účel |
 | --- | --- | --- |
 | Web | `index.html`, `styles.css`, `app.js` | Statický přehled nabídek, filtry a porovnání až tří vozů v prohlížeči. |
-| Data | `data/latest.json` | Poslední stažené nabídky včetně detailní výbavy a stav pro porovnání změn. |
-| Sběr dat | `scraper/update.py` | Volá veřejné GraphQL rozhraní Škoda Plus, dávkově doplňuje výbavu, porovnává nabídky a případně posílá Telegram. |
+| Data | `data/latest.json`, `data/market.json` | Lokální nabídky s výbavou a denní kompaktní celorepublikový katalog škodovek pro cenové srovnání. |
+| Sběr dat | `scraper/update.py` | Volá veřejné GraphQL rozhraní Škoda Plus, dávkově doplňuje výbavu, počítá cenové srovnání, porovnává změny a případně posílá Telegram. |
 | Nastavení | `config/filters.json` | Pobočky a pravidla pro Telegram notifikace. |
 | Automatizace | `.github/workflows/update-and-deploy.yml` | Hodinové aktualizace, ukládání dat a nasazení GitHub Pages. |
 | Tajemství | GitHub Actions Secrets | Token bota a Telegram chat ID; nikdy je neukládat do souborů. |
@@ -45,6 +45,10 @@ Notifikace se posílají jen pro:
 Novinky a zlevnění z Ivančic mají v Telegramu prioritu: jsou v souhrnné zprávě řazené první a označené hvězdičkou.
 
 Tento filtr ovlivňuje pouze Telegram. Web stále zobrazuje všechny stažené nabídky a má vlastní filtry značky, modelu, ceny, nájezdu, lokality a řazení.
+
+### Cenové srovnání
+
+Pro vozy Škoda se jednou denně stáhne nabídka z celé ČR. U každého lokálního vozu se hledají nabídky stejného modelu, výbavové linie, paliva a převodovky, s výkonem ±15 kW, rokem ±2 a nájezdem ±30 000 km. Typická cena je medián nejvýše 40 nejbližších srovnatelných vozů. Při vzorku menším než pět se odhad nezobrazí. Jde o srovnání nabídkových, nikoli skutečně realizovaných cen; jednotlivé příplatkové prvky se zatím samostatně neoceňují.
 
 ### Čas kontroly
 
@@ -76,7 +80,7 @@ GitHub Actions kontroluje data každou hodinu v `:17`, od 07:17 do 22:17 v časo
 
 - Změna textů a vzhledu: `index.html`, `styles.css`, `app.js`.
 - Změna poboček nebo Telegram filtru: `config/filters.json`.
-- Změna logiky sběru dat: `scraper/update.py`.
+- Změna logiky sběru dat a cenového modelu: `scraper/update.py`.
 - Kontrola běhů: záložka **Actions** v GitHubu.
 - Po úpravě odeslat změny:
 

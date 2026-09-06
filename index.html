@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css?v=8" />
+    <link rel="stylesheet" href="styles.css?v=9" />
   </head>
   <body>
     <header class="topbar">
@@ -169,6 +169,10 @@
           </dl>
           <button class="compare-button" type="button"><span aria-hidden="true">＋</span> Přidat do porovnání</button>
           <div class="price-row"><div><span class="previous-price"></span><strong class="current-price"></strong></div><a class="detail-link" target="_blank" rel="noopener">Detail <span>↗</span></a></div>
+          <div class="market-insight" hidden>
+            <strong class="market-delta"></strong>
+            <span class="market-detail"></span>
+          </div>
           <p class="dealer-name"></p>
         </div>
       </article>
@@ -193,7 +197,7 @@
         <div>
           <p class="eyebrow">Vedle sebe, bez dojmologie</p>
           <h2 id="compareTitle">Porovnání vybraných vozů</h2>
-          <p class="compare-dialog-note">Výbava vychází z údajů jednotlivých prodejců, takže se názvy podobných prvků mohou mírně lišit.</p>
+          <p class="compare-dialog-note">Typická cena je medián aktuálních nabídkových cen podobných vozů Škoda Plus v celé ČR, nikoli realizovaná prodejní cena. Výbava vychází z údajů jednotlivých prodejců.</p>
           <label class="equipment-toggle">
             <input type="checkbox" id="equipmentDifferencesOnly" checked />
             <span aria-hidden="true"></span>
@@ -207,6 +211,6 @@
       </div>
     </dialog>
 
-    <script src="app.js?v=8" defer></script>
+    <script src="app.js?v=9" defer></script>
   </body>
 </html>
