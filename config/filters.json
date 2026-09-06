@@ -37,9 +37,11 @@
     { "id": "Dealer-122", "city": "Zlín", "area": "Okolí Brna", "name": "SAMOHÝL MOTOR a.s." }
   ],
   "notifications": {
-    "models": [],
+    "models": ["Scala", "Kamiq"],
     "excludeModels": ["Fabia"],
     "fuels": ["Benzín"],
+    "priorityCities": ["Ivančice"],
+    "minPrice": 300000,
     "maxPrice": 400000,
     "maxMileage": null,
     "minYear": null

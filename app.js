@@ -1,6 +1,7 @@
 const state = {
   offers: [],
-  area: "all",
+  location: "all",
+  dealer: "all",
   make: "all",
   model: "all",
   minPrice: "all",
@@ -15,6 +16,7 @@ const elements = {
   grid: document.querySelector("#carGrid"),
   template: document.querySelector("#carCardTemplate"),
   empty: document.querySelector("#emptyState"),
+  dealer: document.querySelector("#dealerFilter"),
   make: document.querySelector("#makeFilter"),
   model: document.querySelector("#modelFilter"),
   minPrice: document.querySelector("#minPriceFilter"),
@@ -41,7 +43,8 @@ const carCountLabel = count => {
 
 function filteredOffers() {
   return state.offers
-    .filter(offer => state.area === "all" || offer.area === state.area)
+    .filter(matchesLocation)
+    .filter(offer => state.dealer === "all" || offer.dealerId === state.dealer)
     .filter(offer => state.make === "all" || offer.make === state.make)
     .filter(offer => state.model === "all" || offer.model === state.model)
     .filter(offer => state.minPrice === "all" || offer.price >= Number(state.minPrice))
@@ -55,6 +58,12 @@ function filteredOffers() {
       if (state.sort === "mileage") return a.mileage - b.mileage;
       return new Date(b.firstSeen) - new Date(a.firstSeen);
     });
+}
+
+function matchesLocation(offer) {
+  if (state.location === "all") return true;
+  const [type, value] = state.location.split(":");
+  return offer[type] === value;
 }
 
 function updateStats(offers) {
@@ -127,11 +136,12 @@ function render() {
   elements.empty.hidden = offers.length > 0;
   elements.grid.hidden = offers.length === 0;
   updateStats(offers);
-  document.querySelectorAll(".location-tab").forEach(button => button.classList.toggle("active", button.dataset.area === state.area));
+  document.querySelectorAll(".location-tab").forEach(button => button.classList.toggle("active", button.dataset.location === state.location));
 }
 
 function resetFilters() {
-  state.area = "all";
+  state.location = "all";
+  state.dealer = "all";
   state.make = "all";
   state.model = "all";
   state.minPrice = "all";
@@ -141,6 +151,7 @@ function resetFilters() {
   state.onlyChanges = false;
   state.sort = "newest";
   elements.make.value = "all";
+  elements.dealer.value = "all";
   populateModelOptions();
   elements.model.value = "all";
   elements.minPrice.value = "all";
@@ -163,6 +174,16 @@ function populateModelOptions() {
   models.forEach(model => elements.model.add(new Option(model, model)));
   state.model = models.includes(currentModel) ? currentModel : "all";
   elements.model.value = state.model;
+}
+
+function populateDealerOptions() {
+  const currentDealer = state.dealer;
+  const dealers = [...new Map(state.offers.map(offer => [offer.dealerId, offer])).values()]
+    .sort((a, b) => `${a.city} ${a.dealer}`.localeCompare(`${b.city} ${b.dealer}`, "cs"));
+  elements.dealer.replaceChildren(new Option("Všechny pobočky", "all"));
+  dealers.forEach(offer => elements.dealer.add(new Option(`${offer.city} · ${offer.dealer}`, offer.dealerId)));
+  state.dealer = dealers.some(offer => offer.dealerId === currentDealer) ? currentDealer : "all";
+  elements.dealer.value = state.dealer;
 }
 
 function populateRange(select, start, end, step, formatter) {
@@ -192,9 +213,10 @@ function updateRange(kind, changedBound) {
 
 function bindControls() {
   document.querySelectorAll(".location-tab").forEach(button => button.addEventListener("click", () => {
-    state.area = button.dataset.area;
+    state.location = button.dataset.location;
     render();
   }));
+  elements.dealer.addEventListener("change", event => { state.dealer = event.target.value; render(); });
   elements.make.addEventListener("change", event => {
     state.make = event.target.value;
     populateModelOptions();
@@ -228,6 +250,7 @@ async function initialize() {
     document.querySelector("#demoBadge").hidden = !data.demo;
     const makes = [...new Set(state.offers.map(offer => offer.make))].sort((a, b) => a.localeCompare(b, "cs"));
     makes.forEach(make => elements.make.add(new Option(make, make)));
+    populateDealerOptions();
     populateModelOptions();
     const maximumPrice = Math.ceil(Math.max(...state.offers.map(offer => offer.price), 100000) / 50000) * 50000;
     populateRange(elements.minPrice, 100000, maximumPrice, 50000, value => `Od ${formatNumber(value)} Kč`);
@@ -237,6 +260,7 @@ async function initialize() {
     populateRange(elements.maxMileage, 0, maximumMileage, 25000, value => `Do ${formatNumber(value)} km`);
     document.querySelector("#allTabCount").textContent = state.offers.length;
     document.querySelector("#brnoTabCount").textContent = state.offers.filter(offer => offer.area === "Brno").length;
+    document.querySelector("#ivanciceTabCount").textContent = state.offers.filter(offer => offer.city === "Ivančice").length;
     document.querySelector("#nearbyTabCount").textContent = state.offers.filter(offer => offer.area === "Okolí Brna").length;
     render();
   } catch (error) {

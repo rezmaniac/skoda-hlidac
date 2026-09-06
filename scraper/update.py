@@ -194,6 +194,7 @@ def matches_notification_filter(offer: dict, filters: dict) -> bool:
         (not models or offer["model"] in models)
         and offer["model"] not in excluded_models
         and (not fuels or offer["fuel"] in fuels)
+        and (filters.get("minPrice") is None or offer["price"] >= filters["minPrice"])
         and (filters.get("maxPrice") is None or offer["price"] <= filters["maxPrice"])
         and (filters.get("maxMileage") is None or offer["mileage"] <= filters["maxMileage"])
         and (filters.get("minYear") is None or offer["year"] >= filters["minYear"])
@@ -204,13 +205,16 @@ def money(value: int) -> str:
     return f"{value:,}".replace(",", " ") + " Kč"
 
 
-def build_message(new_offers: list[dict], discounts: list[dict]) -> str:
-    lines = ["🚗 <b>Hlídač vozů našel změny</b>", ""]
+def build_message(new_offers: list[dict], discounts: list[dict], priority_cities: list[str]) -> str:
     changes = [("NOVINKA", offer) for offer in new_offers] + [("ZLEVNĚNO", offer) for offer in discounts]
+    changes.sort(key=lambda item: (item[1]["city"] not in priority_cities, item[0] != "NOVINKA", item[1]["city"], item[1]["price"]))
+    has_priority = any(offer["city"] in priority_cities for _, offer in changes)
+    lines = ["⭐ <b>Hlídač vozů našel prioritní změnu</b>" if has_priority else "🚗 <b>Hlídač vozů našel změny</b>", ""]
     for label, offer in changes[:10]:
         title = " ".join(part for part in (offer["make"], offer["model"], offer["trim"]) if part)
+        priority = "⭐ PRIORITA · " if offer["city"] in priority_cities else ""
         lines.extend([
-            f"<b>{label} · {html.escape(offer['city'])}</b>",
+            f"<b>{priority}{label} · {html.escape(offer['city'])}</b>",
             html.escape(title),
             f"{offer['year']} · {offer['mileage']:,} km · <b>{money(offer['price'])}</b>".replace(",", " "),
             f"<a href=\"{html.escape(offer['url'], quote=True)}\">Otevřít nabídku</a>",
@@ -293,7 +297,7 @@ def main() -> int:
     if os.environ.get("TELEGRAM_TEST") == "1":
         send_telegram("✅ <b>Hlídač vozů je propojený.</b>\nTestovací zpráva z GitHub Actions dorazila správně.")
     elif new_offers or discounts:
-        send_telegram(build_message(new_offers, discounts))
+        send_telegram(build_message(new_offers, discounts, filters.get("priorityCities") or []))
     elif not baseline:
         print("No relevant changes; no Telegram message needed.")
     else:

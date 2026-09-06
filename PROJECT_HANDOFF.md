@@ -38,9 +38,11 @@ GitHub je hlavní záloha: každý odeslaný commit obsahuje kód, konfiguraci i
 
 Notifikace se posílají jen pro:
 
-- benzínové vozy,
-- cenu maximálně 400 000 Kč,
+- modely Scala a Kamiq,
+- benzínové vozy v ceně od 300 000 do 400 000 Kč,
 - s výjimkou modelu Fabia.
+
+Novinky a zlevnění z Ivančic mají v Telegramu prioritu: jsou v souhrnné zprávě řazené první a označené hvězdičkou.
 
 Tento filtr ovlivňuje pouze Telegram. Web stále zobrazuje všechny stažené nabídky a má vlastní filtry značky, modelu, ceny, nájezdu, lokality a řazení.
 
