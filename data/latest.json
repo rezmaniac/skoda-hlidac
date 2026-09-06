@@ -1,13 +1,13 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-09-06T09:29:50+00:00",
+  "generatedAt": "2026-09-06T13:43:10+00:00",
   "demo": false,
   "source": "https://www.skodaplus.cz/graphql",
   "summary": {
-    "total": 1785,
-    "new": 0,
+    "total": 1787,
+    "new": 2,
     "discounted": 0,
-    "removed": 0
+    "removed": 1
   },
   "offers": [
     {
@@ -11166,29 +11166,6 @@
       "url": "https://www.skodaplus.cz/Car/10214795/skoda-octavia-combi-2.0-tdi-dsg-110-kw-style"
     },
     {
-      "id": "10563111",
-      "make": "Škoda",
-      "model": "Octavia",
-      "trim": "",
-      "engine": "1,5 TSI 110kW Top Selection",
-      "powerKw": 110,
-      "fuel": "Benzín",
-      "transmission": "Manuál",
-      "year": 2024,
-      "mileage": 12494,
-      "price": 579900,
-      "previousPrice": 579900,
-      "dealer": "Direct auto Brno, s.r.o.",
-      "dealerId": "Dealer-39",
-      "city": "Brno",
-      "area": "Brno",
-      "firstSeen": "2026-08-30T18:43:03+02:00",
-      "isNew": false,
-      "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10563111/0f674d72-f14b-4309-a7bc-27c6944abe6d__big.jpg",
-      "url": "https://www.skodaplus.cz/Car/10563111/skoda-octavia-1-5-tsi-110kw-top-selection"
-    },
-    {
       "id": "10569466",
       "make": "Škoda",
       "model": "Octavia",
@@ -16019,6 +15996,29 @@
       "url": "https://www.skodaplus.cz/Car/10625299/skoda-karoq-1.5-tsi-110-kw-dsg-sportline"
     },
     {
+      "id": "10625491",
+      "make": "Škoda",
+      "model": "Karoq",
+      "trim": "SportLine",
+      "engine": "1.5 TSI 110 kW DSG SportLine",
+      "powerKw": 110,
+      "fuel": "Benzín",
+      "transmission": "Automat",
+      "year": 2025,
+      "mileage": 18300,
+      "price": 748800,
+      "previousPrice": 748800,
+      "dealer": "IVACAR 2000, a.s.",
+      "dealerId": "Dealer-264",
+      "city": "Ivančice",
+      "area": "Okolí Brna",
+      "firstSeen": "2026-09-06T13:43:10+00:00",
+      "isNew": true,
+      "color": "#9a3942",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10625491/0c7356a4-f181-434d-be1d-f1dd0f6881fd__big.jpg",
+      "url": "https://www.skodaplus.cz/Car/10625491/skoda-karoq-1.5-tsi-110-kw-dsg-sportline"
+    },
+    {
       "id": "10625292",
       "make": "Škoda",
       "model": "Octavia",
@@ -16272,6 +16272,29 @@
       "url": "https://www.skodaplus.cz/Car/10621922/volkswagen-passat-variant-2.0-tdi-110-kw-"
     },
     {
+      "id": "10625488",
+      "make": "Škoda",
+      "model": "Rapid",
+      "trim": "Style",
+      "engine": "1.0 TSI 81 kW Style",
+      "powerKw": 81,
+      "fuel": "Benzín",
+      "transmission": "Manuál",
+      "year": 2019,
+      "mileage": 149400,
+      "price": 228800,
+      "previousPrice": 228800,
+      "dealer": "IVACAR 2000, a.s.",
+      "dealerId": "Dealer-264",
+      "city": "Ivančice",
+      "area": "Okolí Brna",
+      "firstSeen": "2026-09-06T13:43:10+00:00",
+      "isNew": true,
+      "color": "#9a3942",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10625488/b416a658-020e-48a8-87cd-a29cb2ac56a4__big.jpg",
+      "url": "https://www.skodaplus.cz/Car/10625488/skoda-rapid-1.0-tsi-81-kw-style"
+    },
+    {
       "id": "10604329",
       "make": "Hyundai",
       "model": "Santa Fe",
@@ -16316,6 +16339,29 @@
       "color": "#276b63",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619001/a2d531c2-8555-4e7c-b74c-52e7529c6539__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10619001/skoda-scala-1.0-tsi-81-kw-ambition-plus"
+    },
+    {
+      "id": "10625489",
+      "make": "Škoda",
+      "model": "Scala",
+      "trim": "Style",
+      "engine": "1.5 TSI 110 kW Style",
+      "powerKw": 110,
+      "fuel": "Benzín",
+      "transmission": "Manuál",
+      "year": 2021,
+      "mileage": 108000,
+      "price": 358800,
+      "previousPrice": 358800,
+      "dealer": "IVACAR 2000, a.s.",
+      "dealerId": "Dealer-264",
+      "city": "Ivančice",
+      "area": "Okolí Brna",
+      "firstSeen": "2026-09-06T13:43:10+00:00",
+      "isNew": true,
+      "color": "#b8b2a8",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10625489/a1aac61a-1cf9-4616-9457-f6a3380d6996__big.jpg",
+      "url": "https://www.skodaplus.cz/Car/10625489/skoda-scala-1.5-tsi-110-kw-style"
     },
     {
       "id": "10617317",
