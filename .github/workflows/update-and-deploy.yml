@@ -13,6 +13,26 @@ on:
         required: false
         type: boolean
         default: false
+      send_report:
+        description: Poslat jednorázový přehled aktuálně dostupných vozů
+        required: false
+        type: boolean
+        default: false
+      report_models:
+        description: Modely oddělené čárkou
+        required: false
+        type: string
+        default: Scala,Kamiq
+      report_min_price:
+        description: Cena od v Kč
+        required: false
+        type: string
+        default: "370000"
+      report_max_price:
+        description: Cena do v Kč
+        required: false
+        type: string
+        default: "420000"
 
 permissions:
   contents: write
@@ -45,6 +65,10 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TELEGRAM_TEST: ${{ inputs.test_telegram && '1' || '0' }}
+          TELEGRAM_REPORT: ${{ inputs.send_report && '1' || '0' }}
+          TELEGRAM_REPORT_MODELS: ${{ inputs.report_models }}
+          TELEGRAM_REPORT_MIN_PRICE: ${{ inputs.report_min_price }}
+          TELEGRAM_REPORT_MAX_PRICE: ${{ inputs.report_max_price }}
         run: python scraper/update.py
 
       - name: Uložit aktuální data

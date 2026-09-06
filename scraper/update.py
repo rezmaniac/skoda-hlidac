@@ -226,6 +226,41 @@ def build_message(new_offers: list[dict], discounts: list[dict], priority_cities
     return "\n".join(lines).strip()
 
 
+def build_report_messages(offers: list[dict], models: list[str], min_price: int, max_price: int, priority_cities: list[str]) -> list[str]:
+    offers.sort(key=lambda offer: (offer["city"] not in priority_cities, offer["price"], offer["mileage"]))
+    chunks = [offers[index:index + 8] for index in range(0, len(offers), 8)]
+    messages = []
+    for index, chunk in enumerate(chunks, start=1):
+        lines = [
+            f"📋 <b>Aktuální {html.escape(' / '.join(models))}</b>",
+            f"{money(min_price)}–{money(max_price)} · {len(offers)} vozů · {index}/{len(chunks)}",
+            "",
+        ]
+        for offer in chunk:
+            title = " ".join(part for part in (offer["make"], offer["model"], offer["trim"]) if part)
+            priority = "⭐ " if offer["city"] in priority_cities else ""
+            lines.extend([
+                f"<b>{priority}{html.escape(offer['city'])} · {html.escape(title)}</b>",
+                f"{offer['year']} · {offer['mileage']:,} km · <b>{money(offer['price'])}</b>".replace(",", " "),
+                f"<a href=\"{html.escape(offer['url'], quote=True)}\">Otevřít nabídku</a>",
+                "",
+            ])
+        messages.append("\n".join(lines).strip())
+    return messages
+
+
+def report_filter_from_environment() -> tuple[list[str], int, int]:
+    models = [model.strip() for model in os.environ.get("TELEGRAM_REPORT_MODELS", "").split(",") if model.strip()]
+    try:
+        min_price = int(os.environ.get("TELEGRAM_REPORT_MIN_PRICE", "0"))
+        max_price = int(os.environ.get("TELEGRAM_REPORT_MAX_PRICE", "0"))
+    except ValueError as exc:
+        raise RuntimeError("Telegram report price must be a whole number") from exc
+    if not models or min_price < 0 or max_price < min_price:
+        raise RuntimeError("Telegram report filters are invalid")
+    return models, min_price, max_price
+
+
 def send_telegram(message: str) -> bool:
     token = os.environ.get("TELEGRAM_BOT_TOKEN")
     chat_id = os.environ.get("TELEGRAM_CHAT_ID")
@@ -294,7 +329,19 @@ def main() -> int:
     DATA_PATH.write_text(json.dumps(snapshot, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Saved {len(offers)} offers ({len(new_offers)} new, {len(discounts)} discounted, {len(removed_ids)} removed).")
 
-    if os.environ.get("TELEGRAM_TEST") == "1":
+    if os.environ.get("TELEGRAM_REPORT") == "1":
+        report_models, report_min_price, report_max_price = report_filter_from_environment()
+        report_offers = [
+            offer for offer in offers
+            if offer["model"] in report_models and report_min_price <= offer["price"] <= report_max_price
+        ]
+        report_messages = build_report_messages(report_offers, report_models, report_min_price, report_max_price, filters.get("priorityCities") or [])
+        if not report_messages:
+            send_telegram("📋 <b>Aktuální přehled</b>\nV zadaném filtru teď není žádný vůz.")
+        else:
+            for report_message in report_messages:
+                send_telegram(report_message)
+    elif os.environ.get("TELEGRAM_TEST") == "1":
         send_telegram("✅ <b>Hlídač vozů je propojený.</b>\nTestovací zpráva z GitHub Actions dorazila správně.")
     elif new_offers or discounts:
         send_telegram(build_message(new_offers, discounts, filters.get("priorityCities") or []))
