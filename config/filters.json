@@ -43,7 +43,7 @@
     "priorityCities": ["Ivančice"],
     "minPrice": 370000,
     "maxPrice": 420000,
-    "maxMileage": null,
+    "maxMileage": 60000,
     "minYear": null
   }
 }
