@@ -41,8 +41,8 @@
     "excludeModels": ["Fabia"],
     "fuels": ["Benzín"],
     "priorityCities": ["Ivančice"],
-    "minPrice": 300000,
-    "maxPrice": 410000,
+    "minPrice": 370000,
+    "maxPrice": 415000,
     "maxMileage": null,
     "minYear": null
   }
