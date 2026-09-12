@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "generatedAt": "2026-09-11T21:45:58+00:00",
+  "generatedAt": "2026-09-12T09:25:49+00:00",
   "demo": false,
   "source": "https://www.skodaplus.cz/graphql",
   "summary": {
@@ -12098,7 +12098,7 @@
         "Zatmavovací zrcátko - vnitřní",
         "Řazení pod volantem"
       ],
-      "sourceModifiedAt": "2026-09-02T16:49:29.908831",
+      "sourceModifiedAt": "2026-09-12T04:00:30.056271",
       "engine": "1.5 TSi 110kW",
       "powerKw": 110,
       "fuel": "Benzín",
@@ -141831,7 +141831,7 @@
         "Řazení pod volantem",
         "Škoda Connect"
       ],
-      "sourceModifiedAt": "2026-08-18T08:32:13.566328",
+      "sourceModifiedAt": "2026-09-12T04:00:28.861424",
       "engine": "1.0TSI 85kW DSG Top Selection, tažné",
       "powerKw": 85,
       "fuel": "Benzín",
