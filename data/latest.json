@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "generatedAt": "2026-09-12T22:22:43+00:00",
+  "generatedAt": "2026-09-13T10:21:35+00:00",
   "demo": false,
   "source": "https://www.skodaplus.cz/graphql",
   "summary": {
@@ -32681,7 +32681,7 @@
         "Zatmavovací zrcátko – řidič",
         "Škoda Connect"
       ],
-      "sourceModifiedAt": "2026-05-13T12:28:13.8248",
+      "sourceModifiedAt": "2026-09-13T03:03:35.600146",
       "engine": "SELECTION TS 110/1.5 A7F",
       "powerKw": 110,
       "fuel": "Benzín",
@@ -53786,7 +53786,7 @@
         "Řazení pod volantem",
         "Škoda Connect"
       ],
-      "sourceModifiedAt": "2026-04-20T12:49:55.994739",
+      "sourceModifiedAt": "2026-09-13T03:09:05.696914",
       "engine": "2.0 TDI 142 kW Excl. Selection 4x4 DSG  ",
       "powerKw": 142,
       "fuel": "Nafta",
@@ -109693,7 +109693,7 @@
         "Řazení pod volantem",
         "Škoda Connect"
       ],
-      "sourceModifiedAt": "2026-09-04T12:51:20.037206",
+      "sourceModifiedAt": "2026-09-13T03:05:31.57441",
       "engine": "DSG 4x4 / 2.0 TDI / 142 kW  / SPORTLINE",
       "powerKw": 142,
       "fuel": "Nafta",
@@ -131941,7 +131941,7 @@
         "Řazení pod volantem",
         "Škoda Connect"
       ],
-      "sourceModifiedAt": "2026-08-31T19:09:26.65853",
+      "sourceModifiedAt": "2026-09-13T03:11:10.545963",
       "engine": " 1.5 TSI 110kW MHEV  DSG Top Selection",
       "powerKw": 110,
       "fuel": "Benzín",
@@ -146434,7 +146434,7 @@
         "Řazení pod volantem",
         "Škoda Connect"
       ],
-      "sourceModifiedAt": "2026-09-01T08:40:17.490824",
+      "sourceModifiedAt": "2026-09-13T03:07:13.65012",
       "engine": "2.0TDI 110kW DSG Combi Selection ",
       "powerKw": 110,
       "fuel": "Nafta",
