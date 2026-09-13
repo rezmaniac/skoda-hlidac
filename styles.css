@@ -92,6 +92,23 @@ h1 span { color: var(--green); }
 .range-controls select { min-width: 0; }
 select { min-width: 170px; padding: 11px 34px 11px 13px; appearance: none; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--ink); cursor: pointer; outline: none; }
 select:focus { border-color: var(--green); box-shadow: 0 0 0 3px color-mix(in srgb, var(--green) 13%, transparent); }
+.multi-filter { position: relative; }
+.multi-filter::after { display: none; }
+.multi-select { position: relative; }
+.multi-select summary { min-height: 43px; padding: 11px 36px 11px 13px; position: relative; overflow: hidden; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--ink); cursor: pointer; list-style: none; white-space: nowrap; text-overflow: ellipsis; }
+.multi-select summary::-webkit-details-marker { display: none; }
+.multi-select summary::after { content: "⌄"; position: absolute; right: 13px; color: var(--muted); transition: transform .18s; }
+.multi-select[open] summary { border-color: var(--green); box-shadow: 0 0 0 3px color-mix(in srgb, var(--green) 13%, transparent); }
+.multi-select[open] summary::after { transform: rotate(180deg); }
+.multi-panel { width: max(100%, 290px); max-height: 330px; padding: 8px; position: absolute; top: calc(100% + 6px); left: 0; z-index: 35; display: flex; flex-direction: column; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); box-shadow: var(--shadow); }
+.multi-options { min-height: 0; overflow-y: auto; }
+.multi-option { padding: 8px 7px; display: flex; align-items: center; gap: 9px; border-radius: 8px; color: var(--ink); font-size: 12px; cursor: pointer; }
+.multi-option:hover { background: var(--surface-2); }
+.multi-option input { position: absolute; opacity: 0; pointer-events: none; }
+.multi-check { width: 17px; height: 17px; flex: 0 0 17px; display: grid; place-items: center; border: 1px solid var(--line); border-radius: 5px; background: var(--surface); }
+.multi-option input:checked + .multi-check { border-color: var(--green); background: var(--green); }
+.multi-option input:checked + .multi-check::after { content: "✓"; color: #fff; font-size: 11px; font-weight: 800; }
+.multi-clear { margin-top: 7px; padding: 9px; border: 0; border-top: 1px solid var(--line); background: transparent; color: var(--green); font-size: 11px; font-weight: 800; cursor: pointer; }
 .sort-wrap { flex: 0 1 180px; margin-left: auto; }
 .check-filter { min-height: 43px; display: flex; align-items: center; gap: 9px; color: var(--muted); font-size: 13px; font-weight: 600; cursor: pointer; }
 .check-filter input { position: absolute; opacity: 0; }

@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css?v=10" />
+    <link rel="stylesheet" href="styles.css?v=11" />
   </head>
   <body>
     <header class="topbar">
@@ -77,18 +77,27 @@
           <button class="location-tab" data-location="area:Okolí Brna">Okolí Brna <span id="nearbyTabCount">0</span></button>
         </div>
         <div class="filter-row">
-          <label class="select-wrap filter-field dealer-filter">
+          <div class="multi-filter filter-field dealer-filter" id="dealerFilter">
             <span class="filter-label">Pobočka</span>
-            <select id="dealerFilter"><option value="all">Všechny pobočky</option></select>
-          </label>
-          <label class="select-wrap filter-field make-filter">
+            <details class="multi-select">
+              <summary><span class="multi-summary">Všechny pobočky</span></summary>
+              <div class="multi-panel"><div class="multi-options"></div><button class="multi-clear" type="button">Vybrat všechny</button></div>
+            </details>
+          </div>
+          <div class="multi-filter filter-field make-filter" id="makeFilter">
             <span class="filter-label">Značka</span>
-            <select id="makeFilter"><option value="all">Všechny značky</option></select>
-          </label>
-          <label class="select-wrap filter-field model-filter">
+            <details class="multi-select">
+              <summary><span class="multi-summary">Škoda</span></summary>
+              <div class="multi-panel"><div class="multi-options"></div><button class="multi-clear" type="button">Vybrat všechny</button></div>
+            </details>
+          </div>
+          <div class="multi-filter filter-field model-filter" id="modelFilter">
             <span class="filter-label">Model</span>
-            <select id="modelFilter"><option value="all">Všechny modely</option></select>
-          </label>
+            <details class="multi-select">
+              <summary><span class="multi-summary">Scala</span></summary>
+              <div class="multi-panel"><div class="multi-options"></div><button class="multi-clear" type="button">Vybrat všechny</button></div>
+            </details>
+          </div>
           <div class="range-filter">
             <span class="filter-label">Cena</span>
             <div class="range-controls">
@@ -221,6 +230,6 @@
       </div>
     </dialog>
 
-    <script src="app.js?v=10" defer></script>
+    <script src="app.js?v=11" defer></script>
   </body>
 </html>

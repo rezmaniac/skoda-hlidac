@@ -20,7 +20,7 @@ python3 scraper/update.py
 
 Pobočky a filtr Telegram notifikací jsou v `config/filters.json`. Web zobrazuje všechny stažené nabídky; notifikační filtr rozhoduje pouze o odeslání zprávy.
 
-Uživatel může na kartách vybrat až tři vozy a porovnat jejich cenu, rok, nájezd, motor, výkon, palivo, převodovku, výbavovou linii, jednotlivé prvky výbavy a pobočku. U výbavy lze přepínat mezi celým seznamem a pouze rozdíly. Výběr se uchovává lokálně v prohlížeči.
+Výchozí pohled zobrazuje vozy Škoda Scala. Značka, model i pobočka podporují vícenásobný výběr; prázdný výběr znamená všechny možnosti. Cenové hranice používají hodnoty 199 000 Kč, 249 000 Kč a poté kroky po 10 000 Kč od 259 000 do 999 000 Kč, následované volbou 1 000 000 Kč+. Uživatel může na kartách vybrat až tři vozy a porovnat jejich cenu, rok, nájezd, motor, výkon, palivo, převodovku, výbavovou linii, jednotlivé prvky výbavy a pobočku. U výbavy lze přepínat mezi celým seznamem a pouze rozdíly. Výběr se uchovává lokálně v prohlížeči.
 
 U škodovek web ukazuje také typickou nabídkovou cenu z celé ČR. Jde o medián nejvýše 40 nejbližších vozů se stejným modelem, výbavovou linií, palivem a převodovkou, s výkonem ±15 kW, rokem registrace ±2 a nájezdem ±30 000 km. Výsledek se zobrazí jen při alespoň pěti srovnatelných nabídkách; nejde o realizovanou prodejní cenu.
 

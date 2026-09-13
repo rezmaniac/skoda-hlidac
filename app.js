@@ -1,9 +1,9 @@
 const state = {
   offers: [],
   location: "all",
-  dealer: "all",
-  make: "all",
-  model: "all",
+  dealerIds: new Set(),
+  makes: new Set(["Škoda"]),
+  models: new Set(["Scala"]),
   minPrice: "all",
   maxPrice: "all",
   minMileage: "all",
@@ -94,9 +94,9 @@ const carCountLabel = count => {
 function filteredOffers() {
   return state.offers
     .filter(matchesLocation)
-    .filter(offer => state.dealer === "all" || offer.dealerId === state.dealer)
-    .filter(offer => state.make === "all" || offer.make === state.make)
-    .filter(offer => state.model === "all" || offer.model === state.model)
+    .filter(offer => state.dealerIds.size === 0 || state.dealerIds.has(offer.dealerId))
+    .filter(offer => state.makes.size === 0 || state.makes.has(offer.make))
+    .filter(offer => state.models.size === 0 || state.models.has(offer.model))
     .filter(offer => state.minPrice === "all" || offer.price >= Number(state.minPrice))
     .filter(offer => state.maxPrice === "all" || offer.price <= Number(state.maxPrice))
     .filter(offer => state.minMileage === "all" || offer.mileage >= Number(state.minMileage))
@@ -432,20 +432,22 @@ function render() {
 }
 
 function resetFilters() {
+  document.querySelectorAll(".multi-select[open]").forEach(select => { select.open = false; });
   state.location = "all";
-  state.dealer = "all";
-  state.make = "all";
-  state.model = "all";
+  state.dealerIds.clear();
+  state.makes.clear();
+  state.makes.add("Škoda");
+  state.models.clear();
+  state.models.add("Scala");
   state.minPrice = "all";
   state.maxPrice = "all";
   state.minMileage = "all";
   state.maxMileage = "all";
   state.onlyChanges = false;
   state.sort = "newest";
-  elements.make.value = "all";
-  elements.dealer.value = "all";
+  populateMakeOptions();
+  populateDealerOptions();
   populateModelOptions();
-  elements.model.value = "all";
   elements.minPrice.value = "all";
   elements.maxPrice.value = "all";
   elements.minMileage.value = "all";
@@ -455,33 +457,100 @@ function resetFilters() {
   render();
 }
 
+function updateMultiSummary(root, selected, allLabel) {
+  const labels = [...root.querySelectorAll(".multi-option input:checked")]
+    .map(input => input.closest("label").querySelector(".multi-option-label").textContent);
+  root.querySelector(".multi-summary").textContent = selected.size === 0
+    ? allLabel
+    : labels.length === 1 ? labels[0] : `${labels.length} vybrané`;
+}
+
+function populateMultiOptions(root, items, selected, allLabel, onChange) {
+  const validValues = new Set(items.map(item => item.value));
+  [...selected].forEach(value => {
+    if (!validValues.has(value)) selected.delete(value);
+  });
+  const options = items.map(item => {
+    const label = document.createElement("label");
+    label.className = "multi-option";
+    const input = document.createElement("input");
+    input.type = "checkbox";
+    input.value = item.value;
+    input.checked = selected.has(item.value);
+    const marker = document.createElement("span");
+    marker.className = "multi-check";
+    const text = document.createElement("span");
+    text.className = "multi-option-label";
+    text.textContent = item.label;
+    input.addEventListener("change", () => {
+      input.checked ? selected.add(item.value) : selected.delete(item.value);
+      updateMultiSummary(root, selected, allLabel);
+      onChange();
+    });
+    label.append(input, marker, text);
+    return label;
+  });
+  root.querySelector(".multi-options").replaceChildren(...options);
+  updateMultiSummary(root, selected, allLabel);
+}
+
+function populateMakeOptions() {
+  const makes = [...new Set(state.offers.map(offer => offer.make))].sort((a, b) => a.localeCompare(b, "cs"));
+  populateMultiOptions(
+    elements.make,
+    makes.map(make => ({ value: make, label: make })),
+    state.makes,
+    "Všechny značky",
+    () => { populateModelOptions(); render(); },
+  );
+}
+
 function populateModelOptions() {
-  const currentModel = state.model;
   const models = [...new Set(
     state.offers
-      .filter(offer => state.make === "all" || offer.make === state.make)
+      .filter(offer => state.makes.size === 0 || state.makes.has(offer.make))
       .map(offer => offer.model),
   )].sort((a, b) => a.localeCompare(b, "cs"));
-  elements.model.replaceChildren(new Option("Všechny modely", "all"));
-  models.forEach(model => elements.model.add(new Option(model, model)));
-  state.model = models.includes(currentModel) ? currentModel : "all";
-  elements.model.value = state.model;
+  populateMultiOptions(
+    elements.model,
+    models.map(model => ({ value: model, label: model })),
+    state.models,
+    "Všechny modely",
+    render,
+  );
 }
 
 function populateDealerOptions() {
-  const currentDealer = state.dealer;
   const dealers = [...new Map(state.offers.map(offer => [offer.dealerId, offer])).values()]
     .sort((a, b) => `${a.city} ${a.dealer}`.localeCompare(`${b.city} ${b.dealer}`, "cs"));
-  elements.dealer.replaceChildren(new Option("Všechny pobočky", "all"));
-  dealers.forEach(offer => elements.dealer.add(new Option(`${offer.city} · ${offer.dealer}`, offer.dealerId)));
-  state.dealer = dealers.some(offer => offer.dealerId === currentDealer) ? currentDealer : "all";
-  elements.dealer.value = state.dealer;
+  populateMultiOptions(
+    elements.dealer,
+    dealers.map(offer => ({ value: offer.dealerId, label: `${offer.city} · ${offer.dealer}` })),
+    state.dealerIds,
+    "Všechny pobočky",
+    render,
+  );
+}
+
+function priceValues() {
+  const values = [199000, 249000];
+  for (let value = 259000; value <= 999000; value += 10000) values.push(value);
+  return values;
+}
+
+function populatePriceRanges() {
+  elements.minPrice.replaceChildren(new Option("Bez minima", "all"));
+  priceValues().forEach(value => elements.minPrice.add(new Option(`Od ${formatNumber(value)} Kč`, String(value))));
+  elements.minPrice.add(new Option("Od 1 000 000 Kč+", "1000000"));
+  elements.maxPrice.replaceChildren();
+  priceValues().forEach(value => elements.maxPrice.add(new Option(`Do ${formatNumber(value)} Kč`, String(value))));
+  elements.maxPrice.add(new Option("1 000 000 Kč+", "all"));
+  elements.minPrice.value = state.minPrice;
+  elements.maxPrice.value = state.maxPrice;
 }
 
 function populateRange(select, start, end, step, formatter) {
-  for (let value = start; value <= end; value += step) {
-    select.add(new Option(formatter(value), String(value)));
-  }
+  for (let value = start; value <= end; value += step) select.add(new Option(formatter(value), String(value)));
 }
 
 function updateRange(kind, changedBound) {
@@ -504,17 +573,29 @@ function updateRange(kind, changedBound) {
 }
 
 function bindControls() {
+  const multiSelects = [...document.querySelectorAll(".multi-select")];
+  multiSelects.forEach(select => select.addEventListener("toggle", () => {
+    if (!select.open) return;
+    multiSelects.forEach(other => {
+      if (other !== select) other.open = false;
+    });
+  }));
   document.querySelectorAll(".location-tab").forEach(button => button.addEventListener("click", () => {
     state.location = button.dataset.location;
     render();
   }));
-  elements.dealer.addEventListener("change", event => { state.dealer = event.target.value; render(); });
-  elements.make.addEventListener("change", event => {
-    state.make = event.target.value;
-    populateModelOptions();
-    render();
+  [
+    [elements.dealer, state.dealerIds, "Všechny pobočky", render],
+    [elements.make, state.makes, "Všechny značky", () => { populateModelOptions(); render(); }],
+    [elements.model, state.models, "Všechny modely", render],
+  ].forEach(([root, selected, allLabel, onChange]) => {
+    root.querySelector(".multi-clear").addEventListener("click", () => {
+      selected.clear();
+      root.querySelectorAll("input:checked").forEach(input => { input.checked = false; });
+      updateMultiSummary(root, selected, allLabel);
+      onChange();
+    });
   });
-  elements.model.addEventListener("change", event => { state.model = event.target.value; render(); });
   elements.minPrice.addEventListener("change", () => updateRange("Price", "min"));
   elements.maxPrice.addEventListener("change", () => updateRange("Price", "max"));
   elements.minMileage.addEventListener("change", () => updateRange("Mileage", "min"));
@@ -555,13 +636,10 @@ async function initialize() {
       timeStyle: "short",
     }).format(new Date(data.generatedAt));
     document.querySelector("#demoBadge").hidden = !data.demo;
-    const makes = [...new Set(state.offers.map(offer => offer.make))].sort((a, b) => a.localeCompare(b, "cs"));
-    makes.forEach(make => elements.make.add(new Option(make, make)));
+    populateMakeOptions();
     populateDealerOptions();
     populateModelOptions();
-    const maximumPrice = Math.ceil(Math.max(...state.offers.map(offer => offer.price), 100000) / 50000) * 50000;
-    populateRange(elements.minPrice, 100000, maximumPrice, 50000, value => `Od ${formatNumber(value)} Kč`);
-    populateRange(elements.maxPrice, 100000, maximumPrice, 50000, value => `Do ${formatNumber(value)} Kč`);
+    populatePriceRanges();
     const maximumMileage = Math.ceil(Math.max(...state.offers.map(offer => offer.mileage), 0) / 25000) * 25000;
     populateRange(elements.minMileage, 0, maximumMileage, 25000, value => `Od ${formatNumber(value)} km`);
     populateRange(elements.maxMileage, 0, maximumMileage, 25000, value => `Do ${formatNumber(value)} km`);

@@ -44,7 +44,7 @@ Notifikace se posílají jen pro:
 
 Novinky a zlevnění z Ivančic mají v Telegramu prioritu: jsou v souhrnné zprávě řazené první a označené hvězdičkou.
 
-Tento filtr ovlivňuje pouze Telegram. Web stále zobrazuje všechny stažené nabídky a má vlastní filtry značky, modelu, ceny, nájezdu, lokality a řazení.
+Tento filtr ovlivňuje pouze Telegram. Web stále obsahuje všechny stažené nabídky; výchozí pohled je Škoda Scala. Značka, model a pobočka jsou vícenásobné filtry, prázdný výběr znamená vše. Web má dále vlastní filtry ceny, nájezdu, lokality a řazení.
 
 ### Cenové srovnání
 
