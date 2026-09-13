@@ -22,7 +22,7 @@ GitHub je hlavní záloha: každý odeslaný commit obsahuje kód, konfiguraci i
 | Web | `index.html`, `styles.css`, `app.js` | Statický přehled nabídek, filtry a porovnání až tří vozů v prohlížeči. |
 | Data | `data/latest.json`, `data/market.json` | Lokální nabídky s výbavou a denní kompaktní celorepublikový katalog škodovek pro cenové srovnání. |
 | Sběr dat | `scraper/update.py` | Volá veřejné GraphQL rozhraní Škoda Plus, dávkově doplňuje výbavu, počítá cenové srovnání, porovnává změny a případně posílá Telegram. |
-| Nastavení | `config/filters.json` | Pobočky a pravidla pro Telegram notifikace. |
+| Nastavení | `config/filters.json`, `config/scala-equipment-catalog.json` | Pobočky, Telegram filtr a referenční katalog příplatků Scaly. |
 | Automatizace | `.github/workflows/update-and-deploy.yml` | Hodinové aktualizace, ukládání dat a nasazení GitHub Pages. |
 | Tajemství | GitHub Actions Secrets | Token bota a Telegram chat ID; nikdy je neukládat do souborů. |
 
@@ -48,7 +48,9 @@ Tento filtr ovlivňuje pouze Telegram. Web stále zobrazuje všechny stažené n
 
 ### Cenové srovnání
 
-Pro vozy Škoda se jednou denně stáhne nabídka z celé ČR. U každého lokálního vozu se hledají nabídky stejného modelu, výbavové linie, paliva a převodovky, s výkonem ±15 kW, rokem ±2 a nájezdem ±30 000 km. Typická cena je medián nejvýše 40 nejbližších srovnatelných vozů. Při vzorku menším než pět se odhad nezobrazí. Jde o srovnání nabídkových, nikoli skutečně realizovaných cen; jednotlivé příplatkové prvky se zatím samostatně neoceňují.
+Pro vozy Škoda se jednou denně stáhne nabídka z celé ČR. U každého lokálního vozu se hledají nabídky stejného modelu, výbavové linie, paliva a převodovky, s výkonem ±15 kW, rokem ±2 a nájezdem ±30 000 km. Typická cena je medián nejvýše 40 nejbližších srovnatelných vozů. Při vzorku menším než pět se odhad nezobrazí. Jde o srovnání nabídkových, nikoli skutečně realizovaných cen.
+
+Pro Scalu modelového roku 2024+ se navíc samostatně rozpoznávají pakety, vybrané příplatky, barva a kola podle ceníku platného od 6. 3. 2024. Web ukazuje původní katalogový součet a konzervativní orientační zůstatkovou hodnotu; tu záměrně nepřičítá k typické ceně, aby výbavu nezapočítal dvakrát. Pozdější akční edice mimo referenční ceník se neoceňují.
 
 ### Čas kontroly
 

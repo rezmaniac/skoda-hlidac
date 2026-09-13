@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css?v=9" />
+    <link rel="stylesheet" href="styles.css?v=10" />
   </head>
   <body>
     <header class="topbar">
@@ -173,6 +173,16 @@
             <strong class="market-delta"></strong>
             <span class="market-detail"></span>
           </div>
+          <div class="equipment-value" hidden>
+            <strong class="equipment-value-title"></strong>
+            <span class="equipment-value-detail"></span>
+            <details>
+              <summary>Co se podařilo rozpoznat</summary>
+              <ul class="equipment-value-items"></ul>
+              <a class="equipment-value-source" target="_blank" rel="noopener">Referenční ceník 2024 ↗</a>
+              <small>Nezapočítává se automaticky do typické ceny vozu.</small>
+            </details>
+          </div>
           <p class="dealer-name"></p>
         </div>
       </article>
@@ -197,7 +207,7 @@
         <div>
           <p class="eyebrow">Vedle sebe, bez dojmologie</p>
           <h2 id="compareTitle">Porovnání vybraných vozů</h2>
-          <p class="compare-dialog-note">Typická cena je medián aktuálních nabídkových cen podobných vozů Škoda Plus v celé ČR, nikoli realizovaná prodejní cena. Výbava vychází z údajů jednotlivých prodejců.</p>
+          <p class="compare-dialog-note">Typická cena je medián aktuálních nabídkových cen podobných vozů Škoda Plus v celé ČR. Příplatky pro Scalu 2024+ vycházejí z referenčního ceníku z března 2024; jejich dnešní hodnota je jen orientační a nepřičítá se automaticky k typické ceně.</p>
           <label class="equipment-toggle">
             <input type="checkbox" id="equipmentDifferencesOnly" checked />
             <span aria-hidden="true"></span>
@@ -211,6 +221,6 @@
       </div>
     </dialog>
 
-    <script src="app.js?v=9" defer></script>
+    <script src="app.js?v=10" defer></script>
   </body>
 </html>

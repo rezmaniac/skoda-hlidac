@@ -18,9 +18,16 @@ import urllib.request
 
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
+SCRAPER_DIR = pathlib.Path(__file__).resolve().parent
+if str(SCRAPER_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRAPER_DIR))
+
+from equipment_value import estimate_equipment_value
+
 DATA_PATH = ROOT / "data" / "latest.json"
 MARKET_PATH = ROOT / "data" / "market.json"
 CONFIG_PATH = ROOT / "config" / "filters.json"
+EQUIPMENT_CATALOG_PATH = ROOT / "config" / "scala-equipment-catalog.json"
 GRAPHQL_URL = "https://www.skodaplus.cz/graphql"
 SITE_URL = "https://www.skodaplus.cz"
 PAGE_SIZE = 100
@@ -190,6 +197,30 @@ def fetch_equipment(nodes: list[dict], previous: dict[str, dict]) -> dict[str, l
     return equipment_by_id
 
 
+def fetch_valuation_details(nodes: list[dict]) -> None:
+    candidates = []
+    for node in nodes:
+        model = node.get("model") or {}
+        registration = node.get("firstRegistration") or ""
+        registration_year = int(registration[:4]) if registration[:4].isdigit() else 0
+        if model.get("modelName") == "Scala" and registration_year >= 2024:
+            candidates.append(node)
+
+    for start in range(0, len(candidates), EQUIPMENT_BATCH_SIZE):
+        batch = candidates[start:start + EQUIPMENT_BATCH_SIZE]
+        definitions = ", ".join(f"$car{index}: ID!" for index in range(len(batch)))
+        selections = "\n".join(
+            f"car{index}: car(id: $car{index}) {{ manufactureYear note color {{ value(lang: CS) }} paintType }}"
+            for index in range(len(batch))
+        )
+        query = f"query Valuation({definitions}) {{\n{selections}\n}}"
+        variables = {f"car{index}": node["id"] for index, node in enumerate(batch)}
+        result = graphql_call(query, variables)
+        for index, node in enumerate(batch):
+            node.update(result.get(f"car{index}") or {})
+    print(f"Loaded valuation details for {len(candidates)} Scala offers from 2024+.")
+
+
 def infer_fuel(node: dict) -> str:
     source_value = (node.get("fuel") or {}).get("value", "").lower()
     if "hybrid" in source_value:
@@ -349,7 +380,7 @@ def attach_market_benchmarks(offers: list[dict], catalog: list[dict]) -> int:
     return matched
 
 
-def normalize(node: dict, dealers_by_id: dict[str, dict], previous: dict[str, dict], equipment_by_id: dict[str, list[str]], baseline: bool, now: str) -> dict:
+def normalize(node: dict, dealers_by_id: dict[str, dict], previous: dict[str, dict], equipment_by_id: dict[str, list[str]], baseline: bool, now: str, equipment_catalog: dict) -> dict:
     raw_id = node["id"]
     car_id = raw_id.replace("Car-", "")
     old = previous.get(car_id)
@@ -368,7 +399,7 @@ def normalize(node: dict, dealers_by_id: dict[str, dict], previous: dict[str, di
     dealer = node.get("dealer") or {}
     first_seen = old.get("firstSeen") if old else now
     dealer_config = dealers_by_id.get(dealer.get("id"), {})
-    return {
+    offer = {
         "id": car_id,
         "make": (model.get("carMake") or {}).get("name") or "",
         "model": model.get("modelName") or "",
@@ -393,6 +424,15 @@ def normalize(node: dict, dealers_by_id: dict[str, dict], previous: dict[str, di
         "imageUrl": f"{SITE_URL}{image_path}" if image_path else None,
         "url": f"{SITE_URL}/Car/{car_id}/{pretty_url}",
     }
+    model_year = int(node.get("manufactureYear") or offer["year"] or 0)
+    if offer["model"] == "Scala" and model_year >= int(equipment_catalog.get("appliesFromYear", 9999)):
+        offer["modelYear"] = model_year
+        offer["paintColor"] = (node.get("color") or {}).get("value") or ""
+        offer["paintType"] = node.get("paintType") or ""
+        valuation = estimate_equipment_value(node, offer, equipment_catalog)
+        if valuation is not None:
+            offer["equipmentValuation"] = valuation
+    return offer
 
 
 def matches_notification_filter(offer: dict, filters: dict) -> bool:
@@ -497,9 +537,12 @@ def send_telegram(message: str) -> bool:
 
 def main() -> int:
     config = load_json(CONFIG_PATH, {})
+    equipment_catalog = load_json(EQUIPMENT_CATALOG_PATH, {})
     dealers = config.get("dealers") or []
     if not dealers:
         raise RuntimeError("No dealers configured")
+    if equipment_catalog.get("schemaVersion") != 1:
+        raise RuntimeError("Scala equipment catalog is missing or invalid")
     previous_snapshot = load_json(DATA_PATH, {})
     previous_offers = {offer["id"]: offer for offer in previous_snapshot.get("offers", [])}
     baseline = (
@@ -512,8 +555,12 @@ def main() -> int:
     dealer_ids = [dealer["id"] for dealer in dealers]
     dealers_by_id = {dealer["id"]: dealer for dealer in dealers}
     raw_offers = fetch_all(offer_filter(dealer_ids=dealer_ids), "local")
+    fetch_valuation_details(raw_offers)
     equipment_by_id = fetch_equipment(raw_offers, previous_offers)
-    offers = [normalize(node, dealers_by_id, previous_offers, equipment_by_id, baseline, now) for node in raw_offers]
+    offers = [
+        normalize(node, dealers_by_id, previous_offers, equipment_by_id, baseline, now, equipment_catalog)
+        for node in raw_offers
+    ]
     market_catalog, market_generated_at = load_market_catalog(now_datetime)
     benchmark_count = attach_market_benchmarks(offers, market_catalog)
     offers.sort(key=lambda offer: (offer["city"], offer["dealer"], offer["model"], offer["price"]))

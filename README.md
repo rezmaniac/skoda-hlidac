@@ -24,6 +24,8 @@ Uživatel může na kartách vybrat až tři vozy a porovnat jejich cenu, rok, n
 
 U škodovek web ukazuje také typickou nabídkovou cenu z celé ČR. Jde o medián nejvýše 40 nejbližších vozů se stejným modelem, výbavovou linií, palivem a převodovkou, s výkonem ±15 kW, rokem registrace ±2 a nájezdem ±30 000 km. Výsledek se zobrazí jen při alespoň pěti srovnatelných nabídkách; nejde o realizovanou prodejní cenu.
 
+U faceliftové Scaly modelového roku 2024 a novější web rozpoznává vybrané pakety, samostatné příplatky, barvu a kola. Katalogové ceny jsou v `config/scala-equipment-catalog.json` a vycházejí z oficiálního ceníku platného od 6. 3. 2024. Vedle původní ceny příplatků se zobrazuje konzervativní orientační zůstatková hodnota podle typu výbavy a stáří auta. Tato hodnota se nepřičítá k celorepublikové typické ceně, protože srovnávané inzeráty již různou výbavu obsahují. Pozdější akční edice, které referenční ceník nepopisuje, se záměrně neoceňují.
+
 Detailní výbava se načítá dávkově z detailů nabídek. U nezměněných vozů se používá uložená výbava z předchozího snapshotu; nové dotazy se provádějí jen pro nové nabídky nebo inzeráty upravené prodejcem.
 
 ## GitHub Pages

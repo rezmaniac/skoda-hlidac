@@ -68,6 +68,23 @@ function marketDifferenceText(offer, short = false) {
   return short ? `${difference < 0 ? "−" : "+"}${amount}` : `O ${amount} ${direction} typickou cenou`;
 }
 
+const paintTypeLabel = paintType => ({
+  UNI: "uni",
+  METALLIC: "metalíza",
+  PEARL_EFFECT: "perleť",
+}[paintType] || paintType || "");
+
+function equipmentItemsText(offer) {
+  const items = offer.equipmentValuation?.items || [];
+  return items.length ? items.map(item => item.label).join(", ") : "Neoceněno";
+}
+
+function recognizedItemLabel(count) {
+  if (count === 1) return "1 rozpoznaná položka";
+  if (count >= 2 && count <= 4) return `${count} rozpoznané položky`;
+  return `${count} rozpoznaných položek`;
+}
+
 const carCountLabel = count => {
   if (count === 1) return "1 vůz odpovídá výběru";
   if (count >= 2 && count <= 4) return `${count} vozy odpovídají výběru`;
@@ -154,6 +171,22 @@ function renderCard(offer) {
     marketInsight.classList.add("market-unavailable");
     marketInsight.querySelector(".market-delta").textContent = "Málo srovnatelných vozů";
     marketInsight.querySelector(".market-detail").textContent = "Cenu raději neodhadujeme";
+  }
+  const equipmentValue = fragment.querySelector(".equipment-value");
+  if (offer.equipmentValuation) {
+    const valuation = offer.equipmentValuation;
+    equipmentValue.hidden = false;
+    equipmentValue.querySelector(".equipment-value-title").textContent = `Příplatky při koupi +${formatPrice(valuation.catalogPrice)}`;
+    equipmentValue.querySelector(".equipment-value-detail").textContent = `Dnes orientačně +${formatPrice(valuation.estimatedUsedContribution)} · ${recognizedItemLabel(valuation.items.length)}`;
+    const list = equipmentValue.querySelector(".equipment-value-items");
+    valuation.items.forEach(item => {
+      const row = document.createElement("li");
+      row.textContent = `${item.label}: +${formatPrice(item.catalogPrice)}`;
+      list.append(row);
+    });
+    const source = equipmentValue.querySelector(".equipment-value-source");
+    source.href = valuation.sourceUrl;
+    equipmentValue.title = `${valuation.priceBasis} ${valuation.method} ${confidenceLabel(valuation.confidence)}.`;
   }
   fragment.querySelector(".dealer-name").textContent = offer.dealer;
   const previous = fragment.querySelector(".previous-price");
@@ -331,6 +364,10 @@ function renderComparison() {
     { label: "Typická nabídková cena", value: offer => offer.market ? formatPrice(offer.market.typicalPrice) : "Málo dat" },
     { label: "Proti typické ceně", value: offer => marketDifferenceText(offer, true), best: offer => offer.market && offer.price < offer.market.typicalPrice - 5000 },
     { label: "Srovnatelný vzorek", value: offer => offer.market ? `${offer.market.sampleSize} vozů · ${confidenceLabel(offer.market.confidence)}` : "Méně než 5 vozů" },
+    { label: "Barva", value: offer => [offer.paintColor, paintTypeLabel(offer.paintType)].filter(Boolean).join(" · ") || "—" },
+    { label: "Příplatky dle ceníku 2024", value: offer => offer.equipmentValuation ? `+${formatPrice(offer.equipmentValuation.catalogPrice)}` : "Neoceněno" },
+    { label: "Odhad hodnoty výbavy dnes", value: offer => offer.equipmentValuation ? `+${formatPrice(offer.equipmentValuation.estimatedUsedContribution)} · ${confidenceLabel(offer.equipmentValuation.confidence)}` : "Neoceněno" },
+    { label: "Rozpoznané příplatky", value: equipmentItemsText },
     { label: "Rok", value: offer => offer.year || "—", best: offer => offer.year === newestYear },
     { label: "Nájezd", value: offer => `${formatNumber(offer.mileage)} km`, best: offer => offer.mileage === lowestMileage },
     { label: "Motor", value: offer => offer.engine || "—" },

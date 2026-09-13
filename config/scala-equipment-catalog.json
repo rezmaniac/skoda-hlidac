@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "make": "Škoda",
+  "model": "Scala",
+  "appliesFromYear": 2024,
+  "priceBasis": "Referenční ceníkové ceny faceliftové Scaly platné od 6. 3. 2024. Pro pozdější vozy jde o srovnávací hodnotu, nikoli rekonstrukci faktury konkrétního auta.",
+  "source": {
+    "publisher": "Škoda Auto a.s.",
+    "title": "Nová Škoda Scala – ceník platný od 6. 3. 2024",
+    "url": "https://www.havex.cz/?download=_%2Fskoda-cenik%2F03-08%2FScala-FL_Cenik_6.3.2024.pdf",
+    "officialUrl": "https://www.skoda-auto.cz/_doc/77c078ac-2c75-4f02-8e66-3d96b7c2a386"
+  },
+  "packages": [
+    { "id": "exterior-plus", "label": "Exteriér plus", "aliases": ["exterier plus"], "prices": { "Selection": 12000 }, "resaleShare": 0.35 },
+    { "id": "interior-plus", "label": "Interiér plus", "aliases": ["interier plus"], "prices": { "Selection": 16000 }, "resaleShare": 0.40 },
+    { "id": "assisted-driving", "label": "Asistovaná jízda 1.5+", "aliases": ["asistovana jizda 1.5", "asistovana jizda"], "prices": { "Top Selection": 20000, "Monte Carlo": 20000 }, "resaleShare": 0.55 },
+    { "id": "city-plus", "label": "City plus", "aliases": ["city plus"], "prices": { "Selection": 24000, "Top Selection": 24000 }, "resaleShare": 0.45 },
+    { "id": "city-premium", "label": "City premium", "aliases": ["city premium"], "prices": { "Top Selection": 40000, "First Edition": 9000, "Monte Carlo": 32000 }, "resaleShare": 0.45, "supersedes": ["city-plus"] },
+    { "id": "navi", "label": "Navi paket", "aliases": ["navi paket", "paket navi"], "prices": { "Top Selection": 28000, "First Edition": 20000, "Monte Carlo": 28000 }, "resaleShare": 0.35 },
+    { "id": "passenger-protection", "label": "Ochrana cestujících", "aliases": ["ochrana cestujicich"], "prices": { "Top Selection": 15000, "First Edition": 15000, "Monte Carlo": 15000 }, "resaleShare": 0.45 },
+    { "id": "functional", "label": "Funkční paket", "aliases": ["funkcni paket"], "prices": { "Selection": 5500, "Top Selection": 5500, "First Edition": 5500, "Monte Carlo": 5500 }, "resaleShare": 0.20 }
+  ],
+  "standalone": [
+    { "id": "heated-windscreen", "label": "Vyhřívané čelní sklo", "aliases": ["vyhrivane celni sklo"], "prices": { "Top Selection": 5900, "First Edition": 5900, "Monte Carlo": 5900 }, "resaleShare": 0.45 },
+    { "id": "heated-rear-seats", "label": "Vyhřívání zadních sedadel", "aliases": ["vyhrivani zadnich sedadel", "vyhrivana zadni sedadla"], "prices": { "Top Selection": 4800, "First Edition": 4800, "Monte Carlo": 4800 }, "resaleShare": 0.35 },
+    { "id": "panoramic-roof", "label": "Panoramatická střecha", "aliases": ["panoramaticka strecha"], "prices": { "Top Selection": 19900, "First Edition": 19900 }, "resaleShare": 0.35 },
+    { "id": "headlight-washers", "label": "Ostřikovače světlometů", "aliases": ["ostrikovace prednich svetlometu", "ostrikovace svetlometu"], "prices": { "Selection": 3500, "Top Selection": 3500, "First Edition": 3500, "Monte Carlo": 3500 }, "resaleShare": 0.15 },
+    { "id": "matrix-led", "label": "Matrix-LED světlomety", "aliases": ["matrix-led predni svetlomety", "matrix led svetlomety", "matrix led"], "prices": { "Top Selection": 18000 }, "resaleShare": 0.55 },
+    { "id": "sound-system", "label": "Audiosystém Škoda", "aliases": ["audiosystem skoda", "sound system skoda"], "prices": { "Top Selection": 13000, "First Edition": 13000, "Monte Carlo": 13000 }, "resaleShare": 0.30 },
+    { "id": "rough-road", "label": "Paket pro špatné cesty", "aliases": ["paket pro spatne cesty"], "prices": { "Selection": 5500, "Top Selection": 5500, "First Edition": 5500 }, "resaleShare": 0.25 },
+    { "id": "towbar", "label": "Tažné zařízení", "aliases": ["tazne zarizeni"], "prices": { "Selection": 19900, "Top Selection": 19900, "First Edition": 19900, "Monte Carlo": 19900 }, "resaleShare": 0.45, "supersedes": ["towbar-preparation"] },
+    { "id": "towbar-preparation", "label": "Příprava pro tažné zařízení", "aliases": ["priprava pro tazne zarizeni"], "prices": { "Selection": 5000, "Top Selection": 5000, "First Edition": 5000, "Monte Carlo": 5000 }, "resaleShare": 0.15 },
+    { "id": "partition-net", "label": "Dělicí síť", "aliases": ["delici sit"], "prices": { "Selection": 2300, "Top Selection": 2300, "First Edition": 2300, "Monte Carlo": 2300 }, "resaleShare": 0.20 },
+    { "id": "double-floor", "label": "Dvojitá podlaha kufru", "aliases": ["dvojita podlaha zavazadloveho prostoru", "dvojita podlaha"], "prices": { "Selection": 3400, "Top Selection": 3400, "First Edition": 3400, "Monte Carlo": 3400 }, "resaleShare": 0.30 },
+    { "id": "spare-wheel", "label": "Rezervní kolo", "aliases": ["rezervni kolo"], "prices": { "Selection": 3900, "Top Selection": 3900, "First Edition": 3900, "Monte Carlo": 3900 }, "resaleShare": 0.35 },
+    { "id": "wheel-bolts", "label": "Bezpečnostní šrouby kol", "aliases": ["bezpecnostni srouby kol"], "prices": { "Selection": 400 }, "resaleShare": 0.10 }
+  ],
+  "paint": {
+    "UNI": { "defaultLabel": "Uni barva", "defaultPrice": 10500, "resaleShare": 0.10, "overrides": { "modra": { "label": "Modrá Energy", "price": 0 } } },
+    "METALLIC": { "defaultLabel": "Metalická barva", "defaultPrice": 16000, "resaleShare": 0.18, "overrides": { "cervena": { "label": "Červená Velvet", "price": 22300 } } },
+    "PEARL_EFFECT": { "defaultLabel": "Metalická/perleťová barva", "defaultPrice": 16000, "resaleShare": 0.18, "overrides": {} }
+  },
+  "wheels": [
+    { "id": "cortadero", "label": "Kola Cortadero 16\"", "aliases": ["cortadero"], "prices": { "Selection": 13000 }, "resaleShare": 0.30 },
+    { "id": "nyota", "label": "Kola Nyota 16\"", "aliases": ["nyota"], "prices": { "Selection": 14500, "Top Selection": 1500 }, "resaleShare": 0.30 },
+    { "id": "montado", "label": "Kola Montado 16\"", "aliases": ["montado"], "prices": { "Top Selection": 4000 }, "resaleShare": 0.30 },
+    { "id": "propus", "label": "Kola Propus Aero 17\"", "aliases": ["propus"], "prices": { "Top Selection": 15000, "First Edition": 1800 }, "resaleShare": 0.32 },
+    { "id": "kajam", "label": "Kola Kajam 17\"", "aliases": ["kajam"], "prices": { "Top Selection": 13000 }, "resaleShare": 0.32 },
+    { "id": "stratos", "label": "Kola Stratos 17\"", "aliases": ["stratos"], "prices": { "Top Selection": 12500 }, "resaleShare": 0.32 },
+    { "id": "fornax", "label": "Kola Fornax 18\"", "aliases": ["fornax"], "prices": { "Top Selection": 24000, "First Edition": 10600 }, "resaleShare": 0.35 },
+    { "id": "vega", "label": "Kola Vega Aero 18\"", "aliases": ["vega"], "prices": { "Top Selection": 26000 }, "resaleShare": 0.35 },
+    { "id": "ursa", "label": "Kola Ursa 18\"", "aliases": ["ursa"], "prices": { "Top Selection": 24000, "First Edition": 11000, "Monte Carlo": 13000 }, "resaleShare": 0.35 }
+  ],
+  "wheelFallback": {
+    "trim": "Selection",
+    "equipmentAlias": "alu kola",
+    "label": "Kola z lehké slitiny (minimální katalogová cena)",
+    "price": 13000,
+    "resaleShare": 0.30
+  }
+}
