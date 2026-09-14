@@ -1,18 +1,18 @@
 {
   "schemaVersion": 4,
-  "generatedAt": "2026-09-13T20:56:34+00:00",
+  "generatedAt": "2026-09-14T10:45:45+00:00",
   "demo": false,
   "source": "https://www.skodaplus.cz/graphql",
   "summary": {
-    "total": 1810,
+    "total": 1806,
     "new": 0,
     "discounted": 0,
-    "removed": 0,
-    "benchmarked": 918
+    "removed": 11,
+    "benchmarked": 912
   },
   "market": {
-    "generatedAt": "2026-09-13T15:48:22+02:00",
-    "sampleSize": 7806,
+    "generatedAt": "2026-09-14T10:45:45+00:00",
+    "sampleSize": 7788,
     "method": "median of same model, trim, fuel and transmission; power ±15 kW, year ±2, mileage ±30,000 km"
   },
   "offers": [
@@ -393,7 +393,7 @@
       "url": "https://www.skodaplus.cz/Car/10563288/skoda-fabia-1-0tsi-85kw-monte-carlo",
       "market": {
         "typicalPrice": 499000,
-        "lowerQuartile": 490000,
+        "lowerQuartile": 489000,
         "upperQuartile": 519000,
         "sampleSize": 40,
         "confidence": "high"
@@ -3631,115 +3631,9 @@
       "url": "https://www.skodaplus.cz/Car/10620960/skoda-superb-1-5tsi-110kw-mhev-selection",
       "market": {
         "typicalPrice": 800000,
-        "lowerQuartile": 764000,
-        "upperQuartile": 830000,
-        "sampleSize": 17,
-        "confidence": "high"
-      }
-    },
-    {
-      "id": "10493805",
-      "make": "Škoda",
-      "model": "Superb",
-      "trim": "Selection",
-      "equipment": [
-        "ABS",
-        "Adaptivní tempomat 210km/h",
-        "Airbag boční",
-        "Airbag hlavový",
-        "Airbag kolenní",
-        "Airbag řidiče a spolujezdce",
-        "ALU kola",
-        "Ambientní osvětlení",
-        "Asistent dálkových světel",
-        "Asistent rozjezdu do kopce",
-        "Asistent rozpoznání únavy řidiče",
-        "Asistent vyparkování",
-        "ASR",
-        "Autohold",
-        "Autorádio",
-        "Bezdrátové nabíjení mobilního telefonu",
-        "Bezdrátový Smartlink – zrcadlení mobilního telefonu",
-        "Bezklíčové odemykání",
-        "Blind spot detect / Side assist",
-        "Bluetooth",
-        "Dešťový senzor",
-        "Digitální přístrojový štít",
-        "Dálkové centrální zamykání",
-        "El. ovládaná okna",
-        "El. ovládaná přední sedadla",
-        "El. ovládaná zrcátka",
-        "El. ovládané 5.dveře",
-        "El. sklopná zrcátka",
-        "ESP",
-        "Front assist/Nouzové brzdění",
-        "Handsfree",
-        "Imobilizér",
-        "ISOFIX",
-        "ISOFIX na sedadle spolujezdce",
-        "Klimatizace automatická vícezónová",
-        "Kontrola tlaku v pneu",
-        "Lane assist",
-        "LED denní svícení",
-        "LED hlavní světlomety",
-        "Loketní opěrka",
-        "Malý kožený paket",
-        "Masážní sedadla",
-        "MaxiDot",
-        "Metalický lak",
-        "Multifunkční volant",
-        "Nabíjecí USB vzadu",
-        "Nastavitelný volant",
-        "Navigační systém",
-        "Nouzové volání",
-        "Palubní počítač",
-        "Parkovací brzda el. mech.",
-        "Parkovací kamera",
-        "Parkovací senzory vepředu",
-        "Parkovací senzory vzadu",
-        "Posilovač řízení",
-        "Přední mlhovky",
-        "Rezervní kolo",
-        "Rozpoznání dopravních značek",
-        "Senzor světel",
-        "Start – stop Systém",
-        "Startování tlačítkem",
-        "SUNSET/Tónovaná skla",
-        "Tónovaná skla",
-        "Ukazatel vnější teploty",
-        "USB slot",
-        "Virtuální pedál",
-        "Vyhřívaná sedadla vpředu a vzadu",
-        "Vyhřívané trysky ostřikovače čelního skla",
-        "Vyhřívaný volant",
-        "Zadní stěrač s ostřikovačem",
-        "Zatmavovací zrcátko - všechny",
-        "Řazení pod volantem",
-        "Škoda Connect"
-      ],
-      "sourceModifiedAt": "2026-09-09T08:54:25.822078",
-      "engine": "1,5TSI 110kW DSG Selection",
-      "powerKw": 110,
-      "fuel": "Benzín",
-      "transmission": "Automat",
-      "year": 2024,
-      "mileage": 10621,
-      "price": 786000,
-      "previousPrice": 786000,
-      "dealer": "TOP AUTOSALON BLANSKO s.r.o.",
-      "dealerId": "Dealer-275",
-      "city": "Blansko",
-      "area": "Okolí Brna",
-      "firstSeen": "2026-08-30T18:43:03+02:00",
-      "isNew": false,
-      "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10493805/72094f61-b28e-4b44-a57d-664d4ec69c74__big.jpg",
-      "url": "https://www.skodaplus.cz/Car/10493805/skoda-superb-1-5tsi-110kw-dsg-selection",
-      "market": {
-        "typicalPrice": 800000,
-        "lowerQuartile": 764000,
-        "upperQuartile": 830000,
-        "sampleSize": 17,
+        "lowerQuartile": 772000,
+        "upperQuartile": 832000,
+        "sampleSize": 15,
         "confidence": "high"
       }
     },
@@ -4561,7 +4455,7 @@
       "market": {
         "typicalPrice": 465000,
         "lowerQuartile": 450000,
-        "upperQuartile": 490000,
+        "upperQuartile": 485000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -7555,7 +7449,7 @@
       "url": "https://www.skodaplus.cz/Car/10615122/skoda-fabia-1-0tsi-85kw-dsg-monte-carlo",
       "market": {
         "typicalPrice": 499000,
-        "lowerQuartile": 489000,
+        "lowerQuartile": 488000,
         "upperQuartile": 519000,
         "sampleSize": 40,
         "confidence": "high"
@@ -7644,8 +7538,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10620270/404e5f13-5d37-41cc-8510-35ef2cf0aca1__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10620270/skoda-kamiq-1-0tsi-85kw-selection",
       "market": {
-        "typicalPrice": 463000,
-        "lowerQuartile": 432000,
+        "typicalPrice": 465000,
+        "lowerQuartile": 438000,
         "upperQuartile": 489000,
         "sampleSize": 40,
         "confidence": "high"
@@ -7863,8 +7757,8 @@
       "market": {
         "typicalPrice": 638000,
         "lowerQuartile": 619000,
-        "upperQuartile": 650000,
-        "sampleSize": 33,
+        "upperQuartile": 652000,
+        "sampleSize": 32,
         "confidence": "high"
       }
     },
@@ -8226,7 +8120,7 @@
       "url": "https://www.skodaplus.cz/Car/10605208/skoda-kodiaq-2-0tdi-142kw-dsg-4x4-exclusive-selection",
       "market": {
         "typicalPrice": 1199000,
-        "lowerQuartile": 1159000,
+        "lowerQuartile": 1163000,
         "upperQuartile": 1251000,
         "sampleSize": 40,
         "confidence": "high"
@@ -8354,8 +8248,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10620221/a027b8f1-11d4-457c-9ec7-5de283eba299__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10620221/skoda-kodiaq-2-0tdi-142kw-4x4-dsg-exclusive-selection",
       "market": {
-        "typicalPrice": 1194000,
-        "lowerQuartile": 1146000,
+        "typicalPrice": 1198000,
+        "lowerQuartile": 1149000,
         "upperQuartile": 1234000,
         "sampleSize": 40,
         "confidence": "high"
@@ -8655,7 +8549,7 @@
       "url": "https://www.skodaplus.cz/Car/10617760/skoda-octavia-1-5tsi-110kw-top-selection",
       "market": {
         "typicalPrice": 669000,
-        "lowerQuartile": 629000,
+        "lowerQuartile": 626000,
         "upperQuartile": 690000,
         "sampleSize": 40,
         "confidence": "high"
@@ -11562,10 +11456,10 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10624507/e52ef0c3-9f8e-4565-95eb-089c5d7a3e42__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10624507/skoda-fabia-combi-1.0-tsi-70kw-style-plus",
       "market": {
-        "typicalPrice": 368000,
-        "lowerQuartile": 356000,
+        "typicalPrice": 359000,
+        "lowerQuartile": 355000,
         "upperQuartile": 379000,
-        "sampleSize": 6,
+        "sampleSize": 5,
         "confidence": "low"
       }
     },
@@ -11831,10 +11725,10 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10607200/a24fcc37-43e3-4de0-88d8-3b8b3b8964ef__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10607200/skoda-fabia-1.5-tsi-110kw-dsg-monte-carlo",
       "market": {
-        "typicalPrice": 545000,
+        "typicalPrice": 542000,
         "lowerQuartile": 538000,
         "upperQuartile": 569000,
-        "sampleSize": 21,
+        "sampleSize": 22,
         "confidence": "high"
       }
     },
@@ -12793,7 +12687,7 @@
       "url": "https://www.skodaplus.cz/Car/10609700/skoda-kamiq-1.0-tsi-85kw-selection",
       "market": {
         "typicalPrice": 462000,
-        "lowerQuartile": 438000,
+        "lowerQuartile": 443000,
         "upperQuartile": 485000,
         "sampleSize": 40,
         "confidence": "high"
@@ -13332,7 +13226,7 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10607689/63ff529b-a138-450c-9245-3d3efd3ca534__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10607689/skoda-kamiq-1.0-tsi-85kw-top-selection",
       "market": {
-        "typicalPrice": 512000,
+        "typicalPrice": 506000,
         "lowerQuartile": 490000,
         "upperQuartile": 525000,
         "sampleSize": 40,
@@ -13644,10 +13538,10 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10606206/58abad41-215a-4314-aa8b-55b6fd648db0__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10606206/skoda-kamiq-1.5-tsi-110kw-dsg-monte-carlo",
       "market": {
-        "typicalPrice": 638000,
+        "typicalPrice": 639000,
         "lowerQuartile": 619000,
-        "upperQuartile": 657000,
-        "sampleSize": 30,
+        "upperQuartile": 660000,
+        "sampleSize": 29,
         "confidence": "high"
       }
     },
@@ -14023,6 +13917,86 @@
       "color": "#276b63",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615182/710a85ff-2b0f-450c-98d6-4e1ae124aef3__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10615182/skoda-karoq-1.5-tsi-110kw-style-plus",
+      "market": null
+    },
+    {
+      "id": "10544083",
+      "make": "Škoda",
+      "model": "Karoq",
+      "trim": "Ambition",
+      "equipment": [
+        "ABS",
+        "Airbag",
+        "Airbag boční",
+        "Airbag hlavový",
+        "Airbag kolenní",
+        "Airbag řidiče a spolujezdce",
+        "ALU kola",
+        "Asistent rozjezdu do kopce",
+        "ASR",
+        "Autorádio",
+        "Bezdrátový Smartlink – zrcadlení mobilního telefonu",
+        "Bluetooth",
+        "Centrální zamykání",
+        "Dešťový senzor",
+        "Dálkové centrální zamykání",
+        "Dělená zadní sedadla",
+        "El. ovládaná okna",
+        "El. ovládaná zrcátka",
+        "ESP",
+        "Front assist/Nouzové brzdění",
+        "Handsfree",
+        "Hlasové ovládání",
+        "Imobilizér",
+        "ISOFIX",
+        "Klimatizace automatická",
+        "Klimatizace automatická dvouzónová",
+        "Kontrola tlaku v pneu",
+        "LED denní svícení",
+        "Loketní opěrka",
+        "Malý kožený paket",
+        "MaxiDot",
+        "Metalický lak",
+        "Multifunkční volant",
+        "Nastavitelný volant",
+        "Nouzové volání",
+        "Palubní počítač",
+        "Parkovací kamera",
+        "Parkovací senzory vzadu",
+        "Posilovač řízení",
+        "Přední mlhovky",
+        "Rezervní kolo",
+        "Senzor světel",
+        "Smartlink – zrcadlení mobilního telefonu",
+        "Start – stop Systém",
+        "Startování tlačítkem",
+        "Střešní nosič",
+        "Tempomat",
+        "Ukazatel vnější teploty",
+        "USB slot",
+        "Vyhřívaná sedadla vpředu",
+        "Vyhřívané trysky ostřikovače čelního skla",
+        "Zadní stěrač s ostřikovačem",
+        "Zatmavovací zrcátko - vnitřní"
+      ],
+      "sourceModifiedAt": "2026-09-14T07:47:12.909584",
+      "engine": "1.5 TSi 110kW DSG Ambition",
+      "powerKw": 110,
+      "fuel": "Benzín",
+      "transmission": "Automat",
+      "year": 2021,
+      "mileage": 120761,
+      "price": 447900,
+      "previousPrice": 447900,
+      "dealer": "AUTONOVA BRNO s.r.o. ",
+      "dealerId": "Dealer-21",
+      "city": "Brno",
+      "area": "Brno",
+      "firstSeen": "2026-09-14T10:45:45+00:00",
+      "isNew": true,
+      "color": "#355b82",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10544083/e7224795-0842-4c5b-9dbb-6695df06db8b__big.jpg",
+      "url": "https://www.skodaplus.cz/Car/10544083/skoda-karoq-1.5-tsi-110kw-dsg-ambition",
       "market": null
     },
     {
@@ -14887,11 +14861,11 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10609495/a9c1029c-f01d-46de-ade8-c456b6dcd2d8__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10609495/skoda-karoq-1.5-tsi-110kw-sportline",
       "market": {
-        "typicalPrice": 626000,
-        "lowerQuartile": 617000,
-        "upperQuartile": 635000,
-        "sampleSize": 8,
-        "confidence": "medium"
+        "typicalPrice": 629000,
+        "lowerQuartile": 623000,
+        "upperQuartile": 636000,
+        "sampleSize": 7,
+        "confidence": "low"
       }
     },
     {
@@ -15105,10 +15079,10 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10593656/f21546b1-ced3-471a-b9ae-d3e2fc8d6820__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10593656/skoda-karoq-1.5-tsi-110kw-sportline",
       "market": {
-        "typicalPrice": 688000,
-        "lowerQuartile": 639000,
-        "upperQuartile": 721000,
-        "sampleSize": 32,
+        "typicalPrice": 696000,
+        "lowerQuartile": 644000,
+        "upperQuartile": 722000,
+        "sampleSize": 31,
         "confidence": "high"
       }
     },
@@ -16905,10 +16879,10 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10626296/e112bb5f-962e-46d0-94d5-aa7fd255055a__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10626296/skoda-kodiaq-2.0-tdi-142kw-4x4-exclusive-selection",
       "market": {
-        "typicalPrice": 1039000,
-        "lowerQuartile": 992000,
-        "upperQuartile": 1112000,
-        "sampleSize": 24,
+        "typicalPrice": 1033000,
+        "lowerQuartile": 975000,
+        "upperQuartile": 1105000,
+        "sampleSize": 26,
         "confidence": "high"
       }
     },
@@ -17032,10 +17006,10 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10599270/940eefcd-b7b4-4d9b-af8f-0975c0daa28e__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10599270/skoda-kodiaq-2.0-tdi-142kw-dsg-4x4-exclusive-selection",
       "market": {
-        "typicalPrice": 986000,
-        "lowerQuartile": 957000,
-        "upperQuartile": 1066000,
-        "sampleSize": 12,
+        "typicalPrice": 975000,
+        "lowerQuartile": 952000,
+        "upperQuartile": 1036000,
+        "sampleSize": 14,
         "confidence": "medium"
       }
     },
@@ -17388,9 +17362,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10595427/62356567-cf60-4836-b500-72710d378682__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10595427/skoda-kodiaq-2.0-tdi-142kw-exclusive-selection",
       "market": {
-        "typicalPrice": 1096000,
-        "lowerQuartile": 1068000,
-        "upperQuartile": 1146000,
+        "typicalPrice": 1086000,
+        "lowerQuartile": 1040000,
+        "upperQuartile": 1140000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -17638,8 +17612,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10587898/c1234a76-b359-4673-9ddd-44ca87104c82__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10587898/skoda-kodiaq-2.0-tdi-142kw-exclusive-selection",
       "market": {
-        "typicalPrice": 1106000,
-        "lowerQuartile": 1079000,
+        "typicalPrice": 1096000,
+        "lowerQuartile": 1078000,
         "upperQuartile": 1150000,
         "sampleSize": 40,
         "confidence": "high"
@@ -17767,131 +17741,6 @@
         "upperQuartile": 1062000,
         "sampleSize": 12,
         "confidence": "medium"
-      }
-    },
-    {
-      "id": "10584395",
-      "make": "Škoda",
-      "model": "Kodiaq",
-      "trim": "Exclusive Selection",
-      "equipment": [
-        "ABS",
-        "Adaptivní podvozek/ DCC",
-        "Adaptivní tempomat",
-        "Airbag",
-        "Airbag boční",
-        "Airbag hlavový",
-        "Airbag zadní boční",
-        "Airbag řidiče a spolujezdce",
-        "ALU kola",
-        "Ambientní osvětlení",
-        "Area View 360°",
-        "Asistent dálkových světel",
-        "Asistent jízdy s přívěsem",
-        "Asistent rozjezdu do kopce",
-        "Asistent rozpoznání únavy řidiče",
-        "ASR",
-        "Autohold",
-        "Automatický parkovací asistent",
-        "Autorádio",
-        "Bezdrátové nabíjení mobilního telefonu",
-        "Bezdrátový Smartlink – zrcadlení mobilního telefonu",
-        "Bezklíčové odemykání",
-        "Blind spot detect / Side assist",
-        "Bluetooth",
-        "Centrální zamykání",
-        "Dešťový senzor",
-        "Digitální přístrojový štít",
-        "Dálkové centrální zamykání",
-        "Dělená zadní sedadla",
-        "El. ovládaná okna",
-        "El. ovládaná přední sedadla",
-        "El. ovládaná zrcátka",
-        "El. ovládané 5.dveře",
-        "El. ovládané sedadlo řidiče",
-        "El. sklopná zrcátka",
-        "ESP",
-        "Front assist/Nouzové brzdění",
-        "Handsfree",
-        "Head Up displej",
-        "Hlasové ovládání",
-        "Imobilizér",
-        "ISOFIX",
-        "Klimatizace automatická",
-        "Klimatizace automatická vícezónová",
-        "Kontrola tlaku v pneu",
-        "Kožené čalounění sedadel",
-        "Lane assist",
-        "LED denní svícení",
-        "Loketní opěrka",
-        "Malý kožený paket",
-        "MATRIX LED světlomety",
-        "MaxiDot",
-        "Metalický lak",
-        "Multifunkční volant",
-        "Nabíjecí USB vzadu",
-        "Nastavitelný volant",
-        "Navigační systém",
-        "Nezávislé topení",
-        "Nouzové volání",
-        "Palubní počítač",
-        "Parkovací brzda el. mech.",
-        "Parkovací kamera",
-        "Parkovací senzory vepředu",
-        "Parkovací senzory vzadu",
-        "Pohon všech kol",
-        "Posilovač řízení",
-        "Přední mlhovky",
-        "Rezervní kolo",
-        "Roletky zadních oken",
-        "Senzor světel",
-        "Smartlink – zrcadlení mobilního telefonu",
-        "Sound systém",
-        "Start – stop Systém",
-        "Startování tlačítkem",
-        "Střešní nosič",
-        "SUNSET/Tónovaná skla",
-        "Tažné zařízení",
-        "Tažné zařízení sklopné",
-        "Tempomat",
-        "Tónovaná skla",
-        "Ukazatel vnější teploty",
-        "USB slot",
-        "Ventilovaná sedadla",
-        "Virtuální pedál",
-        "Volba jízdního režimu",
-        "Vyhřívaná sedadla vpředu",
-        "Vyhřívaná sedadla vpředu a vzadu",
-        "Vyhřívaný volant",
-        "Zadní stěrač s ostřikovačem",
-        "Zatmavovací zrcátko - vnitřní",
-        "Řazení pod volantem",
-        "Škoda Connect"
-      ],
-      "sourceModifiedAt": "2026-08-27T10:13:10.793033",
-      "engine": "2.0 TDi 142kW DSG 4x4 Exclusive Selection",
-      "powerKw": 142,
-      "fuel": "Nafta",
-      "transmission": "Automat",
-      "year": 2025,
-      "mileage": 18681,
-      "price": 1117900,
-      "previousPrice": 1117900,
-      "dealer": "AUTONOVA BRNO s.r.o. ",
-      "dealerId": "Dealer-21",
-      "city": "Brno",
-      "area": "Brno",
-      "firstSeen": "2026-08-30T18:43:03+02:00",
-      "isNew": false,
-      "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10584395/9da3656f-4cb1-4978-b583-e0f42065a530__big.jpg",
-      "url": "https://www.skodaplus.cz/Car/10584395/skoda-kodiaq-2.0-tdi-142kw-dsg-4x4-exclusive-selection",
-      "market": {
-        "typicalPrice": 1198000,
-        "lowerQuartile": 1149000,
-        "upperQuartile": 1249000,
-        "sampleSize": 40,
-        "confidence": "high"
       }
     },
     {
@@ -20581,10 +20430,10 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10624801/b7a195f5-eeec-4e0c-ab97-c7e6c1d62432__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10624801/skoda-octavia-1.5-tsi-110kw-style-plus",
       "market": {
-        "typicalPrice": 439000,
-        "lowerQuartile": 419000,
+        "typicalPrice": 434000,
+        "lowerQuartile": 412000,
         "upperQuartile": 449000,
-        "sampleSize": 9,
+        "sampleSize": 10,
         "confidence": "medium"
       }
     },
@@ -21164,11 +21013,11 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10586371/7b5eb88c-4228-4296-9164-e0069d89c382__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10586371/skoda-octavia-combi-1.5-tsi-110kw-style-plus",
       "market": {
-        "typicalPrice": 518000,
-        "lowerQuartile": 478000,
-        "upperQuartile": 539000,
-        "sampleSize": 7,
-        "confidence": "low"
+        "typicalPrice": 508000,
+        "lowerQuartile": 456000,
+        "upperQuartile": 534000,
+        "sampleSize": 8,
+        "confidence": "medium"
       }
     },
     {
@@ -21977,9 +21826,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10609493/efb97757-cd21-43e5-848e-1b0abd58ca64__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10609493/skoda-octavia-1.5-tsi-110kw-top-selection",
       "market": {
-        "typicalPrice": 672000,
+        "typicalPrice": 652000,
         "lowerQuartile": 595000,
-        "upperQuartile": 726000,
+        "upperQuartile": 720000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -22190,9 +22039,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10612202/a07f9d0e-cf2b-45c8-a343-68218f592492__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10612202/skoda-octavia-1.5-tsi-110kw-top-selection",
       "market": {
-        "typicalPrice": 672000,
+        "typicalPrice": 652000,
         "lowerQuartile": 595000,
-        "upperQuartile": 726000,
+        "upperQuartile": 720000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -22699,9 +22548,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10626346/fbcec454-8da8-4851-87fe-3b6978e9c6b2__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10626346/skoda-octavia-combi-1.5-tsi-110kw-top-selection",
       "market": {
-        "typicalPrice": 672000,
+        "typicalPrice": 652000,
         "lowerQuartile": 595000,
-        "upperQuartile": 726000,
+        "upperQuartile": 720000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -22802,8 +22651,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10605477/3d5e870c-0139-4de1-8eeb-487b76f18a14__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10605477/skoda-octavia-combi-1.5-tsi-110kw-top-selection",
       "market": {
-        "typicalPrice": 659000,
-        "lowerQuartile": 637000,
+        "typicalPrice": 660000,
+        "lowerQuartile": 646000,
         "upperQuartile": 689000,
         "sampleSize": 40,
         "confidence": "high"
@@ -24518,7 +24367,7 @@
       },
       "market": {
         "typicalPrice": 438000,
-        "lowerQuartile": 420000,
+        "lowerQuartile": 424000,
         "upperQuartile": 449000,
         "sampleSize": 40,
         "confidence": "high"
@@ -24861,9 +24710,9 @@
         "method": "Katalogová cena rozpoznaných příplatků; zůstatková hodnota je orientační koeficient podle typu výbavy a stáří."
       },
       "market": {
-        "typicalPrice": 492000,
+        "typicalPrice": 489000,
         "lowerQuartile": 477000,
-        "upperQuartile": 512000,
+        "upperQuartile": 502000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -25788,9 +25637,9 @@
       },
       "market": {
         "typicalPrice": 599000,
-        "lowerQuartile": 579000,
-        "upperQuartile": 631000,
-        "sampleSize": 36,
+        "lowerQuartile": 580000,
+        "upperQuartile": 632000,
+        "sampleSize": 35,
         "confidence": "high"
       }
     },
@@ -25935,10 +25784,10 @@
         "method": "Katalogová cena rozpoznaných příplatků; zůstatková hodnota je orientační koeficient podle typu výbavy a stáří."
       },
       "market": {
-        "typicalPrice": 598000,
+        "typicalPrice": 599000,
         "lowerQuartile": 579000,
-        "upperQuartile": 631000,
-        "sampleSize": 36,
+        "upperQuartile": 632000,
+        "sampleSize": 35,
         "confidence": "high"
       }
     },
@@ -27155,108 +27004,6 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10497965/b47d6b4b-479a-44d0-b8bc-f87c854168d6__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10497965/skoda-superb-2.0-tsi-140kw-l-k",
       "market": null
-    },
-    {
-      "id": "10483285",
-      "make": "Škoda",
-      "model": "Superb",
-      "trim": "Selection",
-      "equipment": [
-        "ABS",
-        "Adaptivní tempomat 210km/h",
-        "Airbag",
-        "Airbag boční",
-        "Airbag hlavový",
-        "Airbag kolenní",
-        "Airbag řidiče a spolujezdce",
-        "ALU kola",
-        "Ambientní osvětlení",
-        "Asistent rozjezdu do kopce",
-        "Asistent rozpoznání únavy řidiče",
-        "Asistent vyparkování",
-        "ASR",
-        "Autohold",
-        "Autorádio",
-        "Bezdrátové nabíjení mobilního telefonu",
-        "Bezdrátový Smartlink – zrcadlení mobilního telefonu",
-        "Blind spot detect / Side assist",
-        "Bluetooth",
-        "Centrální zamykání",
-        "Dešťový senzor",
-        "Digitální přístrojový štít",
-        "Dálkové centrální zamykání",
-        "Dělená zadní sedadla",
-        "El. ovládaná okna",
-        "El. ovládaná zrcátka",
-        "El. sklopná zrcátka",
-        "ESP",
-        "Front assist/Nouzové brzdění",
-        "Handsfree",
-        "Hlasové ovládání",
-        "Imobilizér",
-        "ISOFIX",
-        "Klimatizace automatická",
-        "Klimatizace automatická vícezónová",
-        "Kontrola tlaku v pneu",
-        "LED denní svícení",
-        "LED hlavní světlomety",
-        "Loketní opěrka",
-        "Malý kožený paket",
-        "Masážní sedadlo řidiče",
-        "MaxiDot",
-        "Metalický lak",
-        "Multifunkční volant",
-        "Nabíjecí USB vzadu",
-        "Nastavitelný volant",
-        "Navigační systém",
-        "Nouzové volání",
-        "Omezovač rychlosti",
-        "Palubní počítač",
-        "Parkovací brzda el. mech.",
-        "Parkovací kamera",
-        "Parkovací senzory vepředu",
-        "Parkovací senzory vzadu",
-        "Posilovač řízení",
-        "Rezervní kolo",
-        "Senzor světel",
-        "Smartlink – zrcadlení mobilního telefonu",
-        "Start – stop Systém",
-        "Startování tlačítkem",
-        "SUNSET/Tónovaná skla",
-        "Tempomat",
-        "Tónovaná skla",
-        "Ukazatel vnější teploty",
-        "USB slot",
-        "Volba jízdního režimu",
-        "Vyhřívaná sedadla vpředu",
-        "Zatmavovací zrcátko - vnitřní",
-        "Škoda Connect"
-      ],
-      "sourceModifiedAt": "2026-09-04T15:18:25.823288",
-      "engine": "1.5 TSi 110kW Selection",
-      "powerKw": 110,
-      "fuel": "Benzín",
-      "transmission": "Automat",
-      "year": 2024,
-      "mileage": 23487,
-      "price": 698900,
-      "previousPrice": 698900,
-      "dealer": "AUTONOVA BRNO s.r.o. ",
-      "dealerId": "Dealer-21",
-      "city": "Brno",
-      "area": "Brno",
-      "firstSeen": "2026-08-31T11:38:55+00:00",
-      "isNew": false,
-      "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10483285/c0ce5aca-f892-496e-8410-86f888fe417a__big.jpg",
-      "url": "https://www.skodaplus.cz/Car/10483285/skoda-superb-1.5-tsi-110kw-selection",
-      "market": {
-        "typicalPrice": 800000,
-        "lowerQuartile": 768000,
-        "upperQuartile": 830000,
-        "sampleSize": 18,
-        "confidence": "high"
-      }
     },
     {
       "id": "10589692",
@@ -29837,7 +29584,7 @@
       "url": "https://www.skodaplus.cz/Car/10592929/skoda-kodiaq-2.0tdi-142kw-4x4-dsg-exclusive",
       "market": {
         "typicalPrice": 1198000,
-        "lowerQuartile": 1148000,
+        "lowerQuartile": 1149000,
         "upperQuartile": 1249000,
         "sampleSize": 40,
         "confidence": "high"
@@ -30111,7 +29858,7 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10592966/1b2349fd-40c2-4601-a25e-193b26b8dced__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10592966/skoda-octavia-1.5tsi-110kw-|-top-selection",
       "market": {
-        "typicalPrice": 669000,
+        "typicalPrice": 670000,
         "lowerQuartile": 629000,
         "upperQuartile": 699000,
         "sampleSize": 40,
@@ -30794,10 +30541,10 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10621562/6eb090af-b744-4054-8c8b-d55e6e89a03a__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10621562/skoda-octavia-2.0tdi-85kw-|-top-selection",
       "market": {
-        "typicalPrice": 614000,
-        "lowerQuartile": 601000,
-        "upperQuartile": 676000,
-        "sampleSize": 10,
+        "typicalPrice": 610000,
+        "lowerQuartile": 599000,
+        "upperQuartile": 639000,
+        "sampleSize": 9,
         "confidence": "medium"
       }
     },
@@ -30897,8 +30644,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10592873/51532516-d158-41be-aad2-2b795aa36cce__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10592873/skoda-octavia-1.5tsi-mhev-110kw-dsg-|-selection",
       "market": {
-        "typicalPrice": 708000,
-        "lowerQuartile": 619000,
+        "typicalPrice": 700000,
+        "lowerQuartile": 613000,
         "upperQuartile": 730000,
         "sampleSize": 40,
         "confidence": "high"
@@ -32757,8 +32504,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10592543/455a78f6-e958-4db4-b23a-a3a399f03087__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10592543/skoda-fabia-monte-carlo-ts-85-1.0-a7f",
       "market": {
-        "typicalPrice": 498000,
-        "lowerQuartile": 488000,
+        "typicalPrice": 497000,
+        "lowerQuartile": 487000,
         "upperQuartile": 506000,
         "sampleSize": 40,
         "confidence": "high"
@@ -32951,7 +32698,7 @@
         "typicalPrice": 639000,
         "lowerQuartile": 619000,
         "upperQuartile": 660000,
-        "sampleSize": 33,
+        "sampleSize": 32,
         "confidence": "high"
       }
     },
@@ -35343,9 +35090,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10608023/65d7808e-7828-4d8a-b942-022d5e11305d__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10608023/skoda-kodiaq-exclusive-selection-4x4-td-142-2.0-a7a",
       "market": {
-        "typicalPrice": 1107000,
+        "typicalPrice": 1099000,
         "lowerQuartile": 1079000,
-        "upperQuartile": 1150000,
+        "upperQuartile": 1149000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -35471,8 +35218,8 @@
       "url": "https://www.skodaplus.cz/Car/10591097/skoda-kodiaq-exclusive-selection-4x4-td-142-2.0-a7a",
       "market": {
         "typicalPrice": 1198000,
-        "lowerQuartile": 1149000,
-        "upperQuartile": 1234000,
+        "lowerQuartile": 1154000,
+        "upperQuartile": 1249000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -43453,8 +43200,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10571744/ac8ed5cc-171e-4274-8a25-d0577731195a__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10571744/skoda-kodiaq-exclusive-selection-2.0-tdi-142-kw-dsg-4x4",
       "market": {
-        "typicalPrice": 1123000,
-        "lowerQuartile": 1094000,
+        "typicalPrice": 1117000,
+        "lowerQuartile": 1088000,
         "upperQuartile": 1162000,
         "sampleSize": 40,
         "confidence": "high"
@@ -45050,9 +44797,9 @@
         "method": "Katalogová cena rozpoznaných příplatků; zůstatková hodnota je orientační koeficient podle typu výbavy a stáří."
       },
       "market": {
-        "typicalPrice": 492000,
+        "typicalPrice": 489000,
         "lowerQuartile": 478000,
-        "upperQuartile": 512000,
+        "upperQuartile": 502000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -45330,7 +45077,7 @@
       },
       "market": {
         "typicalPrice": 489000,
-        "lowerQuartile": 477000,
+        "lowerQuartile": 478000,
         "upperQuartile": 505000,
         "sampleSize": 40,
         "confidence": "high"
@@ -45462,7 +45209,7 @@
         "method": "Katalogová cena rozpoznaných příplatků; zůstatková hodnota je orientační koeficient podle typu výbavy a stáří."
       },
       "market": {
-        "typicalPrice": 489000,
+        "typicalPrice": 488000,
         "lowerQuartile": 477000,
         "upperQuartile": 505000,
         "sampleSize": 40,
@@ -45555,14 +45302,14 @@
         "Řazení pod volantem",
         "Škoda Connect"
       ],
-      "sourceModifiedAt": "2026-09-11T09:59:02.154263",
+      "sourceModifiedAt": "2026-09-14T08:51:10.901765",
       "engine": "Monte Carlo 1.5 TSI 110 kW DSG",
       "powerKw": 110,
       "fuel": "Benzín",
       "transmission": "Automat",
       "year": 2025,
       "mileage": 16596,
-      "price": 599900,
+      "price": 608900,
       "previousPrice": 599900,
       "dealer": "Autosalon JE&NE, spol. s r.o.",
       "dealerId": "Dealer-375",
@@ -45608,10 +45355,10 @@
         "method": "Katalogová cena rozpoznaných příplatků; zůstatková hodnota je orientační koeficient podle typu výbavy a stáří."
       },
       "market": {
-        "typicalPrice": 598000,
+        "typicalPrice": 599000,
         "lowerQuartile": 579000,
-        "upperQuartile": 631000,
-        "sampleSize": 36,
+        "upperQuartile": 632000,
+        "sampleSize": 35,
         "confidence": "high"
       }
     },
@@ -46643,10 +46390,10 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10251134/8ac68e1a-5e57-4b1a-b381-1bd4b980c7df__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10251134/skoda-fabia-1.0-mpi-ambition-plus",
       "market": {
-        "typicalPrice": 359000,
-        "lowerQuartile": 349000,
-        "upperQuartile": 377000,
-        "sampleSize": 7,
+        "typicalPrice": 364000,
+        "lowerQuartile": 352000,
+        "upperQuartile": 381000,
+        "sampleSize": 6,
         "confidence": "low"
       }
     },
@@ -46729,10 +46476,10 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10253544/c9cc312d-6114-4f44-9279-8cb7cd64a15b__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10253544/skoda-fabia-1.0-tsi-ambition-plus",
       "market": {
-        "typicalPrice": 350000,
+        "typicalPrice": 354000,
         "lowerQuartile": 349000,
-        "upperQuartile": 364000,
-        "sampleSize": 7,
+        "upperQuartile": 367000,
+        "sampleSize": 6,
         "confidence": "low"
       }
     },
@@ -51113,7 +50860,7 @@
       "url": "https://www.skodaplus.cz/Car/10573067/skoda-fabia-monte-carlo-1.0ts-a7f-",
       "market": {
         "typicalPrice": 498000,
-        "lowerQuartile": 489000,
+        "lowerQuartile": 488000,
         "upperQuartile": 519000,
         "sampleSize": 40,
         "confidence": "high"
@@ -53678,10 +53425,10 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10613078/28a25c07-ab95-43f3-bb9e-4a894a6cc9d1__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10613078/skoda-elroq-82-kwh-selection-85x-4x4",
       "market": {
-        "typicalPrice": 988000,
+        "typicalPrice": 980000,
         "lowerQuartile": 949000,
-        "upperQuartile": 1021000,
-        "sampleSize": 10,
+        "upperQuartile": 1014000,
+        "sampleSize": 11,
         "confidence": "medium"
       }
     },
@@ -53771,7 +53518,7 @@
       "url": "https://www.skodaplus.cz/Car/10622210/skoda-fabia-1.0-tsi-85kw-monte-carlo-dsg-",
       "market": {
         "typicalPrice": 499000,
-        "lowerQuartile": 490000,
+        "lowerQuartile": 489000,
         "upperQuartile": 519000,
         "sampleSize": 40,
         "confidence": "high"
@@ -53866,10 +53613,10 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10623189/e389dadc-b9de-446b-9679-1020e4fd9c3f__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10623189/skoda-fabia-1.5-tsi-110kw-monte-carlo-dsg",
       "market": {
-        "typicalPrice": 542000,
-        "lowerQuartile": 531000,
+        "typicalPrice": 540000,
+        "lowerQuartile": 528000,
         "upperQuartile": 569000,
-        "sampleSize": 22,
+        "sampleSize": 23,
         "confidence": "high"
       }
     },
@@ -54384,9 +54131,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10500787/8fade475-8ddb-4229-a638-5c1a8420ce59__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10500787/skoda-kodiaq-2.0-tdi-142-kw-excl.-selection-4x4-dsg---pri-financovani-sleva-10-000--",
       "market": {
-        "typicalPrice": 1074000,
-        "lowerQuartile": 1026000,
-        "upperQuartile": 1130000,
+        "typicalPrice": 1062000,
+        "lowerQuartile": 1000000,
+        "upperQuartile": 1129000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -54840,7 +54587,7 @@
       "url": "https://www.skodaplus.cz/Car/10570737/skoda-kodiaq-2.0-tdi-142-kw-excl.-selection-4x4-dsg-",
       "market": {
         "typicalPrice": 1092000,
-        "lowerQuartile": 1077000,
+        "lowerQuartile": 1068000,
         "upperQuartile": 1146000,
         "sampleSize": 40,
         "confidence": "high"
@@ -54966,8 +54713,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10591653/c5488dfe-213f-4aa4-9a5a-523ca1d14a31__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10591653/skoda-kodiaq-2.0-tdi-142-kw-excl.-selection-4x4-dsg-",
       "market": {
-        "typicalPrice": 1198000,
-        "lowerQuartile": 1148000,
+        "typicalPrice": 1199000,
+        "lowerQuartile": 1149000,
         "upperQuartile": 1249000,
         "sampleSize": 40,
         "confidence": "high"
@@ -55095,8 +54842,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10597787/74b66287-3a9a-40f2-8734-7def20ded121__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10597787/skoda-kodiaq-2.0-tdi-142-kw-excl.-selection-4x4-dsg",
       "market": {
-        "typicalPrice": 1194000,
-        "lowerQuartile": 1146000,
+        "typicalPrice": 1198000,
+        "lowerQuartile": 1149000,
         "upperQuartile": 1249000,
         "sampleSize": 40,
         "confidence": "high"
@@ -55690,7 +55437,7 @@
       "url": "https://www.skodaplus.cz/Car/10587213/skoda-kodiaq-2.0-tdi-142-kw-excl.-selection-4x4-dsg-",
       "market": {
         "typicalPrice": 1198000,
-        "lowerQuartile": 1148000,
+        "lowerQuartile": 1149000,
         "upperQuartile": 1249000,
         "sampleSize": 40,
         "confidence": "high"
@@ -55819,7 +55566,7 @@
       "url": "https://www.skodaplus.cz/Car/10597955/skoda-kodiaq-2.0-tdi-142-kw-excl.-selection-4x4-dsg-",
       "market": {
         "typicalPrice": 1198000,
-        "lowerQuartile": 1149000,
+        "lowerQuartile": 1156000,
         "upperQuartile": 1249000,
         "sampleSize": 40,
         "confidence": "high"
@@ -55946,8 +55693,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10595353/ee295356-d0be-4265-957e-68eb58d6cef2__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10595353/skoda-kodiaq-2.0-tdi-142-kw-excl.-selection-4x4-dsg-",
       "market": {
-        "typicalPrice": 1194000,
-        "lowerQuartile": 1146000,
+        "typicalPrice": 1198000,
+        "lowerQuartile": 1149000,
         "upperQuartile": 1234000,
         "sampleSize": 40,
         "confidence": "high"
@@ -56072,8 +55819,8 @@
       "url": "https://www.skodaplus.cz/Car/10591301/skoda-kodiaq-2.0-tdi-142-kw-excl.-selection-4x4-dsg",
       "market": {
         "typicalPrice": 1198000,
-        "lowerQuartile": 1149000,
-        "upperQuartile": 1234000,
+        "lowerQuartile": 1154000,
+        "upperQuartile": 1249000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -56971,10 +56718,10 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10547097/20c0a78f-a827-4ff5-82bf-7b1405276def__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10547097/skoda-octavia-2.0-tdi-85kw-top-selection---pri-financovani-sleva-10-000--",
       "market": {
-        "typicalPrice": 629000,
-        "lowerQuartile": 607000,
-        "upperQuartile": 696000,
-        "sampleSize": 10,
+        "typicalPrice": 619000,
+        "lowerQuartile": 606000,
+        "upperQuartile": 689000,
+        "sampleSize": 9,
         "confidence": "medium"
       }
     },
@@ -57578,7 +57325,7 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10617585/3b514df6-1d8c-44dc-8551-45dd92d1f05c__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10617585/skoda-octavia-1.5-tsi-110kw-mhev-top-selection-dsg-com",
       "market": {
-        "typicalPrice": 719000,
+        "typicalPrice": 718000,
         "lowerQuartile": 699000,
         "upperQuartile": 738000,
         "sampleSize": 40,
@@ -59126,6 +58873,99 @@
       "market": null
     },
     {
+      "id": "10626990",
+      "make": "Volkswagen",
+      "model": "Golf",
+      "trim": "",
+      "equipment": [
+        "ABS",
+        "Adaptivní tempomat",
+        "Adaptivní tempomat 210km/h",
+        "Airbag boční",
+        "Airbag hlavový",
+        "Airbag řidiče a spolujezdce",
+        "ALU kola",
+        "Ambientní osvětlení",
+        "Asistent dálkových světel",
+        "Asistent rozpoznání únavy řidiče",
+        "ASR",
+        "Autohold",
+        "Autorádio",
+        "Bezdrátové nabíjení mobilního telefonu",
+        "Bezklíčové odemykání",
+        "Bluetooth",
+        "Dešťový senzor",
+        "Digitální přístrojový štít",
+        "Dálkové centrální zamykání",
+        "Dělená zadní sedadla",
+        "El. ovládaná okna",
+        "El. ovládaná zrcátka",
+        "El. ovládané 5.dveře",
+        "ESP",
+        "Front assist/Nouzové brzdění",
+        "Handsfree",
+        "Imobilizér",
+        "ISOFIX",
+        "ISOFIX na sedadle spolujezdce",
+        "Klimatizace automatická",
+        "Klimatizace automatická vícezónová",
+        "Kontrola tlaku v pneu",
+        "Lane assist",
+        "LED denní svícení",
+        "LED hlavní světlomety",
+        "Loketní opěrka",
+        "Malý kožený paket",
+        "Metalický lak",
+        "Multifunkční volant",
+        "Nabíjecí USB vzadu",
+        "Nastavitelný volant",
+        "Nouzové volání",
+        "Omezovač rychlosti",
+        "Palubní počítač",
+        "Parkovací brzda el. mech.",
+        "Parkovací senzory vepředu",
+        "Parkovací senzory vzadu",
+        "Posilovač řízení",
+        "Rezervní kolo",
+        "Senzor světel",
+        "Smartlink – zrcadlení mobilního telefonu",
+        "Sportovní sedadla",
+        "Start – stop Systém",
+        "Startování tlačítkem",
+        "Střešní nosič",
+        "Tempomat",
+        "Tónovaná skla",
+        "Ukazatel vnější teploty",
+        "USB slot",
+        "Virtuální pedál",
+        "Volba jízdního režimu",
+        "Vyhřívaná sedadla vpředu",
+        "Vyhřívané trysky ostřikovače čelního skla",
+        "Vyhřívaný volant",
+        "Zadní stěrač s ostřikovačem",
+        "Řazení pod volantem"
+      ],
+      "sourceModifiedAt": "2026-09-14T11:53:38.164879",
+      "engine": "Variant 1,5 eTSI / 110 kW R-line DSG MHEV",
+      "powerKw": 110,
+      "fuel": "Benzín",
+      "transmission": "Automat",
+      "year": 2023,
+      "mileage": 50209,
+      "price": 569000,
+      "previousPrice": 569000,
+      "dealer": "VISTA car ",
+      "dealerId": "Dealer-124",
+      "city": "Hodonín",
+      "area": "Okolí Brna",
+      "firstSeen": "2026-09-14T10:45:45+00:00",
+      "isNew": true,
+      "color": "#707d75",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10626990/3bfd56d8-cb1b-4346-94b2-1adfa62f96dc__big.jpg",
+      "url": "https://www.skodaplus.cz/Car/10626990/volkswagen-golf-variant-1-5-etsi-110-kw-r-line-dsg-mhev",
+      "market": null
+    },
+    {
       "id": "10612383",
       "make": "Škoda",
       "model": "Kamiq",
@@ -59335,7 +59175,7 @@
         "typicalPrice": 638000,
         "lowerQuartile": 619000,
         "upperQuartile": 660000,
-        "sampleSize": 33,
+        "sampleSize": 32,
         "confidence": "high"
       }
     },
@@ -61013,7 +60853,7 @@
       },
       "market": {
         "typicalPrice": 433000,
-        "lowerQuartile": 418000,
+        "lowerQuartile": 419000,
         "upperQuartile": 449000,
         "sampleSize": 40,
         "confidence": "high"
@@ -62443,10 +62283,10 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619812/2ef80a56-5336-4d2b-bca2-03612c9f2260__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10619812/skoda-elroq-selection-85-210kw",
       "market": {
-        "typicalPrice": 998000,
+        "typicalPrice": 989000,
         "lowerQuartile": 949000,
-        "upperQuartile": 1063000,
-        "sampleSize": 11,
+        "upperQuartile": 1046000,
+        "sampleSize": 12,
         "confidence": "medium"
       }
     },
@@ -62562,9 +62402,9 @@
       "url": "https://www.skodaplus.cz/Car/10625511/skoda-elroq-selection-85-210kw",
       "market": {
         "typicalPrice": 998000,
-        "lowerQuartile": 956000,
-        "upperQuartile": 1081000,
-        "sampleSize": 10,
+        "lowerQuartile": 964000,
+        "upperQuartile": 1063000,
+        "sampleSize": 11,
         "confidence": "medium"
       }
     },
@@ -63860,13 +63700,13 @@
       "firstSeen": "2026-09-10T18:31:47+00:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10626404/ae4acb5c-cd0f-469d-aa2d-ba54816060d4__big.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10626404/53156f6b-1a7a-4540-9978-01cc3d253bfb__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10626404/skoda-kamiq-monte-carlo-dsg-1.5tsi-110kw",
       "market": {
-        "typicalPrice": 638000,
+        "typicalPrice": 639000,
         "lowerQuartile": 619000,
-        "upperQuartile": 657000,
-        "sampleSize": 30,
+        "upperQuartile": 660000,
+        "sampleSize": 29,
         "confidence": "high"
       }
     },
@@ -65066,9 +64906,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10607213/b1c40e1b-3dd6-4f4f-8b63-c282ef473d4c__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10607213/skoda-kodiaq-exclusive-selection-dsg-4x4-2.0tdi-142kw",
       "market": {
-        "typicalPrice": 1079000,
-        "lowerQuartile": 1026000,
-        "upperQuartile": 1139000,
+        "typicalPrice": 1078000,
+        "lowerQuartile": 999000,
+        "upperQuartile": 1136000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -65748,10 +65588,10 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615068/d77892ba-0e1e-4d66-8371-7c0fcb95be89__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10615068/skoda-octavia-top-selection-2.0tdi-85kw",
       "market": {
-        "typicalPrice": 629000,
-        "lowerQuartile": 607000,
-        "upperQuartile": 696000,
-        "sampleSize": 10,
+        "typicalPrice": 619000,
+        "lowerQuartile": 606000,
+        "upperQuartile": 689000,
+        "sampleSize": 9,
         "confidence": "medium"
       }
     },
@@ -65863,7 +65703,7 @@
       "url": "https://www.skodaplus.cz/Car/10615947/skoda-octavia-top-selection-1.5tsi-110kw",
       "market": {
         "typicalPrice": 660000,
-        "lowerQuartile": 637000,
+        "lowerQuartile": 646000,
         "upperQuartile": 689000,
         "sampleSize": 40,
         "confidence": "high"
@@ -67990,7 +67830,7 @@
       "market": {
         "typicalPrice": 512000,
         "lowerQuartile": 490000,
-        "upperQuartile": 525000,
+        "upperQuartile": 526000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -68940,8 +68780,8 @@
       "url": "https://www.skodaplus.cz/Car/10617318/skoda-octavia-combi-1.5-tsi-110-kw-selection",
       "market": {
         "typicalPrice": 589000,
-        "lowerQuartile": 569000,
-        "upperQuartile": 608000,
+        "lowerQuartile": 574000,
+        "upperQuartile": 611000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -70483,7 +70323,7 @@
       "market": {
         "typicalPrice": 489000,
         "lowerQuartile": 478000,
-        "upperQuartile": 511000,
+        "upperQuartile": 504000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -70904,8 +70744,8 @@
       "market": {
         "typicalPrice": 599000,
         "lowerQuartile": 579000,
-        "upperQuartile": 630000,
-        "sampleSize": 37,
+        "upperQuartile": 631000,
+        "sampleSize": 36,
         "confidence": "high"
       }
     },
@@ -71048,8 +70888,8 @@
       "market": {
         "typicalPrice": 599000,
         "lowerQuartile": 579000,
-        "upperQuartile": 631000,
-        "sampleSize": 36,
+        "upperQuartile": 632000,
+        "sampleSize": 35,
         "confidence": "high"
       }
     },
@@ -74088,11 +73928,11 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10595058/2ba770bc-261e-4a04-bb4c-c30e3c7fd471__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10595058/skoda-fabia-style-plus-1.0-tsi-81-kw",
       "market": {
-        "typicalPrice": 368000,
-        "lowerQuartile": 343000,
-        "upperQuartile": 382000,
-        "sampleSize": 8,
-        "confidence": "medium"
+        "typicalPrice": 359000,
+        "lowerQuartile": 341000,
+        "upperQuartile": 384000,
+        "sampleSize": 7,
+        "confidence": "low"
       }
     },
     {
@@ -74174,7 +74014,7 @@
       "market": {
         "typicalPrice": 369000,
         "lowerQuartile": 365000,
-        "upperQuartile": 379000,
+        "upperQuartile": 378000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -74530,7 +74370,7 @@
       "url": "https://www.skodaplus.cz/Car/10611907/skoda-fabia-monte-carlo-1.0-tsi-85-kw-dsg",
       "market": {
         "typicalPrice": 499000,
-        "lowerQuartile": 490000,
+        "lowerQuartile": 489000,
         "upperQuartile": 519000,
         "sampleSize": 40,
         "confidence": "high"
@@ -74686,7 +74526,7 @@
       "market": {
         "typicalPrice": 512000,
         "lowerQuartile": 490000,
-        "upperQuartile": 525000,
+        "upperQuartile": 526000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -75873,9 +75713,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10558583/02601b3c-7520-4e51-82d9-901ba644341c__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10558583/skoda-kodiaq-exclusive-selection-2.0-tdi-dsg-142-kw-4x4-dcc",
       "market": {
-        "typicalPrice": 1107000,
+        "typicalPrice": 1099000,
         "lowerQuartile": 1079000,
-        "upperQuartile": 1150000,
+        "upperQuartile": 1149000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -76120,8 +75960,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10609070/b5cd9be2-cb8e-4f5b-aa13-779dc101c40a__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10609070/skoda-kodiaq-exclusive-selection-2.0-tdi-142-kw-4x4-dsg-",
       "market": {
-        "typicalPrice": 1194000,
-        "lowerQuartile": 1146000,
+        "typicalPrice": 1198000,
+        "lowerQuartile": 1149000,
         "upperQuartile": 1234000,
         "sampleSize": 40,
         "confidence": "high"
@@ -77113,8 +76953,8 @@
       "url": "https://www.skodaplus.cz/Car/10495623/skoda-octavia-top-selection-1.5-tsi-110-kw",
       "market": {
         "typicalPrice": 590000,
-        "lowerQuartile": 556000,
-        "upperQuartile": 611000,
+        "lowerQuartile": 559000,
+        "upperQuartile": 615000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -77216,9 +77056,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10552337/2b1ae54a-2c37-4ff8-aa8b-ccd6a2ceb62a__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10552337/skoda-octavia-top-selection-1.5-tsi-110-kw",
       "market": {
-        "typicalPrice": 669000,
+        "typicalPrice": 670000,
         "lowerQuartile": 629000,
-        "upperQuartile": 690000,
+        "upperQuartile": 699000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -77325,7 +77165,7 @@
       "market": {
         "typicalPrice": 669000,
         "lowerQuartile": 629000,
-        "upperQuartile": 690000,
+        "upperQuartile": 699000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -77749,7 +77589,7 @@
       },
       "market": {
         "typicalPrice": 435000,
-        "lowerQuartile": 420000,
+        "lowerQuartile": 419000,
         "upperQuartile": 449000,
         "sampleSize": 40,
         "confidence": "high"
@@ -79392,9 +79232,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10600934/a207668d-7a45-4671-9c91-a3ed2e07f609__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10600934/skoda-fabia-top-selection-1-0-tsi-85-kw-dsg",
       "market": {
-        "typicalPrice": 469000,
-        "lowerQuartile": 457000,
-        "upperQuartile": 490000,
+        "typicalPrice": 467000,
+        "lowerQuartile": 454000,
+        "upperQuartile": 485000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -79925,7 +79765,7 @@
       "url": "https://www.skodaplus.cz/Car/10620169/skoda-kamiq-1.0-tsi-85kw-selection",
       "market": {
         "typicalPrice": 460000,
-        "lowerQuartile": 432000,
+        "lowerQuartile": 438000,
         "upperQuartile": 486000,
         "sampleSize": 40,
         "confidence": "high"
@@ -80004,7 +79844,7 @@
       "url": "https://www.skodaplus.cz/Car/10621493/skoda-kamiq-1.0-tsi-85kw-selection",
       "market": {
         "typicalPrice": 460000,
-        "lowerQuartile": 432000,
+        "lowerQuartile": 438000,
         "upperQuartile": 486000,
         "sampleSize": 40,
         "confidence": "high"
@@ -80081,7 +79921,7 @@
       "url": "https://www.skodaplus.cz/Car/10620165/skoda-kamiq-1.0-tsi-85kw-selection",
       "market": {
         "typicalPrice": 460000,
-        "lowerQuartile": 432000,
+        "lowerQuartile": 438000,
         "upperQuartile": 486000,
         "sampleSize": 40,
         "confidence": "high"
@@ -80234,7 +80074,7 @@
       "url": "https://www.skodaplus.cz/Car/10615411/skoda-kamiq-1.0-tsi-85kw-selection",
       "market": {
         "typicalPrice": 462000,
-        "lowerQuartile": 438000,
+        "lowerQuartile": 443000,
         "upperQuartile": 485000,
         "sampleSize": 40,
         "confidence": "high"
@@ -80383,7 +80223,7 @@
       "url": "https://www.skodaplus.cz/Car/10619755/skoda-kamiq-1.0-tsi-85kw-selection",
       "market": {
         "typicalPrice": 460000,
-        "lowerQuartile": 432000,
+        "lowerQuartile": 438000,
         "upperQuartile": 486000,
         "sampleSize": 40,
         "confidence": "high"
@@ -80462,8 +80302,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619757/b19882a1-97f7-444b-b5dc-af22231ffa23__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10619757/skoda-kamiq-1.0-tsi-85kw-selection",
       "market": {
-        "typicalPrice": 460000,
-        "lowerQuartile": 438000,
+        "typicalPrice": 462000,
+        "lowerQuartile": 443000,
         "upperQuartile": 486000,
         "sampleSize": 40,
         "confidence": "high"
@@ -80540,8 +80380,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10621346/6c69c3a3-a8c1-4bc8-8e9f-963a7304210c__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10621346/skoda-kamiq-1.0-tsi-85kw-selection",
       "market": {
-        "typicalPrice": 460000,
-        "lowerQuartile": 438000,
+        "typicalPrice": 462000,
+        "lowerQuartile": 443000,
         "upperQuartile": 486000,
         "sampleSize": 40,
         "confidence": "high"
@@ -80636,10 +80476,10 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10612771/54287439-cb8f-46ab-848e-56a9caad042e__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10612771/skoda-kamiq-1.0-tsi-85kw-top-selection",
       "market": {
-        "typicalPrice": 518000,
-        "lowerQuartile": 490000,
+        "typicalPrice": 513000,
+        "lowerQuartile": 489000,
         "upperQuartile": 519000,
-        "sampleSize": 13,
+        "sampleSize": 12,
         "confidence": "medium"
       }
     },
@@ -80732,8 +80572,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10581088/4c10f581-199c-45b0-8cc8-39693598be27__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10581088/skoda-kamiq-1.0-tsi-85kw-selection",
       "market": {
-        "typicalPrice": 461000,
-        "lowerQuartile": 432000,
+        "typicalPrice": 464000,
+        "lowerQuartile": 438000,
         "upperQuartile": 489000,
         "sampleSize": 40,
         "confidence": "high"
@@ -80925,7 +80765,7 @@
       "market": {
         "typicalPrice": 512000,
         "lowerQuartile": 490000,
-        "upperQuartile": 524000,
+        "upperQuartile": 525000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -81874,7 +81714,7 @@
         "typicalPrice": 639000,
         "lowerQuartile": 619000,
         "upperQuartile": 660000,
-        "sampleSize": 33,
+        "sampleSize": 32,
         "confidence": "high"
       }
     },
@@ -83358,10 +83198,10 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10601771/249ea5ad-540f-40a0-9ae2-35546aa245ac__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10601771/skoda-karoq-1.5-tsi-110kw-sportline-",
       "market": {
-        "typicalPrice": 629000,
+        "typicalPrice": 632000,
         "lowerQuartile": 599000,
         "upperQuartile": 669000,
-        "sampleSize": 11,
+        "sampleSize": 12,
         "confidence": "medium"
       }
     },
@@ -84635,8 +84475,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10582963/713336e8-4d22-494b-8385-8ff9471b0920__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10582963/skoda-kodiaq-2.0-tdi-142-kw-excl.-selection-4x4-dsg",
       "market": {
-        "typicalPrice": 1096000,
-        "lowerQuartile": 1077000,
+        "typicalPrice": 1092000,
+        "lowerQuartile": 1068000,
         "upperQuartile": 1146000,
         "sampleSize": 40,
         "confidence": "high"
@@ -84891,8 +84731,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10577478/e0a3f819-4ecf-4f02-8376-4159f65fefd4__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10577478/skoda-kodiaq-exclusive-selection-2-0-tdi-147-kw-4x4-dsg",
       "market": {
-        "typicalPrice": 1133000,
-        "lowerQuartile": 1094000,
+        "typicalPrice": 1123000,
+        "lowerQuartile": 1088000,
         "upperQuartile": 1172000,
         "sampleSize": 40,
         "confidence": "high"
@@ -85156,7 +84996,7 @@
       "url": "https://www.skodaplus.cz/Car/10611249/skoda-kodiaq-2.0-tdi-142-kw-excl.-selection-4x4-dsg",
       "market": {
         "typicalPrice": 1079000,
-        "lowerQuartile": 1036000,
+        "lowerQuartile": 1026000,
         "upperQuartile": 1140000,
         "sampleSize": 40,
         "confidence": "high"
@@ -86856,6 +86696,66 @@
       }
     },
     {
+      "id": "10621539",
+      "make": "Škoda",
+      "model": "Rapid",
+      "trim": "Elegance plus",
+      "equipment": [
+        "ABS",
+        "Airbag",
+        "Airbag boční",
+        "Airbag hlavový",
+        "Airbag řidiče a spolujezdce",
+        "ALU kola",
+        "ASR",
+        "Autorádio",
+        "Centrální zamykání",
+        "Dálkové centrální zamykání",
+        "Dělená zadní sedadla",
+        "El. ovládaná okna",
+        "El. ovládaná zrcátka",
+        "ESP",
+        "Handsfree",
+        "ISOFIX",
+        "Klimatizace automatická",
+        "Kontrola tlaku v pneu",
+        "Malý kožený paket",
+        "MaxiDot",
+        "Multifunkční volant",
+        "Nastavitelný volant",
+        "Palubní počítač",
+        "Parkovací senzory vzadu",
+        "Posilovač řízení",
+        "Přední mlhovky",
+        "Rezervní kolo",
+        "SUNSET/Tónovaná skla",
+        "Tempomat",
+        "Tónovaná skla",
+        "Ukazatel vnější teploty",
+        "Vyhřívaná sedadla vpředu",
+        "Vyhřívané trysky ostřikovače čelního skla"
+      ],
+      "sourceModifiedAt": "2026-09-14T11:55:49.464329",
+      "engine": "1.2 TSI 63kW Elegance Plus",
+      "powerKw": 63,
+      "fuel": "Benzín",
+      "transmission": "Manuál",
+      "year": 2015,
+      "mileage": 129100,
+      "price": 179000,
+      "previousPrice": 179000,
+      "dealer": "Auto Hégr, a. s. ",
+      "dealerId": "Dealer-108",
+      "city": "Olomouc",
+      "area": "Okolí Brna",
+      "firstSeen": "2026-09-14T10:45:45+00:00",
+      "isNew": true,
+      "color": "#707d75",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10621539/4cf12f43-bd07-44df-8dc7-43b13c86b700__big.jpg",
+      "url": "https://www.skodaplus.cz/Car/10621539/skoda-rapid-1.2-tsi-63kw-elegance-plus",
+      "market": null
+    },
+    {
       "id": "10613800",
       "make": "Škoda",
       "model": "Rapid Spaceback",
@@ -87578,7 +87478,7 @@
       },
       "market": {
         "typicalPrice": 435000,
-        "lowerQuartile": 420000,
+        "lowerQuartile": 419000,
         "upperQuartile": 449000,
         "sampleSize": 40,
         "confidence": "high"
@@ -89243,6 +89143,160 @@
       "market": null
     },
     {
+      "id": "10617726",
+      "make": "Škoda",
+      "model": "Enyaq",
+      "trim": "",
+      "equipment": [
+        "ABS",
+        "Adaptivní tempomat",
+        "airbag řidiče a spolujezdce",
+        "airbagy boční",
+        "airbagy hlavové",
+        "Asistent rozjezdu do kopce",
+        "ASR",
+        "autom. převodovka",
+        "Autorádio",
+        "BAS - brzdový asistent",
+        "Bezklíčové odemykání",
+        "Blind spot detect / Side assist",
+        "Bluetooth",
+        "Centrální zamykání",
+        "Dešťový senzor",
+        "driver activity assistant - rozpoznání únavy",
+        "Dálkové centrální zamykání",
+        "El. ovládaná okna",
+        "El. ovládaná zrcátka",
+        "El. sklopná zrcátka",
+        "ESP",
+        "Imobilizér",
+        "Isofix",
+        "Klimatizace automatická",
+        "kola z lehkých slitin",
+        "Kontrola tlaku v pneu",
+        "Kožené čalounění sedadel",
+        "Lane assist",
+        "LED hlavní světlomety",
+        "Loketní opěrka",
+        "loketní opěrka přední",
+        "MATRIX LED světlomety",
+        "Metalický lak",
+        "Multifunkční volant",
+        "Nastavitelný volant",
+        "Navigační systém",
+        "Palubní počítač",
+        "Parkovací kamera",
+        "Parkovací senzory vzadu",
+        "pohon zadních kol",
+        "Posilovač řízení",
+        "Senzor světel",
+        "smart link",
+        "Sportovní paket",
+        "Sportovní sedadla",
+        "Startování tlačítkem",
+        "Tempomat",
+        "Ukazatel vnější teploty",
+        "USB",
+        "Vyhřívaná sedadla vpředu",
+        "vyhřívaná zrcátka",
+        "Vyhřívané trysky ostřikovače čel. okna",
+        "Vyhřívaný volant",
+        "Zadní stěrač s ostřikovačem"
+      ],
+      "sourceModifiedAt": "2026-09-14T09:35:12.928763",
+      "engine": "iV 80 150 kW 82 kWh SOH 88% TČ SPORTLINE",
+      "powerKw": 150,
+      "fuel": "Elektřina",
+      "transmission": "Automat",
+      "year": 2021,
+      "mileage": 233800,
+      "price": 479000,
+      "previousPrice": 479000,
+      "dealer": "Porsche Olomouc",
+      "dealerId": "Dealer-43",
+      "city": "Olomouc",
+      "area": "Okolí Brna",
+      "firstSeen": "2026-09-14T10:45:45+00:00",
+      "isNew": true,
+      "color": "#276b63",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10617726/7bda6413-5fbf-43a4-9110-f6403e29b923__big.jpg",
+      "url": "https://www.skodaplus.cz/Car/10617726/skoda-enyaq-iv-80-150-kw-82-kwh-soh-88-tc-sportline",
+      "market": null
+    },
+    {
+      "id": "10600790",
+      "make": "Škoda",
+      "model": "Enyaq",
+      "trim": "",
+      "equipment": [
+        "ABS",
+        "Adaptivní tempomat",
+        "Airbag",
+        "airbag řidiče a spolujezdce",
+        "airbagy boční",
+        "airbagy hlavové",
+        "Asistent rozjezdu do kopce",
+        "autom. převodovka",
+        "Autorádio",
+        "BAS - brzdový asistent",
+        "Blind spot detect / Side assist",
+        "Bluetooth",
+        "Dešťový senzor",
+        "driver activity assistant - rozpoznání únavy",
+        "Dálkové centrální zamykání",
+        "Dělená zadní sedadla",
+        "El. ovládaná okna",
+        "El. ovládaná přední sedadla",
+        "El. ovládaná zrcátka",
+        "El. sklopná zrcátka",
+        "Handsfree",
+        "Isofix",
+        "Klimatizace automatická",
+        "Klimatizovaná přihrádka",
+        "kola z lehkých slitin",
+        "Kontrola tlaku v pneu",
+        "Lane assist",
+        "LED hlavní světlomety",
+        "Malý kožený paket",
+        "Metalický lak",
+        "Multifunkční volant",
+        "Nastavitelný volant",
+        "Navigační systém",
+        "Palubní počítač",
+        "Parkovací kamera",
+        "Parkovací senzory vzadu",
+        "pohon zadních kol",
+        "Posilovač řízení",
+        "Senzor světel",
+        "Tempomat",
+        "USB",
+        "Vyhřívaná sedadla vpředu",
+        "vyhřívaná zrcátka",
+        "Vyhřívané trysky ostřikovače čel. okna",
+        "Vyhřívaný volant",
+        "Zadní stěrač s ostřikovačem"
+      ],
+      "sourceModifiedAt": "2026-09-14T09:33:42.758066",
+      "engine": "iV 80 150 kW 82 kWh SoH 92% TČ",
+      "powerKw": 150,
+      "fuel": "Elektřina",
+      "transmission": "Automat",
+      "year": 2021,
+      "mileage": 85050,
+      "price": 689000,
+      "previousPrice": 689000,
+      "dealer": "Porsche Olomouc",
+      "dealerId": "Dealer-43",
+      "city": "Olomouc",
+      "area": "Okolí Brna",
+      "firstSeen": "2026-09-14T10:45:45+00:00",
+      "isNew": true,
+      "color": "#b8b2a8",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10600790/7b8bc850-b47a-4602-ace3-3346cb79649e__big.jpg",
+      "url": "https://www.skodaplus.cz/Car/10600790/skoda-enyaq-iv-80-150-kw-82-kwh-soh-92-tc",
+      "market": null
+    },
+    {
       "id": "10625240",
       "make": "Škoda",
       "model": "Epiq",
@@ -90168,7 +90222,7 @@
       "url": "https://www.skodaplus.cz/Car/10597628/skoda-fabia-1.0-tsi-85kw-montecarlo-dsg",
       "market": {
         "typicalPrice": 499000,
-        "lowerQuartile": 490000,
+        "lowerQuartile": 489000,
         "upperQuartile": 520000,
         "sampleSize": 40,
         "confidence": "high"
@@ -90781,8 +90835,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10620761/3bfe9161-d462-49ab-9c55-ad47b6157d5c__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10620761/skoda-kamiq-1-0tsi-85kw-monte-carlo-dsg",
       "market": {
-        "typicalPrice": 595000,
-        "lowerQuartile": 578000,
+        "typicalPrice": 592000,
+        "lowerQuartile": 576000,
         "upperQuartile": 600000,
         "sampleSize": 40,
         "confidence": "high"
@@ -94434,85 +94488,6 @@
       "color": "#7b5148",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10602968/4f29344b-392d-496f-a506-273cc2a9e79c__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10602968/audi-a5-avant-2.0tfsi-s-tronic-s-line",
-      "market": null
-    },
-    {
-      "id": "10618063",
-      "make": "Audi",
-      "model": "A5 Sportback",
-      "trim": "",
-      "equipment": [
-        "ABS",
-        "Airbag boční",
-        "Airbag hlavový",
-        "Airbag řidiče a spolujezdce",
-        "ALU kola",
-        "Asistent rozjezdu do kopce",
-        "ASR",
-        "Autohold",
-        "Autorádio",
-        "Bluetooth",
-        "Dešťový senzor",
-        "Dálkové centrální zamykání",
-        "Dělená zadní sedadla",
-        "El. ovládaná okna",
-        "El. ovládaná zrcátka",
-        "ESP",
-        "Handsfree",
-        "Hlasové ovládání",
-        "Imobilizér",
-        "ISOFIX",
-        "ISOFIX na sedadle spolujezdce",
-        "Klimatizace automatická",
-        "Klimatizace automatická dvouzónová",
-        "Kontrola tlaku v pneu",
-        "LED denní svícení",
-        "Loketní opěrka",
-        "Malý kožený paket",
-        "MaxiDot",
-        "Multifunkční volant",
-        "Nastavitelný volant",
-        "Navigační systém",
-        "Omezovač rychlosti",
-        "Ostřikovače světlometů",
-        "Palubní počítač",
-        "Parkovací brzda el. mech.",
-        "Parkovací senzory vepředu",
-        "Parkovací senzory vzadu",
-        "Pohon všech kol",
-        "Posilovač řízení",
-        "Přední mlhovky",
-        "Rezervní kolo",
-        "Senzor světel",
-        "Sportovní podvozek",
-        "Sportovní sedadla",
-        "Tempomat",
-        "Tónovaná skla",
-        "Ukazatel vnější teploty",
-        "Vyhřívaná sedadla vpředu",
-        "Vyhřívané trysky ostřikovače čelního skla",
-        "Xenonové světlomety",
-        "Zatmavovací zrcátko - vnitřní",
-        "Řazení pod volantem"
-      ],
-      "sourceModifiedAt": "2026-09-07T12:20:08.687816",
-      "engine": "3.0TDI Quattro Tiptronic S-line",
-      "powerKw": 176,
-      "fuel": "Nafta",
-      "transmission": "Automat",
-      "year": 2011,
-      "mileage": 102800,
-      "price": 279000,
-      "previousPrice": 279000,
-      "dealer": "SAMOHÝL MOTOR a.s. - Olomouc",
-      "dealerId": "Dealer-314",
-      "city": "Olomouc",
-      "area": "Okolí Brna",
-      "firstSeen": "2026-08-30T18:43:03+02:00",
-      "isNew": false,
-      "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10618063/45eb86ae-2b89-4f9f-92fd-b0764fbf4370__big.jpg",
-      "url": "https://www.skodaplus.cz/Car/10618063/audi-a5-sportback-3.0tdi-quattro-tiptronic-s-line",
       "market": null
     },
     {
@@ -98619,86 +98594,6 @@
       "market": null
     },
     {
-      "id": "10626579",
-      "make": "Škoda",
-      "model": "Fabia",
-      "trim": "Ambition Plus",
-      "equipment": [
-        "ABS",
-        "Airbag",
-        "Airbag boční",
-        "Airbag hlavový",
-        "Airbag řidiče a spolujezdce",
-        "ALU kola",
-        "ASR",
-        "Autorádio",
-        "Bluetooth",
-        "Centrální zamykání",
-        "Dálkové centrální zamykání",
-        "Dělená zadní sedadla",
-        "El. ovládaná okna",
-        "El. ovládaná zrcátka",
-        "ESP",
-        "Front assist/Nouzové brzdění",
-        "Handsfree",
-        "Imobilizér",
-        "ISOFIX",
-        "Klimatizace mechanická",
-        "Kontrola tlaku v pneu",
-        "Lane assist",
-        "LED denní svícení",
-        "LED hlavní světlomety",
-        "Loketní opěrka",
-        "Malý kožený paket",
-        "MaxiDot",
-        "Metalický lak",
-        "Multifunkční volant",
-        "Nastavitelný volant",
-        "Nouzové volání",
-        "Palubní počítač",
-        "Parkovací senzory vzadu",
-        "Posilovač řízení",
-        "Přední mlhovky",
-        "Rezervní kolo",
-        "Senzor světel",
-        "Smartlink – zrcadlení mobilního telefonu",
-        "Start – stop Systém",
-        "SUNSET/Tónovaná skla",
-        "Tempomat",
-        "Tónovaná skla",
-        "Ukazatel vnější teploty",
-        "USB slot",
-        "Vyhřívaná sedadla vpředu",
-        "Zadní stěrač s ostřikovačem",
-        "Škoda Connect"
-      ],
-      "sourceModifiedAt": "2026-09-10T18:05:12.824653",
-      "engine": "1,0MPI 59kW Ambiton Plus",
-      "powerKw": 59,
-      "fuel": "Benzín",
-      "transmission": "Manuál",
-      "year": 2023,
-      "mileage": 33112,
-      "price": 293900,
-      "previousPrice": 293900,
-      "dealer": "AUTO Hlaváček a.s. Olomouc",
-      "dealerId": "Dealer-167",
-      "city": "Olomouc-Holice",
-      "area": "Okolí Brna",
-      "firstSeen": "2026-09-10T18:31:47+00:00",
-      "isNew": false,
-      "color": "#276b63",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10626579/d929bd69-6128-4369-8894-e9fb01e4ac5c__big.jpg",
-      "url": "https://www.skodaplus.cz/Car/10626579/skoda-fabia-1-0mpi-59kw-ambiton-plus",
-      "market": {
-        "typicalPrice": 359000,
-        "lowerQuartile": 349000,
-        "upperQuartile": 370000,
-        "sampleSize": 9,
-        "confidence": "medium"
-      }
-    },
-    {
       "id": "10605124",
       "make": "Škoda",
       "model": "Fabia",
@@ -101448,7 +101343,7 @@
       },
       "market": {
         "typicalPrice": 435000,
-        "lowerQuartile": 420000,
+        "lowerQuartile": 419000,
         "upperQuartile": 449000,
         "sampleSize": 40,
         "confidence": "high"
@@ -103714,7 +103609,7 @@
       "market": {
         "typicalPrice": 465000,
         "lowerQuartile": 450000,
-        "upperQuartile": 490000,
+        "upperQuartile": 485000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -103818,7 +103713,7 @@
       "url": "https://www.skodaplus.cz/Car/10613403/skoda-fabia-dsg-1.0-tsi-85-kw-monte-carlo",
       "market": {
         "typicalPrice": 498000,
-        "lowerQuartile": 489000,
+        "lowerQuartile": 488000,
         "upperQuartile": 519000,
         "sampleSize": 40,
         "confidence": "high"
@@ -103921,7 +103816,7 @@
       "url": "https://www.skodaplus.cz/Car/10593965/skoda-fabia-dsg-1.0-tsi-85-kw-monte-carlo",
       "market": {
         "typicalPrice": 499000,
-        "lowerQuartile": 490000,
+        "lowerQuartile": 489000,
         "upperQuartile": 519000,
         "sampleSize": 40,
         "confidence": "high"
@@ -104338,110 +104233,6 @@
         "typicalPrice": 479000,
         "lowerQuartile": 467000,
         "upperQuartile": 499000,
-        "sampleSize": 40,
-        "confidence": "high"
-      }
-    },
-    {
-      "id": "10596043",
-      "make": "Škoda",
-      "model": "Kamiq",
-      "trim": "Top Selection",
-      "equipment": [
-        "ABS",
-        "Airbag",
-        "Airbag boční",
-        "Airbag hlavový",
-        "Airbag řidiče a spolujezdce",
-        "Alarm",
-        "ALU kola",
-        "Ambientní osvětlení",
-        "Asistent rozjezdu do kopce",
-        "Asistent rozpoznání únavy řidiče",
-        "ASR",
-        "Autorádio",
-        "Bezdrátové nabíjení mobilního telefonu",
-        "Bezdrátový Smartlink – zrcadlení mobilního telefonu",
-        "Bezklíčové odemykání",
-        "Bluetooth",
-        "Centrální zamykání",
-        "Dešťový senzor",
-        "Digitální přístrojový štít",
-        "Dálkové centrální zamykání",
-        "Dělená zadní sedadla",
-        "El. ovládaná okna",
-        "El. ovládaná zadní okna",
-        "El. ovládaná zrcátka",
-        "El. sklopná zrcátka",
-        "ESP",
-        "Front assist/Nouzové brzdění",
-        "Handsfree",
-        "Imobilizér",
-        "ISOFIX",
-        "ISOFIX na sedadle spolujezdce",
-        "Klimatizace automatická",
-        "Klimatizace automatická dvouzónová",
-        "Kontrola tlaku v pneu",
-        "Lane assist",
-        "LED denní svícení",
-        "LED hlavní světlomety",
-        "Loketní opěrka",
-        "Malý kožený paket",
-        "Metalický lak",
-        "Multifunkční volant",
-        "Nabíjecí USB vzadu",
-        "Nastavitelný volant",
-        "Nouzové volání",
-        "Omezovač rychlosti",
-        "Palubní počítač",
-        "Parkovací kamera",
-        "Parkovací senzory vepředu",
-        "Parkovací senzory vzadu",
-        "Posilovač řízení",
-        "Přední mlhovky",
-        "Rezervní kolo",
-        "Rozpoznání dopravních značek",
-        "Senzor světel",
-        "Smartlink – zrcadlení mobilního telefonu",
-        "Start – stop Systém",
-        "Startování tlačítkem",
-        "Střešní nosič",
-        "SUNSET/Tónovaná skla",
-        "Tažné zařízení",
-        "Tažné zařízení sklopné",
-        "Tempomat",
-        "Ukazatel vnější teploty",
-        "USB slot",
-        "Volba jízdního režimu",
-        "Vyhřívaná sedadla vpředu",
-        "Vyhřívaný volant",
-        "Zadní stěrač s ostřikovačem",
-        "Zatmavovací zrcátko - vnitřní",
-        "Zatmavovací zrcátko - všechny",
-        "Škoda Connect"
-      ],
-      "sourceModifiedAt": "2026-09-11T18:47:15.765554",
-      "engine": "1.0 TSI / 85kW / TOP SELECTION",
-      "powerKw": 85,
-      "fuel": "Benzín",
-      "transmission": "Manuál",
-      "year": 2025,
-      "mileage": 20229,
-      "price": 519000,
-      "previousPrice": 519000,
-      "dealer": "Automechanika, a.s.  Škoda Plus ",
-      "dealerId": "Dealer-149",
-      "city": "Prostějov",
-      "area": "Okolí Brna",
-      "firstSeen": "2026-08-30T18:43:03+02:00",
-      "isNew": false,
-      "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10596043/082b1012-4a97-43c5-a397-0d95b8f4bfc7__big.jpg",
-      "url": "https://www.skodaplus.cz/Car/10596043/skoda-kamiq-1.0-tsi-85kw-top-selection",
-      "market": {
-        "typicalPrice": 512000,
-        "lowerQuartile": 490000,
-        "upperQuartile": 525000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -104976,118 +104767,6 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10618035/0695059c-eeff-4ffb-a220-e52ce695a412__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10618035/skoda-kamiq-1.0-tsi-85-kw-selection-edice-130-let",
       "market": null
-    },
-    {
-      "id": "10620889",
-      "make": "Škoda",
-      "model": "Kamiq",
-      "trim": "Monte Carlo",
-      "equipment": [
-        "ABS",
-        "Airbag",
-        "Airbag boční",
-        "Airbag hlavový",
-        "Airbag řidiče a spolujezdce",
-        "Alarm",
-        "ALU kola",
-        "Ambientní osvětlení",
-        "Asistent dálkových světel",
-        "Asistent rozjezdu do kopce",
-        "Asistent rozpoznání únavy řidiče",
-        "ASR",
-        "Autorádio",
-        "Bezdrátové nabíjení mobilního telefonu",
-        "Bezdrátový Smartlink – zrcadlení mobilního telefonu",
-        "Bezklíčové odemykání",
-        "Bluetooth",
-        "Centrální zamykání",
-        "Dešťový senzor",
-        "Digitální přístrojový štít",
-        "Dálkové centrální zamykání",
-        "Dělená zadní sedadla",
-        "El. ovládaná okna",
-        "El. ovládaná zadní okna",
-        "El. ovládaná zrcátka",
-        "El. sklopná zrcátka",
-        "ESP",
-        "ETC",
-        "Front assist/Nouzové brzdění",
-        "Handsfree",
-        "Hlasové ovládání",
-        "Imobilizér",
-        "ISOFIX",
-        "ISOFIX na sedadle spolujezdce",
-        "Klimatizace automatická",
-        "Klimatizace automatická dvouzónová",
-        "Kontrola tlaku v pneu",
-        "Lane assist",
-        "LED denní svícení",
-        "LED hlavní světlomety",
-        "Loketní opěrka",
-        "Malý kožený paket",
-        "MATRIX LED světlomety",
-        "Metalický lak",
-        "Multifunkční volant",
-        "Nabíjecí USB vzadu",
-        "Nastavitelný volant",
-        "Natáčecí světlomety",
-        "Navigační systém",
-        "Nouzové volání",
-        "Omezovač rychlosti",
-        "Palubní počítač",
-        "Panoramatická střecha",
-        "Parkovací kamera",
-        "Parkovací senzory vepředu",
-        "Parkovací senzory vzadu",
-        "Posilovač řízení",
-        "Přední mlhovky",
-        "Rezervní kolo",
-        "Rozpoznání dopravních značek",
-        "Senzor světel",
-        "Smartlink – zrcadlení mobilního telefonu",
-        "Sportovní paket",
-        "Sportovní sedadla",
-        "Start – stop Systém",
-        "Startování tlačítkem",
-        "Střešní nosič",
-        "SUNSET/Tónovaná skla",
-        "Tažné zařízení sklopné",
-        "Tempomat",
-        "Ukazatel vnější teploty",
-        "USB slot",
-        "Volba jízdního režimu",
-        "Vyhřívaná sedadla vpředu",
-        "Vyhřívaný volant",
-        "Zadní stěrač s ostřikovačem",
-        "Zatmavovací zrcátko - vnitřní",
-        "Řazení pod volantem",
-        "Škoda Connect"
-      ],
-      "sourceModifiedAt": "2026-08-14T09:41:07.645855",
-      "engine": "DSG 1.5 TSI / 110kW / MONTE CARLO",
-      "powerKw": 110,
-      "fuel": "Benzín",
-      "transmission": "Automat",
-      "year": 2025,
-      "mileage": 16411,
-      "price": 619000,
-      "previousPrice": 619000,
-      "dealer": "Automechanika, a.s.  Škoda Plus ",
-      "dealerId": "Dealer-149",
-      "city": "Prostějov",
-      "area": "Okolí Brna",
-      "firstSeen": "2026-08-30T18:43:03+02:00",
-      "isNew": false,
-      "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10620889/5f8052ae-0111-400b-9e8d-d3690598d625__big.jpg",
-      "url": "https://www.skodaplus.cz/Car/10620889/skoda-kamiq-dsg-1.5-tsi-110kw-monte-carlo",
-      "market": {
-        "typicalPrice": 639000,
-        "lowerQuartile": 619000,
-        "upperQuartile": 660000,
-        "sampleSize": 33,
-        "confidence": "high"
-      }
     },
     {
       "id": "10614530",
@@ -106319,7 +105998,7 @@
         "Řazení pod volantem",
         "Škoda Connect"
       ],
-      "sourceModifiedAt": "2026-09-04T11:38:36.434793",
+      "sourceModifiedAt": "2026-09-14T02:57:56.659615",
       "engine": "DSG 4x4  2.0 TDI / 110 kW / TOP SELECTION",
       "powerKw": 110,
       "fuel": "Nafta",
@@ -106837,8 +106516,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10617685/f066bb3e-9e4b-40d4-bb3c-c1f15a009efe__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10617685/skoda-kodiaq-dsg-4x4-2.0-tdi-142-kw-exlusive-selection",
       "market": {
-        "typicalPrice": 1082000,
-        "lowerQuartile": 1036000,
+        "typicalPrice": 1079000,
+        "lowerQuartile": 1026000,
         "upperQuartile": 1140000,
         "sampleSize": 40,
         "confidence": "high"
@@ -107109,7 +106788,7 @@
       "url": "https://www.skodaplus.cz/Car/10616209/skoda-kodiaq-dsg-4x4-2.0-tdi-142-kw-exclusive-selection",
       "market": {
         "typicalPrice": 1199000,
-        "lowerQuartile": 1159000,
+        "lowerQuartile": 1163000,
         "upperQuartile": 1249000,
         "sampleSize": 40,
         "confidence": "high"
@@ -108530,9 +108209,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10552954/012d6ca2-8d37-4278-af52-0569f525ab76__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10552954/skoda-octavia-dsg-2.0-tdi-110kw-top-selection",
       "market": {
-        "typicalPrice": 740000,
+        "typicalPrice": 737000,
         "lowerQuartile": 704000,
-        "upperQuartile": 775000,
+        "upperQuartile": 762000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -109098,7 +108777,7 @@
       "market": {
         "typicalPrice": 669000,
         "lowerQuartile": 629000,
-        "upperQuartile": 687000,
+        "upperQuartile": 699000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -109327,9 +109006,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10549001/514ed126-4c72-43df-8392-f44e70245663__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10549001/skoda-octavia-dsg-2.0-tdi-110-kw-top-selection",
       "market": {
-        "typicalPrice": 740000,
+        "typicalPrice": 737000,
         "lowerQuartile": 704000,
-        "upperQuartile": 775000,
+        "upperQuartile": 762000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -109552,9 +109231,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10625317/c03d5df8-f6e7-4877-9791-6d48daec8cf3__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10625317/skoda-octavia-combi-m-hev-dsg-1.5-tsi-110kw-top-selection",
       "market": {
-        "typicalPrice": 726000,
-        "lowerQuartile": 700000,
-        "upperQuartile": 749000,
+        "typicalPrice": 722000,
+        "lowerQuartile": 699000,
+        "upperQuartile": 742000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -109662,9 +109341,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10625315/2f98db14-f9eb-4d0e-9579-60fc5a3352fe__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10625315/skoda-octavia-combi-m-hev-dsg-1.5-110kw-top-selection",
       "market": {
-        "typicalPrice": 722000,
-        "lowerQuartile": 700000,
-        "upperQuartile": 749000,
+        "typicalPrice": 719000,
+        "lowerQuartile": 699000,
+        "upperQuartile": 741000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -111676,7 +111355,7 @@
       },
       "market": {
         "typicalPrice": 436000,
-        "lowerQuartile": 420000,
+        "lowerQuartile": 424000,
         "upperQuartile": 449000,
         "sampleSize": 40,
         "confidence": "high"
@@ -112230,99 +111909,6 @@
         "sampleSize": 40,
         "confidence": "high"
       }
-    },
-    {
-      "id": "10612330",
-      "make": "Škoda",
-      "model": "Superb",
-      "trim": "Ambition Plus",
-      "equipment": [
-        "ABS",
-        "Adaptivní tempomat 210km/h",
-        "Airbag",
-        "Airbag boční",
-        "Airbag hlavový",
-        "Airbag kolenní",
-        "Airbag řidiče a spolujezdce",
-        "ALU kola",
-        "Asistent dálkových světel",
-        "Asistent rozjezdu do kopce",
-        "Asistent rozpoznání únavy řidiče",
-        "ASR",
-        "Autohold",
-        "Autorádio",
-        "Bezklíčové odemykání",
-        "Bluetooth",
-        "Centrální zamykání",
-        "Dešťový senzor",
-        "Digitální přístrojový štít",
-        "Dálkové centrální zamykání",
-        "Dělená zadní sedadla",
-        "El. ovládaná okna",
-        "El. ovládaná zrcátka",
-        "El. sklopná zrcátka",
-        "ESP",
-        "Front assist/Nouzové brzdění",
-        "Handsfree",
-        "Hlasové ovládání",
-        "Imobilizér",
-        "ISOFIX",
-        "Klimatizace automatická",
-        "Klimatizace automatická dvouzónová",
-        "Klimatizovaná přihrádka",
-        "Kontrola tlaku v pneu",
-        "LED denní svícení",
-        "LED hlavní světlomety",
-        "Loketní opěrka",
-        "Malý kožený paket",
-        "MaxiDot",
-        "Metalický lak",
-        "Multifunkční volant",
-        "Nastavitelný volant",
-        "Navigační systém",
-        "Nouzové volání",
-        "Omezovač rychlosti",
-        "Palubní počítač",
-        "Parkovací brzda el. mech.",
-        "Parkovací senzory vepředu",
-        "Parkovací senzory vzadu",
-        "Posilovač řízení",
-        "Přední mlhovky",
-        "Rezervní kolo",
-        "Senzor světel",
-        "Smartlink – zrcadlení mobilního telefonu",
-        "Start – stop Systém",
-        "Startování tlačítkem",
-        "Střešní nosič",
-        "SUNSET/Tónovaná skla",
-        "Tempomat",
-        "Ukazatel vnější teploty",
-        "USB slot",
-        "Vyhřívaná sedadla vpředu",
-        "Zadní stěrač s ostřikovačem",
-        "Zatmavovací zrcátko - vnitřní",
-        "Zatmavovací zrcátko – řidič",
-        "Škoda Connect"
-      ],
-      "sourceModifiedAt": "2026-07-21T16:05:29.541385",
-      "engine": "Combi DSG 2.0 TDI / 110 kW / AMBITION PLUS",
-      "powerKw": 110,
-      "fuel": "Nafta",
-      "transmission": "Automat",
-      "year": 2022,
-      "mileage": 86596,
-      "price": 489000,
-      "previousPrice": 489000,
-      "dealer": "Automechanika, a.s.  Škoda Plus ",
-      "dealerId": "Dealer-149",
-      "city": "Prostějov",
-      "area": "Okolí Brna",
-      "firstSeen": "2026-08-30T18:43:03+02:00",
-      "isNew": false,
-      "color": "#9a3942",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10612330/509c8297-719d-43c4-af22-5efb3f510513__big.jpg",
-      "url": "https://www.skodaplus.cz/Car/10612330/skoda-superb-combi-dsg-2.0-tdi-110-kw-ambition-plus",
-      "market": null
     },
     {
       "id": "10571655",
@@ -113789,11 +113375,11 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10618477/d37c0473-ff36-477d-98cc-d010ff84401b__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10618477/skoda-fabia-1.0-tsi-70kw-style-plus",
       "market": {
-        "typicalPrice": 378000,
-        "lowerQuartile": 352000,
-        "upperQuartile": 402000,
-        "sampleSize": 8,
-        "confidence": "medium"
+        "typicalPrice": 379000,
+        "lowerQuartile": 349000,
+        "upperQuartile": 414000,
+        "sampleSize": 7,
+        "confidence": "low"
       }
     },
     {
@@ -113875,10 +113461,10 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10625668/1fea621a-9391-4f1a-af15-cf85ce918f8f__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10625668/skoda-fabia-1.0-tsi-70kw-ambition-plus-combi-",
       "market": {
-        "typicalPrice": 350000,
+        "typicalPrice": 360000,
         "lowerQuartile": 349000,
-        "upperQuartile": 377000,
-        "sampleSize": 7,
+        "upperQuartile": 381000,
+        "sampleSize": 6,
         "confidence": "low"
       }
     },
@@ -114050,11 +113636,11 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10613856/98456041-ecde-4b70-a53c-cd72a20a8756__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10613856/skoda-fabia-1.0-tsi-81kw-style-plus",
       "market": {
-        "typicalPrice": 368000,
-        "lowerQuartile": 352000,
-        "upperQuartile": 402000,
-        "sampleSize": 8,
-        "confidence": "medium"
+        "typicalPrice": 359000,
+        "lowerQuartile": 349000,
+        "upperQuartile": 414000,
+        "sampleSize": 7,
+        "confidence": "low"
       }
     },
     {
@@ -114146,10 +113732,10 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10604382/b039b81b-d7a1-4151-90bc-7100a4a1f82d__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10604382/skoda-fabia-1.0-tsi-81kw-style-plus",
       "market": {
-        "typicalPrice": 378000,
-        "lowerQuartile": 364000,
-        "upperQuartile": 424000,
-        "sampleSize": 6,
+        "typicalPrice": 379000,
+        "lowerQuartile": 359000,
+        "upperQuartile": 439000,
+        "sampleSize": 5,
         "confidence": "low"
       }
     },
@@ -116315,10 +115901,10 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10614408/5a07bcc9-2b9f-4285-9bfc-13de19d72c05__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10614408/skoda-karoq-1.5-tsi-110kw-dsg-sportline",
       "market": {
-        "typicalPrice": 636000,
-        "lowerQuartile": 624000,
-        "upperQuartile": 657000,
-        "sampleSize": 16,
+        "typicalPrice": 639000,
+        "lowerQuartile": 626000,
+        "upperQuartile": 664000,
+        "sampleSize": 15,
         "confidence": "high"
       }
     },
@@ -118080,9 +117666,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10626580/a8c23abc-b772-4141-af16-c2b4157c5906__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10626580/skoda-kodiaq-2.0-tdi-142-kw-exclusive-selection-4x4-dsg",
       "market": {
-        "typicalPrice": 1096000,
-        "lowerQuartile": 1068000,
-        "upperQuartile": 1150000,
+        "typicalPrice": 1092000,
+        "lowerQuartile": 1050000,
+        "upperQuartile": 1146000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -118505,10 +118091,10 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10625582/c7c7fa45-c843-47e9-8cba-603a96c3b64f__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10625582/skoda-octavia-1.5-tsi-110kw-style-plus",
       "market": {
-        "typicalPrice": 443000,
-        "lowerQuartile": 426000,
-        "upperQuartile": 452000,
-        "sampleSize": 8,
+        "typicalPrice": 438000,
+        "lowerQuartile": 419000,
+        "upperQuartile": 449000,
+        "sampleSize": 9,
         "confidence": "medium"
       }
     },
@@ -118930,10 +118516,10 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10625076/ede01596-954a-4302-b419-8a4c183e4704__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10625076/skoda-octavia-1.5-tsi-110kw-style-plus-combi",
       "market": {
-        "typicalPrice": 454000,
-        "lowerQuartile": 438000,
-        "upperQuartile": 496000,
-        "sampleSize": 10,
+        "typicalPrice": 449000,
+        "lowerQuartile": 433000,
+        "upperQuartile": 493000,
+        "sampleSize": 11,
         "confidence": "medium"
       }
     },
@@ -119557,10 +119143,10 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10624125/ebf2e502-de4b-4881-bc5f-0128777f83f3__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10624125/skoda-octavia-1.5-tsi-110kw-style-plus-combi",
       "market": {
-        "typicalPrice": 493000,
-        "lowerQuartile": 466000,
-        "upperQuartile": 513000,
-        "sampleSize": 6,
+        "typicalPrice": 489000,
+        "lowerQuartile": 454000,
+        "upperQuartile": 508000,
+        "sampleSize": 7,
         "confidence": "low"
       }
     },
@@ -120753,109 +120339,6 @@
       "color": "#9a3942",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10617724/82dcb3b9-2ef9-4b42-b00f-214f91d04790__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10617724/volkswagen-passat-variant-1.5-tsi-110-kw-dsg-business",
-      "market": null
-    },
-    {
-      "id": "10614443",
-      "make": "Volkswagen",
-      "model": "Passat Variant",
-      "trim": "",
-      "equipment": [
-        "ABS",
-        "Adaptivní tempomat 210km/h",
-        "Airbag",
-        "Airbag boční",
-        "Airbag hlavový",
-        "Airbag řidiče a spolujezdce",
-        "ALU kola",
-        "Asistent jízdy s přívěsem",
-        "Asistent rozjezdu do kopce",
-        "Asistent rozpoznání únavy řidiče",
-        "ASR",
-        "Autohold",
-        "Autorádio",
-        "Bezdrátové nabíjení mobilního telefonu",
-        "Blind spot detect / Side assist",
-        "Bluetooth",
-        "Centrální zamykání",
-        "Dešťový senzor",
-        "Dálkové centrální zamykání",
-        "Dělená zadní sedadla",
-        "El. ovládaná okna",
-        "El. ovládaná přední sedadla",
-        "El. ovládaná zrcátka",
-        "El. ovládané sedadlo řidiče",
-        "El. sklopná zrcátka",
-        "ESP",
-        "Front assist/Nouzové brzdění",
-        "Handsfree",
-        "Hlasové ovládání",
-        "Imobilizér",
-        "ISOFIX",
-        "Klimatizace automatická",
-        "Klimatizace automatická vícezónová",
-        "Klimatizovaná přihrádka",
-        "Kontrola tlaku v pneu",
-        "Lane assist",
-        "LED denní svícení",
-        "LED hlavní světlomety",
-        "Loketní opěrka",
-        "Malý kožený paket",
-        "MaxiDot",
-        "Metalický lak",
-        "Multifunkční volant",
-        "Nabíjecí USB vzadu",
-        "Nastavitelný volant",
-        "Navigační systém",
-        "Nouzové volání",
-        "Omezovač rychlosti",
-        "Palubní počítač",
-        "Parkovací brzda el. mech.",
-        "Parkovací kamera",
-        "Parkovací senzory vepředu",
-        "Parkovací senzory vzadu",
-        "Posilovač řízení",
-        "Přední mlhovky",
-        "Rozpoznání dopravních značek",
-        "Sada na opravu pneumatiky",
-        "Senzor světel",
-        "Smartlink – zrcadlení mobilního telefonu",
-        "Sound systém",
-        "Start – stop Systém",
-        "Startování tlačítkem",
-        "Střešní nosič",
-        "SUNSET/Tónovaná skla",
-        "Tažné zařízení",
-        "Tažné zařízení sklopné",
-        "Tempomat",
-        "Tónovaná skla",
-        "Ukazatel vnější teploty",
-        "USB slot",
-        "Vyhřívaná sedadla vpředu",
-        "Zadní stěrač s ostřikovačem",
-        "Zatmavovací zrcátko - vnitřní",
-        "Zatmavovací zrcátko – řidič",
-        "Zásuvka 230V",
-        "Řazení pod volantem"
-      ],
-      "sourceModifiedAt": "2026-07-10T16:45:58.191584",
-      "engine": "2.0 TDI 110kW DSG Business",
-      "powerKw": 110,
-      "fuel": "Nafta",
-      "transmission": "Automat",
-      "year": 2023,
-      "mileage": 125933,
-      "price": 479000,
-      "previousPrice": 479000,
-      "dealer": "PV – AUTO spol. s r.o.",
-      "dealerId": "Dealer-166",
-      "city": "Prostějov",
-      "area": "Okolí Brna",
-      "firstSeen": "2026-08-30T18:43:03+02:00",
-      "isNew": false,
-      "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10614443/d2f80ac1-1f03-423c-86bc-f1b5d9e777af__big.jpg",
-      "url": "https://www.skodaplus.cz/Car/10614443/volkswagen-passat-variant-2.0-tdi-110kw-dsg-business",
       "market": null
     },
     {
@@ -122113,8 +121596,8 @@
       "market": {
         "typicalPrice": 599000,
         "lowerQuartile": 579000,
-        "upperQuartile": 630000,
-        "sampleSize": 37,
+        "upperQuartile": 631000,
+        "sampleSize": 36,
         "confidence": "high"
       }
     },
@@ -122231,104 +121714,6 @@
       "color": "#355b82",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10612702/1836c6ec-81b2-4fe0-86c5-d21f51742438__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10612702/skoda-superb-2.0-tdi-147-kw-dsg-4x4-style-plus",
-      "market": null
-    },
-    {
-      "id": "10623041",
-      "make": "Škoda",
-      "model": "Superb",
-      "trim": "Style Plus",
-      "equipment": [
-        "ABS",
-        "Adaptivní tempomat 210km/h",
-        "Airbag",
-        "Airbag boční",
-        "Airbag hlavový",
-        "Airbag kolenní",
-        "Airbag řidiče a spolujezdce",
-        "ALU kola",
-        "Asistent rozjezdu do kopce",
-        "Asistent rozpoznání únavy řidiče",
-        "ASR",
-        "Autohold",
-        "Autorádio",
-        "Bezdrátový Smartlink – zrcadlení mobilního telefonu",
-        "Bezklíčové odemykání",
-        "Bluetooth",
-        "Centrální zamykání",
-        "Dešťový senzor",
-        "Digitální přístrojový štít",
-        "Dálkové centrální zamykání",
-        "Dělená zadní sedadla",
-        "El. ovládaná okna",
-        "El. ovládaná zrcátka",
-        "El. ovládané sedadlo řidiče",
-        "El. sklopná zrcátka",
-        "ESP",
-        "Front assist/Nouzové brzdění",
-        "Handsfree",
-        "Hlasové ovládání",
-        "Imobilizér",
-        "ISOFIX",
-        "Klimatizace automatická",
-        "Klimatizace automatická dvouzónová",
-        "Kontrola tlaku v pneu",
-        "LED denní svícení",
-        "LED hlavní světlomety",
-        "Loketní opěrka",
-        "Malý kožený paket",
-        "Metalický lak",
-        "Multifunkční volant",
-        "Nastavitelný volant",
-        "Navigační systém",
-        "Nouzové volání",
-        "Omezovač rychlosti",
-        "Ostřikovače světlometů",
-        "Palubní počítač",
-        "Parkovací brzda el. mech.",
-        "Parkovací kamera",
-        "Parkovací senzory vepředu",
-        "Parkovací senzory vzadu",
-        "Posilovač řízení",
-        "Přední mlhovky",
-        "Sada na opravu pneumatiky",
-        "Senzor světel",
-        "Smartlink – zrcadlení mobilního telefonu",
-        "Sound systém",
-        "Start – stop Systém",
-        "Startování tlačítkem",
-        "Střešní nosič",
-        "SUNSET/Tónovaná skla",
-        "Tempomat",
-        "Tónovaná skla",
-        "Ukazatel vnější teploty",
-        "USB slot",
-        "Vyhřívaná sedadla vpředu",
-        "Vyhřívané trysky ostřikovače čelního skla",
-        "Vyhřívaný volant",
-        "Zadní stěrač s ostřikovačem",
-        "Zatmavovací zrcátko - vnitřní",
-        "Zatmavovací zrcátko – řidič",
-        "Řazení pod volantem"
-      ],
-      "sourceModifiedAt": "2026-09-11T17:01:13.110144",
-      "engine": "2.0 TDI 110kW DSG Style Plus combi",
-      "powerKw": 110,
-      "fuel": "Nafta",
-      "transmission": "Automat",
-      "year": 2022,
-      "mileage": 127994,
-      "price": 499000,
-      "previousPrice": 499000,
-      "dealer": "PV – AUTO spol. s r.o.",
-      "dealerId": "Dealer-166",
-      "city": "Prostějov",
-      "area": "Okolí Brna",
-      "firstSeen": "2026-08-30T18:43:03+02:00",
-      "isNew": false,
-      "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10623041/fe312791-0c31-488a-bb4f-da381c894d3c__big.jpg",
-      "url": "https://www.skodaplus.cz/Car/10623041/skoda-superb-2.0-tdi-110kw-dsg-style-plus-combi",
       "market": null
     },
     {
@@ -124420,9 +123805,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10601249/0206884f-9474-4b4d-93c4-dec806d05340__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10601249/skoda-fabia-1.0-tsi-85kw-dsg-top-selection",
       "market": {
-        "typicalPrice": 467000,
+        "typicalPrice": 465000,
         "lowerQuartile": 450000,
-        "upperQuartile": 490000,
+        "upperQuartile": 485000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -124844,7 +124229,7 @@
       "url": "https://www.skodaplus.cz/Car/10617487/skoda-fabia-1.0tsi-85kw-dsg-monte-carlo",
       "market": {
         "typicalPrice": 499000,
-        "lowerQuartile": 490000,
+        "lowerQuartile": 489000,
         "upperQuartile": 519000,
         "sampleSize": 40,
         "confidence": "high"
@@ -126993,7 +126378,7 @@
         "Řazení pod volantem",
         "Škoda Connect"
       ],
-      "sourceModifiedAt": "2026-08-06T12:43:59.247768",
+      "sourceModifiedAt": "2026-09-14T02:57:20.966613",
       "engine": "2.0 TDI 110kW 4x4 DSG Top Selection",
       "powerKw": 110,
       "fuel": "Nafta",
@@ -127713,7 +127098,7 @@
       "url": "https://www.skodaplus.cz/Car/10591027/skoda-kodiaq-2.0-tdi-142kw-4x4-exclusive-selection",
       "market": {
         "typicalPrice": 1199000,
-        "lowerQuartile": 1154000,
+        "lowerQuartile": 1157000,
         "upperQuartile": 1249000,
         "sampleSize": 40,
         "confidence": "high"
@@ -128436,9 +127821,9 @@
       "url": "https://www.skodaplus.cz/Car/10624567/skoda-octavia-combi-1.5-tsi-110kw-style-plus",
       "market": {
         "typicalPrice": 449000,
-        "lowerQuartile": 436000,
-        "upperQuartile": 491000,
-        "sampleSize": 8,
+        "lowerQuartile": 429000,
+        "upperQuartile": 489000,
+        "sampleSize": 9,
         "confidence": "medium"
       }
     },
@@ -128657,9 +128042,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10574330/1335ce6e-2621-4883-9c68-58010527f478__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10574330/skoda-octavia-1-5-tsi-110-kw-top-selection-",
       "market": {
-        "typicalPrice": 669000,
+        "typicalPrice": 670000,
         "lowerQuartile": 629000,
-        "upperQuartile": 690000,
+        "upperQuartile": 699000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -130452,8 +129837,8 @@
       },
       "market": {
         "typicalPrice": 439000,
-        "lowerQuartile": 427000,
-        "upperQuartile": 451000,
+        "lowerQuartile": 428000,
+        "upperQuartile": 456000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -137026,10 +136411,10 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10621242/6a8ae9c1-1cf9-4c0d-82ec-1a6be79631c8__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10621242/skoda-superb-1.5-tsi-110kw-m-hev-dsg-selection",
       "market": {
-        "typicalPrice": 799000,
-        "lowerQuartile": 750000,
-        "upperQuartile": 826000,
-        "sampleSize": 18,
+        "typicalPrice": 800000,
+        "lowerQuartile": 759000,
+        "upperQuartile": 829000,
+        "sampleSize": 16,
         "confidence": "high"
       }
     },
@@ -138692,10 +138077,83 @@
       "market": {
         "typicalPrice": 375000,
         "lowerQuartile": 368000,
-        "upperQuartile": 381000,
+        "upperQuartile": 380000,
         "sampleSize": 40,
         "confidence": "high"
       }
+    },
+    {
+      "id": "10596904",
+      "make": "Škoda",
+      "model": "Fabia",
+      "trim": "",
+      "equipment": [
+        "ABS",
+        "Airbag",
+        "Airbag hlavový",
+        "Airbag řidiče a spolujezdce",
+        "ALU kola",
+        "Asistent rozjezdu do kopce",
+        "Asistent rozpoznání únavy řidiče",
+        "ASR",
+        "Autorádio",
+        "Bluetooth",
+        "Centrální zamykání",
+        "Dešťový senzor",
+        "Dálkové centrální zamykání",
+        "El. ovládaná okna",
+        "El. ovládaná zrcátka",
+        "El. sklopná zrcátka",
+        "ESP",
+        "Front assist/Nouzové brzdění",
+        "Handsfree",
+        "Imobilizér",
+        "ISOFIX",
+        "Klimatizace automatická",
+        "Klimatizace automatická dvouzónová",
+        "Kontrola tlaku v pneu",
+        "Lane assist",
+        "LED denní svícení",
+        "LED hlavní světlomety",
+        "Loketní opěrka",
+        "Metalický lak",
+        "Multifunkční volant",
+        "Nastavitelný volant",
+        "Palubní počítač",
+        "Parkovací senzory vzadu",
+        "Posilovač řízení",
+        "Rezervní kolo",
+        "Rozpoznání dopravních značek",
+        "Senzor světel",
+        "Smartlink – zrcadlení mobilního telefonu",
+        "Start – stop Systém",
+        "Startování tlačítkem",
+        "Tempomat",
+        "Tónovaná skla",
+        "Ukazatel vnější teploty",
+        "USB slot",
+        "Vyhřívaná sedadla vpředu",
+        "Zadní stěrač s ostřikovačem"
+      ],
+      "sourceModifiedAt": "2026-09-14T10:55:32.231951",
+      "engine": "1.0 MPI 59kW Selection",
+      "powerKw": 59,
+      "fuel": "Benzín",
+      "transmission": "Manuál",
+      "year": 2025,
+      "mileage": 7100,
+      "price": 378000,
+      "previousPrice": 378000,
+      "dealer": "ARAVER CZ člen skupiny AUTO UH s.r.o. - Uherské Hradiště (pobočka Staré Město)",
+      "dealerId": "Dealer-61",
+      "city": "Staré Město",
+      "area": "Okolí Brna",
+      "firstSeen": "2026-09-14T10:45:45+00:00",
+      "isNew": true,
+      "color": "#9a3942",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10596904/f5eecaf2-61fb-4aa5-83ec-9b847342ee85__big.jpg",
+      "url": "https://www.skodaplus.cz/Car/10596904/skoda-fabia-1.0-mpi-59kw-selection",
+      "market": null
     },
     {
       "id": "10616483",
@@ -139429,6 +138887,91 @@
         "sampleSize": 40,
         "confidence": "high"
       }
+    },
+    {
+      "id": "10626847",
+      "make": "Škoda",
+      "model": "Karoq",
+      "trim": "Ambition",
+      "equipment": [
+        "ABS",
+        "Airbag",
+        "Airbag boční",
+        "Airbag hlavový",
+        "Airbag kolenní",
+        "Airbag řidiče a spolujezdce",
+        "ALU kola",
+        "Asistent rozjezdu do kopce",
+        "Asistent rozpoznání únavy řidiče",
+        "ASR",
+        "Autohold",
+        "Autorádio",
+        "Bezdrátové nabíjení mobilního telefonu",
+        "Bluetooth",
+        "Centrální zamykání",
+        "Dešťový senzor",
+        "Dálkové centrální zamykání",
+        "El. ovládaná okna",
+        "El. ovládaná zrcátka",
+        "El. sklopná zrcátka",
+        "ESP",
+        "Front assist/Nouzové brzdění",
+        "Handsfree",
+        "Imobilizér",
+        "ISOFIX",
+        "Klimatizace automatická",
+        "Klimatizace automatická dvouzónová",
+        "Kontrola tlaku v pneu",
+        "LED denní svícení",
+        "LED hlavní světlomety",
+        "Loketní opěrka",
+        "Metalický lak",
+        "Multifunkční volant",
+        "Nastavitelný volant",
+        "Nouzové volání",
+        "Palubní počítač",
+        "Parkovací brzda el. mech.",
+        "Parkovací kamera",
+        "Parkovací senzory vepředu",
+        "Parkovací senzory vzadu",
+        "Posilovač řízení",
+        "Senzor světel",
+        "Smartlink – zrcadlení mobilního telefonu",
+        "Start – stop Systém",
+        "Startování tlačítkem",
+        "Střešní nosič",
+        "SUNSET/Tónovaná skla",
+        "Tažné zařízení sklopné",
+        "Tempomat",
+        "Tónovaná skla",
+        "Ukazatel vnější teploty",
+        "USB slot",
+        "Vyhřívaná sedadla vpředu",
+        "Vyhřívaná sedadla vpředu a vzadu",
+        "Vyhřívané trysky ostřikovače čelního skla",
+        "Vyhřívané čelní sklo",
+        "Vyhřívaný volant",
+        "Zadní stěrač s ostřikovačem"
+      ],
+      "sourceModifiedAt": "2026-09-14T10:53:30.214483",
+      "engine": "2.0 TDI 85kW Ambition",
+      "powerKw": 85,
+      "fuel": "Nafta",
+      "transmission": "Manuál",
+      "year": 2022,
+      "mileage": 144855,
+      "price": 429900,
+      "previousPrice": 429900,
+      "dealer": "ARAVER CZ člen skupiny AUTO UH s.r.o. - Uherské Hradiště (pobočka Staré Město)",
+      "dealerId": "Dealer-61",
+      "city": "Staré Město",
+      "area": "Okolí Brna",
+      "firstSeen": "2026-09-14T10:45:45+00:00",
+      "isNew": true,
+      "color": "#9a3942",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10626847/8e40bf95-036d-43ba-8058-d4fe3df57e1d__big.jpg",
+      "url": "https://www.skodaplus.cz/Car/10626847/skoda-karoq-2.0-tdi-85kw-ambition",
+      "market": null
     },
     {
       "id": "10619454",
@@ -141683,8 +141226,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619310/58244e38-21a9-4546-a949-dd6d76ce19f6__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10619310/skoda-octavia-1-5-tsi-m-hev-110kw-dsg-top-selection",
       "market": {
-        "typicalPrice": 700000,
-        "lowerQuartile": 613000,
+        "typicalPrice": 699000,
+        "lowerQuartile": 599000,
         "upperQuartile": 730000,
         "sampleSize": 40,
         "confidence": "high"
@@ -142005,7 +141548,7 @@
       },
       "market": {
         "typicalPrice": 435000,
-        "lowerQuartile": 420000,
+        "lowerQuartile": 425000,
         "upperQuartile": 449000,
         "sampleSize": 40,
         "confidence": "high"
@@ -143004,10 +142547,10 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10604254/49613efd-f437-425c-bfe9-4eab9170d257__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10604254/skoda-superb-1.5-tsi-m-hev-110kw-dsg-selection",
       "market": {
-        "typicalPrice": 799000,
-        "lowerQuartile": 750000,
-        "upperQuartile": 830000,
-        "sampleSize": 18,
+        "typicalPrice": 800000,
+        "lowerQuartile": 759000,
+        "upperQuartile": 831000,
+        "sampleSize": 16,
         "confidence": "high"
       }
     },
@@ -143380,7 +142923,7 @@
       "market": {
         "typicalPrice": 465000,
         "lowerQuartile": 450000,
-        "upperQuartile": 490000,
+        "upperQuartile": 485000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -144003,8 +143546,8 @@
         "method": "Katalogová cena rozpoznaných příplatků; zůstatková hodnota je orientační koeficient podle typu výbavy a stáří."
       },
       "market": {
-        "typicalPrice": 440000,
-        "lowerQuartile": 427000,
+        "typicalPrice": 443000,
+        "lowerQuartile": 428000,
         "upperQuartile": 456000,
         "sampleSize": 40,
         "confidence": "high"
@@ -145245,7 +144788,7 @@
       "url": "https://www.skodaplus.cz/Car/10618863/skoda-fabia-1-0-mpi-selection",
       "market": {
         "typicalPrice": 369000,
-        "lowerQuartile": 360000,
+        "lowerQuartile": 363000,
         "upperQuartile": 377000,
         "sampleSize": 40,
         "confidence": "high"
@@ -145444,9 +144987,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10594903/f684276c-c64f-46c5-8179-7251a935784a__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10594903/skoda-fabia-1.0tsi-85kw-dsg-top-selection-tazne",
       "market": {
-        "typicalPrice": 465000,
+        "typicalPrice": 463000,
         "lowerQuartile": 450000,
-        "upperQuartile": 490000,
+        "upperQuartile": 485000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -145550,7 +145093,7 @@
       "url": "https://www.skodaplus.cz/Car/10618524/skoda-fabia-1.0-tsi-85kw-monte-carlo-dsg",
       "market": {
         "typicalPrice": 498000,
-        "lowerQuartile": 489000,
+        "lowerQuartile": 488000,
         "upperQuartile": 519000,
         "sampleSize": 40,
         "confidence": "high"
@@ -145655,10 +145198,10 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10615900/50890c31-901d-4f82-a6e0-26cf8df9b60f__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10615900/skoda-fabia-1.5tsi-110kw-dsg-monte-carlo",
       "market": {
-        "typicalPrice": 542000,
-        "lowerQuartile": 531000,
+        "typicalPrice": 540000,
+        "lowerQuartile": 528000,
         "upperQuartile": 569000,
-        "sampleSize": 22,
+        "sampleSize": 23,
         "confidence": "high"
       }
     },
@@ -146080,8 +145623,8 @@
       "market": {
         "typicalPrice": 638000,
         "lowerQuartile": 619000,
-        "upperQuartile": 650000,
-        "sampleSize": 33,
+        "upperQuartile": 652000,
+        "sampleSize": 32,
         "confidence": "high"
       }
     },
@@ -147964,7 +147507,7 @@
       "url": "https://www.skodaplus.cz/Car/10619653/skoda-octavia-1-5-tsi-110-kw-selection",
       "market": {
         "typicalPrice": 589000,
-        "lowerQuartile": 569000,
+        "lowerQuartile": 574000,
         "upperQuartile": 611000,
         "sampleSize": 40,
         "confidence": "high"
@@ -148922,8 +148465,8 @@
         "Vyhřívané trysky ostřikovače čelního skla",
         "Zadní stěrač s ostřikovačem"
       ],
-      "sourceModifiedAt": "2026-08-20T15:45:41.314789",
-      "engine": "1.2TSI 81kW Scoutline",
+      "sourceModifiedAt": "2026-09-14T11:55:49.120556",
+      "engine": "REZERVOVÁNO 1.2TSI 81kW Scoutline",
       "powerKw": 81,
       "fuel": "Benzín",
       "transmission": "Manuál",
@@ -148939,7 +148482,7 @@
       "isNew": false,
       "color": "#b8b2a8",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10621238/2d05715b-50bb-4cb2-a61e-9114fe8cfb0b__big.jpg",
-      "url": "https://www.skodaplus.cz/Car/10621238/skoda-rapid-1.2tsi-81kw-scoutline",
+      "url": "https://www.skodaplus.cz/Car/10621238/skoda-rapid-rezervovano-1.2tsi-81kw-scoutline",
       "market": null
     },
     {
@@ -149120,8 +148663,8 @@
         "method": "Katalogová cena rozpoznaných příplatků; zůstatková hodnota je orientační koeficient podle typu výbavy a stáří."
       },
       "market": {
-        "typicalPrice": 436000,
-        "lowerQuartile": 424000,
+        "typicalPrice": 438000,
+        "lowerQuartile": 425000,
         "upperQuartile": 449000,
         "sampleSize": 40,
         "confidence": "high"
@@ -150038,13 +149581,13 @@
         "Řazení pod volantem",
         "Škoda Connect"
       ],
-      "sourceModifiedAt": "2026-07-31T09:43:27.978185",
+      "sourceModifiedAt": "2026-09-14T08:33:47.956889",
       "engine": "1.5TSI 110kW DSG Monte Carlo",
       "powerKw": 110,
       "fuel": "Benzín",
       "transmission": "Automat",
       "year": 2026,
-      "mileage": 5999,
+      "mileage": 6999,
       "price": 675000,
       "previousPrice": 675000,
       "dealer": "Horácké autodružstvo Třebíč",
@@ -150086,9 +149629,9 @@
       },
       "market": {
         "typicalPrice": 599000,
-        "lowerQuartile": 579000,
-        "upperQuartile": 627000,
-        "sampleSize": 34,
+        "lowerQuartile": 581000,
+        "upperQuartile": 630000,
+        "sampleSize": 33,
         "confidence": "high"
       }
     },
@@ -151204,7 +150747,7 @@
       "url": "https://www.skodaplus.cz/Car/10596453/skoda-fabia-1.0-tsi-dsg-85kw-monte-carlo",
       "market": {
         "typicalPrice": 499000,
-        "lowerQuartile": 489000,
+        "lowerQuartile": 488000,
         "upperQuartile": 519000,
         "sampleSize": 40,
         "confidence": "high"
@@ -152870,81 +152413,6 @@
       "market": null
     },
     {
-      "id": "10606033",
-      "make": "Škoda",
-      "model": "Superb",
-      "trim": "",
-      "equipment": [
-        "ABS",
-        "Airbag",
-        "Airbag hlavový",
-        "Airbag řidiče a spolujezdce",
-        "ALU kola",
-        "ASR",
-        "Automatický parkovací asistent",
-        "Autorádio",
-        "Bluetooth",
-        "Centrální zamykání",
-        "Dešťový senzor",
-        "Dálkové centrální zamykání",
-        "Dělená zadní sedadla",
-        "El. ovládaná okna",
-        "El. ovládaná přední sedadla",
-        "El. ovládaná zrcátka",
-        "El. ovládané sedadlo řidiče",
-        "ESP",
-        "Imobilizér",
-        "ISOFIX",
-        "Klimatizace automatická",
-        "Klimatizace automatická dvouzónová",
-        "Klimatizovaná přihrádka",
-        "Kontrola tlaku v pneu",
-        "Loketní opěrka",
-        "Malý kožený paket",
-        "Metalický lak",
-        "Multifunkční volant",
-        "Nastavitelný volant",
-        "Ostřikovače světlometů",
-        "Palubní počítač",
-        "Parkovací senzory vepředu",
-        "Parkovací senzory vzadu",
-        "Posilovač řízení",
-        "Přední mlhovky",
-        "Sada na opravu pneumatiky",
-        "Senzor světel",
-        "Start – stop Systém",
-        "SUNSET/Tónovaná skla",
-        "Tažné zařízení",
-        "Tempomat",
-        "Tónovaná skla",
-        "Ukazatel vnější teploty",
-        "Vyhřívaná sedadla vpředu",
-        "Vyhřívaná sedadla vpředu a vzadu",
-        "Vyhřívané trysky ostřikovače čelního skla",
-        "Zadní stěrač s ostřikovačem",
-        "Zatmavovací zrcátko - vnitřní"
-      ],
-      "sourceModifiedAt": "2026-07-01T15:41:25.589626",
-      "engine": "2.0 TDI DSG 103kW Bi-Xenon Elegance ",
-      "powerKw": 103,
-      "fuel": "Nafta",
-      "transmission": "Automat",
-      "year": 2011,
-      "mileage": 273200,
-      "price": 139900,
-      "previousPrice": 139900,
-      "dealer": "ARAVER CZ člen skupiny AUTO UH s.r.o. - Uherské Hradiště",
-      "dealerId": "Dealer-284",
-      "city": "Uherské Hradiště",
-      "area": "Okolí Brna",
-      "firstSeen": "2026-08-30T18:43:03+02:00",
-      "isNew": false,
-      "color": "#355b82",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10606033/bdb961bd-bb81-4b17-b05f-205920d07837__big.jpg",
-      "url": "https://www.skodaplus.cz/Car/10606033/skoda-superb-2.0-tdi-dsg-103kw-bi-xenon-elegance-",
-      "market": null
-    },
-    {
       "id": "10624413",
       "make": "Škoda",
       "model": "Superb",
@@ -153383,7 +152851,7 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10609681/2be47a85-0744-4ff9-8a6e-2b8be40dfe0a__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10609681/skoda-fabia-selection-mpi-59kw-1.0-m5f",
       "market": {
-        "typicalPrice": 375000,
+        "typicalPrice": 372000,
         "lowerQuartile": 365000,
         "upperQuartile": 381000,
         "sampleSize": 40,
@@ -153469,7 +152937,7 @@
       "market": {
         "typicalPrice": 369000,
         "lowerQuartile": 363000,
-        "upperQuartile": 378000,
+        "upperQuartile": 377000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -153649,8 +153117,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10554256/f853bbce-8309-4847-be9d-c5003fdd162f__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10554256/skoda-kamiq-selection-tsi-85kw-1.0-m6f",
       "market": {
-        "typicalPrice": 462000,
-        "lowerQuartile": 432000,
+        "typicalPrice": 464000,
+        "lowerQuartile": 438000,
         "upperQuartile": 489000,
         "sampleSize": 40,
         "confidence": "high"
@@ -154261,7 +153729,7 @@
       "url": "https://www.skodaplus.cz/Car/10571185/skoda-kodiaq-exclusive-selection-4x4-tdi-142kw-2.0-a7a",
       "market": {
         "typicalPrice": 1079000,
-        "lowerQuartile": 1036000,
+        "lowerQuartile": 1026000,
         "upperQuartile": 1140000,
         "sampleSize": 40,
         "confidence": "high"
@@ -154485,7 +153953,7 @@
       "url": "https://www.skodaplus.cz/Car/10617356/skoda-octavia-combi-top-selection-1-5-tsi-110-kw-mt6",
       "market": {
         "typicalPrice": 660000,
-        "lowerQuartile": 627000,
+        "lowerQuartile": 637000,
         "upperQuartile": 689000,
         "sampleSize": 40,
         "confidence": "high"
@@ -155232,7 +154700,7 @@
         "method": "Katalogová cena rozpoznaných příplatků; zůstatková hodnota je orientační koeficient podle typu výbavy a stáří."
       },
       "market": {
-        "typicalPrice": 419000,
+        "typicalPrice": 424000,
         "lowerQuartile": 412000,
         "upperQuartile": 439000,
         "sampleSize": 40,
@@ -156434,9 +155902,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10616109/74da1314-ef43-4063-9e36-4eef4d34240d__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10616109/skoda-fabia-selection-1-0-mpi-59-kw-5-mp",
       "market": {
-        "typicalPrice": 375000,
+        "typicalPrice": 374000,
         "lowerQuartile": 368000,
-        "upperQuartile": 381000,
+        "upperQuartile": 380000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -157178,7 +156646,7 @@
         "Zatmavovací zrcátko – řidič",
         "Škoda Connect"
       ],
-      "sourceModifiedAt": "2026-08-21T11:54:03.786182",
+      "sourceModifiedAt": "2026-09-14T02:57:55.529332",
       "engine": "Selection 1,0 TSI 85 kW 6° MP",
       "powerKw": 85,
       "fuel": "Benzín",
@@ -157199,7 +156667,7 @@
       "market": {
         "typicalPrice": 516000,
         "lowerQuartile": 496000,
-        "upperQuartile": 525000,
+        "upperQuartile": 526000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -157380,7 +156848,7 @@
       "url": "https://www.skodaplus.cz/Car/10579332/skoda-kamiq-selection-1-0-tsi-85-kw-6-mp",
       "market": {
         "typicalPrice": 460000,
-        "lowerQuartile": 432000,
+        "lowerQuartile": 438000,
         "upperQuartile": 485000,
         "sampleSize": 40,
         "confidence": "high"
@@ -159407,7 +158875,7 @@
       },
       "market": {
         "typicalPrice": 435000,
-        "lowerQuartile": 418000,
+        "lowerQuartile": 419000,
         "upperQuartile": 449000,
         "sampleSize": 40,
         "confidence": "high"
@@ -160767,7 +160235,7 @@
         "typicalPrice": 628000,
         "lowerQuartile": 619000,
         "upperQuartile": 642000,
-        "sampleSize": 29,
+        "sampleSize": 28,
         "confidence": "high"
       }
     },
@@ -163332,9 +162800,9 @@
         "method": "Katalogová cena rozpoznaných příplatků; zůstatková hodnota je orientační koeficient podle typu výbavy a stáří."
       },
       "market": {
-        "typicalPrice": 489000,
+        "typicalPrice": 488000,
         "lowerQuartile": 477000,
-        "upperQuartile": 502000,
+        "upperQuartile": 499000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -164072,9 +163540,9 @@
       "url": "https://www.skodaplus.cz/Car/10568553/skoda-superb-selection-1-5-tsi-110-kw-dsg",
       "market": {
         "typicalPrice": 800000,
-        "lowerQuartile": 750000,
-        "upperQuartile": 830000,
-        "sampleSize": 18,
+        "lowerQuartile": 759000,
+        "upperQuartile": 831000,
+        "sampleSize": 16,
         "confidence": "high"
       }
     },
@@ -164826,7 +164294,7 @@
       "market": {
         "typicalPrice": 375000,
         "lowerQuartile": 368000,
-        "upperQuartile": 383000,
+        "upperQuartile": 381000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -165004,10 +164472,10 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10310505/e2d7c09c-2e28-4645-9d06-b3595da1ab13__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10310505/skoda-fabia-1.0-tsi-81-kw-m6f-style-plus",
       "market": {
-        "typicalPrice": 378000,
-        "lowerQuartile": 364000,
-        "upperQuartile": 386000,
-        "sampleSize": 6,
+        "typicalPrice": 379000,
+        "lowerQuartile": 359000,
+        "upperQuartile": 389000,
+        "sampleSize": 5,
         "confidence": "low"
       }
     },
@@ -165390,7 +164858,7 @@
       "url": "https://www.skodaplus.cz/Car/10595987/skoda-fabia-1.0-tsi-85-kw-a7f-monte-carlo",
       "market": {
         "typicalPrice": 498000,
-        "lowerQuartile": 489000,
+        "lowerQuartile": 488000,
         "upperQuartile": 519000,
         "sampleSize": 40,
         "confidence": "high"
@@ -165494,7 +164962,7 @@
       "url": "https://www.skodaplus.cz/Car/10607270/skoda-fabia-1-0-tsi-85-kw-a7f-monte-carlo",
       "market": {
         "typicalPrice": 498000,
-        "lowerQuartile": 489000,
+        "lowerQuartile": 488000,
         "upperQuartile": 519000,
         "sampleSize": 40,
         "confidence": "high"
@@ -165595,7 +165063,7 @@
       "market": {
         "typicalPrice": 463000,
         "lowerQuartile": 450000,
-        "upperQuartile": 485000,
+        "upperQuartile": 480000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -165702,9 +165170,9 @@
       "url": "https://www.skodaplus.cz/Car/10586876/skoda-fabia-1.5-tsi-110-kw-a7f-monte-carlo",
       "market": {
         "typicalPrice": 540000,
-        "lowerQuartile": 538000,
-        "upperQuartile": 569000,
-        "sampleSize": 21,
+        "lowerQuartile": 531000,
+        "upperQuartile": 566000,
+        "sampleSize": 22,
         "confidence": "high"
       }
     },
@@ -165884,7 +165352,7 @@
       "market": {
         "typicalPrice": 512000,
         "lowerQuartile": 490000,
-        "upperQuartile": 525000,
+        "upperQuartile": 526000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -168148,7 +167616,7 @@
       "url": "https://www.skodaplus.cz/Car/10496066/skoda-kodiaq-2.0-tdi-142-kw-7dsg-exclusive-selection-4x4",
       "market": {
         "typicalPrice": 1199000,
-        "lowerQuartile": 1149000,
+        "lowerQuartile": 1156000,
         "upperQuartile": 1249000,
         "sampleSize": 40,
         "confidence": "high"
@@ -169013,7 +168481,7 @@
       "url": "https://www.skodaplus.cz/Car/10620244/skoda-kodiaq-2.0-tdi-142-kw-a7a-4x4-exclusive-selection",
       "market": {
         "typicalPrice": 1199000,
-        "lowerQuartile": 1159000,
+        "lowerQuartile": 1163000,
         "upperQuartile": 1251000,
         "sampleSize": 40,
         "confidence": "high"
@@ -169684,7 +169152,7 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10551400/3392d922-699c-4dee-8822-3731421a0185__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10551400/skoda-octavia-1.5-tsi-110-kw-m6f-top-selection",
       "market": {
-        "typicalPrice": 669000,
+        "typicalPrice": 670000,
         "lowerQuartile": 629000,
         "upperQuartile": 699000,
         "sampleSize": 40,
@@ -169785,10 +169253,10 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10561823/8ba24025-f276-48fc-b553-3d77be256efa__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10561823/skoda-octavia-2.0-tdi-85-kw-m6f-top-selection",
       "market": {
-        "typicalPrice": 614000,
-        "lowerQuartile": 601000,
-        "upperQuartile": 684000,
-        "sampleSize": 10,
+        "typicalPrice": 610000,
+        "lowerQuartile": 599000,
+        "upperQuartile": 639000,
+        "sampleSize": 9,
         "confidence": "medium"
       }
     },
@@ -169891,8 +169359,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10613697/fb171003-daee-4cbb-98cd-3f96981b1770__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10613697/skoda-octavia-1.5-tsi-110-kw-m-hev-a7f-top-selection",
       "market": {
-        "typicalPrice": 705000,
-        "lowerQuartile": 613000,
+        "typicalPrice": 700000,
+        "lowerQuartile": 599000,
         "upperQuartile": 730000,
         "sampleSize": 40,
         "confidence": "high"
@@ -170097,9 +169565,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10612968/742837f4-80c0-48d0-9e82-6cbee9088125__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10612968/skoda-octavia-combi-1.5-tsi-110-kw-7-dsg-m-hev-top-selection-",
       "market": {
-        "typicalPrice": 694000,
+        "typicalPrice": 684000,
         "lowerQuartile": 595000,
-        "upperQuartile": 729000,
+        "upperQuartile": 728000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -170209,8 +169677,8 @@
       "url": "https://www.skodaplus.cz/Car/10615603/skoda-octavia-1.5-tsi-110-kw-a7f-m-hev-top-selection-",
       "market": {
         "typicalPrice": 718000,
-        "lowerQuartile": 699000,
-        "upperQuartile": 736000,
+        "lowerQuartile": 698000,
+        "upperQuartile": 735000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -170314,8 +169782,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10612763/1047fcee-64c5-4398-b065-918094eac7a6__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10612763/skoda-octavia-combi-1-5-tsi-m-hev-110-kw-7af-top-selection-",
       "market": {
-        "typicalPrice": 708000,
-        "lowerQuartile": 619000,
+        "typicalPrice": 700000,
+        "lowerQuartile": 613000,
         "upperQuartile": 730000,
         "sampleSize": 40,
         "confidence": "high"
@@ -175107,7 +174575,7 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10590793/1b621b13-2b53-4958-a64e-22f495c423d8__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10590793/skoda-fabia-1-0mpi-59kw-selection",
       "market": {
-        "typicalPrice": 376000,
+        "typicalPrice": 375000,
         "lowerQuartile": 367000,
         "upperQuartile": 381000,
         "sampleSize": 40,
@@ -175887,9 +175355,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10555388/ac1c0114-5cbf-4f80-ad56-6a71d5871527__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10555388/skoda-kamiq-1-0tsi-85kw-selection",
       "market": {
-        "typicalPrice": 460000,
-        "lowerQuartile": 432000,
-        "upperQuartile": 485000,
+        "typicalPrice": 462000,
+        "lowerQuartile": 438000,
+        "upperQuartile": 486000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -176068,8 +175536,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10568705/88950a34-4f76-4e4e-b28c-5a49dfb13bf7__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10568705/skoda-kamiq-1-0tsi-85kw-selection",
       "market": {
-        "typicalPrice": 464000,
-        "lowerQuartile": 432000,
+        "typicalPrice": 466000,
+        "lowerQuartile": 438000,
         "upperQuartile": 485000,
         "sampleSize": 40,
         "confidence": "high"
@@ -176467,10 +175935,10 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10622455/8f9541e0-c097-4f09-a36e-a0f95cd7de7c__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10622455/skoda-karoq-1-5tsi-110kw-sportline",
       "market": {
-        "typicalPrice": 669000,
-        "lowerQuartile": 600000,
+        "typicalPrice": 668000,
+        "lowerQuartile": 608000,
         "upperQuartile": 669000,
-        "sampleSize": 13,
+        "sampleSize": 14,
         "confidence": "medium"
       }
     },
@@ -176881,9 +176349,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10626358/ed813d68-d02f-464a-998f-1c0a5583ca92__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10626358/skoda-kodiaq-2-0tdi-142kw-dsg-4x4-exclusive-selection",
       "market": {
-        "typicalPrice": 1198000,
-        "lowerQuartile": 1149000,
-        "upperQuartile": 1234000,
+        "typicalPrice": 1199000,
+        "lowerQuartile": 1156000,
+        "upperQuartile": 1249000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -178317,7 +177785,7 @@
       "market": {
         "typicalPrice": 669000,
         "lowerQuartile": 629000,
-        "upperQuartile": 684000,
+        "upperQuartile": 690000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -179016,8 +178484,8 @@
         "method": "Katalogová cena rozpoznaných příplatků; zůstatková hodnota je orientační koeficient podle typu výbavy a stáří."
       },
       "market": {
-        "typicalPrice": 435000,
-        "lowerQuartile": 418000,
+        "typicalPrice": 436000,
+        "lowerQuartile": 419000,
         "upperQuartile": 449000,
         "sampleSize": 40,
         "confidence": "high"
@@ -179136,7 +178604,7 @@
       },
       "market": {
         "typicalPrice": 435000,
-        "lowerQuartile": 420000,
+        "lowerQuartile": 419000,
         "upperQuartile": 449000,
         "sampleSize": 40,
         "confidence": "high"
@@ -179379,8 +178847,8 @@
         "method": "Katalogová cena rozpoznaných příplatků; zůstatková hodnota je orientační koeficient podle typu výbavy a stáří."
       },
       "market": {
-        "typicalPrice": 433000,
-        "lowerQuartile": 418000,
+        "typicalPrice": 435000,
+        "lowerQuartile": 419000,
         "upperQuartile": 449000,
         "sampleSize": 40,
         "confidence": "high"
@@ -180473,10 +179941,10 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10602484/0425a45c-766c-4f83-86fc-e9186ccbf95b__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10602484/skoda-fabia-fabia-montecarlo-1.5-tsi-110-kw-7st.dsg",
       "market": {
-        "typicalPrice": 545000,
-        "lowerQuartile": 538000,
+        "typicalPrice": 542000,
+        "lowerQuartile": 531000,
         "upperQuartile": 569000,
-        "sampleSize": 21,
+        "sampleSize": 22,
         "confidence": "high"
       }
     },
@@ -181856,7 +181324,7 @@
       "firstSeen": "2026-09-11T14:28:52+00:00",
       "isNew": false,
       "color": "#b8b2a8",
-      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10263212/83467599-4ff2-44fa-afa5-e990766f1383__big.jpg",
+      "imageUrl": "https://www.skodaplus.cz/images/car/Car-10263212/80a20aed-0807-455e-afd6-0eff3ef1fd3f__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10263212/skoda-scala-scala-style-plus-1.5tsi-110kw-6mp",
       "market": null
     },
