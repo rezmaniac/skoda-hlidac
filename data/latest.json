@@ -1,13 +1,13 @@
 {
   "schemaVersion": 4,
-  "generatedAt": "2026-09-19T13:56:18+00:00",
+  "generatedAt": "2026-09-19T17:18:34+00:00",
   "demo": false,
   "source": "https://www.skodaplus.cz/graphql",
   "summary": {
     "total": 1848,
     "new": 0,
     "discounted": 0,
-    "removed": 1,
+    "removed": 0,
     "benchmarked": 940
   },
   "market": {
@@ -127201,7 +127201,7 @@
       "city": "Přerov",
       "area": "Okolí Brna",
       "firstSeen": "2026-09-19T13:56:18+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#9a3942",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10628533/89e96d35-ec3e-47e3-9852-0312d801d3ec__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10628533/skoda-kamiq-1.0-tsi-85kw-selection",
@@ -131310,7 +131310,7 @@
       "city": "Přerov",
       "area": "Okolí Brna",
       "firstSeen": "2026-09-19T13:56:18+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#9a3942",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10628401/256829fa-b43a-4f73-a4e5-df32c715651f__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10628401/skoda-octavia-1.5-tsi-110kw-dsg-style-plus",
