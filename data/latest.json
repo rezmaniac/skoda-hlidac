@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "generatedAt": "2026-09-26T21:59:05+00:00",
+  "generatedAt": "2026-09-27T10:35:50+00:00",
   "demo": false,
   "source": "https://www.skodaplus.cz/graphql",
   "summary": {
@@ -44494,7 +44494,7 @@
         "Zatmavovací zrcátko - vnitřní",
         "Škoda Connect"
       ],
-      "sourceModifiedAt": "2026-08-18T13:00:14.217513",
+      "sourceModifiedAt": "2026-09-27T02:50:25.321608",
       "engine": "Selection 2.0 TDI 85 kW",
       "powerKw": 85,
       "fuel": "Nafta",
@@ -129503,7 +129503,7 @@
         "Řazení pod volantem",
         "Škoda Connect"
       ],
-      "sourceModifiedAt": "2026-08-25T10:20:40.407053",
+      "sourceModifiedAt": "2026-09-27T02:48:42.651848",
       "engine": "2.0 TDI 110kW 4x4 DSG Top Selection",
       "powerKw": 110,
       "fuel": "Nafta",
