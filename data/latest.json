@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "generatedAt": "2026-09-27T10:35:50+00:00",
+  "generatedAt": "2026-09-27T15:40:52+00:00",
   "demo": false,
   "source": "https://www.skodaplus.cz/graphql",
   "summary": {
@@ -11,8 +11,8 @@
     "benchmarked": 943
   },
   "market": {
-    "generatedAt": "2026-09-26T18:38:01+00:00",
-    "sampleSize": 7815,
+    "generatedAt": "2026-09-27T15:40:52+00:00",
+    "sampleSize": 7810,
     "method": "median of same model, trim, fuel and transmission; power ±15 kW, year ±2, mileage ±30,000 km"
   },
   "offers": [
@@ -68644,7 +68644,7 @@
       "url": "https://www.skodaplus.cz/Car/10571545/skoda-superb-sportline-4x4-dsg-2.0tdi-142kw-",
       "market": {
         "typicalPrice": 1048000,
-        "lowerQuartile": 992000,
+        "lowerQuartile": 998000,
         "upperQuartile": 1098000,
         "sampleSize": 40,
         "confidence": "high"
