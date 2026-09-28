@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "generatedAt": "2026-09-28T11:46:20+00:00",
+  "generatedAt": "2026-09-28T19:42:51+00:00",
   "demo": false,
   "source": "https://www.skodaplus.cz/graphql",
   "summary": {
@@ -50445,7 +50445,7 @@
       "city": "Brno",
       "area": "Brno",
       "firstSeen": "2026-09-28T11:46:20+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#276b63",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10301544/8fca9a6e-82e7-4872-8bc1-ee502240f9f3__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10301544/ford-transit-custom-310-2.0-tdci",
