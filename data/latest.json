@@ -1,13 +1,13 @@
 {
   "schemaVersion": 4,
-  "generatedAt": "2026-10-03T10:27:38+00:00",
+  "generatedAt": "2026-10-03T15:09:16+00:00",
   "demo": false,
   "source": "https://www.skodaplus.cz/graphql",
   "summary": {
     "total": 1836,
     "new": 0,
     "discounted": 0,
-    "removed": 4,
+    "removed": 0,
     "benchmarked": 951
   },
   "market": {
@@ -155300,7 +155300,7 @@
       "year": 2025,
       "mileage": 24900,
       "price": 395990,
-      "previousPrice": 399990,
+      "previousPrice": 395990,
       "dealer": "AUTO DOBROVOLNÝ V.M. s.r.o.",
       "dealerId": "Dealer-377",
       "city": "Velké Meziříčí",
@@ -155797,7 +155797,7 @@
       "city": "Velké Meziříčí",
       "area": "Okolí Brna",
       "firstSeen": "2026-10-03T10:27:38+00:00",
-      "isNew": true,
+      "isNew": false,
       "color": "#355b82",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10629544/a9df55b5-dab6-4992-bb62-0e62f7ec4826__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10629544/skoda-kamiq-monte-carlo-tsi-110kw-1.5-a7f",
@@ -180770,7 +180770,7 @@
       "year": 2024,
       "mileage": 25850,
       "price": 699000,
-      "previousPrice": 749000,
+      "previousPrice": 699000,
       "dealer": "AUTODRUŽSTVO ZNOJMO",
       "dealerId": "Dealer-319",
       "city": "Znojmo",
