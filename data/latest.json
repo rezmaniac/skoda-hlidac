@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "generatedAt": "2026-10-03T22:10:30+00:00",
+  "generatedAt": "2026-10-04T11:09:10+00:00",
   "demo": false,
   "source": "https://www.skodaplus.cz/graphql",
   "summary": {
@@ -8,11 +8,11 @@
     "new": 0,
     "discounted": 0,
     "removed": 0,
-    "benchmarked": 951
+    "benchmarked": 950
   },
   "market": {
-    "generatedAt": "2026-10-03T10:27:38+00:00",
-    "sampleSize": 7798,
+    "generatedAt": "2026-10-04T11:09:10+00:00",
+    "sampleSize": 7799,
     "method": "median of same model, trim, fuel and transmission; power ±15 kW, year ±2, mileage ±30,000 km"
   },
   "offers": [
@@ -647,7 +647,7 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10562989/2af27506-b205-4e26-a9cf-eab495ad7647__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10562989/skoda-fabia-1.0tsi-85kw-dsg-top-selection",
       "market": {
-        "typicalPrice": 463000,
+        "typicalPrice": 461000,
         "lowerQuartile": 450000,
         "upperQuartile": 471000,
         "sampleSize": 40,
@@ -2933,7 +2933,7 @@
       "market": {
         "typicalPrice": 870000,
         "lowerQuartile": 846000,
-        "upperQuartile": 915000,
+        "upperQuartile": 911000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -3051,9 +3051,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10609474/beb4aa85-b6d6-47e0-86f1-0c5e16df98d6__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10609474/skoda-octavia-2-0tsi-195kw-combi-rs",
       "market": {
-        "typicalPrice": 869000,
-        "lowerQuartile": 845000,
-        "upperQuartile": 900000,
+        "typicalPrice": 868000,
+        "lowerQuartile": 839000,
+        "upperQuartile": 899000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -5660,8 +5660,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10608463/ce2e0b66-f5c0-4cf9-8691-82ef4c7a739d__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10608463/skoda-fabia-top-selection-1.0-tsi-85kw-dsg",
       "market": {
-        "typicalPrice": 467000,
-        "lowerQuartile": 454000,
+        "typicalPrice": 466000,
+        "lowerQuartile": 450000,
         "upperQuartile": 491000,
         "sampleSize": 40,
         "confidence": "high"
@@ -10040,7 +10040,7 @@
       "url": "https://www.skodaplus.cz/Car/10620221/skoda-kodiaq-2-0tdi-142kw-4x4-dsg-exclusive-selection",
       "market": {
         "typicalPrice": 1178000,
-        "lowerQuartile": 1138000,
+        "lowerQuartile": 1135000,
         "upperQuartile": 1220000,
         "sampleSize": 40,
         "confidence": "high"
@@ -10451,10 +10451,10 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10579937/05378214-4578-4b78-91a3-e6cc4c677480__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10579937/skoda-octavia-2-0tdi-110kw-dsg-style-plus",
       "market": {
-        "typicalPrice": 679000,
-        "lowerQuartile": 628000,
+        "typicalPrice": 684000,
+        "lowerQuartile": 651000,
         "upperQuartile": 698000,
-        "sampleSize": 17,
+        "sampleSize": 16,
         "confidence": "high"
       }
     },
@@ -11200,7 +11200,7 @@
       "url": "https://www.skodaplus.cz/Car/10618829/skoda-octavia-combi-2-0tdi-110kw-dsg-top-selection",
       "market": {
         "typicalPrice": 724000,
-        "lowerQuartile": 694000,
+        "lowerQuartile": 689000,
         "upperQuartile": 759000,
         "sampleSize": 40,
         "confidence": "high"
@@ -12086,7 +12086,7 @@
       "url": "https://www.skodaplus.cz/Car/10599141/skoda-superb-2-0tdi-110kw-dsg-l-k",
       "market": {
         "typicalPrice": 934000,
-        "lowerQuartile": 899000,
+        "lowerQuartile": 898000,
         "upperQuartile": 967000,
         "sampleSize": 40,
         "confidence": "high"
@@ -12209,7 +12209,7 @@
       "url": "https://www.skodaplus.cz/Car/10566818/skoda-superb-2-0tdi-110kw-dsg-l-k",
       "market": {
         "typicalPrice": 935000,
-        "lowerQuartile": 899000,
+        "lowerQuartile": 898000,
         "upperQuartile": 955000,
         "sampleSize": 40,
         "confidence": "high"
@@ -15271,7 +15271,7 @@
       "url": "https://www.skodaplus.cz/Car/10626033/skoda-kamiq-1.0-tsi-85kw-monte-carlo",
       "market": {
         "typicalPrice": 576000,
-        "lowerQuartile": 563000,
+        "lowerQuartile": 559000,
         "upperQuartile": 599000,
         "sampleSize": 40,
         "confidence": "high"
@@ -19609,7 +19609,7 @@
       "market": {
         "typicalPrice": 1026000,
         "lowerQuartile": 999000,
-        "upperQuartile": 1044000,
+        "upperQuartile": 1034000,
         "sampleSize": 15,
         "confidence": "high"
       }
@@ -24418,7 +24418,7 @@
       "url": "https://www.skodaplus.cz/Car/10629247/skoda-octavia-combi-2.0-tdi-110kw-sportline",
       "market": {
         "typicalPrice": 774000,
-        "lowerQuartile": 749000,
+        "lowerQuartile": 747000,
         "upperQuartile": 799000,
         "sampleSize": 28,
         "confidence": "high"
@@ -24755,9 +24755,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10611008/aabba2ef-bb04-4d47-82e6-c558b2fb421c__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10611008/skoda-octavia-combi-1.5-tsi-110kw-exclusive-selection",
       "market": {
-        "typicalPrice": 700000,
+        "typicalPrice": 688000,
         "lowerQuartile": 678000,
-        "upperQuartile": 734000,
+        "upperQuartile": 724000,
         "sampleSize": 8,
         "confidence": "medium"
       }
@@ -25218,9 +25218,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10601740/80f40aa3-607b-44a3-a387-47f5f82e90a9__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10601740/skoda-octavia-combi-2.0-tsi-195kw-rs",
       "market": {
-        "typicalPrice": 857000,
+        "typicalPrice": 852000,
         "lowerQuartile": 834000,
-        "upperQuartile": 898000,
+        "upperQuartile": 891000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -25471,7 +25471,7 @@
       "market": {
         "typicalPrice": 870000,
         "lowerQuartile": 846000,
-        "upperQuartile": 911000,
+        "upperQuartile": 902000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -30549,7 +30549,7 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10607652/13a5ce88-7669-43c7-a777-a506f45b4e36__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10607652/skoda-kamiq-1.0tsi-85kw-dsg-monte-carlo",
       "market": {
-        "typicalPrice": 590000,
+        "typicalPrice": 589000,
         "lowerQuartile": 579000,
         "upperQuartile": 599000,
         "sampleSize": 40,
@@ -30751,7 +30751,7 @@
       "market": {
         "typicalPrice": 842000,
         "lowerQuartile": 797000,
-        "upperQuartile": 860000,
+        "upperQuartile": 858000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -32907,9 +32907,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10629874/79bb20be-3d01-4574-bb68-09de427f8f5c__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10629874/skoda-octavia-rs-2.0tsi-195kw-dsg",
       "market": {
-        "typicalPrice": 852000,
+        "typicalPrice": 849000,
         "lowerQuartile": 832000,
-        "upperQuartile": 898000,
+        "upperQuartile": 890000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -33130,7 +33130,7 @@
       "market": {
         "typicalPrice": 870000,
         "lowerQuartile": 846000,
-        "upperQuartile": 911000,
+        "upperQuartile": 902000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -34941,7 +34941,7 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10593264/76b6b389-9b1a-403f-9413-ed80b0c687f1__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10593264/skoda-karoq-sportline-td-2.0-110kw-a7f",
       "market": {
-        "typicalPrice": 852000,
+        "typicalPrice": 849000,
         "lowerQuartile": 830000,
         "upperQuartile": 868000,
         "sampleSize": 40,
@@ -37656,8 +37656,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10620693/ef931887-1f87-4985-bd8d-56ce13144cbc__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10620693/skoda-octavia-selection-td-85-2.0-m6f",
       "market": {
-        "typicalPrice": 579000,
-        "lowerQuartile": 562000,
+        "typicalPrice": 578000,
+        "lowerQuartile": 558000,
         "upperQuartile": 598000,
         "sampleSize": 38,
         "confidence": "high"
@@ -39458,7 +39458,7 @@
       "url": "https://www.skodaplus.cz/Car/10596827/skoda-octavia-combi-top-selection-2-0-tdi-110-kw-7-stup.-aut",
       "market": {
         "typicalPrice": 724000,
-        "lowerQuartile": 694000,
+        "lowerQuartile": 689000,
         "upperQuartile": 769000,
         "sampleSize": 40,
         "confidence": "high"
@@ -39575,7 +39575,7 @@
       "market": {
         "typicalPrice": 870000,
         "lowerQuartile": 846000,
-        "upperQuartile": 915000,
+        "upperQuartile": 911000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -39821,7 +39821,7 @@
       "market": {
         "typicalPrice": 870000,
         "lowerQuartile": 849000,
-        "upperQuartile": 915000,
+        "upperQuartile": 911000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -39940,9 +39940,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10622876/c098d546-b86e-4027-95c6-f8d8c54787e3__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10622876/skoda-octavia-combi-rs-2-0-tsi-195-kw-7-stup.-automat.",
       "market": {
-        "typicalPrice": 849000,
-        "lowerQuartile": 828000,
-        "upperQuartile": 888000,
+        "typicalPrice": 848000,
+        "lowerQuartile": 827000,
+        "upperQuartile": 887000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -40727,7 +40727,7 @@
       },
       "market": {
         "typicalPrice": 498000,
-        "lowerQuartile": 478000,
+        "lowerQuartile": 476000,
         "upperQuartile": 520000,
         "sampleSize": 40,
         "confidence": "high"
@@ -41889,7 +41889,7 @@
       "url": "https://www.skodaplus.cz/Car/10603402/skoda-superb-combi-l-k-td-110-2.0-a7f",
       "market": {
         "typicalPrice": 934000,
-        "lowerQuartile": 899000,
+        "lowerQuartile": 898000,
         "upperQuartile": 967000,
         "sampleSize": 40,
         "confidence": "high"
@@ -44134,7 +44134,7 @@
       "url": "https://www.skodaplus.cz/Car/10584220/skoda-kamiq-monte-carlo-1.0-tsi-85-kw-dsg",
       "market": {
         "typicalPrice": 579000,
-        "lowerQuartile": 570000,
+        "lowerQuartile": 569000,
         "upperQuartile": 599000,
         "sampleSize": 40,
         "confidence": "high"
@@ -44352,7 +44352,7 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10586818/8a19bb87-3e15-4222-9833-439fdf62a83a__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10586818/skoda-kamiq-monte-carlo-1.0-tsi-85kw-dsg",
       "market": {
-        "typicalPrice": 589000,
+        "typicalPrice": 588000,
         "lowerQuartile": 579000,
         "upperQuartile": 599000,
         "sampleSize": 40,
@@ -44582,7 +44582,7 @@
       "market": {
         "typicalPrice": 842000,
         "lowerQuartile": 797000,
-        "upperQuartile": 860000,
+        "upperQuartile": 858000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -45019,7 +45019,7 @@
       "url": "https://www.skodaplus.cz/Car/10601929/skoda-octavia-selection-2.0-tdi-85-kw",
       "market": {
         "typicalPrice": 579000,
-        "lowerQuartile": 569000,
+        "lowerQuartile": 562000,
         "upperQuartile": 598000,
         "sampleSize": 38,
         "confidence": "high"
@@ -45218,8 +45218,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10562435/16ed5e5f-8d78-42a2-b1c4-2e7e0217f732__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10562435/skoda-octavia-selection-2.0-tdi-85kw-combi",
       "market": {
-        "typicalPrice": 579000,
-        "lowerQuartile": 562000,
+        "typicalPrice": 578000,
+        "lowerQuartile": 558000,
         "upperQuartile": 598000,
         "sampleSize": 38,
         "confidence": "high"
@@ -45875,9 +45875,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10610926/ea705b9d-be15-45ca-a13f-dcecf8bf0492__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10610926/skoda-octavia-rs-2.0-tsi-195kw",
       "market": {
-        "typicalPrice": 868000,
-        "lowerQuartile": 839000,
-        "upperQuartile": 900000,
+        "typicalPrice": 866000,
+        "lowerQuartile": 838000,
+        "upperQuartile": 899000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -45990,9 +45990,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10622080/51bb4259-23eb-43c8-87cd-b2e57ccf6a18__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10622080/skoda-octavia-rs-2.0-tsi-195kw",
       "market": {
-        "typicalPrice": 852000,
+        "typicalPrice": 849000,
         "lowerQuartile": 832000,
-        "upperQuartile": 888000,
+        "upperQuartile": 887000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -54511,8 +54511,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10626666/3e14d4a6-2761-45fe-81f6-c24ea31d4ff2__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10626666/skoda-fabia-1.0-tsi-85kw-top-selection-dsg",
       "market": {
-        "typicalPrice": 468000,
-        "lowerQuartile": 459000,
+        "typicalPrice": 467000,
+        "lowerQuartile": 458000,
         "upperQuartile": 485000,
         "sampleSize": 40,
         "confidence": "high"
@@ -54805,8 +54805,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10625879/36941c9f-0f8d-4e9f-9230-c6a80cfddc39__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10625879/skoda-kamiq-1.0-tsi-85kw-monte-carlo-dsg",
       "market": {
-        "typicalPrice": 584000,
-        "lowerQuartile": 575000,
+        "typicalPrice": 581000,
+        "lowerQuartile": 574000,
         "upperQuartile": 599000,
         "sampleSize": 40,
         "confidence": "high"
@@ -54992,7 +54992,7 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10617225/7ad669c0-af3a-4204-9dc6-ba872554d59f__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10617225/skoda-karoq-2.0-tdi-110kw-sportline-dsg",
       "market": {
-        "typicalPrice": 852000,
+        "typicalPrice": 849000,
         "lowerQuartile": 830000,
         "upperQuartile": 868000,
         "sampleSize": 40,
@@ -55098,7 +55098,7 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10627042/25470d3a-d86d-40eb-8d15-48ea66ebe599__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10627042/skoda-karoq-2.0-tdi-110kw-sportline-4x4-dsg",
       "market": {
-        "typicalPrice": 852000,
+        "typicalPrice": 849000,
         "lowerQuartile": 824000,
         "upperQuartile": 868000,
         "sampleSize": 40,
@@ -56158,7 +56158,7 @@
       "url": "https://www.skodaplus.cz/Car/10597787/skoda-kodiaq-2.0-tdi-142-kw-excl.-selection-4x4-dsg",
       "market": {
         "typicalPrice": 1179000,
-        "lowerQuartile": 1146000,
+        "lowerQuartile": 1145000,
         "upperQuartile": 1229000,
         "sampleSize": 40,
         "confidence": "high"
@@ -56400,7 +56400,7 @@
       "url": "https://www.skodaplus.cz/Car/10612576/skoda-kodiaq-2.0-tdi-142-kw-excl.-selection-4x4-dsg",
       "market": {
         "typicalPrice": 1164000,
-        "lowerQuartile": 1119000,
+        "lowerQuartile": 1114000,
         "upperQuartile": 1219000,
         "sampleSize": 40,
         "confidence": "high"
@@ -56787,7 +56787,7 @@
       "url": "https://www.skodaplus.cz/Car/10595353/skoda-kodiaq-2.0-tdi-142-kw-excl.-selection-4x4-dsg-",
       "market": {
         "typicalPrice": 1178000,
-        "lowerQuartile": 1138000,
+        "lowerQuartile": 1135000,
         "upperQuartile": 1220000,
         "sampleSize": 40,
         "confidence": "high"
@@ -57034,7 +57034,7 @@
       "market": {
         "typicalPrice": 1269000,
         "lowerQuartile": 1239000,
-        "upperQuartile": 1328000,
+        "upperQuartile": 1322000,
         "sampleSize": 30,
         "confidence": "high"
       }
@@ -57154,7 +57154,7 @@
       "market": {
         "typicalPrice": 1269000,
         "lowerQuartile": 1239000,
-        "upperQuartile": 1328000,
+        "upperQuartile": 1322000,
         "sampleSize": 30,
         "confidence": "high"
       }
@@ -57813,8 +57813,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10617125/097ecec8-d96b-41b5-b726-71f06c3c2a23__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10617125/skoda-octavia-2.0-tdi-85kw-selection",
       "market": {
-        "typicalPrice": 579000,
-        "lowerQuartile": 562000,
+        "typicalPrice": 578000,
+        "lowerQuartile": 558000,
         "upperQuartile": 596000,
         "sampleSize": 38,
         "confidence": "high"
@@ -58025,7 +58025,7 @@
       "url": "https://www.skodaplus.cz/Car/10577948/skoda-octavia-2.0-tdi-110kw-dsg-top-selection",
       "market": {
         "typicalPrice": 732000,
-        "lowerQuartile": 697000,
+        "lowerQuartile": 694000,
         "upperQuartile": 785000,
         "sampleSize": 40,
         "confidence": "high"
@@ -58565,7 +58565,7 @@
       "url": "https://www.skodaplus.cz/Car/10590860/skoda-octavia-2.0-tdi-110kw-top-selection-combi-dsg",
       "market": {
         "typicalPrice": 724000,
-        "lowerQuartile": 694000,
+        "lowerQuartile": 689000,
         "upperQuartile": 769000,
         "sampleSize": 40,
         "confidence": "high"
@@ -58668,7 +58668,7 @@
       "market": {
         "typicalPrice": 870000,
         "lowerQuartile": 850000,
-        "upperQuartile": 915000,
+        "upperQuartile": 911000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -62336,10 +62336,10 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10300521/28decf89-372f-4a49-b6ad-a42dc2085412__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10300521/skoda-octavia-2.0-tdi-110-kw-style-plus-dsg",
       "market": {
-        "typicalPrice": 679000,
-        "lowerQuartile": 628000,
+        "typicalPrice": 684000,
+        "lowerQuartile": 629000,
         "upperQuartile": 698000,
-        "sampleSize": 17,
+        "sampleSize": 16,
         "confidence": "high"
       }
     },
@@ -64815,8 +64815,8 @@
       "url": "https://www.skodaplus.cz/Car/10615553/skoda-kamiq-monte-carlo-dsg-1.0tsi-85kw",
       "market": {
         "typicalPrice": 579000,
-        "lowerQuartile": 570000,
-        "upperQuartile": 596000,
+        "lowerQuartile": 569000,
+        "upperQuartile": 592000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -66036,9 +66036,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10610700/892d103f-cb56-4aca-9b75-7134ba3127c5__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10610700/skoda-kodiaq-sportline-dsg-1.5phev-150kw",
       "market": {
-        "typicalPrice": 1066000,
+        "typicalPrice": 1048000,
         "lowerQuartile": 1035000,
-        "upperQuartile": 1088000,
+        "upperQuartile": 1068000,
         "sampleSize": 36,
         "confidence": "high"
       }
@@ -66918,8 +66918,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10624011/d3b55a74-75ac-4911-9c55-b61a512c7bb1__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10624011/skoda-octavia-selection-2.0tdi-85kw",
       "market": {
-        "typicalPrice": 579000,
-        "lowerQuartile": 562000,
+        "typicalPrice": 578000,
+        "lowerQuartile": 558000,
         "upperQuartile": 596000,
         "sampleSize": 38,
         "confidence": "high"
@@ -67903,9 +67903,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10604751/9fe4c4d4-d725-42c6-8c56-b56990ce5511__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10604751/skoda-octavia-rs-dsg-2.0tsi-195kw",
       "market": {
-        "typicalPrice": 857000,
+        "typicalPrice": 852000,
         "lowerQuartile": 834000,
-        "upperQuartile": 898000,
+        "upperQuartile": 891000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -68168,9 +68168,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10601748/3a1640e6-234a-48d5-bb17-0b4d406d16cf__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10601748/skoda-octavia-rs-dsg-2.0tsi-195kw",
       "market": {
-        "typicalPrice": 862000,
+        "typicalPrice": 857000,
         "lowerQuartile": 835000,
-        "upperQuartile": 899000,
+        "upperQuartile": 898000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -69680,8 +69680,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10629732/ca14b967-b6fd-40f8-bd33-990caef2f0c1__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10629732/skoda-fabia-1.0-tsi-85-kw-dsg-topselection",
       "market": {
-        "typicalPrice": 468000,
-        "lowerQuartile": 458000,
+        "typicalPrice": 466000,
+        "lowerQuartile": 454000,
         "upperQuartile": 485000,
         "sampleSize": 40,
         "confidence": "high"
@@ -70010,8 +70010,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10628895/de20dc9b-914d-43f7-8340-86f36485329c__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10628895/skoda-kamiq-1.0-tsi-85-kw-dsg-monte-carlo",
       "market": {
-        "typicalPrice": 580000,
-        "lowerQuartile": 574000,
+        "typicalPrice": 579000,
+        "lowerQuartile": 570000,
         "upperQuartile": 599000,
         "sampleSize": 40,
         "confidence": "high"
@@ -70123,7 +70123,7 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10624654/217ccad0-56b6-49cc-ae17-c4efc9a7556b__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10624654/skoda-kamiq-1.0-tsi-85-kw-dsg-monte-carlo",
       "market": {
-        "typicalPrice": 587000,
+        "typicalPrice": 586000,
         "lowerQuartile": 578000,
         "upperQuartile": 599000,
         "sampleSize": 40,
@@ -71774,9 +71774,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10609954/55316d9f-8c69-4692-9b63-eb2da8efc377__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10609954/skoda-octavia-2.0-tsi-195-kw-dsg-rs",
       "market": {
-        "typicalPrice": 857000,
+        "typicalPrice": 852000,
         "lowerQuartile": 832000,
-        "upperQuartile": 891000,
+        "upperQuartile": 888000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -71895,9 +71895,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10621953/4ee66f6c-a7f9-4986-986c-760008e3310d__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10621953/skoda-octavia-combi-2.0-tsi-195-kw-dsg-rs",
       "market": {
-        "typicalPrice": 866000,
+        "typicalPrice": 862000,
         "lowerQuartile": 837000,
-        "upperQuartile": 900000,
+        "upperQuartile": 899000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -72018,8 +72018,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10569607/b7781373-b997-4e06-9cd2-703ae4971fd0__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10569607/skoda-octavia-combi-2.0-tsi-195-kw-dsg-rs",
       "market": {
-        "typicalPrice": 848000,
-        "lowerQuartile": 825000,
+        "typicalPrice": 846000,
+        "lowerQuartile": 820000,
         "upperQuartile": 881000,
         "sampleSize": 40,
         "confidence": "high"
@@ -72141,7 +72141,7 @@
       "market": {
         "typicalPrice": 886000,
         "lowerQuartile": 859000,
-        "upperQuartile": 929000,
+        "upperQuartile": 922000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -72726,7 +72726,7 @@
       },
       "market": {
         "typicalPrice": 499000,
-        "lowerQuartile": 485000,
+        "lowerQuartile": 484000,
         "upperQuartile": 519000,
         "sampleSize": 40,
         "confidence": "high"
@@ -74266,7 +74266,7 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10595686/703da7ae-5934-4065-9dad-b1b4681a6547__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10595686/skoda-karoq-karoq-sportline-4x4-2.0-tdi-110kw-a7a",
       "market": {
-        "typicalPrice": 856000,
+        "typicalPrice": 855000,
         "lowerQuartile": 834000,
         "upperQuartile": 879000,
         "sampleSize": 40,
@@ -76880,7 +76880,7 @@
       "url": "https://www.skodaplus.cz/Car/10613849/skoda-kamiq-monte-carlo-1.0-tsi-85-kw-dsg-",
       "market": {
         "typicalPrice": 579000,
-        "lowerQuartile": 574000,
+        "lowerQuartile": 570000,
         "upperQuartile": 599000,
         "sampleSize": 40,
         "confidence": "high"
@@ -78012,7 +78012,7 @@
       "url": "https://www.skodaplus.cz/Car/10609070/skoda-kodiaq-exclusive-selection-2.0-tdi-142-kw-4x4-dsg-",
       "market": {
         "typicalPrice": 1179000,
-        "lowerQuartile": 1146000,
+        "lowerQuartile": 1145000,
         "upperQuartile": 1220000,
         "sampleSize": 40,
         "confidence": "high"
@@ -81912,8 +81912,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10600934/a207668d-7a45-4671-9c91-a3ed2e07f609__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10600934/skoda-fabia-top-selection-1-0-tsi-85-kw-dsg",
       "market": {
-        "typicalPrice": 468000,
-        "lowerQuartile": 459000,
+        "typicalPrice": 467000,
+        "lowerQuartile": 458000,
         "upperQuartile": 485000,
         "sampleSize": 40,
         "confidence": "high"
@@ -84191,8 +84191,8 @@
       "url": "https://www.skodaplus.cz/Car/10624637/skoda-kamiq-1-0-tsi-85-kw-monte-carlo",
       "market": {
         "typicalPrice": 579000,
-        "lowerQuartile": 570000,
-        "upperQuartile": 591000,
+        "lowerQuartile": 569000,
+        "upperQuartile": 589000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -90685,7 +90685,7 @@
       },
       "market": {
         "typicalPrice": 499000,
-        "lowerQuartile": 485000,
+        "lowerQuartile": 484000,
         "upperQuartile": 520000,
         "sampleSize": 40,
         "confidence": "high"
@@ -93499,7 +93499,7 @@
       "market": {
         "typicalPrice": 579000,
         "lowerQuartile": 569000,
-        "upperQuartile": 596000,
+        "upperQuartile": 592000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -105043,8 +105043,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10585688/65e0ff19-0d23-4df9-984d-dc42024e04aa__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10585688/skoda-octavia-2-0tsi-195kw-7a-rs",
       "market": {
-        "typicalPrice": 846000,
-        "lowerQuartile": 807000,
+        "typicalPrice": 842000,
+        "lowerQuartile": 800000,
         "upperQuartile": 898000,
         "sampleSize": 40,
         "confidence": "high"
@@ -107930,8 +107930,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10558012/dcdb1238-b09d-427c-ac4e-f89ce3eb3e51__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10558012/skoda-fabia-dsg-1.0-tsi-85kw-top-selection",
       "market": {
-        "typicalPrice": 468000,
-        "lowerQuartile": 459000,
+        "typicalPrice": 467000,
+        "lowerQuartile": 458000,
         "upperQuartile": 491000,
         "sampleSize": 40,
         "confidence": "high"
@@ -108790,7 +108790,7 @@
       "url": "https://www.skodaplus.cz/Car/10565316/skoda-kamiq-dsg-1.0-tsi-85-kw-monte-carlo",
       "market": {
         "typicalPrice": 579000,
-        "lowerQuartile": 569000,
+        "lowerQuartile": 568000,
         "upperQuartile": 599000,
         "sampleSize": 40,
         "confidence": "high"
@@ -109007,7 +109007,7 @@
       "url": "https://www.skodaplus.cz/Car/10600284/skoda-kamiq-dsg-1.0-tsi-85-kw-monte-carlo",
       "market": {
         "typicalPrice": 579000,
-        "lowerQuartile": 574000,
+        "lowerQuartile": 570000,
         "upperQuartile": 599000,
         "sampleSize": 40,
         "confidence": "high"
@@ -110120,7 +110120,7 @@
       "market": {
         "typicalPrice": 842000,
         "lowerQuartile": 797000,
-        "upperQuartile": 860000,
+        "upperQuartile": 858000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -111295,9 +111295,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10629509/8b642ba9-04c7-4325-b8c8-1bccd1865fd1__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10629509/skoda-kodiaq-dsg-1.5-tsi-iv-150kw-sportline",
       "market": {
-        "typicalPrice": 1067000,
+        "typicalPrice": 1048000,
         "lowerQuartile": 1037000,
-        "upperQuartile": 1088000,
+        "upperQuartile": 1070000,
         "sampleSize": 36,
         "confidence": "high"
       }
@@ -111560,7 +111560,7 @@
       "url": "https://www.skodaplus.cz/Car/10620027/skoda-kodiaq-dsg-4x4-2.0-tdi-142-kw-exlusive-selection",
       "market": {
         "typicalPrice": 1174000,
-        "lowerQuartile": 1135000,
+        "lowerQuartile": 1127000,
         "upperQuartile": 1220000,
         "sampleSize": 40,
         "confidence": "high"
@@ -112494,7 +112494,7 @@
       "market": {
         "typicalPrice": 1262000,
         "lowerQuartile": 1227000,
-        "upperQuartile": 1304000,
+        "upperQuartile": 1298000,
         "sampleSize": 36,
         "confidence": "high"
       }
@@ -114529,7 +114529,7 @@
       "url": "https://www.skodaplus.cz/Car/10620311/skoda-octavia-dsg-2.0-tdi-110-kw-top-selection",
       "market": {
         "typicalPrice": 744000,
-        "lowerQuartile": 699000,
+        "lowerQuartile": 697000,
         "upperQuartile": 785000,
         "sampleSize": 40,
         "confidence": "high"
@@ -116049,7 +116049,7 @@
       },
       "market": {
         "typicalPrice": 499000,
-        "lowerQuartile": 485000,
+        "lowerQuartile": 484000,
         "upperQuartile": 520000,
         "sampleSize": 40,
         "confidence": "high"
@@ -116324,7 +116324,7 @@
       },
       "market": {
         "typicalPrice": 499000,
-        "lowerQuartile": 485000,
+        "lowerQuartile": 484000,
         "upperQuartile": 520000,
         "sampleSize": 40,
         "confidence": "high"
@@ -119127,7 +119127,7 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10630235/964953aa-2d8b-4b3a-93d4-e0c95e932c03__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10630235/skoda-kamiq-monte-carlo-1.0-tsi-85kw-dsg",
       "market": {
-        "typicalPrice": 586000,
+        "typicalPrice": 584000,
         "lowerQuartile": 575000,
         "upperQuartile": 599000,
         "sampleSize": 40,
@@ -120508,7 +120508,7 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10621890/94213c59-f36c-44e7-ac2f-be5dbdf29d39__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10621890/skoda-karoq-sportline-2.0-tdi-110kw-4x4-dsg",
       "market": {
-        "typicalPrice": 852000,
+        "typicalPrice": 849000,
         "lowerQuartile": 824000,
         "upperQuartile": 868000,
         "sampleSize": 40,
@@ -122998,13 +122998,7 @@
       "color": "#b8b2a8",
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10626020/c5610a53-d8dc-4ec7-994a-4b669e9f9aa8__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10626020/skoda-octavia-2.0-tdi-110kw-dsg-style-plus",
-      "market": {
-        "typicalPrice": 549000,
-        "lowerQuartile": 490000,
-        "upperQuartile": 649000,
-        "sampleSize": 5,
-        "confidence": "low"
-      }
+      "market": null
     },
     {
       "id": "10625023",
@@ -123102,10 +123096,10 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10625023/4ef2c7bf-ec5a-4309-bd7c-fafd18934f53__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10625023/skoda-octavia-2.0-tdi-110kw-dsg-style-plus-combi",
       "market": {
-        "typicalPrice": 628000,
-        "lowerQuartile": 545000,
-        "upperQuartile": 678000,
-        "sampleSize": 9,
+        "typicalPrice": 638000,
+        "lowerQuartile": 601000,
+        "upperQuartile": 680000,
+        "sampleSize": 8,
         "confidence": "medium"
       }
     },
@@ -123648,7 +123642,7 @@
       "url": "https://www.skodaplus.cz/Car/10612849/skoda-octavia-top-selection-2.0-tdi-110-kw-dsg-combi",
       "market": {
         "typicalPrice": 729000,
-        "lowerQuartile": 694000,
+        "lowerQuartile": 689000,
         "upperQuartile": 762000,
         "sampleSize": 40,
         "confidence": "high"
@@ -130018,7 +130012,7 @@
       "market": {
         "typicalPrice": 842000,
         "lowerQuartile": 797000,
-        "upperQuartile": 860000,
+        "upperQuartile": 858000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -148272,8 +148266,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10621149/344d96d7-0a0a-4cb9-aa7f-e1d9fccc5157__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10621149/skoda-fabia-top-selection-1.0-tsi-85-kw-dsg",
       "market": {
-        "typicalPrice": 467000,
-        "lowerQuartile": 457000,
+        "typicalPrice": 466000,
+        "lowerQuartile": 450000,
         "upperQuartile": 491000,
         "sampleSize": 40,
         "confidence": "high"
@@ -149035,8 +149029,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619391/19616a32-9b5a-432d-a3b0-1c742ab78079__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10619391/skoda-octavia-selection-2.0-tdi-85-kw-6-mp",
       "market": {
-        "typicalPrice": 579000,
-        "lowerQuartile": 562000,
+        "typicalPrice": 578000,
+        "lowerQuartile": 558000,
         "upperQuartile": 596000,
         "sampleSize": 38,
         "confidence": "high"
@@ -150044,8 +150038,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10594903/f684276c-c64f-46c5-8179-7251a935784a__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10594903/skoda-fabia-1.0tsi-85kw-dsg-top-selection-tazne",
       "market": {
-        "typicalPrice": 467000,
-        "lowerQuartile": 458000,
+        "typicalPrice": 466000,
+        "lowerQuartile": 454000,
         "upperQuartile": 485000,
         "sampleSize": 40,
         "confidence": "high"
@@ -150729,9 +150723,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10623871/e8ef2c13-ad0d-45c3-910f-fb92bfa9e980__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10623871/skoda-kodiaq-1.5-tsi-150-kw-iv-sportline-dsg",
       "market": {
-        "typicalPrice": 1067000,
+        "typicalPrice": 1048000,
         "lowerQuartile": 1037000,
-        "upperQuartile": 1088000,
+        "upperQuartile": 1070000,
         "sampleSize": 36,
         "confidence": "high"
       }
@@ -150859,9 +150853,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10619565/18061032-4155-4a4a-a863-8364bd116539__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10619565/skoda-kodiaq-1.5-tsi-150-kw-iv-sportline-dsg",
       "market": {
-        "typicalPrice": 1067000,
+        "typicalPrice": 1048000,
         "lowerQuartile": 1035000,
-        "upperQuartile": 1088000,
+        "upperQuartile": 1070000,
         "sampleSize": 36,
         "confidence": "high"
       }
@@ -150990,7 +150984,7 @@
       "market": {
         "typicalPrice": 1026000,
         "lowerQuartile": 999000,
-        "upperQuartile": 1038000,
+        "upperQuartile": 1033000,
         "sampleSize": 15,
         "confidence": "high"
       }
@@ -151383,7 +151377,7 @@
       "url": "https://www.skodaplus.cz/Car/10590582/skoda-octavia-2.0-tdi-selection-facelift",
       "market": {
         "typicalPrice": 579000,
-        "lowerQuartile": 562000,
+        "lowerQuartile": 558000,
         "upperQuartile": 598000,
         "sampleSize": 38,
         "confidence": "high"
@@ -151753,8 +151747,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10621969/8697f379-0561-4a35-8c81-3667f354d0c6__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10621969/skoda-octavia-2.0tdi-85kw-selection",
       "market": {
-        "typicalPrice": 579000,
-        "lowerQuartile": 562000,
+        "typicalPrice": 578000,
+        "lowerQuartile": 558000,
         "upperQuartile": 596000,
         "sampleSize": 38,
         "confidence": "high"
@@ -157314,8 +157308,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10596427/05f00a6f-f3d9-43b7-9a13-e1b33e89bec4__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10596427/skoda-octavia-combi-top-selection-tdi-110kw-2-0-a7f",
       "market": {
-        "typicalPrice": 711000,
-        "lowerQuartile": 697000,
+        "typicalPrice": 710000,
+        "lowerQuartile": 694000,
         "upperQuartile": 769000,
         "sampleSize": 40,
         "confidence": "high"
@@ -157521,8 +157515,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10611060/ec99809e-287c-4bfa-bb3e-65011417940d__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10611060/skoda-octavia-combi-top-selection-2-0-tdi-110-kw-dsg7",
       "market": {
-        "typicalPrice": 711000,
-        "lowerQuartile": 697000,
+        "typicalPrice": 705000,
+        "lowerQuartile": 694000,
         "upperQuartile": 769000,
         "sampleSize": 40,
         "confidence": "high"
@@ -161094,7 +161088,7 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10629866/24d2611f-b398-4fff-9536-3546d674ad3a__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10629866/skoda-karoq-sportline-2-0-tdi-110-kw-7-dsg",
       "market": {
-        "typicalPrice": 866000,
+        "typicalPrice": 862000,
         "lowerQuartile": 837000,
         "upperQuartile": 898000,
         "sampleSize": 40,
@@ -161923,7 +161917,7 @@
       "url": "https://www.skodaplus.cz/Car/10624295/skoda-octavia-combi-top-selection-2-0-tdi-110-kw-7-dsg",
       "market": {
         "typicalPrice": 724000,
-        "lowerQuartile": 694000,
+        "lowerQuartile": 689000,
         "upperQuartile": 769000,
         "sampleSize": 40,
         "confidence": "high"
@@ -164627,7 +164621,7 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10575904/f240c8a6-07c1-43a0-87aa-80c168ead47a__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10575904/skoda-octavia-octavia-rs-ts-180-2.0-a7f",
       "market": {
-        "typicalPrice": 837000,
+        "typicalPrice": 836000,
         "lowerQuartile": 799000,
         "upperQuartile": 882000,
         "sampleSize": 40,
@@ -164752,9 +164746,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10613797/a0ff29c4-fa36-488b-806d-7078270636d2__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10613797/skoda-octavia-rs-2-0-tsi-195-kw",
       "market": {
-        "typicalPrice": 869000,
-        "lowerQuartile": 845000,
-        "upperQuartile": 904000,
+        "typicalPrice": 868000,
+        "lowerQuartile": 839000,
+        "upperQuartile": 900000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -167270,8 +167264,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10595791/0dd4b519-6a4e-485c-b218-a390a60992d8__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10595791/skoda-fabia-1.0-tsi-85-kw-a7f-top-selection-",
       "market": {
-        "typicalPrice": 466000,
-        "lowerQuartile": 454000,
+        "typicalPrice": 463000,
+        "lowerQuartile": 450000,
         "upperQuartile": 485000,
         "sampleSize": 40,
         "confidence": "high"
@@ -167957,7 +167951,7 @@
       "url": "https://www.skodaplus.cz/Car/10609696/skoda-kamiq-1-0-tsi-85-kw-a7f-monte-carlo",
       "market": {
         "typicalPrice": 579000,
-        "lowerQuartile": 570000,
+        "lowerQuartile": 569000,
         "upperQuartile": 599000,
         "sampleSize": 40,
         "confidence": "high"
@@ -168068,7 +168062,7 @@
       "url": "https://www.skodaplus.cz/Car/10572992/skoda-kamiq-1.0-tsi-85-kw-a7f-monte-carlo",
       "market": {
         "typicalPrice": 579000,
-        "lowerQuartile": 568000,
+        "lowerQuartile": 565000,
         "upperQuartile": 599000,
         "sampleSize": 40,
         "confidence": "high"
@@ -168277,7 +168271,7 @@
       "url": "https://www.skodaplus.cz/Car/10612854/skoda-kamiq-1.0-tsi-85-kw-a7f-monte-carlo",
       "market": {
         "typicalPrice": 579000,
-        "lowerQuartile": 574000,
+        "lowerQuartile": 570000,
         "upperQuartile": 599000,
         "sampleSize": 40,
         "confidence": "high"
@@ -168387,7 +168381,7 @@
       "market": {
         "typicalPrice": 579000,
         "lowerQuartile": 569000,
-        "upperQuartile": 596000,
+        "upperQuartile": 592000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -168492,7 +168486,7 @@
       "market": {
         "typicalPrice": 579000,
         "lowerQuartile": 569000,
-        "upperQuartile": 596000,
+        "upperQuartile": 592000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -168801,7 +168795,7 @@
       "market": {
         "typicalPrice": 842000,
         "lowerQuartile": 797000,
-        "upperQuartile": 860000,
+        "upperQuartile": 858000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -169144,7 +169138,7 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10589656/efadd645-d630-4332-b30a-6cbe16ae5bd8__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10589656/skoda-karoq-2.0-tdi-110-kw-4x4-a7a-sportline",
       "market": {
-        "typicalPrice": 852000,
+        "typicalPrice": 849000,
         "lowerQuartile": 830000,
         "upperQuartile": 868000,
         "sampleSize": 40,
@@ -169380,9 +169374,9 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10614279/ed419aca-32b3-4376-a249-e744782c2e4e__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10614279/skoda-karoq-2.0-tdi-110-kw-4x4-a7a-sportline",
       "market": {
-        "typicalPrice": 856000,
+        "typicalPrice": 855000,
         "lowerQuartile": 834000,
-        "upperQuartile": 879000,
+        "upperQuartile": 872000,
         "sampleSize": 40,
         "confidence": "high"
       }
@@ -171027,7 +171021,7 @@
         "Zadní stěrač s ostřikovačem",
         "Zatmavovací zrcátko – řidič"
       ],
-      "sourceModifiedAt": "2026-05-21T13:38:14.412183",
+      "sourceModifiedAt": "2026-10-04T03:46:34.21338",
       "engine": "2.0 TDI 85 kW M6F Selection ",
       "powerKw": 85,
       "fuel": "Nafta",
@@ -171046,8 +171040,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10597722/b351892e-6560-44ce-8939-3c63ae250fbe__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10597722/skoda-octavia-2.0-tdi-85-kw-m6f-selection-",
       "market": {
-        "typicalPrice": 579000,
-        "lowerQuartile": 562000,
+        "typicalPrice": 578000,
+        "lowerQuartile": 558000,
         "upperQuartile": 598000,
         "sampleSize": 38,
         "confidence": "high"
@@ -172108,8 +172102,8 @@
       "imageUrl": "https://www.skodaplus.cz/images/car/Car-10607271/f642911a-371e-4795-9dd3-7530887d5009__big.jpg",
       "url": "https://www.skodaplus.cz/Car/10607271/skoda-octavia-2-0-tdi-110-kw-a7f-top-selection",
       "market": {
-        "typicalPrice": 710000,
-        "lowerQuartile": 697000,
+        "typicalPrice": 705000,
+        "lowerQuartile": 694000,
         "upperQuartile": 762000,
         "sampleSize": 40,
         "confidence": "high"
@@ -172214,7 +172208,7 @@
       "url": "https://www.skodaplus.cz/Car/10601489/skoda-octavia-combi-2.0-tdi-110-kw-a7a-top-selection-",
       "market": {
         "typicalPrice": 738000,
-        "lowerQuartile": 698000,
+        "lowerQuartile": 697000,
         "upperQuartile": 774000,
         "sampleSize": 40,
         "confidence": "high"
@@ -173412,7 +173406,7 @@
       },
       "market": {
         "typicalPrice": 499000,
-        "lowerQuartile": 485000,
+        "lowerQuartile": 484000,
         "upperQuartile": 520000,
         "sampleSize": 40,
         "confidence": "high"
@@ -175110,7 +175104,7 @@
       "url": "https://www.skodaplus.cz/Car/10578732/skoda-superb-2.0-tdi-110-kw-a7f-l-k",
       "market": {
         "typicalPrice": 935000,
-        "lowerQuartile": 898000,
+        "lowerQuartile": 896000,
         "upperQuartile": 954000,
         "sampleSize": 40,
         "confidence": "high"
@@ -175234,7 +175228,7 @@
       "url": "https://www.skodaplus.cz/Car/10607653/skoda-superb-2-0-tdi-110-kw-a7f-l-k",
       "market": {
         "typicalPrice": 929000,
-        "lowerQuartile": 899000,
+        "lowerQuartile": 898000,
         "upperQuartile": 952000,
         "sampleSize": 40,
         "confidence": "high"
@@ -178815,7 +178809,7 @@
       "url": "https://www.skodaplus.cz/Car/10571443/skoda-kamiq-1-0tsi-85kw-dsg-monte-carlo",
       "market": {
         "typicalPrice": 579000,
-        "lowerQuartile": 568000,
+        "lowerQuartile": 565000,
         "upperQuartile": 599000,
         "sampleSize": 40,
         "confidence": "high"
