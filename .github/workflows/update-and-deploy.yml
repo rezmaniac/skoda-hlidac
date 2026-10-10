@@ -3,9 +3,7 @@ name: Aktualizovat data a publikovat web
 on:
   push:
     branches: [main]
-  schedule:
-    - cron: "17 7-22 * * *"
-      timezone: "Europe/Prague"
+  # Pravidelné kontroly jsou pozastavené. Pro obnovení vrať sekci schedule.
   workflow_dispatch:
     inputs:
       test_telegram:
